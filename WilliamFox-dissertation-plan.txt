@@ -1,0 +1,336 @@
+Dissertation Plan - Will Fox, May 10, 2023
+
+This file is where I brainstorm the outline of my thesis, the overall content that goes into each chapter, the connection between chapters, and my writing schedule. 
+
+-----------------------------------------------------------------------------------------------------
+Timeline/Schedule for completing the dissertation:
+If I want to graduate in the summer (June 29, 2023 deadline to submit first draft of dissertation, with the understanding that I won't have much time at all to do editing before the July 13, 2023 final dissertation deadline because I will be in Italy from July 1 - 11, 2023), I need to have basically finished the first draft, and have this be as close to perfect as possible, by around Friday, June 23, 2023, to allow enough time for Richard to look through it and make it perfect before June 29, and to allow time for preparing for the defense, which must be within 1 week before the dissertation draft. That means I have 31 working days (42 including weekends) to finish it (6 weeks, 5 days a week = 30, plus Thursday May 11). That means to get to 100 pages, I would need to write on average about 3.25 pages a day if I only work weekdays and 2.5 pages a day if I work every single day. A better mindset to have is to think about it weekly. Whether I work weekends or not, every week I need to have written an average of about 17 pages. I'd prefer to write 150 pages total at least though, which changes things to 4.84 pages a day without weekends, 3.57 pages a day with weekends, and 24.5 pages a week.
+
+Week 1 - May 15 - May 19, 2023
+GOAL - Page 25
+Mon: 
+Tues: 
+Wed: 
+Thurs: 
+Fri: 
+Sat: 
+Sun: 
+TOTAL: 
+
+Week 2 - May 22 - May 26, 2023
+GOAL - Page 50
+Mon: 
+Tues: 
+Wed: 
+Thurs: 
+Fri: 
+Sat: 
+Sun: 
+TOTAL: 
+
+Week 3 - May 29 - June 2, 2023
+GOAL - Page 75
+Mon: 
+Tues: 
+Wed: 
+Thurs: 
+Fri: 
+Sat: 
+Sun: 
+TOTAL: 
+
+Week 4 - June 5 - June 9, 2023
+GOAL - Page 100
+Mon: 
+Tues: 
+Wed: 
+Thurs: 
+Fri: 
+Sat: 
+Sun: 
+TOTAL: 
+
+Week 5 - June 12 - June 16, 2023
+GOAL - Page 125
+Mon: 
+Tues: 
+Wed: 
+Thurs: 
+Fri: 
+Sat: 
+Sun: 
+TOTAL: 
+
+Week 6 - June 19 - June 23, 2023
+GOAL - Page 150
+Mon: 
+Tues: 
+Wed: 
+Thurs: 
+Fri: 
+Sat: --
+Sun: --
+TOTAL: 
+-----------------------------------------------------------------------------------------------------
+
+Update 8/10/23:
+New Graduation is Fall 2023 (December 16, 2023 graduatation date | November 3, 2023 first draft and defense deadline)
+
+The first draft of my dissertation and my defense must be finished by November 3rd, 2023, giving me 12 full weeks (but I should probably finish in 10 weeks, so I can work on my defense presentation on week 11).
+
+Over 10 weeks, I need to write 150 (- 10 finished) = 140 pages. That is 14 pages per week, and 2.8 ~ 3 pages per day (minimum) only working on week days. There are 72 full days (including weekends) between now and then, so it reduceds to 2 pages per day if I work weekends. The weekly total of 14 pages is easier to maintain though, as some days will be different than other days (and I will probably only work some weekends). However, I should expect myself to write EVERY SINGLE week day.
+
+Weekly page count (Not including things I've copied and pasted from PRL or default template pages):
+
+Week 0 (Thurs. 8/10/23 - Sun. 8/13/23)
+End Goal =
+Start = 10
+End =
+Net =
+
+Week 1 (Mon. 8/14/23 - Sun. 8/20/23)
+End Goal = 24
+Start =
+End =
+Net =
+
+Week 2 (Mon. 8/21/23 - Sun. 8/27/23)
+End Goal = 38
+Start =
+End =
+Net =
+
+Week 3 (Mon. 8/28/23 - Sun. 9/3/23)
+End Goal = 52
+Start =
+End =
+Net =
+
+Week 4 (Mon. 9/4/23 - Sun. 9/10/23)
+End Goal = 66
+Start =
+End =
+Net =
+
+Week 5 (Mon. 9/11/23 - Sun. 9/17/23)
+End Goal = 80
+Start =
+End =
+Net =
+
+Week 6 (Mon. 9/18/23 - Sun. 9/24/23)
+End Goal = 94
+Start =
+End =
+Net =
+
+Week 7 (Mon. 9/25/23 - Sun. 10/1/23)
+End Goal = 108
+Start =
+End =
+Net =
+
+Week 8 (Mon. 10/2/23 - Sun. 10/8/23)
+End Goal = 122
+Start =
+End =
+Net =
+
+Week 9 (Mon. 10/9/23 - Sun. 10/15/23)
+End Goal = 136
+Start =
+End =
+Net =
+
+Week 10 (Mon. 10/16/23 - Sun. 10/22/23)
+End Goal = 148
+Start =
+End =
+Net =
+
+-----------------------------------------------------------------------------------------------------
+
+The overall theme  of the dissertation (and connection between the main 2 topics) is on Massive Asymptotic Giant Branch (AGB) stars.
+
+The main 3 parts of my dissertation (in chronological order of when I worked on each part) are:
+
+-----------------------------------------------------------------------------------------------------
+1.) 87Rb abundance problem and s-process nucleosynthesis reaction network calculations involving 87Rb and the 86Rb s-process branching point nucleus.
+
+- I will need to revisit this with Richard's new s-process injection method update to the network code.
+
+- Dig out information from older notebooks and documents on my HP laptop (that had Windows Subsystem for Linux). Most of this was hopefully transferred to my Lenovo ThinkPad (double check).
+
+1.1) s-Process Nucleosynthesis
+- Neutron capture and beta decays (or electron capture)
+- s-process branching point nuclei and abundance ratio before and after branching as an indicator of neutron flux / temperature
+- Main component versus weak component
+- s-Process in AGB stars (the 3rd dredge up etc.)
+
+1.2) The Rubidium Problem in AGB Stars
+- Observed Rb abundance does not match that which is predicted by s-process network calculations
+- Many papers on this...
+- 86Sr(3He,d)87Rb motivation?
+
+1.3) Network calculation Results on Rubidium Abundance
+
+1.3.1) Initial parameters of network calculation
+- Network, initial abundances, constant temperature-density values, final hydrogen mass fraction
+
+1.3.2) Results before injection method
+
+1.3.4) Injection Method explanation and results after injection method
+
+1.4) Discussion/summary
+-----------------------------------------------------------------------------------------------------
+
+MAYBE HAVE A SECTION INTRODUCING THE ENGE SPLIT-POLE SPECTROGRAPH AND THE TANDEM AT TUNL, rather than introducing it in the 39K(3He,d)40Ca section.
+THIS WOULD GIVE THE DAQ SECTION MORE CONTEXT, ESPECIALLY THE ENGESPEC SORT ROUTINE PART
+
+-----------------------------------------------------------------------------------------------------
+2.) Data acquisition system (DAQ) upgrades, including "commissioning" of a new digitizer, which replaces the analog electronics used with the focal-plane detector package for the Enge Split-Pole Spectrograph at the Triangle Universities Nuclear Laboratory.
+
+- I will also need to revisit this because the digitizer is only one part of this section. I need to discuss our DAQ in general, including what the status of it is right now (and my contributions to this with the EngeSpec GUI, etc.). Use the digitizer document I created to make that part much easier.
+
+- Dig out information from older notebooks and documents on my HP laptop (that had Windows Subsystem for Linux). Most of this was hopefully transferred to my Lenovo ThinkPad (double check).
+
+2.1) Introduction to our Data Acquisition System at the Enge Split-Pole Spectrograph
+- How data is collected, and how everything fits together in a flowchart. The use of Midas, the EngeSpec GUI (refer to old NC State Nuclar Physics Group Meeting talk I gave on the digitizer that has this information, which is also partly in the digitizer document)
+
+2.2) DAQ Electronics
+- How our analog electronics work. This is where I might discuss the TFA, CFD, Delay generators, and the signals coming from the detectors.
+- Photo of analog modules
+
+2.3) The CAEN V1730 Digitizer Upgrade
+
+2.3.1) Replacing the analog modules
+- Why the analog modules need to go. What the digitizer replaces
+- Picture of analog modules replaced
+
+2.3.2) Digitizer Event Collection
+- How events are collected
+- How events are stored as buffers (32-bit words)
+- Qlong, Qshort, and timetag
+
+2.3.3) Custom Data Acquisition Software used with the CAEN V1730
+- C and C++ files that give functions that take the place of analog electronics
+
+2.3.4) Custom Graphical User Interface and Upgrades: EngeSpec
+- Online Midas runs (live data visualization)
+- Offline Midas runs (post-experiment analysis)
+- 1D and 2D histogram visualization tools
+- 1D and 2D gating
+- Curve fitting
+- Sort routine for the digitizer (SHOULD I DISCUSS THIS BEFORE ANY BACKGROUND ON THE ENGE AND FP DETECTOR PACKAGE? I could just talk about it in general, without going into details about the different FP signals. Just refer to arbitrary signals. Or if I do include Enge background, then I can go into detail about FP signals)
+
+2.3.5) Testing the Digitizer/DAQ/GUI at NC State with 60Co and 152Eu Sources and a NaI Detector
+- 60Co Beta-decay coincidences and resolution of coincidence peak
+- 152Eu Energy resolution tests
+- More?
+-----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
+3.) 39K(3He,d)40Ca experiment and DWBA analysis to constrain the 39K(p,g)40Ca reaction rate for the purpose of constraining the polluter candidates that are responsible for the Mg-K anticorrelation among red giant stars in the globular cluster NGC 2419.
+
+- My PRL paper will cover most of this (expanding upon all the details of course). However, I need to also include the states that are not in the astrophysically relevant region, spectroscopic factor comparisons with the other (3He,d) and (d,n) measurements, etc.
+
+- I will need to use the Monte Carlo procedure that Iliadis et al. (2016) did for my reaction network calculation here, i.e. expand upon what I did for the PRL paper astrophysics implications. Potentially do this individually for each of the 6 observed abundances that we are matching with these calculations to see which ones affect the total 6 simultaneous result. I've already done this with a simple grid search..
+
+3.1) Introduction to globular cluster abundance anticorrelations in general
+- Abundance anticorrelations result from pollution/mixing from older stars in the globular cluster
+- Polluter candidates involving hydrogen burning
+
+3.2) NGC 2419 and the Mg-K anticorrelation
+- Mg-K abundance observations (2012) and Ventura et al. (2012) polluter candidates
+- Reaction network leading to K abundance (from 36Ar to 39K and beyond)
+- Iliadis et al. (2016) monte carlo network calculations constraining temperature-density conditions and suggesting polluter candidates
+- Dermigny et al. (2017) reaction rate sensitivities suggesting 4 reactions are important, in particular, 39K(p,g)40Ca (with Longland et al. (2018)'s reaction rate, before the paper was published)
+- Longland et al. (2018) reaction rate calculation has many upper limits from unknown states, and the reaction rate uncertainty is very large in the Gamow window.
+- This all motivates a 39K(p,g)40Ca reaction rate constraint. Using 39K(3He,d)40Ca lets us look at 39K+p states closer to the proton separation energy, which all contribute to the rate.
+
+3.3) 39K(3He,d)40Ca Experiment and TUNL Tandem / Enge Split-Pole Spectrograph Details
+- Basically like the methods section in my 39K(3He,d)40Ca PRL paper, but go into much more detail about the tandem, enge, and detector setup.
+- Show an example spectrum with peaks labeled
+- Different spectra from the FP and Si detectors, including DE/E for particle discrimination.
+
+3.4) Bayesian Peak Fitting (Gaussian and Modified-Gaussians for target oxidation)
+- Show how my fits were made using BayeSpec Bayesian peak fitting code
+- Discuss my many contributions to BayeSpec, including modified-Gaussians
+- Landau (energy straggling) theory for thin-film targets?
+
+3.5) Transfer Reaction Theory, DWBA, and Proton-Partial Widths
+- Theory leading to C2S and proton partial-width calculations
+
+3.6) 39K(3He,d)40Ca Results
+
+3.6.0?) (Not a subsubchapter - on its own) Overview of results: 
+- 4(+1) New 39K+p states - (8359 - not new, but Longland et al. (2018) did not use in their reaction rate calculation), 8484, 8748, 8764, and 8851.
+- New 39K(p,g)40Ca reaction rate with this information, leading to order of magnitude changes for temperatures less than 100 MK. (Should I include this foreshadowing, or wait until it is discussed?)
+3.6.1) Markov Chain Monte Carlo energy calibration and excitation/resonance energies
+3.6.2) C2S and Jpi, and comparison with (3He,d) and (d,n) from literature
+3.6.3) Proton partial-widths and comparison with Longland et al. upper limits (2018)
+
+3.7) 39K(p,g)40Ca Reaction Rate Calculations
+- Results of new reaction rate when replacing only states below lowest (p,g) state, 8935 keV
+- Show overall reaction rate magnitude change from Longland et al. (2018)
+- Show individual contributions from 8425 and 8484 keV separately.
+- Show all other contributions together (without 8425 or 8484 keV)
+- Show the uncertainty change explicitly by plotting both rates relative to their own medians
+
+3.8) Potassium Abundance in Nuclear Reaction Network Calculations
+
+3.8.1) Explanation of the network (I will have already discussed network calculations and theory before). Zero-point nuclear reaction network code with constant temperature and density.
+- Include nuclei in the network, initial abundances, range of input parameters to sample from (temperature, density, final hydrogen mass fraction, (and sampling reaction rate uncertainties?)), reaction rate probability densities from Starlib, etc.
+3.8.2) Mixing procedure and calculation of elemental abundances
+3.8.3) Results with all 6 abundance anticorrelations/correlations reproduced simultaneously
+- Temperature-density band that I see
+- ADD temperature-density evolution lines for different hydrogen burning scenarios
+- Comparison with band using Longland et al. (2018)'s 39K(p,g)40Ca reaction rate
+3.8.4) Results with only Mg-K abundance anticorrelation reproduced simultanesouly
+- Temperature-density band that I see
+- ADD temperature-density evolution lines for different hydrogen burning scenarios
+- Comparison with band using Longland et al. (2018)'s 39K(p,g)40Ca reaction rate
+3.8.5) Others reproduced individually?
+- Temperature-density band that I see
+- ADD temperature-density evolution lines for different hydrogen burning scenarios
+- Comparison with band using Longland et al. (2018)'s 39K(p,g)40Ca reaction rate
+
+3.9) Summary and Discussion of polluter candidates for the Mg-K anticorrelation in NGC 2419
+- 4(+1) New 39K+p states resolved
+- 39K(p,g)40Ca reaction rate increased by up to a factor of 13 at 70 MK, mostly from 8484 keV
+- K abundance reduced in network calculations
+- Super-AGB stars more likely to be polluter candidates now that potassium abundance is reduced for temperatures lower than 100 MK? (Only true for densities much higher than SAGB line though from my initial non-Monte Carlo network calculations. Maybe this will change when doing a Monte Carlo network calculation).
+- ONe and CO classical novae still good candidates
+
+
+-----------------------------------------------------------------------------------------------------
+
+Other Sections that are needed:
+
+-----------------------------------------------------------------------------------------------------
+1st.) Overall Introduction that ties the topics together with Super AGB stars... (might be difficult)
+- Refer to preliminary exam preparation and presentation because I had to do that there
+- Stellar evolution, HR diagrams for globular clusters (indicating multiple stellar populations)
+- Asymptotic giant branch stars themselves and the internal mechanism (e.g. s-process material in the helium-rich intershell - section 1, hot-bottom burning - section 3, etc.)
+
+2nd.) Network reactions, abundance evolution, and reaction rate formalism
+- Nuclear networks and reactions between nuclei
+- Abundance evolution equation
+- Reaction rate theory including broad and narrow resonances. Get to the point where I have the reaction rate as a function of the partial widths and resonance energies. These are what I contribute.
+
+3rd.) Rb
+
+4th.) Experimental Techniques
+- Triangle Universities Nuclear Laboratory Tandem Facility
+- Enge Split-Pole Spectrograph (+ Target Chamber)
+- Focal-Plane Detector Package
+  - Position Sections (x2), DE, E
+  - Gas handling system (isobutane)
+- Target Evaporation
+
+5th.) DAQ
+
+6th.) Globular cluster NGC 2419 and 39K(3He,d)40Ca
+
+7th.) Summary and Conclusions
+-----------------------------------------------------------------------------------------------------

@@ -1,0 +1,1006 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{anyt/global//global/global}
+  \entry{Carretta2010}{article}{}
+    \name{author}{7}{}{%
+      {{hash=C}{%
+         family={{Carretta, E.}},
+         familyi={C\bibinitperiod},
+      }}%
+      {{hash=B}{%
+         family={{Bragaglia, A.}},
+         familyi={B\bibinitperiod},
+      }}%
+      {{hash=G}{%
+         family={{Gratton, R. G.}},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=R}{%
+         family={{Recio-Blanco, A.}},
+         familyi={R\bibinitperiod},
+      }}%
+      {{hash=L}{%
+         family={{Lucatello, S.}},
+         familyi={L\bibinitperiod},
+      }}%
+      {{hash=D}{%
+         family={{D'Orazi, V.}},
+         familyi={D\bibinitperiod},
+      }}%
+      {{hash=C}{%
+         family={{Cassisi, S.}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C+1}
+    \strng{fullhash}{CBGRLDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Car}10}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1051/0004-6361/200913451
+    \endverb
+    \field{pages}{A55}
+    \field{title}{Properties of stellar generations in globular clusters and
+  relations with global parameters}
+    \verb{url}
+    \verb https://doi.org/10.1051/0004-6361/200913451
+    \endverb
+    \field{volume}{516}
+    \field{journaltitle}{A\&A}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Cheng1981}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CCW}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={C.-W.},
+         giveni={C\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Saha},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Keinonen},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MHB}{%
+         family={Mak},
+         familyi={M\bibinitperiod},
+         given={H.-B.},
+         giveni={H\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={McLatchie},
+         familyi={M\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCW+1}
+    \strng{fullhash}{CCWSSKKJMHBMW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Che81}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1139/p81-030
+    \endverb
+    \field{number}{2}
+    \field{pages}{238\bibrangedash 243}
+    \field{title}{Hydrogen burning of $^{39}\mathrm{K}$ in explosive oxygen
+  burning}
+    \verb{url}
+    \verb https://doi.org/10.1139/p81-030
+    \endverb
+    \field{volume}{59}
+    \field{journaltitle}{Canadian Journal of Physics}
+    \field{year}{1981}
+  \endentry
+
+  \entry{Cohen2004}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CJG}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Judith\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJG1}
+    \strng{fullhash}{CJG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Coh04}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1086/382104
+    \endverb
+    \field{number}{3}
+    \field{pages}{1545}
+    \field{title}{Palomar 12 as a Part of the Sagittarius Stream: The Evidence
+  from Abundance Ratios*}
+    \verb{url}
+    \verb https://dx.doi.org/10.1086/382104
+    \endverb
+    \field{volume}{127}
+    \field{journaltitle}{The Astronomical Journal}
+    \field{year}{2004}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Denisenkov1989}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DPA}{%
+         family={{Denisenkov}},
+         familyi={D\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DSN}{%
+         family={{Denisenkova}},
+         familyi={D\bibinitperiod},
+         given={S.\bibnamedelima N.},
+         giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DPADSN1}
+    \strng{fullhash}{DPADSN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Den}89}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{pages}{11}
+    \field{title}{{Possible Explanation of the Correlation Between Nitrogen and
+  Sodium Over Abundances for Red Giants in Globular Clusters}}
+    \field{volume}{1538}
+    \field{journaltitle}{Astronomicheskij Tsirkulyar}
+    \field{month}{06}
+    \field{year}{1989}
+  \endentry
+
+  \entry{Fuchs1969}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FH}{%
+         family={Fuchs},
+         familyi={F\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={Grabisch},
+         familyi={G\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Röschert},
+         familyi={R\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Nuclear reactions}
+    \strng{namehash}{FHGKRG1}
+    \strng{fullhash}{FHGKRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Fuc69}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0375-9474(69)90700-3
+    \endverb
+    \field{issn}{0375-9474}
+    \field{number}{3}
+    \field{pages}{545\bibrangedash 570}
+    \field{title}{Investigation of states in $^{40}\mathrm{Ca}$ by the
+  $^{39}\mathrm{K}(d, n)$ reaction}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0375947469907003
+    \endverb
+    \field{volume}{129}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1969}
+  \endentry
+
+  \entry{Gratton2004}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GR}{%
+         family={Gratton},
+         familyi={G\bibinitperiod},
+         given={Raffaele},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sneden},
+         familyi={S\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Carretta},
+         familyi={C\bibinitperiod},
+         given={Eugenio},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRSCCE1}
+    \strng{fullhash}{GRSCCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Gra04}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1146/annurev.astro.42.053102.133945
+    \endverb
+    \verb{eprint}
+    \verb https://doi.org/10.1146/annurev.astro.42.053102.133945
+    \endverb
+    \field{number}{1}
+    \field{pages}{385\bibrangedash 440}
+    \field{title}{Abundance Variations within Globular Clusters}
+    \verb{url}
+    \verb https://doi.org/10.1146/annurev.astro.42.053102.133945
+    \endverb
+    \field{volume}{42}
+    \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Gratton2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GRG}{%
+         family={Gratton},
+         familyi={G\bibinitperiod},
+         given={Raffaele\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Carretta},
+         familyi={C\bibinitperiod},
+         given={Eugenio},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bragaglia},
+         familyi={B\bibinitperiod},
+         given={Angela},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRGCEBA1}
+    \strng{fullhash}{GRGCEBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Gra12}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1007/s00159-012-0050-3
+    \endverb
+    \field{issn}{1432-0754}
+    \field{number}{1}
+    \field{pages}{50}
+    \field{title}{Multiple populations in globular clusters}
+    \verb{url}
+    \verb https://doi.org/10.1007/s00159-012-0050-3
+    \endverb
+    \field{volume}{20}
+    \field{journaltitle}{The Astronomy and Astrophysics Review}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Gratton2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GR}{%
+         family={Gratton},
+         familyi={G\bibinitperiod},
+         given={Raffaele},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bragaglia},
+         familyi={B\bibinitperiod},
+         given={Angela},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Carretta},
+         familyi={C\bibinitperiod},
+         given={Eugenio},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DV}{%
+         family={D’Orazi},
+         familyi={D\bibinitperiod},
+         given={Valentina},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lucatello},
+         familyi={L\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sollima},
+         familyi={S\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GR+1}
+    \strng{fullhash}{GRBACEDVLSSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Gra19}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1007/s00159-019-0119-3
+    \endverb
+    \field{number}{1}
+    \field{pages}{8}
+    \field{title}{What is a globular cluster? An observational perspective}
+    \verb{url}
+    \verb https://doi.org/10.1007/s00159-019-0119-3
+    \endverb
+    \field{volume}{27}
+    \field{journaltitle}{The Astronomy and Astrophysics Review}
+    \field{month}{11}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Iliadis2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KAI}{%
+         family={Karakas},
+         familyi={K\bibinitperiod},
+         given={A.\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Prantzos},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LJC}{%
+         family={Lattanzio},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=DCL}{%
+         family={Doherty},
+         familyi={D\bibinitperiod},
+         given={C.\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{IC+1}
+    \strng{fullhash}{ICKAIPNLJCDCL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ili16}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \verb{doi}
+    \verb 10.3847/0004-637X/818/1/98
+    \endverb
+    \field{number}{1}
+    \field{pages}{98}
+    \field{title}{ON POTASSIUM AND OTHER ABUNDANCE ANOMALIES OF RED GIANTS IN
+  NGC 2419}
+    \verb{url}
+    \verb https://dx.doi.org/10.3847/0004-637X/818/1/98
+    \endverb
+    \field{volume}{818}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Kikstra1990}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KS}{%
+         family={Kikstra},
+         familyi={K\bibinitperiod},
+         given={S.W.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={{Van Der Leun}},
+         familyi={V\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Endt},
+         familyi={E\bibinitperiod},
+         given={P.M.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Booten},
+         familyi={B\bibinitperiod},
+         given={J.G.L.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=vA}{%
+         family={{van Hees}},
+         familyi={v\bibinitperiod},
+         given={A.G.M.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wolters},
+         familyi={W\bibinitperiod},
+         given={A.A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Nuclear Structure}
+    \strng{namehash}{KS+1}
+    \strng{fullhash}{KSVCEPBJvAWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Kik90}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0375-9474(90)90080-6
+    \endverb
+    \field{issn}{0375-9474}
+    \field{number}{3}
+    \field{pages}{425\bibrangedash 465}
+    \field{title}{The 40Ca level scheme investigated with the
+  $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0375947490900806
+    \endverb
+    \field{volume}{512}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1990}
+  \endentry
+
+  \entry{Langer1993}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LGE}{%
+         family={Langer},
+         familyi={L\bibinitperiod},
+         given={G.\bibnamedelima E.},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hoffman},
+         familyi={H\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sneden},
+         familyi={S\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Astronomical Society of the Pacific}%
+    }
+    \strng{namehash}{LGEHRSC1}
+    \strng{fullhash}{LGEHRSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lan93}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1086/133147
+    \endverb
+    \field{number}{685}
+    \field{pages}{301}
+    \field{title}{SODIUM-OXYGEN ABUNDANCE ANTICORRELATIONS AND DEEP MIXING
+  SCENARIOS FOR GLOBULAR CLUSTER GIANTS}
+    \verb{url}
+    \verb https://dx.doi.org/10.1086/133147
+    \endverb
+    \field{volume}{105}
+    \field{journaltitle}{Publications of the Astronomical Society of the
+  Pacific}
+    \field{year}{1993}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Leenhouts1966}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LH}{%
+         family={Leenhouts},
+         familyi={L\bibinitperiod},
+         given={H.P.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Endt},
+         familyi={E\bibinitperiod},
+         given={P.M.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LHEP1}
+    \strng{fullhash}{LHEP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lee66}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0031-8914(66)90061-9
+    \endverb
+    \field{issn}{0031-8914}
+    \field{number}{2}
+    \field{pages}{322\bibrangedash 336}
+    \field{title}{Gamma decay of levels in $^{40}\mathrm{Ca}$ measured with the
+  $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0031891466900619
+    \endverb
+    \field{volume}{32}
+    \field{journaltitle}{Physica}
+    \field{year}{1966}
+  \endentry
+
+  \entry{Longland2010a}{article}{}
+    \name{author}{7}{}{%
+      {{hash=LR}{%
+         family={Longland},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Champagne},
+         familyi={C\bibinitperiod},
+         given={A.E.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Newton},
+         familyi={N\bibinitperiod},
+         given={J.R.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=UC}{%
+         family={Ugalde},
+         familyi={U\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Coc},
+         familyi={C\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Fitzgerald},
+         familyi={F\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Thermonuclear reaction rates}
+    \strng{namehash}{LR+1}
+    \strng{fullhash}{LRICCANJUCCAFR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lon10}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.nuclphysa.2010.04.008
+    \endverb
+    \field{issn}{0375-9474}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 30}
+    \field{title}{Charged-particle thermonuclear reaction rates: I. Monte Carlo
+  method and statistical distributions}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0375947410004185
+    \endverb
+    \field{volume}{841}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Longland2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LR}{%
+         family={Longland},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dermigny},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{LRDJMC1}
+    \strng{fullhash}{LRDJMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lon18}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.98.025802
+    \endverb
+    \field{issue}{2}
+    \field{pages}{025802}
+    \field{title}{Reaction rates for the
+  $^{39}\mathrm{K}(p,\ensuremath{\gamma})^{40}\mathrm{Ca}$ reaction}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.98.025802
+    \endverb
+    \field{volume}{98}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{RatesMC}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LR}{%
+         family={Longland},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LR1}
+    \strng{fullhash}{LR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lon23}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{note}{\url{https://github.com/rlongland/RatesMC}}
+    \field{title}{$\mathrm{RatesMC}$}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Marshall2019}{article}{}
+    \name{author}{8}{}{%
+      {{hash=MC}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={Caleb},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Setoodehnia},
+         familyi={S\bibinitperiod},
+         given={Kiana},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kowal},
+         familyi={K\bibinitperiod},
+         given={Katie},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Portillo},
+         familyi={P\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CAE}{%
+         family={Champagne},
+         familyi={C\bibinitperiod},
+         given={Arthur\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hale},
+         familyi={H\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dummer},
+         familyi={D\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Longland},
+         familyi={L\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MC+1}
+    \strng{fullhash}{MCSKKKPFCAEHSDALR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Mar19}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1109/TIM.2018.2847938
+    \endverb
+    \field{number}{2}
+    \field{pages}{533\bibrangedash 546}
+    \field{title}{The Focal-Plane Detector Package on the TUNL Split-Pole
+  Spectrograph}
+    \field{volume}{68}
+    \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Prantzos2007}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PN}{%
+         family={Prantzos},
+         familyi={P\bibinitperiod},
+         given={Nikos},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Charbonnel},
+         familyi={C\bibinitperiod},
+         given={Corinne},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PNCCIC1}
+    \strng{fullhash}{PNCCIC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Pra07}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{pages}{179\bibrangedash 190}
+    \field{title}{Light nuclei in galactic globular clusters: constraints on
+  the self-enrichment scenario from nucleosynthesis}
+    \verb{url}
+    \verb https://proxying.lib.ncsu.edu/index.php/login?url=https://www.proques
+    \verb t.com/working-papers/light-nuclei-galactic-globular-clusters/docview/
+    \verb 2089895857/se-2
+    \endverb
+    \field{volume}{470}
+    \field{journaltitle}{Astronomy and Astrophysics}
+    \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Sbordone2007}{article}{}
+    \name{author}{6}{}{%
+      {{hash=S}{%
+         family={{Sbordone, L.}},
+         familyi={S\bibinitperiod},
+      }}%
+      {{hash=B}{%
+         family={{Bonifacio, P.}},
+         familyi={B\bibinitperiod},
+      }}%
+      {{hash=B}{%
+         family={{Buonanno, R.}},
+         familyi={B\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={{Marconi, G.}},
+         familyi={M\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={{Monaco, L.}},
+         familyi={M\bibinitperiod},
+      }}%
+      {{hash=Z}{%
+         family={{Zaggia, S.}},
+         familyi={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S+1}
+    \strng{fullhash}{SBBMMZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Sbo}07}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1051/0004-6361:20066385
+    \endverb
+    \field{number}{3}
+    \field{pages}{815\bibrangedash 824}
+    \field{title}{The exotic chemical composition of the Sagittarius dwarf
+  spheroidal galaxy}
+    \verb{url}
+    \verb https://doi.org/10.1051/0004-6361:20066385
+    \endverb
+    \field{volume}{465}
+    \field{journaltitle}{A\&A}
+    \field{year}{2007}
+  \endentry
+
+  \entry{FRESCO}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TIJ}{%
+         family={Thompson},
+         familyi={T\bibinitperiod},
+         given={I.\bibnamedelima J.},
+         giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TIJ1}
+    \strng{fullhash}{TIJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Tho06}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{note}{\url{http://www.fresco.org.uk/}}
+    \field{title}{$\mathrm{FRESCO}$}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Thompson1988}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TIJ}{%
+         family={Thompson},
+         familyi={T\bibinitperiod},
+         given={Ian\bibnamedelima J.},
+         giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TIJ2}
+    \strng{fullhash}{TIJ2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Tho88}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0167-7977(88)90005-6
+    \endverb
+    \field{issn}{0167-7977}
+    \field{number}{4}
+    \field{pages}{167\bibrangedash 212}
+    \field{title}{Coupled reaction channels calculations in nuclear physics}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0167797788900056
+    \endverb
+    \field{volume}{7}
+    \field{journaltitle}{Computer Physics Reports}
+    \field{year}{1988}
+  \endentry
+
+  \entry{Wang2021}{article}{}
+    \name{author}{5}{}{%
+      {{hash=WM}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Meng},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={W.J.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=KF}{%
+         family={Kondev},
+         familyi={K\bibinitperiod},
+         given={F.G.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Audi},
+         familyi={A\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Naimi},
+         familyi={N\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{4}{%
+      {Chinese Physical Society}%
+      {the Institute of High Energy Physics of the Chinese Academy of
+  Sciences}%
+      {the Institute of Modern Physics of the Chinese Academy of Sciences}%
+      {IOP Publishing Ltd}%
+    }
+    \strng{namehash}{WM+1}
+    \strng{fullhash}{WMHWKFAGNS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wan21}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1088/1674-1137/abddaf
+    \endverb
+    \field{number}{3}
+    \field{pages}{030003}
+    \field{title}{The AME 2020 atomic mass evaluation (II). Tables, graphs and
+  references*}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/1674-1137/abddaf
+    \endverb
+    \field{volume}{45}
+    \field{journaltitle}{Chinese Physics C}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
+\endinput
