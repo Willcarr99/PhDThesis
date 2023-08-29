@@ -46,9 +46,96 @@ Fig. \ref{fig:O-Na} shows the ubiquitous O--Na anticorrelation in 1,200 red gian
 
 % ``The variations are also found among unevolved stars currently on the main sequence (MS) of GCs (Gratton et al. 2001; Ramirez & Cohen 2002; Carretta et al. 2004; D’Orazi et al. 2010). This unequivocally implies that this composition has been imprinted in the gas by a previous generation of stars. The necessity of this conclusion stems from low-mass MS stars not being able to reach the high temperatures for the nucleosynthetic chains required to produce the observed inter-relations between the elements (in particular the Mg-Al anticorrelation). This calls for a class of now extinct stars, more massive than the low-mass ones presently evolving in GCs, as the site for the nucleosynthesis." (Carretta et al. 2010) pg 2
 
-The most likely scenario that explains these inhomogeneities is that the currently observed stars are part of a second generation which formed from the ashes of an older, first generation of stars. The material ejected from these more-massive first generation stars upon their death likely polluted the inter-cluster medium where the second generation stars began to form. Hence, these first generation stars are sometimes called \emph{polluter stars}, a class of massive, extinct stars that are the origin of the apparent abundance anomalies. Different generations of stars exhisting in a given globular cluster would provide evidence for \emph{multiple stellar populations}. This premise has been widely debated over the last few decades, with most research supporting it at present \cite{Gratton2004,Gratton2012,Gratton2019}.
+The most likely scenario explaining these inhomogeneities is that the currently observed stars are part of a second generation which formed from the ashes of an older, first generation of stars. The material ejected from these more-massive first generation stars upon their death likely polluted the inter-cluster medium where the second generation stars began to form. Hence, these first generation stars are sometimes called \emph{polluter stars}, a class of massive, extinct stars that are the origin of the apparent abundance anomalies. Different generations of stars exhisting in a given globular cluster would provide evidence for \emph{multiple stellar populations}. This premise has been widely debated over the last few decades, with most research supporting it at present \cite{Gratton2004,Gratton2012,Gratton2019}.
 
-Polluter stars are likely the site of the nucleosynthesis that gives rise to the currently observed abundance patterns in globular clusters. Their exact nature is unknown, but the nucleosynthesis mechanism driving the inhomogeneities in the vast majority of globular clusters is well established as proton-capture reactions in high temperature hydrogen-burning environments \cite{Denisenkov1989,Langer1993}.
+Polluter stars are likely the site of the nucleosynthesis that gives rise to the currently observed abundance patterns in globular clusters. Their exact nature is unknown, but the nucleosynthesis mechanism driving the inhomogeneities in the vast majority of globular clusters is well established as proton-capture reactions in high temperature hydrogen-burning environments \cite{Denisenkov1989,Langer1993}. The O--Na anticorrelation, for example, is exhibited in the hydrogen burning of main sequence stars at about 40 MK.
+
+\def\BoxSpace{0.3} % Defining the variable BoxSpace to value in brackets
+\def\BoxSpacetwo{\BoxSpace * 2} % So I don't have to keep doing {2+(\BoxSpace * 2)}
+\def\BoxSpacethree{\BoxSpace * 3}
+\def\AOS{0.2} % Arrow Offset
+\def\AW{0.75} % Arrow Width (mm)
+\usetikzlibrary{arrows.meta}
+
+\begin{figure}[t]
+\centering
+\noindent
+\begin{minipage}{.44\linewidth}
+\begin{tikzpicture}[scale=1.5, every node/.style={transform shape}]
+
+% (0,0) is at the bottom left corner of plot, where 12C is
+\filldraw[fill = light-gray] (0,0) rectangle (1,1); % 12C box
+\filldraw[fill = light-gray] (1+\BoxSpace,0) rectangle (2+\BoxSpace,1); % 13C box
+%\draw (2+\BoxSpacetwo,0) rectangle (3+\BoxSpacetwo,1); % 14C box
+\draw (0,1+\BoxSpace) rectangle (1,2+\BoxSpace); % 13N box
+\filldraw[fill = light-gray] (1+\BoxSpace,1+\BoxSpace) rectangle (2+\BoxSpace,2+\BoxSpace); % 14N box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,1+\BoxSpace) rectangle (3+\BoxSpacetwo,2+\BoxSpace); % 15N box
+%\draw (0,2+\BoxSpacetwo) rectangle (1,3+\BoxSpacetwo); % 14O box
+\draw (1+\BoxSpace,2+\BoxSpacetwo) rectangle (2+\BoxSpace,3+\BoxSpacetwo); % 15O box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,2+\BoxSpacetwo) rectangle (3+\BoxSpacetwo,3+\BoxSpacetwo); % 16O box
+\filldraw[fill = light-gray] (3+\BoxSpacethree,2+\BoxSpacetwo) rectangle (4+\BoxSpacethree,3+\BoxSpacetwo); % 17O box
+\draw (2+\BoxSpacetwo,3+\BoxSpacethree) rectangle (3+\BoxSpacetwo,4+\BoxSpacethree); % 17F box
+
+\node[text=blue] at (0.5,0.5) {$^{12}\mathrm{C}$};
+\node[text=red] at (1+\BoxSpace+0.5,0.5) {$^{13}\mathrm{C}$};
+\node at (0.5,1+\BoxSpace+0.5) {$^{13}\mathrm{N}$};
+\node[text=red] at (1+\BoxSpace+0.5,1+\BoxSpace+0.5) {$^{14}\mathrm{N}$};
+\node at (2+\BoxSpacetwo+0.5,1+\BoxSpace+0.5) {$^{15}\mathrm{N}$};
+\node at (1+\BoxSpace+0.5,2+\BoxSpacetwo+0.5) {$^{15}\mathrm{O}$};
+\node[text=blue] at (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+0.5) {$^{16}\mathrm{O}$};
+\node at (3+\BoxSpacethree+0.5,2+\BoxSpacetwo+0.5) {$^{17}\mathrm{O}$};
+\node at (2+\BoxSpacetwo+0.5,3+\BoxSpacethree+0.5) {$^{17}\mathrm{F}$};
+
+\draw[line width = \AW mm, -{Triangle[]}] (0.5,1-\AOS) -- (0.5,1+\BoxSpace+\AOS); % 12C(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (1-\AOS,1+\BoxSpace+\AOS) -- (1+\BoxSpace+\AOS, 1-\AOS); % 13N(B+)
+\draw[line width = \AW mm, -{Triangle[]}] (1+\BoxSpace+0.5,1-\AOS) -- (1+\BoxSpace+0.5,1+\BoxSpace+\AOS); % 13C(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (1+\BoxSpace+0.5,2+\BoxSpace-\AOS) -- (1+\BoxSpace+0.5,2+\BoxSpacetwo+\AOS); % 14N(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpace-\AOS,2+\BoxSpacetwo+\AOS) -- (2+\BoxSpacetwo+\AOS,2+\BoxSpace-\AOS); % 15O(B+)
+\draw[line width = \AW mm, -{Triangle[]}, dashed] (2+\BoxSpacetwo+\AOS,1+\BoxSpace+\AOS) -- (1-\AOS,1-\AOS); % 15N(p,a)
+
+\draw[line width = \AW mm, -{Triangle[]}, dashed] (2+\BoxSpacetwo+0.5,2+\BoxSpace-\AOS) -- (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+\AOS); %15N(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpacetwo+0.5,3+\BoxSpacetwo-\AOS) -- (2+\BoxSpacetwo+0.5,3+\BoxSpacethree+\AOS); %16O(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (3+\BoxSpacetwo-\AOS,3+\BoxSpacethree+\AOS) -- (3+\BoxSpacethree+\AOS,3+\BoxSpacetwo-\AOS); %17F(B+)
+\draw[line width = \AW mm, -{Triangle[]}] (3+\BoxSpacethree+\AOS,2+\BoxSpacetwo+\AOS) -- (2+\BoxSpace-\AOS,2+\BoxSpace-\AOS); %17O(p,a)
+\end{tikzpicture}
+\end{minipage}
+%
+\begin{minipage}{.44\linewidth} \hfill
+\centering
+\noindent
+\begin{tikzpicture}[scale=1.5, every node/.style={transform shape}]
+
+\filldraw[fill = light-gray] (0,0) rectangle (1,1); % 20Ne box
+\filldraw[fill = light-gray] (1+\BoxSpace,0) rectangle (2+\BoxSpace,1); % 21Ne box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,0) rectangle (3+\BoxSpacetwo,1); % 22Ne box
+\draw (0,1+\BoxSpace) rectangle (1,2+\BoxSpace); % 21Na Box
+\draw (1+\BoxSpace,1+\BoxSpace) rectangle (2+\BoxSpace,2+\BoxSpace); % 22Na Box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,1+\BoxSpace) rectangle (3+\BoxSpacetwo,2+\BoxSpace); % 23Na Box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,2+\BoxSpacetwo) rectangle (3+\BoxSpacetwo,3+\BoxSpacetwo); %24Mg Box
+
+\node[text=blue] at (0.5,0.5) {$^{20}\mathrm{Ne}$};
+\node at (1+\BoxSpace+0.5,0.5) {$^{21}\mathrm{Ne}$};
+\node at (2+\BoxSpacetwo+0.5,0.5) {$^{22}\mathrm{Ne}$};
+\node at (0.5,1+\BoxSpace+0.5) {$^{21}\mathrm{Na}$};
+\node at (1+\BoxSpace+0.5,1+\BoxSpace+0.5) {$^{22}\mathrm{Na}$};
+\node[text=red] at (2+\BoxSpacetwo+0.5,1+\BoxSpace+0.5) {$^{23}\mathrm{Na}$};
+\node at (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+0.5) {$^{24}\mathrm{Mg}$};
+
+\draw[line width = \AW mm, -{Triangle[]}] (0.5,1-\AOS) -- (0.5,1+\BoxSpace+\AOS); %20Ne(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (1-\AOS,1+\BoxSpace+\AOS) -- (1+\BoxSpace+\AOS,1-\AOS); % 21Na(B+)
+\draw[line width = \AW mm, -{Triangle[]}] (1+\BoxSpace+0.5,1-\AOS) -- (1+\BoxSpace+0.5,1+\BoxSpace+\AOS); %21Ne(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpace-\AOS,1+\BoxSpace+\AOS) -- (2+\BoxSpacetwo+\AOS,1-\AOS); %22Na(B+)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpacetwo+0.5,1-\AOS) -- (2+\BoxSpacetwo+0.5,1+\BoxSpace+\AOS); %22Ne(p,g)
+\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpacetwo+0.5,2+\BoxSpace-\AOS) -- (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+\AOS); %23Na(p,g)
+\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpacetwo+\AOS,1+\BoxSpace+\AOS) -- (1-\AOS,1-\AOS); %23Na(p,a)20Ne
+
+\end{tikzpicture}
+\end{minipage}
+\vspace{0.75 cm}
+\caption{\label{fig:CNO_NeNa}The hydrogen burning mechanism driving the O--Na anticorrelation. Nuclei in blue are destroyed overall in the various cycles, while nuclei in red are produced. Shaded nuclei are stable. The first two stages of the CNO cycle (left), distinguished by the temperature-dependent branch at $^{15}$N, lead to an overall depletion of oxygen. The $^{15}\mathrm{N}(p, \gamma)^{16}\mathrm{O}$ branch is activated at about 40 MK. The Ne--Na cycle (right), occurring simultaneously at about the same activation temperature, leads to an overall production of sodium. The $^{23}\mathrm{Na}(p,\gamma)^{24}\mathrm{Mg}$ branch activates at about 70 MK.}
+\end{figure}
+
+%Oxygen depletion results from the CNO cycle, where the conversion of C into N first proceeds at about 10 MK via $^{12}\mathrm{C}(p, \gamma)^{13}\mathrm{N}(\beta^{+})^{13}\mathrm{C}(p, \gamma)^{14}\mathrm{N}(p, \gamma)^{15}\mathrm{O}(\beta^{+})^{15}\mathrm{N}$. At about 40 MK, the ON branch is activated, $^{15}\mathrm{N}(p, \gamma)^{16}\mathrm{O}(p, \gamma)^{17}\mathrm{F}(\beta^{+})^{17}\mathrm{O}(p, \alpha)^{14}\mathrm{N}$, converting O back into N. Sodium production simultaneously occurs at about 40 MK from the Ne--Na chain, $^{20}\mathrm{Ne}(p,\gamma)^{21}\mathrm{Na}(\beta^{+})^{21}\mathrm{Ne}(p, \gamma)^{22}\mathrm{Na}(\beta^{+})^{22}\mathrm{Ne}(p, \gamma)^{23}\mathrm{Na}$.
 
 % PARAGRAPH 2: Mechanism of nucleosynthesis in second-generation globular cluster stars - H-burning. Type 1 vs type 2 globular clusters (different burning temperatures). - pg 12 of Gratton2019 - Cites Denisenkov and Denisenkova 1989; Langer et al. 1993
 % Denisenkov PA, Denisenkova SN (1989) Possible explanation of the correlation between nitrogen and sodium over abundances for red giants in globular clusters. Astron Tsirkulyar 1538:11

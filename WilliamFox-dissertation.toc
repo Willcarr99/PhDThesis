@@ -28,40 +28,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.6}The $^{39}\mathrm {K}(^{3}\mathrm {He},d)^{40}\mathrm {Ca}$ Experiment}{9}{section.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}Bayesian Peak Fitting and Target Oxidation}{9}{section.6.7}%
+\contentsline {section}{\numberline {6.7}Bayesian Peak Fitting and Target Oxidation}{10}{section.6.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.7.1}Bayesian Peak Fitting}{10}{subsection.6.7.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.7.2}Fitting Peaks with Target Oxidation}{13}{subsection.6.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}Cross Section Calculations and Si Detector Normalization}{19}{section.6.8}%
+\contentsline {section}{\numberline {6.8}Cross Section Calculations and Si Detector Normalization}{20}{section.6.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.1}Cross Sections}{19}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.1}Cross Sections}{20}{subsection.6.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.2}Si Detector Normalization}{19}{subsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.8.2}Si Detector Normalization}{20}{subsection.6.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}$^{39}\mathrm {K}(^{3}\mathrm {He},d)^{40}\mathrm {Ca}$ Analysis}{19}{section.6.9}%
+\contentsline {section}{\numberline {6.9}$^{39}\mathrm {K}(^{3}\mathrm {He},d)^{40}\mathrm {Ca}$ Analysis}{20}{section.6.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.1}Energy Calibrations}{19}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.1}Energy Calibrations}{20}{subsection.6.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.2}Cross Sections}{19}{subsection.6.9.2}%
+\contentsline {subsection}{\numberline {6.9.2}Cross Sections}{20}{subsection.6.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.3}Oxidized Targets}{19}{subsection.6.9.3}%
+\contentsline {subsection}{\numberline {6.9.3}Oxidized Targets}{20}{subsection.6.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.4}Spectroscopic Factors from DWBA Models}{19}{subsection.6.9.4}%
+\contentsline {subsection}{\numberline {6.9.4}Spectroscopic Factors from DWBA Models}{20}{subsection.6.9.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.5}Proton Partial Widths}{19}{subsection.6.9.5}%
+\contentsline {subsection}{\numberline {6.9.5}Proton Partial Widths}{20}{subsection.6.9.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}New $^{39}\mathrm {K}(p,\gamma )^{40}\mathrm {Ca}$ Reaction Rate}{19}{section.6.10}%
+\contentsline {section}{\numberline {6.10}New $^{39}\mathrm {K}(p,\gamma )^{40}\mathrm {Ca}$ Reaction Rate}{20}{section.6.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.11}Potassium Abundance in Reaction Network Calculations}{20}{section.6.11}%
+\contentsline {section}{\numberline {6.11}Potassium Abundance in Reaction Network Calculations}{21}{section.6.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.12}Conclusions}{20}{section.6.12}%
+\contentsline {section}{\numberline {6.12}Conclusions}{21}{section.6.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{24}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{25}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{27}{chapter*.15}%
+\contentsline {chapter}{APPENDIX}{28}{chapter*.16}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{28}{appendix.A}%
+\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{29}{appendix.A}%
