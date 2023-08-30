@@ -17,6 +17,47 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global}
+  \entry{Carretta2009}{article}{}
+    \name{author}{4}{}{%
+      {{hash=C}{%
+         family={{Carretta, E.}},
+         familyi={C\bibinitperiod},
+      }}%
+      {{hash=B}{%
+         family={{Bragaglia, A.}},
+         familyi={B\bibinitperiod},
+      }}%
+      {{hash=G}{%
+         family={{Gratton, R.}},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=L}{%
+         family={{Lucatello, S.}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C+1}
+    \strng{fullhash}{CBGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Car}09}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1051/0004-6361/200912097
+    \endverb
+    \field{number}{1}
+    \field{pages}{139\bibrangedash 155}
+    \field{title}{Na-O anticorrelation and HB*** - VIII. Proton-capture
+  elements and metallicities in 17 globular clusters from UVES spectra}
+    \verb{url}
+    \verb https://doi.org/10.1051/0004-6361/200912097
+    \endverb
+    \field{volume}{505}
+    \field{journaltitle}{A\&A}
+    \field{year}{2009}
+  \endentry
+
   \entry{Carretta2010}{article}{}
     \name{author}{7}{}{%
       {{hash=C}{%
@@ -154,6 +195,177 @@
     \field{journaltitle}{The Astronomical Journal}
     \field{year}{2004}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{DErcole2010}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DA}{%
+         family={{D'Ercole}},
+         familyi={D\bibinitperiod},
+         given={Annibale},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={{D'Antona}},
+         familyi={D\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Ventura},
+         familyi={V\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vesperini},
+         familyi={V\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MSLW}{%
+         family={McMillan},
+         familyi={M\bibinitperiod},
+         given={Stephen L.\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DADFVPVEMSLW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{D'E}10}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2010.16996.x
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/mnras/article-pdf/407/2/854/3892393/mnras040
+    \verb 7-0854.pdf
+    \endverb
+    \field{issn}{0035-8711}
+    \field{number}{2}
+    \field{pages}{854\bibrangedash 869}
+    \field{title}{Abundance patterns of multiple populations in globular
+  clusters: a chemical evolution model based on yields from AGB ejecta}
+    \verb{url}
+    \verb https://doi.org/10.1111/j.1365-2966.2010.16996.x
+    \endverb
+    \field{volume}{407}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{month}{09}
+    \field{year}{2010}
+  \endentry
+
+  \entry{DErcole2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DA}{%
+         family={{D'Ercole}},
+         familyi={D\bibinitperiod},
+         given={Annibale},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={{D'Antona}},
+         familyi={D\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vesperini},
+         familyi={V\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DADFVE1}
+    \strng{fullhash}{DADFVE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{D'E}11}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2011.18776.x
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/mnras/article-pdf/415/2/1304/3496027/mnras04
+    \verb 15-1304.pdf
+    \endverb
+    \field{issn}{0035-8711}
+    \field{number}{2}
+    \field{pages}{1304\bibrangedash 1309}
+    \field{title}{Formation of multiple populations in globular clusters:
+  constraints on the dilution by pristine gas}
+    \verb{url}
+    \verb https://doi.org/10.1111/j.1365-2966.2011.18776.x
+    \endverb
+    \field{volume}{415}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{month}{07}
+    \field{year}{2011}
+  \endentry
+
+  \entry{DErcole2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DA}{%
+         family={{D'Ercole}},
+         familyi={D\bibinitperiod},
+         given={Annibale},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={{D'Antona}},
+         familyi={D\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Carini},
+         familyi={C\bibinitperiod},
+         given={Roberta},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vesperini},
+         familyi={V\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Ventura},
+         familyi={V\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DADFCRVEVP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{D'E}12}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2012.20974.x
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/mnras/article-pdf/423/2/1521/2858079/mnras04
+    \verb 23-1521.pdf
+    \endverb
+    \field{number}{2}
+    \field{pages}{1521\bibrangedash 1533}
+    \field{title}{The role of super-asymptotic giant branch ejecta in the
+  abundance patterns of multiple populations in globular clusters}
+    \verb{url}
+    \verb https://doi.org/10.1111/j.1365-2966.2012.20974.x
+    \endverb
+    \field{volume}{423}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{month}{06}
+    \field{year}{2012}
   \endentry
 
   \entry{Denisenkov1989}{article}{}

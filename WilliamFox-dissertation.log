@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.30)  29 AUG 2023 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.30)  30 AUG 2023 17:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -615,6 +615,11 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+)
 \@input{optional.aux}
 \openout2 = `optional.aux'.
 
@@ -726,7 +731,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks25
+\MT@toks=\toks27
 \MT@count=\count414
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen181
@@ -787,7 +792,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks26
+\pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen182
 \pgfutil@tempdimb=\dimen183
 
@@ -809,12 +814,12 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks29
+\pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen184
 \pgf@y=\dimen185
@@ -832,9 +837,9 @@ ex
 \c@pgf@countb=\count417
 \c@pgf@countc=\count418
 \c@pgf@countd=\count419
-\t@pgf@toka=\toks30
-\t@pgf@tokb=\toks31
-\t@pgf@tokc=\toks32
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
 \pgf@sys@id@count=\count420
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
@@ -868,9 +873,9 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmath@dimen=\dimen194
 \pgfmath@count=\count423
 \pgfmath@box=\box55
-\pgfmath@toks=\toks33
-\pgfmath@stack@operand=\toks34
-\pgfmath@stack@operation=\toks35
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1014,8 +1019,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen277
 \pgffor@skip=\dimen278
-\pgffor@stack=\toks36
-\pgffor@toks=\toks37
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -1058,15 +1063,15 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count437
-\float@exts=\toks38
+\float@exts=\toks40
 \float@box=\box65
-\@float@everytoks=\toks39
+\@float@everytoks=\toks41
 \@floatcapt=\box66
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks40
-\verbatim@line=\toks41
+\every@verbatim=\toks42
+\verbatim@line=\toks43
 \verbatim@in@stream=\read4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/bigdelim.sty
@@ -1094,24 +1099,24 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Appendix-A/Appendix-A.aux))
 \openout1 = `WilliamFox-dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 15
-5.
+8.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1122,12 +1127,12 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \scratchbox=\box68
 \nofMPsegments=\count443
 \nofMParguments=\count444
-\everyMPshowfont=\toks42
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count445
 \MPscratchDim=\dimen290
 \MPnumerator=\count446
 \makeMPintoPDFobject=\count447
-\everyMPtoPDFconversion=\toks43
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1234,10 +1239,10 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 155.
-Package biblatex Info: Reference segment=0 on input line 155.
+Package biblatex Info: Reference section=0 on input line 158.
+Package biblatex Info: Reference segment=0 on input line 158.
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring ON on input line 155.
+Package hyperref Info: Link coloring ON on input line 158.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1249,22 +1254,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count449
 )
-LaTeX Info: Redefining \ref on input line 155.
-LaTeX Info: Redefining \pageref on input line 155.
-LaTeX Info: Redefining \nameref on input line 155.
+LaTeX Info: Redefining \ref on input line 158.
+LaTeX Info: Redefining \pageref on input line 158.
+LaTeX Info: Redefining \nameref on input line 158.
 
 (./WilliamFox-dissertation.out) (./WilliamFox-dissertation.out)
 \@outlinefile=\write5
 \openout5 = `WilliamFox-dissertation.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 155.
+LaTeX Info: Redefining \microtypecontext on input line 158.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 155.
+LaTeX Info: Redefining \showhyphens on input line 158.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1373,8 +1378,8 @@ l.14 \maketitlepage
  [4
 
 ] (./WilliamFox-dissertation.lof
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-9.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+1.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1450,7 +1455,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 ]
-<Chapter-6/figs/O-Na.png, id=348, 1044.90375pt x 818.05624pt>
+<Chapter-6/figs/O-Na.png, id=350, 1044.90375pt x 818.05624pt>
 File: Chapter-6/figs/O-Na.png Graphic file (type png)
 <use Chapter-6/figs/O-Na.png>
 Package pdftex.def Info: Chapter-6/figs/O-Na.png  used on input line 39.
@@ -1464,180 +1469,190 @@ File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowwidth=\dimen293
 \pgfarrowlinewidth=\dimen294
 )
-Overfull \hbox (2.8347pt too wide) in paragraph at lines 100--101
+Overfull \hbox (2.8347pt too wide) in paragraph at lines 104--105
 [][] 
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 159.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 159.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 159.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 159.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 159.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 159.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 159.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 169.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 169.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 169.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 169.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 169.
-
 [9]
+<Chapter-6/figs/NGC2419.jpg, id=389, 1027.84pt x 1021.8175pt>
+File: Chapter-6/figs/NGC2419.jpg Graphic file (type jpg)
+<use Chapter-6/figs/NGC2419.jpg>
+Package pdftex.def Info: Chapter-6/figs/NGC2419.jpg  used on input line 161.
+(pdftex.def)             Requested size: 361.34999pt x 359.23184pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 166.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 166.
 
-LaTeX Warning: Citation 'Landau' on page 10 undefined on input line 181.
 
-[10]
-
-LaTeX Warning: Citation 'BayeSpec' on page 11 undefined on input line 187.
-
-[11]
-
-LaTeX Warning: Citation 'McElreath2020' on page 12 undefined on input line 216.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 166.
 
 
-[12]
-<Chapter-6/figs/Gaus_Bayesian.png, id=405, 1880.02374pt x 960.58875pt>
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 166.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 166.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 166.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 166.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 176.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 176.
+
+[10] [11 <./Chapter-6/figs/NGC2419.jpg>]
+
+LaTeX Warning: Citation 'Landau' on page 12 undefined on input line 188.
+
+
+LaTeX Warning: Citation 'BayeSpec' on page 12 undefined on input line 194.
+
+[12] [13]
+
+LaTeX Warning: Citation 'McElreath2020' on page 14 undefined on input line 223.
+
+
+[14]
+<Chapter-6/figs/Gaus_Bayesian.png, id=432, 1880.02374pt x 960.58875pt>
 File: Chapter-6/figs/Gaus_Bayesian.png Graphic file (type png)
 <use Chapter-6/figs/Gaus_Bayesian.png>
 Package pdftex.def Info: Chapter-6/figs/Gaus_Bayesian.png  used on input line 2
-22.
+29.
 (pdftex.def)             Requested size: 469.75499pt x 240.01468pt.
 
 
-LaTeX Warning: Citation 'Babu2016' on page 13 undefined on input line 229.
+LaTeX Warning: Citation 'Babu2016' on page 15 undefined on input line 236.
 
-[13] [14 <./Chapter-6/figs/Gaus_Bayesian.png>]
-<Chapter-6/figs/mu_and_A.png, id=418, 1902.10625pt x 920.43875pt>
+[15 <./Chapter-6/figs/Gaus_Bayesian.png>] [16]
+<Chapter-6/figs/mu_and_A.png, id=446, 1902.10625pt x 920.43875pt>
 File: Chapter-6/figs/mu_and_A.png Graphic file (type png)
 <use Chapter-6/figs/mu_and_A.png>
-Package pdftex.def Info: Chapter-6/figs/mu_and_A.png  used on input line 263.
+Package pdftex.def Info: Chapter-6/figs/mu_and_A.png  used on input line 270.
 (pdftex.def)             Requested size: 469.75499pt x 227.31421pt.
- [15]
-<Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png, id=440, 935.495pt x 418.563
+ [17 <./Chapter-6/figs/mu_and_A.png>]
+<Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png, id=467, 935.495pt x 418.563
 75pt>
 File: Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png Graphic file (type png)
 
 <use Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png>
 Package pdftex.def Info: Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png  use
-d on input line 275.
+d on input line 282.
 (pdftex.def)             Requested size: 469.75499pt x 210.18188pt.
- [16 <./Chapter-6/figs/mu_and_A.png>] [17 <./Chapter-6/figs/ExpModGauss_Mode_an
-d_Intensity.png>]
-<Chapter-6/figs/EMG_Multiplet.png, id=455, 1893.0725pt x 967.615pt>
+ [18 <./Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png>]
+<Chapter-6/figs/EMG_Multiplet.png, id=477, 1893.0725pt x 967.615pt>
 File: Chapter-6/figs/EMG_Multiplet.png Graphic file (type png)
 <use Chapter-6/figs/EMG_Multiplet.png>
 Package pdftex.def Info: Chapter-6/figs/EMG_Multiplet.png  used on input line 2
-87.
+94.
 (pdftex.def)             Requested size: 469.75499pt x 240.10188pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 326.
+(hyperref)                removing `math shift' on input line 333.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 326.
+(hyperref)                removing `superscript' on input line 333.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 326.
+(hyperref)                removing `superscript' on input line 333.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 326.
+(hyperref)                removing `superscript' on input line 333.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 326.
+(hyperref)                removing `math shift' on input line 333.
 
-<Chapter-6/figs/unbound.png, id=456, 1001.4213pt x 334.1283pt>
+<Chapter-6/figs/unbound.png, id=478, 1001.4213pt x 334.1283pt>
 File: Chapter-6/figs/unbound.png Graphic file (type png)
 <use Chapter-6/figs/unbound.png>
-Package pdftex.def Info: Chapter-6/figs/unbound.png  used on input line 341.
+Package pdftex.def Info: Chapter-6/figs/unbound.png  used on input line 348.
 (pdftex.def)             Requested size: 469.75499pt x 156.7344pt.
-[18 <./Chapter-6/figs/EMG_Multiplet.png>]
+[19]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 359.
+(hyperref)                removing `math shift' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 359.
+(hyperref)                removing `superscript' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 359.
+(hyperref)                removing `\gamma' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 359.
+(hyperref)                removing `superscript' on input line 366.
 
-[19 <./Chapter-6/figs/unbound.png>] [20]
-<Chapter-6/figs/rateCompare.png, id=498, 433.62pt x 361.35pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 366.
+
+[20 <./Chapter-6/figs/EMG_Multiplet.png>]
+Overfull \vbox (10.46486pt too high) has occurred while \output is active []
+
+
+[21 <./Chapter-6/figs/unbound.png>]
+<Chapter-6/figs/rateCompare.png, id=515, 433.62pt x 361.35pt>
 File: Chapter-6/figs/rateCompare.png Graphic file (type png)
 <use Chapter-6/figs/rateCompare.png>
-Package pdftex.def Info: Chapter-6/figs/rateCompare.png  used on input line 372
+Package pdftex.def Info: Chapter-6/figs/rateCompare.png  used on input line 379
 .
 (pdftex.def)             Requested size: 469.75499pt x 391.48175pt.
-<Chapter-6/figs/uncCompare.png, id=503, 433.62pt x 433.62pt>
+<Chapter-6/figs/uncCompare.png, id=520, 433.62pt x 433.62pt>
 File: Chapter-6/figs/uncCompare.png Graphic file (type png)
 <use Chapter-6/figs/uncCompare.png>
-Package pdftex.def Info: Chapter-6/figs/uncCompare.png  used on input line 377.
+Package pdftex.def Info: Chapter-6/figs/uncCompare.png  used on input line 384.
 
 (pdftex.def)             Requested size: 469.75499pt x 469.7781pt.
-<Chapter-6/figs/contrib.png, id=506, 433.62pt x 361.35pt>
+<Chapter-6/figs/contrib.png, id=523, 433.62pt x 361.35pt>
 File: Chapter-6/figs/contrib.png Graphic file (type png)
 <use Chapter-6/figs/contrib.png>
-Package pdftex.def Info: Chapter-6/figs/contrib.png  used on input line 382.
+Package pdftex.def Info: Chapter-6/figs/contrib.png  used on input line 389.
 (pdftex.def)             Requested size: 469.75499pt x 391.48175pt.
-) [21] [22 <./Chapter-6/figs/rateCompare.png>] [23 <./Chapter-6/figs/uncCompare
-.png>] [24 <./Chapter-6/figs/contrib.png>]
+) [22] [23 <./Chapter-6/figs/rateCompare.png>] [24 <./Chapter-6/figs/uncCompare
+.png>] [25 <./Chapter-6/figs/contrib.png>]
 \openout2 = `Chapter-7/Chapter-7.aux'.
 
- (./Chapter-7/Chapter-7.tex
+
+(./Chapter-7/Chapter-7.tex
 Chapter 7.
-) [25
+) [26
 
 
 
-] [26
+] [27
 
 
-] [27] [28
+] [28] [29
 
 
 ]
@@ -1645,28 +1660,28 @@ Chapter 7.
 
  (./Appendix-A/Appendix-A.tex
 Appendix A.
-) [29
+) [30
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./WilliamFox-dissertation.aux (./front.aux) (./Chapter-1/Chapter-1.aux) (./Ch
 apter-2/Chapter-2.aux) (./Chapter-3/Chapter-3.aux)
 (./Chapter-4/Chapter-4.aux) (./Chapter-5/Chapter-5.aux)
 (./Chapter-6/Chapter-6.aux) (./Chapter-7/Chapter-7.aux)
 (./Appendix-A/Appendix-A.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `WilliamFox-dissertation.out' has not changed
 .
-(rerunfilecheck)             Checksum: D9253C5086245F9C11907156C25E1FF7;2311.
+(rerunfilecheck)             Checksum: 26324CBC4A38547DA6902F43588791CA;2311.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                WilliamFox-dissertation
@@ -1677,13 +1692,13 @@ Package logreq Info: Writing requests to 'WilliamFox-dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29369 strings out of 481239
- 548665 string characters out of 5920377
- 1042604 words of memory out of 5000000
- 43739 multiletter control sequences out of 15000+600000
- 606873 words of font info for 152 fonts, out of 8000000 for 9000
+ 29421 strings out of 481239
+ 549888 string characters out of 5920377
+ 1047371 words of memory out of 5000000
+ 43773 multiletter control sequences out of 15000+600000
+ 607302 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,12n,73p,1432b,1697s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,73p,1869b,1697s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -1696,10 +1711,10 @@ blic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on WilliamFox-dissertation.pdf (37 pages, 1700619 bytes).
+Output written on WilliamFox-dissertation.pdf (38 pages, 2314055 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 552 compressed objects within 6 object streams
- 113 named destinations out of 1000 (max. 500000)
- 20282 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 571 compressed objects within 6 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 20287 words of extra memory for PDF output out of 20736 (max. 10000000)
 
