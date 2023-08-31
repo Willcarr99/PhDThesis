@@ -197,6 +197,43 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Cohen2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CJG}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Judith\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=KEN}{%
+         family={Kirby},
+         familyi={K\bibinitperiod},
+         given={Evan\bibnamedelima N.},
+         giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJGKEN1}
+    \strng{fullhash}{CJGKEN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Coh12}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{86}
+    \field{pages}{15}
+    \field{title}{The Bizarre Chemical Inventory of NGC 2419, An Extreme Outer
+  Halo Globular Cluster}
+    \verb{url}
+    \verb https://proxying.lib.ncsu.edu/index.php/login?url=https://www.proques
+    \verb t.com/working-papers/bizarre-chemical-inventory-ngc-2419-extreme-oute
+    \verb r/docview/2085518321/se-2
+    \endverb
+    \field{volume}{760}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{DErcole2010}{article}{}
     \name{author}{5}{}{%
       {{hash=DA}{%
@@ -397,6 +434,47 @@
     \field{journaltitle}{Astronomicheskij Tsirkulyar}
     \field{month}{06}
     \field{year}{1989}
+  \endentry
+
+  \entry{Dermigny2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DJR}{%
+         family={Dermigny},
+         familyi={D\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{DJRIC1}
+    \strng{fullhash}{DJRIC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Der17}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.3847/1538-4357/aa8ad0
+    \endverb
+    \field{number}{1}
+    \field{pages}{14}
+    \field{title}{Sensitivity to Thermonuclear Reaction Rates in Modeling the
+  Abundance Anomalies of NGC 2419}
+    \verb{url}
+    \verb https://dx.doi.org/10.3847/1538-4357/aa8ad0
+    \endverb
+    \field{volume}{848}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Fuchs1969}{article}{}
@@ -1009,6 +1087,177 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Mucciarelli2012}{article}{}
+    \name{author}{7}{}{%
+      {{hash=MA}{%
+         family={Mucciarelli},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bellazzini},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=IR}{%
+         family={Ibata},
+         familyi={I\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Merle},
+         familyi={M\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CSC}{%
+         family={Chapman},
+         familyi={C\bibinitperiod},
+         given={S.\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Dalessandro},
+         familyi={D\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sollima},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{stars: abundances, stars: atmospheres, stars: evolution, stars:
+  Population II, globular clusters: individual: NGC 2419}
+    \strng{namehash}{MA+1}
+    \strng{fullhash}{MABMIRMTCSCDESA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Muc12}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb https://doi.org/10.1111/j.1365-2966.2012.21847.x
+    \endverb
+    \field{number}{4}
+    \field{pages}{2889\bibrangedash 2900}
+    \field{title}{News from the Galactic suburbia: the chemical composition of
+  the remote globular cluster NGC 2419}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2966.2012.2184
+    \verb 7.x
+    \endverb
+    \field{volume}{426}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Mucciarelli2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=MA}{%
+         family={Mucciarelli},
+         familyi={M\bibinitperiod},
+         given={Alessio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bellazzini},
+         familyi={B\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Merle},
+         familyi={M\bibinitperiod},
+         given={Thibault},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Plez},
+         familyi={P\bibinitperiod},
+         given={Bertrand},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Dalessandro},
+         familyi={D\bibinitperiod},
+         given={Emanuele},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=IR}{%
+         family={Ibata},
+         familyi={I\bibinitperiod},
+         given={Rodrigo},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{MA+2}
+    \strng{fullhash}{MABMMTPBDEIR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Muc15}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1088/0004-637X/801/1/68
+    \endverb
+    \field{number}{1}
+    \field{pages}{68}
+    \field{title}{POTASSIUM: A NEW ACTOR ON THE GLOBULAR CLUSTER CHEMICAL
+  EVOLUTION STAGE. THE CASE OF NGC 2808*}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/0004-637X/801/1/68
+    \endverb
+    \field{volume}{801}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Mucciarelli2017}{article}{}
+    \name{author}{3}{}{%
+      {{hash=M}{%
+         family={{Mucciarelli, A.}},
+         familyi={M\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={{Merle, T.}},
+         familyi={M\bibinitperiod},
+      }}%
+      {{hash=B}{%
+         family={{Bellazzini, M.}},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMB1}
+    \strng{fullhash}{MMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Muc}17}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1051/0004-6361/201730410
+    \endverb
+    \field{pages}{A104}
+    \field{title}{The potassium abundance in the globular clusters NGC 104, NGC
+  6752 and NGC 6809}
+    \verb{url}
+    \verb https://doi.org/10.1051/0004-6361/201730410
+    \endverb
+    \field{volume}{600}
+    \field{journaltitle}{A\&A}
+    \field{year}{2017}
+  \endentry
+
   \entry{Prantzos2007}{article}{}
     \name{author}{3}{}{%
       {{hash=PN}{%
@@ -1150,6 +1399,71 @@
     \field{volume}{7}
     \field{journaltitle}{Computer Physics Reports}
     \field{year}{1988}
+  \endentry
+
+  \entry{Ventura2012}{article}{}
+    \name{author}{6}{}{%
+      {{hash=VP}{%
+         family={Ventura},
+         familyi={V\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={D'Antona},
+         familyi={D\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CMD}{%
+         family={Criscienzo},
+         familyi={C\bibinitperiod},
+         given={Marcella\bibnamedelima Di},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Carini},
+         familyi={C\bibinitperiod},
+         given={Roberta},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={D'Ercole},
+         familyi={D\bibinitperiod},
+         given={Annibale},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vesperini},
+         familyi={V\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{VP+1}
+    \strng{fullhash}{VPDFCMDCRDAVE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ven12}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \verb{doi}
+    \verb 10.1088/2041-8205/761/2/L30
+    \endverb
+    \field{number}{2}
+    \field{pages}{L30}
+    \field{title}{SUPER-AGB–AGB EVOLUTION AND THE CHEMICAL INVENTORY IN NGC
+  2419}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/2041-8205/761/2/L30
+    \endverb
+    \field{volume}{761}
+    \field{journaltitle}{The Astrophysical Journal Letters}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Wang2021}{article}{}

@@ -37,7 +37,7 @@ Fig. \ref{fig:O-Na} shows the ubiquitous O--Na anticorrelation in 1,200 red gian
 \begin{figure}[t]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/O-Na.png}
-\caption{\label{fig:O-Na}The O--Na anticorrelation of 1,200 red giants among all 19 globular clusters observed in the survey of Ref. \cite{Carretta2010}. Blue arrows indicate upper limits in O abundances, while lines separate different populations of red giants based on their relative O and Na richness. Primordial (P), extreme (E), and intermediate (I) populations are labeled in the first panel. See text for definitions of these populations.}
+\caption{\label{fig:O-Na}The O--Na anticorrelation of 1,200 red giants among all 19 globular clusters observed in the survey of Ref. \cite{Carretta2010}. Blue arrows indicate upper limits in O abundances, while lines separate different populations of red giants based on their relative O and Na richness. Primordial (P), extreme (E), and intermediate (I) populations are labeled in the first panel. See text for definitions of these populations. Adapted from \cite{Carretta2010}.}
 \end{figure}
 
 % PARAGRAPH 1: Cannot be in situ - must be mixing. Evidence for multiple stellar populations - pg 2 of Carretta2010 and Prantzos2007
@@ -154,26 +154,138 @@ where $X$ is the mass fraction of a given nuclide among its specific composition
 % Iliadis et al. 2016
 % Derhmingny et al. 2017
 
-The globular cluster NGC 2419, pictured in Fig. \ref{fig:NGC2419}, exhibited the first observed Mg--K anticorrelation.
+% PARAGRAPH 1: Mg-K abundance observations (2012)
+
+% The globular cluster NGC 2419, imaged by the Hubble Space Telescope in Fig. \ref{fig:NGC2419}, was recently found to exhibit some puzzling abundance patterns.
+
+While the O--Na anticorrelation is ubiquitous in globular clusters, there are other abundance patterns that are unique to individual or a small subset of globular clusters. The globular cluster NGC 2419 was recently found to exhibit some puzzling abundance patterns. About 30$\%$ of the red giants observed show a strong K enrichment correlated with a considerable Mg depletion \cite{Mucciarelli2012,Cohen2012}. Fig. \ref{fig:MgK} shows the observed elemental potassium and magnesium abundances, with respect to iron, for the red giants in NGC 2419 sampled by Ref. \cite{Mucciarelli2012} in red and Ref. \cite{Cohen2012} in blue. This was the first discovery of a Mg--K anticorrelation in any globular cluster. Only one other cluster to date, NGC 2808, has exhibited such an anticorrelation in a small portion of its stars \cite{Mucciarelli2015,Mucciarelli2017}, but the extent of the K enrichment is about 7 times less than that of NGC 2419. Meanwhile, the extent of the Mg depletion is about 3 times less. The evolutionary history of NGC 2419 must therefore be quite unique for it to exhibit such an extensive K enrichment not seen in other globular clusters.
+
+%\begin{figure}[t]
+%\centering
+%\includegraphics[width=3in]{Chapter-6/figs/NGC2419.jpg}
+%\caption{\label{fig:NGC2419}An image of the globular cluster NGC 2419 taken by the Hubble Space Telescope \cite{NGC2419Hubble,Larsen2019}.}
+%\end{figure}
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=5in]{Chapter-6/figs/NGC2419.jpg}
-\caption{\label{fig:NGC2419}The globular cluster NGC 2419.}
+\includegraphics[width=2.5in]{Chapter-6/figs/MgK_Observation.png}
+\caption{\label{fig:MgK}The observed Mg and K elemental abundances of red giants in NGC 2419 from Refs. \cite{Mucciarelli2012} (red) and \cite{Cohen2012} (blue). Figure adapted from \cite{Iliadis2016}.}
 \end{figure}
+
+% PARAGRAPH 2: Reaction network leading to K abundance (from 36Ar to 39K)
+
+The hydrogen burning mechanism for the K enrichment in NGC 2419 has been shown to start from $^{36}$Ar, the most abundant argon isotope at such low metallicities \cite{Ventura2012}.
+
+\begin{figure}[t]
+\centering
+\noindent
+\begin{tikzpicture}[scale=1.75, every node/.style={transform shape}]
+
+% (0,0) is at the bottom left corner of plot, where 36Ar is.
+\filldraw[fill = light-gray] (0,0) rectangle (1,1); % 36Ar box
+\draw (1+\BoxSpace,0) rectangle (2+\BoxSpace,1); % 37Ar box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,0) rectangle (3+\BoxSpacetwo,1); % 38Ar box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,-1-\BoxSpace) rectangle (3+\BoxSpacetwo,-\BoxSpace); % 37Cl box
+\draw (0,1+\BoxSpace) rectangle (1,2+\BoxSpace); % 37K box
+\draw (1+\BoxSpace,1+\BoxSpace) rectangle (2+\BoxSpace,2+\BoxSpace); % 38K box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,1+\BoxSpace) rectangle (3+\BoxSpacetwo,2+\BoxSpace); % 39K box
+
+\node at (0.5,0.5) {$^{36}\mathrm{Ar}$};
+\node at (1+\BoxSpace+0.5,0.5) {$^{37}\mathrm{Ar}$};
+\node at (2+\BoxSpacetwo+0.5,0.5) {$^{38}\mathrm{Ar}$};
+\node at (0.5,1+\BoxSpace+0.5) {$^{37}\mathrm{K}$};
+\node at (1+\BoxSpace+0.5,1+\BoxSpace+0.5) {$^{38}\mathrm{K}$};
+\node at (2+\BoxSpacetwo+0.5,1+\BoxSpace+0.5) {$^{39}\mathrm{K}$};
+\node at (2+\BoxSpacetwo+0.5,-\BoxSpace-0.5) {$^{37}\mathrm{Cl}$};
+
+\draw[line width = \AW mm, -{Triangle[]}] (0.5,1-\AOS) -- (0.5,1+\BoxSpace+\AOS); % 36Ar(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (1-\AOS,1+\BoxSpace+\AOS) -- (1+\BoxSpace+\AOS, 1-\AOS); % 37K(B+)
+\draw[line width = \AW mm, -{Triangle[]}] (1+\BoxSpace+0.5,1-\AOS) -- (1+\BoxSpace+0.5,1+\BoxSpace+\AOS); % 37Ar(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpace-\AOS,1+\BoxSpace+\AOS) -- (2+\BoxSpacetwo+\AOS,1-\AOS); %38K(B+)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpacetwo+0.5,1-\AOS) -- (2+\BoxSpacetwo+0.5,1+\BoxSpace+\AOS); %38Ar(p,g)
+\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpace-\AOS,\AOS) -- (2+\BoxSpacetwo+\AOS,-\BoxSpace-\AOS); %37Ar(EC)
+\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpacetwo+0.5,-\BoxSpace-\AOS) -- (2+\BoxSpacetwo+0.5,\AOS); % 37Cl(p,g)
+
+\end{tikzpicture}
+%\vspace{0.75 cm}
+\caption{\label{fig:KHBurning}The hydrogen burning mechanism driving the K enrichment in the globular cluster NGC 2419. The main nucleosynthesis chain is shown with solid arrows. The $^{37}\mathrm{Ar}(p, \gamma)^{38}\mathrm{K}$ reaction proceeds at a much higher rate than $^{37}\mathrm{Ar}(e^{-},\nu)^{37}\mathrm{Cl}$ electron capture, even at relatively low proton densities.}
+\end{figure}
+
+% PARAGRAPH 3: Ventura et al. (2012) polluter candidates
+
+%Ventura \emph{et al.} \cite{Ventura2012} were the first to propose polluter star candidates for the Mg-K anticorrelation in NGC 2419. Hot-bottom burning in massive AGB stars and Super-AGB (SAGB) stars was considered, where temperatures can reach 150 MK, but many stellar model parameters would need adjusting.
+
+% PARAGRAPH 4: Iliadis et al. (2016) monte carlo network calculations constraining temperature-density conditions and suggesting polluter candidates
+
+
+
+% PARAGRAPH 5: Dermigny et al. (2017) reaction rate sensitivities suggesting 4 reactions are important
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{$^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$}
 % Longland et al. 2018
 
+% PARAGRAPH 1: In particular, Dermigny et al. (2017) found that 39K(p,g)40Ca was important (with Longland et al. (2018)'s reaction rate, before the paper was published though)
+
+\begin{figure}[t]
+\centering
+\noindent
+\begin{tikzpicture}[scale=1.3, every node/.style={transform shape}]
+\node at (0,0) {\includegraphics[scale=0.45]{Chapter-6/figs/39K_p_g_Sens1.png}};
+\node at (0.04,-3.7) {\includegraphics[scale=0.45]{Chapter-6/figs/39K_p_g_Sens2.png}};
+
+\node at (0.3,-5.9) {Temperature (GK)};
+\node[rotate=90] at (-5.7,-1.85) {Density ($\mathrm{g}/\mathrm{cm}^{3}$)};
+
+\end{tikzpicture}
+
+%\begin{subfigure}[t]{0.75\textwidth}
+%	\centering
+%	\includegraphics[width=1\linewidth]{Chapter-6/figs/39K_p_g_Sens1.png}
+%\end{subfigure}
+%\begin{subfigure}[t]{0.75\textwidth}
+%	\centering
+%   \includegraphics[width=1\linewidth]{Chapter-6/figs/39K_p_g_Sens2.png}
+%\end{subfigure}
+
+\caption{\label{fig:39K_p_g_Sens}Systematic effects of the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate influencing temperature-density conditions. The indicated variation factors ($\alpha = 1/10, 1/5, 5, 10$) are applied to the reaction rate in each panel, and the black dots show the resulting temperature-density conditions that provide an acceptable match with observed abundances. The red dots represent the case where no systematic effects ($\alpha=1$) have been added. Figure adapted from \cite{Dermigny2017}.}
+\end{figure}
+
+% PARAGRAPH 2: Longland et al. (2018) reaction rate calculation has many upper limits from unknown states, and the reaction rate uncertainty is very large in the Gamow window.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=4in]{Chapter-6/figs/39K_p_g_Longland2018.png}
+\caption{\label{fig:39K_p_g_Longland}The recent $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate probability density calculation of \cite{Longland2018} as a function of temperature. The median, recommended rate is shown as the dotted normalization line. The thick and thin black lines represent the $68\%$ ($1\sigma$) and $95\%$ ($2\sigma$) uncertainty bands, respectively. The color scale shows the continuous nature of the probability density, with darker red colors closer to the recommended rate. The green line represents the previous calculation of \cite{Cheng1981}.}
+\end{figure}
+
+% PARAGRAPH 3: No direct measurement for states below 8935 keV - Only 4 states measured below this through indirect measurements - 39K(3He,d)40Ca and 39K(d,n)40Ca, all between 1966 and 1971
+
+
+
+% PARAGRAPH 4: This all motivates a 39K(p,g)40Ca reaction rate constraint. Using 39K(3He,d)40Ca lets us look at 39K+p states closer to the proton separation energy, which all contribute to the rate.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Transfer Reaction Theory}
 
-
+% Theory leading to C2S and proton partial-width calculations
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ Experiment}
+
+% PARAGRAPH 1: Basically like the methods section in my 39K(3He,d)40Ca PRL paper, but go into much more detail about the tandem, enge, and detector setup.
+
+
+
+% PARAGRAPH 2: Show an example spectrum with peaks labeled
+
+
+
+% PARAGRAPH 3: Different spectra from the FP and Si detectors, including DE/E for particle discrimination.
+
+
 
 %%% From PRL paper %%%
 The $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment was performed using the Enge Split-Pole Spectrograph at the Triangle Universities Nuclear Laboratory (TUNL). The 10 MV FN tandem Van de Graaff accelerator at TUNL accelerated a fully-ionized $^{3}$He beam to 21 MeV, where the energy was stabilized using a pair of high-resolution slits between two $90^{\circ}$ dipole magnets. The target was produced by evaporating approximately 75 $\mu\mathrm{g/cm}^{2}$ of natural potassium iodide onto an aluminum target frame with a 21 $\mu\mathrm{g/cm}^{2}$ natural carbon film backing. The $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ proton-transfer and $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering reactions were measured at lab angles between $5-20^{\circ}$ and $15-59^{\circ}$, respectively, using a focal-plane detector package \cite{Marshall2019} consisting of two position-sensitive avalanche counters, a $\Delta\mathrm{E}$ proportionality counter, and an E scintillator. The $\Delta\mathrm{E}/\mathrm{E}$ spectrum enables particle discrimination, allowing the position spectra to be gated on either $^{3}\mathrm{He}$ or $d$.
