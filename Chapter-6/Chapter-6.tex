@@ -57,6 +57,7 @@ Polluter stars are likely the site of the nucleosynthesis that gives rise to the
 \def\BoxSpace{0.3} % Defining the variable BoxSpace to value in brackets
 \def\BoxSpacetwo{\BoxSpace * 2} % So I don't have to keep doing {2+(\BoxSpace * 2)}
 \def\BoxSpacethree{\BoxSpace * 3}
+\def\BoxSpacehalf{\BoxSpace * 0.5}
 \def\AOS{0.2} % Arrow Offset
 \def\AW{0.52} % Arrow Width (mm)
 \usetikzlibrary{arrows.meta}
@@ -158,7 +159,7 @@ where $X$ is the mass fraction of a given nuclide among its specific composition
 
 % The globular cluster NGC 2419, imaged by the Hubble Space Telescope in Fig. \ref{fig:NGC2419}, was recently found to exhibit some puzzling abundance patterns.
 
-While the O--Na anticorrelation is ubiquitous in globular clusters, there are other abundance patterns that are unique to individual or a small subset of globular clusters. The globular cluster NGC 2419 was recently found to exhibit some puzzling abundance patterns. About 30$\%$ of the red giants observed show a strong K enrichment correlated with a considerable Mg depletion \cite{Mucciarelli2012,Cohen2012}. Fig. \ref{fig:MgK} shows the observed elemental potassium and magnesium abundances, with respect to iron, for the red giants in NGC 2419 sampled by Ref. \cite{Mucciarelli2012} in red and Ref. \cite{Cohen2012} in blue. This was the first discovery of a Mg--K anticorrelation in any globular cluster. Only one other cluster to date, NGC 2808, has exhibited such an anticorrelation in a small portion of its stars \cite{Mucciarelli2015,Mucciarelli2017}, but the extent of the K enrichment is about 7 times less than that of NGC 2419. Meanwhile, the extent of the Mg depletion is about 3 times less. The evolutionary history of NGC 2419 must therefore be quite unique for it to exhibit such an extensive K enrichment not seen in other globular clusters.
+While the O--Na anticorrelation is ubiquitous in globular clusters, there are other abundance patterns that are unique to individual or a small subset of globular clusters. The globular cluster NGC 2419 was recently found to exhibit some puzzling abundance patterns. About 30$\%$ of the red giants observed show a strong K enrichment correlated with a considerable Mg depletion \cite{Mucciarelli2012,Cohen2012}. Fig. \ref{fig:MgK} shows the observed elemental potassium and magnesium abundances, with respect to iron, for the red giants in NGC 2419 sampled by Ref. \cite{Mucciarelli2012} in red and Ref. \cite{Cohen2012} in blue. This was the first discovery of a Mg--K anticorrelation in any globular cluster. Only one other cluster to date, NGC 2808, has exhibited such an anticorrelation in a small portion of its stars \cite{Mucciarelli2015,Mucciarelli2017}, but the extent of the K enrichment is about 7 times less than that of NGC 2419. Meanwhile, the extent of the Mg depletion is about 3 times less. The evolutionary history of NGC 2419 must therefore be rather unique for it to exhibit such abundance patterns not seen in other globular clusters.
 
 %\begin{figure}[t]
 %\centering
@@ -174,12 +175,59 @@ While the O--Na anticorrelation is ubiquitous in globular clusters, there are ot
 
 % PARAGRAPH 2: Reaction network leading to K abundance (from 36Ar to 39K)
 
-The hydrogen burning mechanism for the K enrichment in NGC 2419 has been shown to start from $^{36}$Ar, the most abundant argon isotope at such low metallicities \cite{Ventura2012}.
+Just as the nucleosynthesis mechanism for the O--Na anticorrelation involves a series of $(p,\gamma)$ reactions and radioactive decays, the same is true for the Mg depletion and the K enrichment. The hydrogen burning schemes are illustrated in Fig. \ref{fig:MgKHBurning}. The Mg--Al cycle, shown on the left-hand side of the figure, starts from $^{24}$Mg at about 70 MK. After the subsequent $^{24}\mathrm{Mg}(p,\gamma)^{25}\mathrm{Al}$ and $^{25}\mathrm{Al}(\beta^{+}\nu)^{25}\mathrm{Mg}$ reactions, there is a chance the $^{26}\mathrm{Al}^{m}$ isomer is populated. The isomer preferrentially $\beta^{+}$ decays to $^{26}$Mg, while the ground state $^{26}\mathrm{Al}^{g}$ captures a proton. Either scenario eventually synthesizes $^{27}$Al, which can repeat the cycle with $^{27}\mathrm{Al}(p,\alpha)^{24}\mathrm{Mg}$ or proceed with $^{27}\mathrm{Al}(p,\gamma)^{28}\mathrm{Si}$ if the temperature is more than about 80 MK. The overall effect is a depletion of magnesium and an enrichment of aluminum and silicon.
+
+The hydrogen burning scheme for the K enrichment in NGC 2419 is illustrated on the right-hand side of Fig. \ref{fig:MgKHBurning}. It has been shown to start from $^{36}$Ar, an $\alpha$-nucleus and the most abundant argon isotope at the low metallicities of the first stellar generation \cite{Ventura2012}. Some authors \cite{Ventura2012,Mucciarelli2015} have incorrectly claimed that the main K enrichment chain involves the decay of $^{37}$Ar to $^{37}$Cl, then the subsequent $^{37}\mathrm{Cl}(p,\gamma)^{38}\mathrm{Ar}$ reaction, indicated by the dashed arrows in Fig. \ref{fig:MgKHBurning}. However, as Ref. \cite{Iliadis2016} indicates, the $^{37}\mathrm{Ar}(p,\gamma)^{38}\mathrm{K}$ reaction has a much larger decay constant than the electron capture reaction $^{37}\mathrm{Ar}(e^{-}, \nu)^{37}\mathrm{Cl}$ at the stellar densities of interest. Therefore, the main chain must proceed to $^{38}$K before the subsequent $^{38}\mathrm{K}(\beta^{+}\nu)^{38}\mathrm{Ar}$ and $^{38}\mathrm{Ar}(p,\gamma)^{39}\mathrm{K}$ reactions. The former chain is expected to contribute only marginally to $^{39}$K nucleosynthesis. Additionally, unlike the mechanisms for the O--Na anticorrelation and the Mg depletion, the sequence leading from $^{36}$Ar to $^{39}$K is not a cycle because the $^{39}\mathrm{K}(p,\alpha)^{36}\mathrm{Ar}$ reaction has a much smaller decay constant than $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$.
 
 \begin{figure}[t]
 \centering
 \noindent
-\begin{tikzpicture}[scale=1.75, every node/.style={transform shape}]
+\begin{minipage}{.44\linewidth}
+\begin{tikzpicture}[scale=1.5, every node/.style={transform shape}]
+
+% (0,0) is at the bottom left corner of plot, where 24Mg is.
+\filldraw[fill = light-gray] (0,0) rectangle (1,1); % 24Mg box
+\filldraw[fill = light-gray] (1+\BoxSpace,0) rectangle (2+\BoxSpace,1); % 25Mg box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,0) rectangle (3+\BoxSpacetwo,1); % 26Mg box
+\draw (0,1+\BoxSpace) rectangle (1,2+\BoxSpace); % 25Al box
+\draw (1+\BoxSpace,1+\BoxSpace) rectangle (2+\BoxSpace,2+\BoxSpace); % 26Al box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,1+\BoxSpace) rectangle (3+\BoxSpacetwo,2+\BoxSpace); % 27Al box
+\draw (1+\BoxSpace,2+\BoxSpacetwo) rectangle (2+\BoxSpace,3+\BoxSpacetwo); % 27Si box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,2+\BoxSpacetwo) rectangle (3+\BoxSpacetwo,3+\BoxSpacetwo); % 28Si box
+
+\node[text=blue] at (0.5,0.5) {$^{24}\mathrm{Mg}$};
+\node at (1+\BoxSpace+0.5,0.5) {$^{25}\mathrm{Mg}$};
+\node at (2+\BoxSpacetwo+0.5,0.5) {$^{26}\mathrm{Mg}$};
+\node at (0.5,1+\BoxSpace+0.5) {$^{25}\mathrm{Al}$};
+\node at (1+\BoxSpace+0.5,1+\BoxSpace+0.5) {$^{26}\mathrm{Al}$};
+\node[text=red] at (2+\BoxSpacetwo+0.5,1+\BoxSpace+0.5) {$^{27}\mathrm{Al}$};
+\node at (1+\BoxSpace+0.5,2+\BoxSpacetwo+0.5) {$^{27}\mathrm{Si}$};
+\node[text=red] at (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+0.5) {$^{28}\mathrm{Si}$};
+
+%\node at (1+\BoxSpace+0.65,2+\BoxSpace-0.2) {\scriptsize{g}};
+%\node at (1+\BoxSpace+0.65,1+\BoxSpace+0.22) {\scriptsize{m}};
+
+\node at (1+\BoxSpace+0.62,2+\BoxSpace+\BoxSpacehalf) {\tiny{g}};
+%\node at (2+\BoxSpacetwo+0.12,1+\BoxSpacehalf+0.02) {\tiny{(m)}};
+\node at (2+\BoxSpace+\BoxSpacehalf,1-0.05) {\tiny{m}};
+
+\draw[line width = \AW mm, -{Triangle[]}] (0.5,1-\AOS) -- (0.5,1+\BoxSpace+\AOS); % 24Mg(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (1-\AOS,1+\BoxSpace+\AOS) -- (1+\BoxSpace+\AOS, 1-\AOS); % 25Al(B+)
+\draw[line width = \AW mm, -{Triangle[]}] (1+\BoxSpace+0.5,1-\AOS) -- (1+\BoxSpace+0.5,1+\BoxSpace+\AOS); % 25Mg(p,g)
+\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpace-\AOS,1+\BoxSpace+\AOS) -- (2+\BoxSpacetwo+\AOS,1-\AOS); %*m26Al(B+)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpacetwo+0.5,1-\AOS) -- (2+\BoxSpacetwo+0.5,1+\BoxSpace+\AOS); %26Mg(p,g)
+\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpacetwo+0.5,2+\BoxSpace-\AOS) -- (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+\AOS); %27Al(p,g)
+\draw[line width = \AW mm, -{Triangle[]},dashed] (1+\BoxSpace+0.5,2+\BoxSpace-\AOS) -- (1+\BoxSpace+0.5,2+\BoxSpacetwo+\AOS); % *g26Al(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpace-\AOS,2+\BoxSpacetwo+\AOS) -- (2+\BoxSpacetwo+\AOS,2+\BoxSpace-\AOS); % 27Si(B+)
+\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpacetwo+\AOS,1+\BoxSpace+\AOS) -- (1-\AOS,1-\AOS); %27Al(p,a)
+
+\end{tikzpicture}
+\end{minipage}
+%
+\begin{minipage}{.44\linewidth} \hfill
+\centering
+\noindent
+\begin{tikzpicture}[scale=1.5, every node/.style={transform shape}]
 
 % (0,0) is at the bottom left corner of plot, where 36Ar is.
 \filldraw[fill = light-gray] (0,0) rectangle (1,1); % 36Ar box
@@ -189,14 +237,16 @@ The hydrogen burning mechanism for the K enrichment in NGC 2419 has been shown t
 \draw (0,1+\BoxSpace) rectangle (1,2+\BoxSpace); % 37K box
 \draw (1+\BoxSpace,1+\BoxSpace) rectangle (2+\BoxSpace,2+\BoxSpace); % 38K box
 \filldraw[fill = light-gray] (2+\BoxSpacetwo,1+\BoxSpace) rectangle (3+\BoxSpacetwo,2+\BoxSpace); % 39K box
+\filldraw[fill = light-gray] (2+\BoxSpacetwo,2+\BoxSpacetwo) rectangle (3+\BoxSpacetwo,3+\BoxSpacetwo); % 40Ca box
 
-\node at (0.5,0.5) {$^{36}\mathrm{Ar}$};
+\node[text=blue] at (0.5,0.5) {$^{36}\mathrm{Ar}$};
 \node at (1+\BoxSpace+0.5,0.5) {$^{37}\mathrm{Ar}$};
 \node at (2+\BoxSpacetwo+0.5,0.5) {$^{38}\mathrm{Ar}$};
 \node at (0.5,1+\BoxSpace+0.5) {$^{37}\mathrm{K}$};
 \node at (1+\BoxSpace+0.5,1+\BoxSpace+0.5) {$^{38}\mathrm{K}$};
-\node at (2+\BoxSpacetwo+0.5,1+\BoxSpace+0.5) {$^{39}\mathrm{K}$};
+\node[text=red] at (2+\BoxSpacetwo+0.5,1+\BoxSpace+0.5) {$^{39}\mathrm{K}$};
 \node at (2+\BoxSpacetwo+0.5,-\BoxSpace-0.5) {$^{37}\mathrm{Cl}$};
+\node[text=red] at (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+0.5) {$^{40}\mathrm{Ca}$};
 
 \draw[line width = \AW mm, -{Triangle[]}] (0.5,1-\AOS) -- (0.5,1+\BoxSpace+\AOS); % 36Ar(p,g)
 \draw[line width = \AW mm, -{Triangle[]}] (1-\AOS,1+\BoxSpace+\AOS) -- (1+\BoxSpace+\AOS, 1-\AOS); % 37K(B+)
@@ -205,23 +255,31 @@ The hydrogen burning mechanism for the K enrichment in NGC 2419 has been shown t
 \draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpacetwo+0.5,1-\AOS) -- (2+\BoxSpacetwo+0.5,1+\BoxSpace+\AOS); %38Ar(p,g)
 \draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpace-\AOS,\AOS) -- (2+\BoxSpacetwo+\AOS,-\BoxSpace-\AOS); %37Ar(EC)
 \draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpacetwo+0.5,-\BoxSpace-\AOS) -- (2+\BoxSpacetwo+0.5,\AOS); % 37Cl(p,g)
+\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpacetwo+0.5,2+\BoxSpace-\AOS) -- (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+\AOS); %39K(p,g)
 
 \end{tikzpicture}
-%\vspace{0.75 cm}
-\caption{\label{fig:KHBurning}The hydrogen burning mechanism driving the K enrichment in the globular cluster NGC 2419. The main nucleosynthesis chain is shown with solid arrows. The $^{37}\mathrm{Ar}(p, \gamma)^{38}\mathrm{K}$ reaction proceeds at a much higher rate than $^{37}\mathrm{Ar}(e^{-},\nu)^{37}\mathrm{Cl}$ electron capture, even at relatively low proton densities.}
+\end{minipage}
+\vspace{0.75 cm}
+\caption{\label{fig:MgKHBurning}The hydrogen burning mechanism driving the Mg--K anticorrelation in the globular cluster NGC 2419. The nucleosynthesis chain for the Mg depletion is the Mg--Al cycle, shown on the left-hand side. Whether the $^{26}\mathrm{Al}^{m}$ isomer or the $^{26}\mathrm{Al}^{g}$ ground state is populated, the result is $^{27}$Al production, which repeats the cycle with $^{27}\mathrm{Al}(p,\alpha)^{24}\mathrm{Mg}$. The main nucleosynthesis chain for the K enrichment is shown on the right-hand side with solid arrows. The $^{37}\mathrm{Ar}(p, \gamma)^{38}\mathrm{K}$ reaction proceeds at a much higher rate than $^{37}\mathrm{Ar}(e^{-},\nu)^{37}\mathrm{Cl}$ electron capture at the stellar densities of interest.}
 \end{figure}
 
 % PARAGRAPH 3: Ventura et al. (2012) polluter candidates
 
-%Ventura \emph{et al.} \cite{Ventura2012} were the first to propose polluter star candidates for the Mg-K anticorrelation in NGC 2419. Hot-bottom burning in massive AGB stars and Super-AGB (SAGB) stars was considered, where temperatures can reach 150 MK, but many stellar model parameters would need adjusting.
+The nucleosynthesis mechanism for the Mg--K anticorrelation may be well-established, but the site of this nucleosynthesis is much more uncertain. Ref. \cite{Ventura2012} were the first to propose polluter star candidates for the Mg--K anticorrelation in NGC 2419, as well as the other observed abundance patterns. Of consideration were massive AGB stars and Super-AGB (SAGB) stars of $\sim 6$ $\mathrm{M}_{\odot}$, where hydrogen burning occurs during hot-bottom burning (HBB) near the convective envelope. Agreement was found with the observed intermediate K-enriched population only in an artificially optimized scenario. The $^{38}\mathrm{Ar}(p,\gamma)^{39}\mathrm{K}$ reaction rate would need to increase by a factor of 100, and the standard mass loss rate in the AGB models would need to decrease by a factor of 4.
 
 % PARAGRAPH 4: Iliadis et al. (2016) monte carlo network calculations constraining temperature-density conditions and suggesting polluter candidates
 
+Ref. \cite{Iliadis2016} expanded the search for polluter candidates by performing a Monte Carlo nuclear reaction network calculation that reproduced all of the observed abundances in NGC 2419, including the Mg--K anticorrelation. The temperature $T$, density $\rho$, final hydrogen mass fraction $X_{\mathrm{H}}$, all reaction rate probability densities, and initial abundances were randomly sampled. The resulting $T$--$\rho$ conditions that matched all of the observed abundances are shown by the blue dots in Fig. \ref{fig:Trho_Iliadis}. A narrow band of possible $T$--$\rho$ conditions was found between $\approx80-260$ MK and $\approx10^{-4}-10^{8}$ $\mathrm{g/cm}^{3}$. The black band represents the $T$--$\rho$ hydrogen burning conditions of several polluter star candidates. These include the cores of 15 $\mathrm{M}_{\odot}$ and 120 $\mathrm{M}_{\odot}$ main sequence stars, the hydrogen-burning shell of a 1 $\mathrm{M}_{\odot}$ red giant star, hot-bottom burning of a 6 $\mathrm{M}_{\odot}$ and 8 $\mathrm{M}_{\odot}$ thermally-pulsing AGB and SAGB star, respectively, a 1.15 $\mathrm{M}_{\odot}$ ONe classical nova, and 0.8 $\mathrm{M}_{\odot}$ and 1.0 $\mathrm{M}_{\odot}$ CO classical novae. The only candidates that nominally overlap with this band are ONe and CO classical novae. However, another candidate Ref. \cite{Iliadis2016} considers is SAGB stars because of the large uncertainty in AGB stellar model parameters.
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=4.5in]{Chapter-6/figs/Trho_Iliadis2016.png}
+\caption{\label{fig:Trho_Iliadis}Temperature-density conditions reproducing the Mg--K anticorrelation and other abundance patterns in NGC 2419, obtained by sampling $T$, $\rho$, $X_{\mathrm{H}}$, reaction rate probability densities, and initial abundances from a nuclear reaction network (see text). The $T$--$\rho$ conditions for several polluter star candidates are represented by the black lines. Adapted from Ref. \cite{Iliadis2016}.}
+\end{figure}
 
 % PARAGRAPH 5: Dermigny et al. (2017) reaction rate sensitivities suggesting 4 reactions are important
 
-
+%Ref. \cite{Dermigny2017} investigated the sensitivity of these $T$--$\rho$ conditions on individual thermonuclear reaction rates. They found that $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$, the key potassium-destroying reaction, could cause a dramatic shift in the acceptable conditions. If the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate systematically increased by as little as a factor of 5, the temperature-density band shows significantly reduced scatter and tends toward lower temperatures, constraining the polluter candidates.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{$^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$}
