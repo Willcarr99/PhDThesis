@@ -22,17 +22,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}NGC 2419 and the Mg--K Anticorrelation}{10}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}$^{39}\mathrm {K}(p,\gamma )^{40}\mathrm {Ca}$}{14}{section.6.4}%
+\contentsline {section}{\numberline {6.4}$^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$}{14}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Transfer Reaction Theory}{14}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Transfer Reaction Theory}{15}{section.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}The $^{39}\mathrm {K}(^{3}\mathrm {He},d)^{40}\mathrm {Ca}$ Experiment}{14}{section.6.6}%
+\contentsline {section}{\numberline {6.6}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{15}{section.6.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.7}Bayesian Peak Fitting and Target Oxidation}{16}{section.6.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.7.1}Bayesian Peak Fitting}{17}{subsection.6.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.2}Fitting Peaks with Target Oxidation}{19}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.7.2}Fitting Peaks with Target Oxidation}{20}{subsection.6.7.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.8}Cross Section Calculations and Si Detector Normalization}{26}{section.6.8}%
 \defcounter {refsection}{0}\relax 
@@ -40,7 +40,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.8.2}Si Detector Normalization}{26}{subsection.6.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}$^{39}\mathrm {K}(^{3}\mathrm {He},d)^{40}\mathrm {Ca}$ Analysis}{26}{section.6.9}%
+\contentsline {section}{\numberline {6.9}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{26}{section.6.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.9.1}Energy Calibrations}{26}{subsection.6.9.1}%
 \defcounter {refsection}{0}\relax 
@@ -52,7 +52,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.9.5}Proton Partial Widths}{26}{subsection.6.9.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}New $^{39}\mathrm {K}(p,\gamma )^{40}\mathrm {Ca}$ Reaction Rate}{26}{section.6.10}%
+\contentsline {section}{\numberline {6.10}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{26}{section.6.10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.11}Potassium Abundance in Reaction Network Calculations}{27}{section.6.11}%
 \defcounter {refsection}{0}\relax 

@@ -1300,6 +1300,71 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Sallaska2013}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SAL}{%
+         family={Sallaska},
+         familyi={S\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CAE}{%
+         family={Champange},
+         familyi={C\bibinitperiod},
+         given={A.\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Goriely},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Starrfield},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TFX}{%
+         family={Timmes},
+         familyi={T\bibinitperiod},
+         given={F.\bibnamedelima X.},
+         giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{SAL+1}
+    \strng{fullhash}{SALICCAEGSSSTFX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sal13}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1088/0067-0049/207/1/18
+    \endverb
+    \field{number}{1}
+    \field{pages}{18}
+    \field{title}{STARLIB: A NEXT-GENERATION REACTION-RATE LIBRARY FOR NUCLEAR
+  ASTROPHYSICS}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/0067-0049/207/1/18
+    \endverb
+    \field{volume}{207}
+    \field{journaltitle}{The Astrophysical Journal Supplement Series}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Sbordone2007}{article}{}
     \name{author}{6}{}{%
       {{hash=S}{%

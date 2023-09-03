@@ -12,7 +12,7 @@
 %  - Abundance anticorrelations result from pollution/mixing from older stars in the globular cluster (polluter stars) ["The (anti-)correlation among light elements is simply a manifestation of the multiple stellar populations." (Gratton et al. 2019)]
 %  - Hydrogen burning in the polluter stars is the mechanism behind these anticorrelations (
 
-This chapter details the original research constraining hydrogen-burning conditions responsible for abundance anomalies in globular clusters. In particular, the observed potassium enrichment and magnesium depletion in red giants of the globular cluster NGC 2419 is reproduced with nuclear reaction network calculations using new nuclear physics information presented in this chapter. A new reaction rate of the key potassium-destroying reaction, $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, is calculated from the proton partial-widths and resonance energies of astrophysically-important, unbound $^{40}$Ca states measured in the proton-transfer reaction $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$. The reaction rate is significantly constrained for $T \lesssim 110$ MK. Monte Carlo network calculations will show new temperature-density constraints for hydrogen-burning, compared with that of the previously calculated reaction rate. Hot-bottom burning in Super-AGB stars is investigated as a polluter candidate driving the Mg--K anticorrelation in NGC 2419, as well as other abundance patterns involving potassium.
+This chapter details the original research constraining hydrogen-burning conditions responsible for abundance anomalies in globular clusters. In particular, the observed potassium enrichment and magnesium depletion in red giants of the globular cluster NGC 2419 is reproduced with nuclear reaction network calculations using new nuclear physics information presented in this chapter. A new reaction rate of the key potassium-destroying reaction, $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, is calculated from the new proton partial-widths and resonance energies of astrophysically-important, unbound $^{40}$Ca states measured in the proton-transfer reaction $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$. The reaction rate is significantly constrained for $T \lesssim 110$ MK. Monte Carlo network calculations will show new temperature-density constraints for hydrogen-burning, compared with that of the previously calculated reaction rate. Hot-bottom burning in Super-AGB stars is investigated as a polluter candidate driving the Mg--K anticorrelation in NGC 2419, as well as other abundance patterns involving potassium.
 
 \section{Globular Clusters}
 
@@ -269,7 +269,7 @@ The nucleosynthesis mechanism for the Mg--K anticorrelation may be well-establis
 
 % PARAGRAPH 4: Iliadis et al. (2016) monte carlo network calculations constraining temperature-density conditions and suggesting polluter candidates
 
-Ref. \cite{Iliadis2016} expanded the search for polluter candidates by performing a Monte Carlo nuclear reaction network calculation that reproduced all of the observed abundances in NGC 2419, including the Mg--K anticorrelation. The parameters that were randomly sampled include the temperature $T$, density $\rho$, final hydrogen mass fraction $X_{\mathrm{H}}$, all reaction rate probability densities in the network, and initial abundances. The resulting $T$--$\rho$ conditions that matched all of the observed abundances are shown by the blue dots in Fig. \ref{fig:Trho_Iliadis}. A narrow band of possible $T$--$\rho$ conditions was found between $\approx80-260$ MK and $\approx10^{-4}-10^{8}$ $\mathrm{g/cm}^{3}$. The black bands in the figure represent the $T$--$\rho$ hydrogen burning conditions of several polluter star candidates. These include the cores of 15 $\mathrm{M}_{\odot}$ and 120 $\mathrm{M}_{\odot}$ main sequence (MS) stars, the hydrogen-burning (H) shell of a 1 $\mathrm{M}_{\odot}$ red giant star, hot-bottom burning of a 6 $\mathrm{M}_{\odot}$ and 8 $\mathrm{M}_{\odot}$ thermally-pulsing AGB and SAGB star, respectively, a 1.15 $\mathrm{M}_{\odot}$ ONe classical nova, and 0.8 $\mathrm{M}_{\odot}$ and 1.0 $\mathrm{M}_{\odot}$ CO classical novae. The only candidates that nominally overlap with this band are ONe and CO classical novae. However, another candidate Ref. \cite{Iliadis2016} considers is SAGB stars because of the large uncertainty in AGB stellar model parameters, such as the mass loss rate and the prescription of convective mixing. Adjusting these parameters within their current uncertainties could increase the temperature of HBB to 150 MK at about 9 $\mathrm{g}/\mathrm{cm}^{3}$, which is necessary to match the observed abundances.
+Ref. \cite{Iliadis2016} expanded the search for polluter candidates by performing a Monte Carlo nuclear reaction network calculation that reproduced all of the observed abundances in NGC 2419, including the Mg--K anticorrelation. The parameters that were randomly sampled include the temperature $T$, density $\rho$, final hydrogen mass fraction $X_{\mathrm{H}}$, all reaction rate probability densities in the network, and initial abundances. The reaction rates were obtained by truncating the Starlib \cite{Sallaska2013} library for the relevant rates. The resulting $T$--$\rho$ conditions that matched all of the observed abundances are shown by the blue dots in Fig. \ref{fig:Trho_Iliadis}. A narrow band of possible $T$--$\rho$ conditions was found between $\approx80-260$ MK and $\approx10^{-4}-10^{8}$ $\mathrm{g/cm}^{3}$, with additional solutions not shown in Fig. \ref{fig:Trho_Iliadis} up to $10^{11}$ $\mathrm{g/cm}^{3}$. The black bands in the figure represent the $T$--$\rho$ hydrogen burning conditions of several polluter star candidates. These include the cores of 15 $\mathrm{M}_{\odot}$ and 120 $\mathrm{M}_{\odot}$ main sequence (MS) stars, the hydrogen-burning (H) shell of a 1 $\mathrm{M}_{\odot}$ red giant star, hot-bottom burning of a 6 $\mathrm{M}_{\odot}$ and 8 $\mathrm{M}_{\odot}$ thermally-pulsing AGB and SAGB star, respectively, a 1.15 $\mathrm{M}_{\odot}$ ONe classical nova, and 0.8 $\mathrm{M}_{\odot}$ and 1.0 $\mathrm{M}_{\odot}$ CO classical novae. The only candidates that nominally overlap with this band are ONe and CO classical novae. However, another candidate Ref. \cite{Iliadis2016} considers is SAGB stars because of the large uncertainty in AGB stellar model parameters, such as the mass loss rate and the prescription of convective mixing. Adjusting these parameters within their current uncertainties could increase the temperature of HBB enough to match the observed abundances.
 
 \begin{figure}[t]
 \centering
@@ -279,17 +279,7 @@ Ref. \cite{Iliadis2016} expanded the search for polluter candidates by performin
 
 % PARAGRAPH 5: Dermigny et al. (2017) reaction rate sensitivities suggesting 4 reactions are important
 
-While Ref. \cite{Iliadis2016} simultaneously sampled the reaction rate probability densities of all the reactions in the network, they did not investigate the effect of individual reaction rates. Ref. \cite{Dermigny2017} investigated the sensitivity of the acceptable $T$--$\rho$ conditions for NGC 2419 polluter stars on unknown systematic effects of individual reaction rates. They considered only the reactions important to the synthesis and destruction of both magnesium and potassium, namely reactions comprising the Ne--Na, Mg--Al, and Ar--K nucleosynthesis chains. Only 4 reactions were found to make a significant impact on the acceptable $T$--$\rho$ conditions, $^{30}\mathrm{Si}(p,\gamma)^{31}\mathrm{P}$, $^{37}\mathrm{Ar}(p,\gamma)^{38}\mathrm{K}$, $^{38}\mathrm{Ar}(p,\gamma)^{39}\mathrm{K}$, and $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$. If the reaction rates of $^{30}\mathrm{Si}(p,\gamma)^{31}\mathrm{P}$ and $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ were each systematically larger than their recommended rates, even as little as a factor of 5, the acceptable $T$--$\rho$ band in Fig. \ref{fig:Trho_Iliadis} would have significantly reduced scatter and would be constrained to the low-temperature side for all densities. In contrast, if they were systematically smaller by a factor of 5, the solutions would have increased scatter.
-
-%if the $^{37}\mathrm{Ar}(p,\gamma)^{38}\mathrm{K}$ and $^{38}\mathrm{Ar}(p,\gamma)^{39}\mathrm{K}$ reaction rates were each systematically
-
-%Ref. \cite{Dermigny2017} investigated the sensitivity of these $T$--$\rho$ conditions on individual thermonuclear reaction rates. They found that $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$, the key potassium-destroying reaction, could cause a dramatic shift in the acceptable conditions. If the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate systematically increased by as little as a factor of 5, the temperature-density band shows significantly reduced scatter and tends toward lower temperatures, constraining the polluter candidates.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{$^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$}
-% Longland et al. 2018
-
-% PARAGRAPH 1: In particular, Dermigny et al. (2017) found that 39K(p,g)40Ca was important (with Longland et al. (2018)'s reaction rate, before the paper was published though)
+While Ref. \cite{Iliadis2016} simultaneously sampled the reaction rate probability densities of all the reactions in the network, they did not investigate the effect of individual reaction rates. Ref. \cite{Dermigny2017} investigated the sensitivity of the acceptable $T$--$\rho$ conditions for NGC 2419 polluter stars on unknown systematic effects of individual reaction rates. Only 4 reactions were found to make a significant impact on the acceptable $T$--$\rho$ conditions, $^{30}\mathrm{Si}(p,\gamma)^{31}\mathrm{P}$, $^{37}\mathrm{Ar}(p,\gamma)^{38}\mathrm{K}$, $^{38}\mathrm{Ar}(p,\gamma)^{39}\mathrm{K}$, and $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$. If the reaction rate of $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, for example, were systematically larger than its recommended rate, by even as little as a factor of 5, the acceptable $T$--$\rho$ band would have significantly reduced scatter and would be constrained to the low-temperature side for all densities. This scenario is shown in Fig. \ref{fig:39K_p_g_Sens} on the bottom-left panel, where the black dots represent the new rate multiplied by the indicated variation factor $\alpha$, and the red dots represent the recommended rate ($\alpha = 1$). This makes sense in theory because potassium abundance would be reduced if the rate of its primary destruction reaction were increased. The high temperature conditions would therefore destroy too much potassium compared to its observed abundance. In contrast, if the rate were systematically smaller by a factor of 5, the solutions interestingly only have increased scatter. These same effects are also true for $^{30}\mathrm{Si}(p,\gamma)^{31}\mathrm{P}$, but the opposite is true for $^{37}\mathrm{Ar}(p,\gamma)^{38}\mathrm{K}$ and $^{38}\mathrm{Ar}(p,\gamma)^{39}\mathrm{K}$, as these latter reactions increase the potassium abundance.
 
 \begin{figure}[t]
 \centering
@@ -302,18 +292,20 @@ While Ref. \cite{Iliadis2016} simultaneously sampled the reaction rate probabili
 \node[rotate=90] at (-5.7,-1.85) {Density ($\mathrm{g}/\mathrm{cm}^{3}$)};
 
 \end{tikzpicture}
-
-%\begin{subfigure}[t]{0.75\textwidth}
-%	\centering
-%	\includegraphics[width=1\linewidth]{Chapter-6/figs/39K_p_g_Sens1.png}
-%\end{subfigure}
-%\begin{subfigure}[t]{0.75\textwidth}
-%	\centering
-%   \includegraphics[width=1\linewidth]{Chapter-6/figs/39K_p_g_Sens2.png}
-%\end{subfigure}
-
 \caption{\label{fig:39K_p_g_Sens}Systematic effects of the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate influencing temperature-density conditions. The indicated variation factors ($\alpha = 1/10, 1/5, 5, 10$) are applied to the reaction rate in each panel, and the black dots show the resulting temperature-density conditions that provide an acceptable match with observed abundances. The red dots represent the case where no systematic effects ($\alpha=1$) have been added. Figure adapted from \cite{Dermigny2017}.}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{$^{39}\mathrm{\textbf{K}}(p,\gamma)^{40}\mathrm{\textbf{Ca}}$}
+% Longland et al. 2018
+
+% PARAGRAPH 1: In particular, Dermigny et al. (2017) found that 39K(p,g)40Ca was important (with Longland et al. (2018)'s reaction rate, before the paper was published though)
+
+The remainder of this chapter will focus specifically on the key potassium-destroying reaction $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, found by Ref. \cite{Dermigny2017} to be one of the few important reactions able to constrain the potassium abundance in NGC 2419 and therefore constrain the possible $T$--$\rho$ conditions of its polluter stars. 
+
+% TALK ABOUT THE GAMOW WINDOW (TEMPERATURES WHERE THE REACTION IS RELEVANT TO ASTROPHYSICS) - reference Ch 2 for discussion of the Gamow window. See my paper for temperature range and resonance (excitation) energy range. Then move on to Longland2018's reaction rate.
+
+The most recent $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate evaluation is that of Ref. \cite{Longland2018}, which Ref. \cite{Dermigny2017} used while it was in preparation. Its probability density was calculated using a Monte Carlo reaction rate formalism \cite{Longland2010a} with resonance strengths and resonance energies provided by the direct measurements of Refs. \cite{Kikstra1990,Cheng1981,Leenhouts1966}. The lowest directly measured resonance strength from these experiments is for the resonance at $E^{\mathrm{c.m.}}_{r} = 606$ keV. Resonances below this were 
 
 % PARAGRAPH 2: Longland et al. (2018) reaction rate calculation has many upper limits from unknown states, and the reaction rate uncertainty is very large in the Gamow window.
 
@@ -335,7 +327,7 @@ While Ref. \cite{Iliadis2016} simultaneously sampled the reaction rate probabili
 % Theory leading to C2S and proton partial-width calculations
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ Experiment}
+\section{The $^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Experiment}
 
 % PARAGRAPH 1: Basically like the methods section in my 39K(3He,d)40Ca PRL paper, but go into much more detail about the tandem, enge, and detector setup.
 
@@ -504,7 +496,7 @@ Figure \ref{fig:EMG_Multiplet} shows how powerful this method can be for high re
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{$^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ Analysis}
+\section{$^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Analysis}
 
 \subsection{Energy Calibrations} \label{subsec:cal}
 
@@ -537,7 +529,7 @@ Figure \ref{fig:EMG_Multiplet} shows how powerful this method can be for high re
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{New $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ Reaction Rate}
+\section{New $^{39}\mathrm{\textbf{K}}(p,\gamma)^{40}\mathrm{\textbf{Ca}}$ Reaction Rate}
 
 The Monte Carlo reaction rate code, \texttt{RatesMC} \cite{Longland2010a,RatesMC}, was used to calculate a new $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate probability density from the partial-widths and resonance energies reported in this work. Among the states observed in this experiment, only those that do not already have a directly measured resonance strength from $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ \cite{Kikstra1990,Cheng1981,Leenhouts1966}, i.e. only those below $E_{x} = 8935$ keV, were modified from the most recent reaction rate evaluation of Ref. \cite{Longland2018}. 
 %To consolidate the directly measured resonance strengths from Refs. \cite{Kikstra1990,Cheng1981,Leenhouts1966}, we adopt the parameters of Ref. \cite{Longland2018} to obtain the expectation value and variance of these measurements. % Is this okay to say, or should I just say we adopt the expectation values and variances of those measures from Ref. \cite{Longland2018}, not the method itself?

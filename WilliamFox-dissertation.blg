@@ -26,7 +26,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10004 items from 5000.
+Reallocated field_info (elt_size=4) to 10143 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
 Warning--I didn't find a database entry for "Landau"
@@ -36,45 +36,45 @@ Warning--I didn't find a database entry for "Babu2016"
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 32 entries,
+You've used 33 entries,
             6365 wiz_defined-function locations,
-            1501 strings with 18614 characters,
-and the built_in function-call counts, 263545 in all, are:
-= -- 19714
-> -- 4322
-< -- 1355
-+ -- 6624
-- -- 1730
-* -- 20077
-:= -- 29161
+            1511 strings with 18933 characters,
+and the built_in function-call counts, 276527 in all, are:
+= -- 20828
+> -- 4481
+< -- 1415
++ -- 6967
+- -- 1785
+* -- 21055
+:= -- 30652
 add.period$ -- 0
-call.type$ -- 32
-change.case$ -- 815
-chr.to.int$ -- 85
-cite$ -- 62
-duplicate$ -- 27278
-empty$ -- 23403
-format.name$ -- 2786
-if$ -- 53787
+call.type$ -- 33
+change.case$ -- 863
+chr.to.int$ -- 86
+cite$ -- 64
+duplicate$ -- 28533
+empty$ -- 24527
+format.name$ -- 2893
+if$ -- 56411
 int.to.chr$ -- 0
-int.to.str$ -- 74
+int.to.str$ -- 77
 missing$ -- 0
-newline$ -- 1503
-num.names$ -- 1809
-pop$ -- 11596
+newline$ -- 1567
+num.names$ -- 1890
+pop$ -- 12004
 preamble$ -- 1
-purify$ -- 1083
+purify$ -- 1143
 quote$ -- 0
-skip$ -- 6800
+skip$ -- 7075
 stack$ -- 0
-substring$ -- 35472
-swap$ -- 6302
-text.length$ -- 1006
-text.prefix$ -- 62
+substring$ -- 37620
+swap$ -- 6561
+text.length$ -- 1035
+text.prefix$ -- 64
 top$ -- 1
-type$ -- 1076
+type$ -- 1110
 warning$ -- 0
-while$ -- 4057
+while$ -- 4251
 width$ -- 0
-write$ -- 1472
+write$ -- 1535
 (There were 4 warnings)
