@@ -17,6 +17,58 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global}
+  \entry{Cage1971}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CM}{%
+         family={Cage},
+         familyi={C\bibinitperiod},
+         given={M.E.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={R.R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kunz},
+         familyi={K\bibinitperiod},
+         given={P.D.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lind},
+         familyi={L\bibinitperiod},
+         given={D.A.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Nuclear Reactions}
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMJRKPLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Cag71}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0375-9474(71)90263-6
+    \endverb
+    \field{issn}{0375-9474}
+    \field{number}{3}
+    \field{pages}{657\bibrangedash 672}
+    \field{title}{The $^{39}\mathrm{K}(^{3}\mathrm{He},
+  ^{3}\mathrm{He})^{39}\mathrm{K}$ and $^{39}\mathrm{K}(^{3}\mathrm{He},
+  d)^{40}\mathrm{Ca}$ reactions at 29.3 MeV}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0375947471902636
+    \endverb
+    \field{volume}{162}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1971}
+  \endentry
+
   \entry{Carretta2009}{article}{}
     \name{author}{4}{}{%
       {{hash=C}{%
@@ -1258,6 +1310,46 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Porter1956}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PCE}{%
+         family={Porter},
+         familyi={P\bibinitperiod},
+         given={C.\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=TRG}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={R.\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{PCETRG1}
+    \strng{fullhash}{PCETRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Por56}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1103/PhysRev.104.483
+    \endverb
+    \field{issue}{2}
+    \field{pages}{483\bibrangedash 491}
+    \field{title}{Fluctuations of Nuclear Reaction Widths}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.104.483
+    \endverb
+    \field{volume}{104}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1956}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Prantzos2007}{article}{}
     \name{author}{3}{}{%
       {{hash=PN}{%
@@ -1592,6 +1684,128 @@
     \field{journaltitle}{Chinese Physics C}
     \field{year}{2021}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Weidenmuller2009}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WHA}{%
+         family={Weidenm\"uller},
+         familyi={W\bibinitperiod},
+         given={H.\bibnamedelima A.},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MGE}{%
+         family={Mitchell},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima E.},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{WHAMGE1}
+    \strng{fullhash}{WHAMGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wei09}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.81.539
+    \endverb
+    \field{issue}{2}
+    \field{pages}{539\bibrangedash 589}
+    \field{title}{Random matrices and chaos in nuclear physics: Nuclear
+  structure}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.81.539
+    \endverb
+    \field{volume}{81}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{2009}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Yamaya1994}{article}{}
+    \name{author}{9}{}{%
+      {{hash=YT}{%
+         family={Yamaya},
+         familyi={Y\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Saitoh},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fujiwara},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=IT}{%
+         family={Itahashi},
+         familyi={I\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Katori},
+         familyi={K\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Suehiro},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kato},
+         familyi={K\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hatori},
+         familyi={H\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Ohkubo},
+         familyi={O\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Nuclear reactions}
+    \strng{namehash}{YT+1}
+    \strng{fullhash}{YTSMFMITKKSTKSHSOS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Yam94}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0375-9474(94)90019-1
+    \endverb
+    \field{issn}{0375-9474}
+    \field{number}{1}
+    \field{pages}{154\bibrangedash 172}
+    \field{title}{Cluster structure in $^{40}\mathrm{Ca}$ via the
+  $\alpha$-transfer reaction}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0375947494900191
+    \endverb
+    \field{volume}{573}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1994}
   \endentry
 \enddatalist
 \endinput

@@ -1,8 +1,8 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Tables}{iv}{section*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Figures}{v}{section*.4}%
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\textbf {Introduction}}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -22,46 +22,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}NGC 2419 and the Mg--K Anticorrelation}{10}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}$^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$}{14}{section.6.4}%
+\contentsline {section}{\numberline {6.4}The Previous $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{14}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Transfer Reaction Theory}{15}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Transfer Reaction Theory}{17}{section.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{15}{section.6.6}%
+\contentsline {section}{\numberline {6.6}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{17}{section.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}Bayesian Peak Fitting and Target Oxidation}{16}{section.6.7}%
+\contentsline {section}{\numberline {6.7}Bayesian Peak Fitting and Target Oxidation}{17}{section.6.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.1}Bayesian Peak Fitting}{17}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.1}Bayesian Peak Fitting}{18}{subsection.6.7.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.7.2}Fitting Peaks with Target Oxidation}{20}{subsection.6.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}Cross Section Calculations and Si Detector Normalization}{26}{section.6.8}%
+\contentsline {section}{\numberline {6.8}Cross Section Calculations and Si Detector Normalization}{27}{section.6.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.1}Cross Sections}{26}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.1}Cross Sections}{27}{subsection.6.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.2}Si Detector Normalization}{26}{subsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.8.2}Si Detector Normalization}{27}{subsection.6.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{26}{section.6.9}%
+\contentsline {section}{\numberline {6.9}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{27}{section.6.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.1}Energy Calibrations}{26}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.1}Energy Calibrations}{27}{subsection.6.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.2}Cross Sections}{26}{subsection.6.9.2}%
+\contentsline {subsection}{\numberline {6.9.2}Cross Sections}{27}{subsection.6.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.3}Oxidized Targets}{26}{subsection.6.9.3}%
+\contentsline {subsection}{\numberline {6.9.3}Oxidized Targets}{27}{subsection.6.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.4}Spectroscopic Factors from DWBA Models}{26}{subsection.6.9.4}%
+\contentsline {subsection}{\numberline {6.9.4}Spectroscopic Factors from DWBA Models}{27}{subsection.6.9.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.5}Proton Partial Widths}{26}{subsection.6.9.5}%
+\contentsline {subsection}{\numberline {6.9.5}Proton Partial Widths}{27}{subsection.6.9.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{26}{section.6.10}%
+\contentsline {section}{\numberline {6.10}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{27}{section.6.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.11}Potassium Abundance in Reaction Network Calculations}{27}{section.6.11}%
+\contentsline {section}{\numberline {6.11}Potassium Abundance in Reaction Network Calculations}{28}{section.6.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.12}Conclusions}{27}{section.6.12}%
+\contentsline {section}{\numberline {6.12}Conclusions}{28}{section.6.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{31}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{32}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{35}{chapter*.21}%
+\contentsline {chapter}{APPENDIX}{36}{chapter*.21}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{36}{appendix.A}%
+\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{37}{appendix.A}%

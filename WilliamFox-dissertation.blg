@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: WilliamFox-dissertation.aux
 The style file: biblatex.bst
@@ -26,55 +26,55 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10180 items from 5000.
+Reallocated field_info (elt_size=4) to 10699 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
 Warning--I didn't find a database entry for "Landau"
 Warning--I didn't find a database entry for "BayeSpec"
 Warning--I didn't find a database entry for "McElreath2020"
 Warning--I didn't find a database entry for "Babu2016"
-Biblatex version: 3.16
+Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 33 entries,
-            6393 wiz_defined-function locations,
-            1519 strings with 19003 characters,
-and the built_in function-call counts, 276168 in all, are:
-= -- 20828
-> -- 4481
-< -- 1415
-+ -- 6967
-- -- 1785
-* -- 21055
-:= -- 30652
+You've used 37 entries,
+            6365 wiz_defined-function locations,
+            1551 strings with 20064 characters,
+and the built_in function-call counts, 311844 in all, are:
+= -- 23513
+> -- 5017
+< -- 1583
++ -- 7916
+- -- 1998
+* -- 23729
+:= -- 34637
 add.period$ -- 0
-call.type$ -- 33
-change.case$ -- 863
-chr.to.int$ -- 86
-cite$ -- 64
-duplicate$ -- 28533
-empty$ -- 24527
-format.name$ -- 2893
-if$ -- 56052
+call.type$ -- 37
+change.case$ -- 971
+chr.to.int$ -- 88
+cite$ -- 72
+duplicate$ -- 32356
+empty$ -- 27617
+format.name$ -- 3260
+if$ -- 63513
 int.to.chr$ -- 0
-int.to.str$ -- 77
+int.to.str$ -- 87
 missing$ -- 0
-newline$ -- 1567
-num.names$ -- 1890
-pop$ -- 12004
+newline$ -- 1777
+num.names$ -- 2126
+pop$ -- 13512
 preamble$ -- 1
-purify$ -- 1143
+purify$ -- 1287
 quote$ -- 0
-skip$ -- 7075
+skip$ -- 7946
 stack$ -- 0
-substring$ -- 37620
-swap$ -- 6561
-text.length$ -- 1035
-text.prefix$ -- 64
+substring$ -- 42333
+swap$ -- 7421
+text.length$ -- 1156
+text.prefix$ -- 72
 top$ -- 1
-type$ -- 1110
+type$ -- 1246
 warning$ -- 0
-while$ -- 4251
+while$ -- 4831
 width$ -- 0
-write$ -- 1535
+write$ -- 1741
 (There were 4 warnings)
