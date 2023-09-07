@@ -2,31 +2,44 @@
 \BOOKMARK [0][-]{section*.4}{List of Figures}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
 \BOOKMARK [0][-]{chapter.2}{Nuclear Reactions in Stars}{}% 4
-\BOOKMARK [0][-]{chapter.3}{Rubidium Production in Massive AGB Stars}{}% 5
-\BOOKMARK [0][-]{chapter.4}{Experimental Nuclear Techniques}{}% 6
-\BOOKMARK [0][-]{chapter.5}{Data Acquisition System for the Focal-Plane Detector Package}{}% 7
-\BOOKMARK [0][-]{chapter.6}{39K\(p,g\)40Ca Constraints for Globular Cluster NGC 2419}{}% 8
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 9
-\BOOKMARK [1][-]{section.6.2}{Globular Clusters}{chapter.6}% 10
-\BOOKMARK [1][-]{section.6.3}{NGC 2419 and the Mg\205K Anticorrelation}{chapter.6}% 11
-\BOOKMARK [1][-]{section.6.4}{The Previous 39K\(p,\)40Ca Reaction Rate}{chapter.6}% 12
-\BOOKMARK [1][-]{section.6.5}{Transfer Reaction Theory}{chapter.6}% 13
-\BOOKMARK [1][-]{section.6.6}{The 39K\(3He,d\)40Ca Experiment}{chapter.6}% 14
-\BOOKMARK [1][-]{section.6.7}{Bayesian Peak Fitting and Target Oxidation}{chapter.6}% 15
-\BOOKMARK [2][-]{subsection.6.7.1}{Bayesian Peak Fitting}{section.6.7}% 16
-\BOOKMARK [2][-]{subsection.6.7.2}{Fitting Peaks with Target Oxidation}{section.6.7}% 17
-\BOOKMARK [1][-]{section.6.8}{Cross Section Calculations and Si Detector Normalization}{chapter.6}% 18
-\BOOKMARK [2][-]{subsection.6.8.1}{Cross Sections}{section.6.8}% 19
-\BOOKMARK [2][-]{subsection.6.8.2}{Si Detector Normalization}{section.6.8}% 20
-\BOOKMARK [1][-]{section.6.9}{39K\(3He,d\)40Ca Analysis}{chapter.6}% 21
-\BOOKMARK [2][-]{subsection.6.9.1}{Energy Calibrations}{section.6.9}% 22
-\BOOKMARK [2][-]{subsection.6.9.2}{Cross Sections}{section.6.9}% 23
-\BOOKMARK [2][-]{subsection.6.9.3}{Oxidized Targets}{section.6.9}% 24
-\BOOKMARK [2][-]{subsection.6.9.4}{Spectroscopic Factors from DWBA Models}{section.6.9}% 25
-\BOOKMARK [2][-]{subsection.6.9.5}{Proton Partial Widths}{section.6.9}% 26
-\BOOKMARK [1][-]{section.6.10}{New 39K\(p,\)40Ca Reaction Rate}{chapter.6}% 27
-\BOOKMARK [1][-]{section.6.11}{Potassium Abundance in Reaction Network Calculations}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.12}{Conclusions}{chapter.6}% 29
-\BOOKMARK [0][-]{chapter.7}{Summary and Conclusions}{}% 30
-\BOOKMARK [0][-]{chapter*.21}{APPENDIX}{}% 31
-\BOOKMARK [0][-]{appendix.A}{40Ca Energy Calibrations}{}% 32
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Reaction Rates}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.1}{Wide Resonances}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.2}{Narrow Resonances}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.3}{Gamow Window}{section.2.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Abundance Evolution}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Transfer Reactions}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.4.1}{Optical Model}{section.2.4}% 12
+\BOOKMARK [2][-]{subsection.2.4.2}{Distorted Wave Born Approximation}{section.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.4.3}{Spectroscopic Factors}{section.2.4}% 14
+\BOOKMARK [2][-]{subsection.2.4.4}{}{section.2.4}% 15
+\BOOKMARK [0][-]{chapter.3}{Rubidium Production in Massive AGB Stars}{}% 16
+\BOOKMARK [0][-]{chapter.4}{Experimental Nuclear Techniques}{}% 17
+\BOOKMARK [0][-]{chapter.5}{Data Acquisition System for the Focal-Plane Detector Package}{}% 18
+\BOOKMARK [0][-]{chapter.6}{39K\(p,g\)40Ca Constraints for Globular Cluster NGC 2419}{}% 19
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 20
+\BOOKMARK [1][-]{section.6.2}{Globular Clusters}{chapter.6}% 21
+\BOOKMARK [1][-]{section.6.3}{NGC 2419 and the Mg\205K Anticorrelation}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.4}{The Previous 39K\(p,\)40Ca Reaction Rate}{chapter.6}% 23
+\BOOKMARK [2][-]{subsection.6.4.1}{Longland et al. \(2018\) Evaluation}{section.6.4}% 24
+\BOOKMARK [2][-]{subsection.6.4.2}{Contributing Resonances}{section.6.4}% 25
+\BOOKMARK [2][-]{subsection.6.4.3}{Previous Proton-Transfer Measurements}{section.6.4}% 26
+\BOOKMARK [1][-]{section.6.5}{The 39K\(3He,d\)40Ca Experiment}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.6}{Bayesian Peak Fitting and Target Oxidation}{chapter.6}% 28
+\BOOKMARK [2][-]{subsection.6.6.1}{Bayesian Peak Fitting}{section.6.6}% 29
+\BOOKMARK [2][-]{subsection.6.6.2}{Fitting Peaks with Target Oxidation}{section.6.6}% 30
+\BOOKMARK [1][-]{section.6.7}{Cross Section Calculations and Si Detector Normalization}{chapter.6}% 31
+\BOOKMARK [2][-]{subsection.6.7.1}{Cross Sections}{section.6.7}% 32
+\BOOKMARK [2][-]{subsection.6.7.2}{Si Detector Normalization}{section.6.7}% 33
+\BOOKMARK [1][-]{section.6.8}{39K\(3He,d\)40Ca Analysis}{chapter.6}% 34
+\BOOKMARK [2][-]{subsection.6.8.1}{Energy Calibrations}{section.6.8}% 35
+\BOOKMARK [2][-]{subsection.6.8.2}{Cross Sections}{section.6.8}% 36
+\BOOKMARK [2][-]{subsection.6.8.3}{Oxidized Targets}{section.6.8}% 37
+\BOOKMARK [2][-]{subsection.6.8.4}{Spectroscopic Factors from DWBA Models}{section.6.8}% 38
+\BOOKMARK [2][-]{subsection.6.8.5}{Proton Partial Widths}{section.6.8}% 39
+\BOOKMARK [1][-]{section.6.9}{New 39K\(p,\)40Ca Reaction Rate}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.10}{Potassium Abundance in Reaction Network Calculations}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.11}{Conclusions}{chapter.6}% 42
+\BOOKMARK [0][-]{chapter.7}{Summary and Conclusions}{}% 43
+\BOOKMARK [0][-]{chapter*.22}{APPENDIX}{}% 44
+\BOOKMARK [0][-]{appendix.A}{40Ca Energy Calibrations}{}% 45

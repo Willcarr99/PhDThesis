@@ -162,6 +162,36 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Chen2017}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJ1}
+    \strng{fullhash}{CJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Che17}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.nds.2017.02.001
+    \endverb
+    \field{issn}{0090-3752}
+    \field{pages}{1\bibrangedash 376}
+    \field{title}{Nuclear Data Sheets for A=40}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0090375217300169
+    \endverb
+    \field{volume}{140}
+    \field{journaltitle}{Nuclear Data Sheets}
+    \field{year}{2017}
+  \endentry
+
   \entry{Cheng1981}{article}{}
     \name{author}{5}{}{%
       {{hash=CCW}{%
@@ -527,6 +557,92 @@
     \field{journaltitle}{The Astrophysical Journal}
     \field{year}{2017}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Erskine1966}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EJR}{%
+         family={Erskine},
+         familyi={E\bibinitperiod},
+         given={John\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{EJR1}
+    \strng{fullhash}{EJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ers66}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1103/PhysRev.149.854
+    \endverb
+    \field{issue}{3}
+    \field{pages}{854\bibrangedash 862}
+    \field{title}{Energy-Level Structure of $^{40}\mathrm{Ca}$ as Observed with
+  the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ Reaction}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.149.854
+    \endverb
+    \field{volume}{149}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1966}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Forster1970}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FJ}{%
+         family={Forster},
+         familyi={F\bibinitperiod},
+         given={J.S.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Bearpark},
+         familyi={B\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hutton},
+         familyi={H\bibinitperiod},
+         given={J.L.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SSJ}{%
+         family={Sharpey-Schafer},
+         familyi={S\bibinithyphendelim S\bibinitperiod},
+         given={J.F.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Nuclear Reactions}
+    \strng{namehash}{FJ+1}
+    \strng{fullhash}{FJBKHJSSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{For70}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0375-9474(70)90452-5
+    \endverb
+    \field{issn}{0375-9474}
+    \field{number}{1}
+    \field{pages}{30\bibrangedash 48}
+    \field{title}{Proton stripping to particle-hole states in
+  $^{40}\mathrm{Ca}$ and $^{42}\mathrm{Ca}$}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0375947470904525
+    \endverb
+    \field{volume}{150}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1970}
   \endentry
 
   \entry{Fuchs1969}{article}{}
@@ -1504,6 +1620,59 @@
     \field{volume}{465}
     \field{journaltitle}{A\&A}
     \field{year}{2007}
+  \endentry
+
+  \entry{Seth1967}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SKK}{%
+         family={Seth},
+         familyi={S\bibinitperiod},
+         given={Kamal\bibnamedelima K.},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BJA}{%
+         family={Biggerstaff},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MPD}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={P.\bibnamedelima D.},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SGR}{%
+         family={Satchler},
+         familyi={S\bibinitperiod},
+         given={G.\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SKK+1}
+    \strng{fullhash}{SKKBJAMPDSGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Set67}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRev.164.1450
+    \endverb
+    \field{issue}{4}
+    \field{pages}{1450\bibrangedash 1474}
+    \field{title}{Study of Proton Particle-Hole States in $^{40}\mathrm{Ca}$ by
+  the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ Reaction}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.164.1450
+    \endverb
+    \field{volume}{164}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1967}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{FRESCO}{misc}{}

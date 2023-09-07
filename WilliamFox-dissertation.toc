@@ -1,67 +1,93 @@
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{iv}{section*.3}%
+\contentsline {chapter}{List of Tables}{v}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{v}{section*.4}%
+\contentsline {chapter}{List of Figures}{vi}{section*.4}%
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\textbf {Introduction}}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Nuclear Reactions in Stars}{2}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Rubidium Production in Massive AGB Stars}{3}{chapter.3}%
+\contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Experimental Nuclear Techniques}{4}{chapter.4}%
+\contentsline {section}{\numberline {2.2}Reaction Rates}{3}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Data Acquisition System for the Focal-Plane Detector Package}{5}{chapter.5}%
+\contentsline {subsection}{\numberline {2.2.1}Wide Resonances}{3}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}$^{39}\mathrm {\textbf {K}}(\MakeLowercase {p},\gamma )^{40}\mathrm {\textbf {C\MakeLowercase {a}}}$ Constraints for Globular Cluster NGC 2419}{6}{chapter.6}%
+\contentsline {subsection}{\numberline {2.2.2}Narrow Resonances}{3}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{6}{section.6.1}%
+\contentsline {subsection}{\numberline {2.2.3}Gamow Window}{3}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Globular Clusters}{6}{section.6.2}%
+\contentsline {section}{\numberline {2.3}Abundance Evolution}{3}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}NGC 2419 and the Mg--K Anticorrelation}{10}{section.6.3}%
+\contentsline {section}{\numberline {2.4}Transfer Reactions}{3}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}The Previous $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{14}{section.6.4}%
+\contentsline {subsection}{\numberline {2.4.1}Optical Model}{3}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Transfer Reaction Theory}{17}{section.6.5}%
+\contentsline {subsection}{\numberline {2.4.2}Distorted Wave Born Approximation}{3}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{17}{section.6.6}%
+\contentsline {subsection}{\numberline {2.4.3}Spectroscopic Factors}{3}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}Bayesian Peak Fitting and Target Oxidation}{17}{section.6.7}%
+\contentsline {subsection}{\numberline {2.4.4}}{3}{subsection.2.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.1}Bayesian Peak Fitting}{18}{subsection.6.7.1}%
+\contentsline {chapter}{\numberline {3}Rubidium Production in Massive AGB Stars}{4}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.2}Fitting Peaks with Target Oxidation}{20}{subsection.6.7.2}%
+\contentsline {chapter}{\numberline {4}Experimental Nuclear Techniques}{5}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}Cross Section Calculations and Si Detector Normalization}{27}{section.6.8}%
+\contentsline {chapter}{\numberline {5}Data Acquisition System for the Focal-Plane Detector Package}{6}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.1}Cross Sections}{27}{subsection.6.8.1}%
+\contentsline {chapter}{\numberline {6}$^{39}\mathrm {\textbf {K}}(\MakeLowercase {p},\gamma )^{40}\mathrm {\textbf {C\MakeLowercase {a}}}$ Constraints for Globular Cluster NGC 2419}{7}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.2}Si Detector Normalization}{27}{subsection.6.8.2}%
+\contentsline {section}{\numberline {6.1}Introduction}{7}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{27}{section.6.9}%
+\contentsline {section}{\numberline {6.2}Globular Clusters}{7}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.1}Energy Calibrations}{27}{subsection.6.9.1}%
+\contentsline {section}{\numberline {6.3}NGC 2419 and the Mg--K Anticorrelation}{11}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.2}Cross Sections}{27}{subsection.6.9.2}%
+\contentsline {section}{\numberline {6.4}The Previous $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{16}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.3}Oxidized Targets}{27}{subsection.6.9.3}%
+\contentsline {subsection}{\numberline {6.4.1}Longland \emph {et al.} (2018) Evaluation}{16}{subsection.6.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.4}Spectroscopic Factors from DWBA Models}{27}{subsection.6.9.4}%
+\contentsline {subsection}{\numberline {6.4.2}Contributing Resonances}{18}{subsection.6.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.5}Proton Partial Widths}{27}{subsection.6.9.5}%
+\contentsline {subsection}{\numberline {6.4.3}Previous Proton-Transfer Measurements}{19}{subsection.6.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{27}{section.6.10}%
+\contentsline {section}{\numberline {6.5}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{19}{section.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.11}Potassium Abundance in Reaction Network Calculations}{28}{section.6.11}%
+\contentsline {section}{\numberline {6.6}Bayesian Peak Fitting and Target Oxidation}{20}{section.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.12}Conclusions}{28}{section.6.12}%
+\contentsline {subsection}{\numberline {6.6.1}Bayesian Peak Fitting}{20}{subsection.6.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{32}{chapter.7}%
+\contentsline {subsection}{\numberline {6.6.2}Fitting Peaks with Target Oxidation}{23}{subsection.6.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{36}{chapter*.21}%
+\contentsline {section}{\numberline {6.7}Cross Section Calculations and Si Detector Normalization}{29}{section.6.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.7.1}Cross Sections}{29}{subsection.6.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.7.2}Si Detector Normalization}{29}{subsection.6.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.8}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{29}{section.6.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.8.1}Energy Calibrations}{29}{subsection.6.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.8.2}Cross Sections}{29}{subsection.6.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.8.3}Oxidized Targets}{29}{subsection.6.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.8.4}Spectroscopic Factors from DWBA Models}{29}{subsection.6.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.8.5}Proton Partial Widths}{29}{subsection.6.8.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.9}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{29}{section.6.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.10}Potassium Abundance in Reaction Network Calculations}{30}{section.6.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.11}Conclusions}{30}{section.6.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{34}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{APPENDIX}{39}{chapter*.22}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{37}{appendix.A}%
+\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{40}{appendix.A}%
