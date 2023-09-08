@@ -360,10 +360,13 @@ Potassium iodide is hygroscopic, meaning it will eventually oxidize at atmospher
 \subsection{Focal-Plane Spectra}
 
 
-
 \begin{figure}[t]
 \centering
-\includegraphics[width=6.5in]{Chapter-6/figs/5deg_Runs83_84_85_86_87_withC.png}
+\begin{tikzpicture}[scale=1.0, every node/.style={transform shape}]
+\node at (0,0) {\includegraphics[width=6in]{Chapter-6/figs/5deg_KI6.png}};
+\node at (-7.85,-3.0) {\rlap{\footnotesize{0}}};
+%\node at () {};
+\end{tikzpicture}
 \caption{\label{fig:5deg_fp}A histogram spectrum of the front (P1) focal-plane detector position section at $\theta_{\mathrm{lab}} = 5^{\circ}$ with the KI $\#$6 target (in red) and the carbon target (in black), gated on $d$ from the the DE vs. E spectrum. The $x$-axis shows the magnetic rigidity $B\rho$, and the $y$-axis shows the number of $d$ counts.}
 \end{figure}
 
@@ -401,10 +404,11 @@ Sort Group&$\theta_{\mathrm{lab}}$ $[^{\circ}]$&Run Numbers&Target&Enge Field [$
 \end{table}
 
 \def\yTS{0.635} % y tick space
+\def\xTS{2.48} % x tick space
 
 \begin{figure}[t]
 \centering
-\begin{tikzpicture}[scale=1.0, every node/.style={transform shape}]
+\begin{tikzpicture}[scale=1.12, every node/.style={transform shape}]
 \node at (0,0) {\includegraphics[width=5in]{Chapter-6/figs/9deg_AllRuns_Pos1vsEvent.png}};
 \node at (0,-3.8) {Event Number};
 \node[rotate=90] at (-7.5,0) {P1};
@@ -418,8 +422,25 @@ Sort Group&$\theta_{\mathrm{lab}}$ $[^{\circ}]$&Run Numbers&Target&Enge Field [$
 \node at (-6.7,{2.4-(7*\yTS)}) {\footnotesize{290}};
 \node at (-6.7,{2.4-(8*\yTS)}) {\footnotesize{288}};
 
+\node at (-3.9,-3.3) {\footnotesize{100}};
+\node at (-3.9+\xTS,-3.3) {\footnotesize{200}};
+\node at ({-3.9+(2*\xTS)},-3.3) {\footnotesize{300}};
+\node at ({-3.9+(3*\xTS)},-3.3) {\footnotesize{400}};
+\node at ({-3.9+(4*\xTS)},-3.3) {\footnotesize{500}};
+\node at (-7.72,-1.05) {\scriptsize{243}};
+\node at (-7.68,-1.35) {\scriptsize{81}};
+\node at (-7.68,-1.65) {\scriptsize{27}};
+\node at (-7.62,-1.95) {\scriptsize{9}};
+\node at (-7.62,-2.25) {\scriptsize{3}};
+\node at (-7.62,-2.55) {\scriptsize{1}};
+\node at (-7.62,-2.85) {\scriptsize{0}};
+
+%\hspace{-0.2cm}
+% Fix first \includegraphics figure in place, and place second figure to the bottom left (right) with \rlap (\llap). Use \rlap{\raisebox{3cm}{\include ...}} to raise the figure
+\node at (-7.5,-2) {\rlap{\includegraphics[scale=0.6]{Chapter-6/figs/9deg_Scale.png}}};
+
 \end{tikzpicture}
-\caption{\label{fig:9deg_P1vsEvt}A 2D histogram of the front (P1) focal-plane position section vs event number over all runs at $\theta_{\mathrm{lab}} = 9^{\circ}$ with the KI $\#$5 target. Both axes are compressed to 512 bins. The P1 section is zoomed in on the $^{12}$C gound state to show the effect of energy shifts due to beam retunes. A beam retune happened after run $\#$25, causing the shift in the P1 spectrum shown at about event (bin) number 320.}
+\caption{\label{fig:9deg_P1vsEvt}A 2D histogram of the front (P1) focal-plane position section vs event number over all $\theta_{\mathrm{lab}} = 9^{\circ}$ runs ($\#23-\#27$) with the KI $\#$5 target. Both axes are compressed to 512 bins. The P1 section is zoomed in on the $^{12}$C gound state to show the effect of energy shifts due to beam retunes. A beam retune after run $\#$25 caused the shift in the P1 spectrum shown at event (bin) number 320. The unknown phenomenon at event (bin) number 100 occurred during run $\#$23, which caused a reduction in counts but no energy shift.}
 \end{figure}
 
 \subsection{Silicon Detector Telescope}
