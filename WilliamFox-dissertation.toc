@@ -94,10 +94,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.11}Conclusions}{29}{section.6.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{38}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{41}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{43}{chapter*.26}%
+\contentsline {chapter}{APPENDIX}{46}{chapter*.30}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{44}{appendix.A}%
+\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{47}{appendix.A}%
