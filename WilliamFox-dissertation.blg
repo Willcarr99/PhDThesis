@@ -26,11 +26,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11394 items from 5000.
+Reallocated field_info (elt_size=4) to 11533 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
 Warning--I didn't find a database entry for "Landau"
 Warning--I didn't find a database entry for "Jam"
+Warning--I didn't find a database entry for "EngeSpec"
 Warning--I didn't find a database entry for "BayeSpec"
 Warning--I didn't find a database entry for "McElreath2020"
 Warning--I didn't find a database entry for "Babu2016"
@@ -39,7 +40,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 41 entries,
             6365 wiz_defined-function locations,
-            1590 strings with 21124 characters,
+            1592 strings with 21140 characters,
 and the built_in function-call counts, 341084 in all, are:
 = -- 25690
 > -- 5451
@@ -78,4 +79,4 @@ warning$ -- 0
 while$ -- 5215
 width$ -- 0
 write$ -- 1903
-(There were 5 warnings)
+(There were 6 warnings)

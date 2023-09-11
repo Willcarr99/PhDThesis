@@ -397,7 +397,7 @@ Potassium iodide is hygroscopic, meaning it will eventually oxidize at atmospher
 \begin{figure}[t]
 \centering
 \begin{tikzpicture}[scale=1.0, every node/.style={transform shape}]
-\node[rotate=90] at (-8.50,0) {Counts};
+\node[rotate=90] at (-8.50,0) {P1 Counts};
 \node at (0,-3.6) {Channel};
 \node at (0,0) {\includegraphics[width=6in]{Chapter-6/figs/5deg_KI6.png}};
 \node at (-7.85,-3.0) {\rlap{\footnotesize{0}}};
@@ -427,40 +427,15 @@ Potassium iodide is hygroscopic, meaning it will eventually oxidize at atmospher
 
 The focal-plane detector package (see Section \ref{sec:fp} and Ref. \cite{Marshall2019}) consists of two position-sensitive avalanche counters, one located in the front of the detector (P1 section) and one located near the back (P2 section), a gas proportionality counter ($\Delta\mathrm{E}$ section), and a residual energy scintillator (E section). The data acquisition system (DAQ) triggers on the E section, located at the back of the detector, so that coincidences with all sections are established (see Section \ref{sec:DAQ}). The combination of the $\Delta$E and E sections enables particle discrimination based on mass and charge, allowing a given particle to be gated on and therefore filtering out undesired particles and detector noise in other spectra. In the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, the $\Delta\mathrm{E}/\mathrm{E}$ spectrum was used to gate on the deuteron group for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ and the $^{3}\mathrm{He}$ group for $^{39}\mathrm{K}(^{3}\mathrm{He},^{3}\mathrm{He})^{39}\mathrm{K}$. Figure \ref{fig:5deg_DEvsE} shows an example 2D histogram of $\Delta$E vs E in the offline Jam software package \cite{Jam} for the KI $\#$6 target at $\theta_{\mathrm{lab}} = 5^{\circ}$ and an Enge magnetic field of $B = 1.14$ T. Different particles appear in groups, with the deuteron group highlighted in red to represent a gate. Noise in the $\Delta$E spectrum is shown at the bottom, which is filtered out along with the other particle groups. Both the $\Delta$E and E signals are compressed from their original 4096 channels to 512 channels in the 2D spectrum. 
 
-The 1D histogram of the P1 section, gated on the deuteron group of Fig \ref{fig:5deg_DEvsE}, is shown in Fig. \ref{fig:5deg_fp} in red. The overlayed black spectrum is from a carbon target to show overlapping peaks, indicating contaminants in the KI target. The deuteron peaks shown only in red were ejected from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ reactions in the KI target, where different excited states of the $^{40}$Ca recoil nuclei were populated, resulting in different kinematics for each deuteron depending on the excited state. Higher energy deuterons are associated with lower-energy $^{40}$Ca excited states, and vice versa. The deuterons are momentum-separated by the Enge Split-Pole Spectrograph, focusing the higher energy ones on the left side of the position sections and the lower energy ones on the right side. Thus, the P1 channel number in Fig. \ref{fig:5deg_fp} is inversely related to the $^{40}$Ca excited state energies. The same is true of the recoil nuclei of the contaminants.
+The 1D histogram of the P1 section, gated on the deuteron group of Fig \ref{fig:5deg_DEvsE}, is shown in Fig. \ref{fig:5deg_fp} in red. The overlayed black spectrum is from a carbon target to show overlapping peaks, indicating contaminants in the KI target. The deuteron peaks shown only in red were ejected from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ reactions in the KI target, where different excited states of the $^{40}$Ca recoil nuclei were populated, resulting in different kinematics for each deuteron depending on the excited state. Higher energy deuterons are associated with lower-energy $^{40}$Ca excited states, and vice versa. The deuterons are momentum-separated by the Enge Split-Pole Spectrograph, focusing the higher energy ones on the left side of the position sections and the lower energy ones on the right side. Thus, the P1 channel number in Fig. \ref{fig:5deg_fp} is proportional to the deuteron energy and inversely proportional to the $^{40}$Ca excited state energies. The same is true of the deuterons and excited states from the contaminants.
 
 \subsection{Energy Shifts}
 
 % I want to cover all the angles, targets, magnetic fields, and sort groups. Introduce what I mean by sort groups. Cover energy shifts for various reasons, the Pos1 vs Event spectrum, etc.
 
-\begin{table}
-\centering
-\caption{\label{tab:run}Information on each run of the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment, including the angle of the Enge, the target used, the magnetic field of the Enge, and the sort group (see text).}
-%\begin{tabularx}{\textwidth}{ccccc}
-\begin{tabular}{ccccc}
-\hline\midrule
-Sort Group&$\theta_{\mathrm{lab}}$ $[^{\circ}]$&Run Numbers&Target&Enge Field [$T$]\\ \midrule
-1&5&9, 10&KI $\#$1&1.14\\
-2&5&11&KI $\#$1&1.14\\
-3&5&$83-87$&KI $\#$6&1.14\\
-4&7&$15-20$&KI $\#$1&1.14\\
-5&7&72, $75-78$&KI $\#$6&1.14\\
-6&9&23&KI $\#$5&1.145\\
-7&9&24, 25&KI $\#$5&1.145\\
-8&9&26, 27&KI $\#$5&1.145\\
-9&11&$31-33$&KI $\#$5&1.145\\
-10&13&$39-41$&KI $\#$5&1.145\\
-11&13&42&KI $\#$5&1.145\\
-12&13&43, 44&KI $\#$5&1.145\\
-13&13&45, 47&KI $\#$5, KI $\#$6&1.145\\
-14&15&$55-59$&KI $\#$6&1.145\\
-15&20&60, 61, 64&KI $\#$6&1.145\\
-16&20&65, 66&KI $\#$6&1.145\\
-\hline\hline
-%\end{tabularx}
-\end{tabular}
-%\footnotetext{Even though this sort group uses 2 different targets, the focal-plane peaks do not shift between them. The targets are from the same evaporation batch and therefore should have the same thickness.}
-\end{table}
+The P1 peak centroid positions typically remain constant over time. However, certain changes in the beam can introduce shifts in these positions, broadening the peaks over more channels than usual. For instance, adjusting the beam steerers or focusing elements at any point along the beamline can cause very slight kinematic differences to occur in the target. This is because the target material is never perfectly uniformly-distributed. Sometimes these differences in kinematics are large enough to cause a noticable drift in the P1 spectrum. Retuning the beam between runs at the same Engle angle $\theta_{\mathrm{lab}}$ is the most common example of energy shifts, followed by switching between targets from a different evaporation batch. Any unintentional beam drift can also cause them, albeit usually to a lesser degree.
+
+To visualize these energy shifts, the P1 spectrum must be traced over time. This feature was recently added to the offline version of the EngeSpec \cite{EngeSpec} graphical user interface (GUI), and I implemented the same feature in my local Jam \cite{Jam} source code. For each event, the P1 data is collected and the event number is recorded during the sort routine. The total number of events is unknown until the end of the sort routine, which makes an online version of this feature nearly impossible. The 4096-channel P1 data and the corresponding event numbers are compressed into 512 bins, where they each get incremented into a 2D histogram.
 
 \def\yTS{0.635} % y tick space
 \def\xTS{2.48} % x tick space
@@ -501,6 +476,41 @@ Sort Group&$\theta_{\mathrm{lab}}$ $[^{\circ}]$&Run Numbers&Target&Enge Field [$
 \end{tikzpicture}
 \caption{\label{fig:9deg_P1vsEvt}A 2D histogram of the front (P1) focal-plane position section vs event number over all $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ runs ($\#23-\#27$) at $\theta_{\mathrm{lab}} = 9^{\circ}$ with the KI $\#$5 target. Both axes are compressed to 512 channels. The P1 section is zoomed in on the $^{12}$C gound state to show the effect of energy shifts due to beam retunes. A beam retune after run $\#$25 caused the shift in the P1 spectrum shown at event (bin) number 320. The unknown phenomenon at event (bin) number 100 occurred during run $\#$23, which caused a reduction in counts but no energy shift.}
 \end{figure}
+
+There were a few instances of energy shifts during the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment. One happened due to a necessary beam-retune after a tour group was scheduled to view the tandem accelerator. The low-energy beamline Faraday cup was put in place for about an hour, and tuning was required to get the beam back on target. The runs before and after this retune are represented by the 2D histogram of P1 vs event number in Fig. \ref{fig:9deg_P1vsEvt}. Depicted in the figure are the runs $\#23-\#27$ at $\theta_{\mathrm{lab}} = 9^{\circ}$ with the KI $\#$5 target. The P1 section is zoomed in on the $^{12}$C ground state, as it had the most counts and is therefore easiest to visualize energy shifts. The $^{12}$C ground state centroid starts at P1 bin number 296, and a clear shift to bin number 297 is seen at event number 320. A 1-bin shift in the 512-bin 2D spectrum corresponds to an 8-channel shift in the 4096-channel P1 spectrum, which was noticable even during the experiment. Based on the BCI of each run, it was easy to determine that the shift happened between runs $\#$25 and $\#$26, exactly when the retune happend. This is also evident from the shift in counts at this point because more beam current was acquired as a result of the retune. There is also an unknown phenomenon just after event bin number 100, occurring during run $\#$23. The peaks do not appear to be shifted from it, at least not as dramatically as from the retune, but it is clear that the beam current changed abruptly.
+
+\begin{table}[t]
+\centering
+\caption{\label{tab:run}Information on each run of the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment, including the angle of the Enge, the target used, the magnetic field of the Enge, and the sort group (see text).}
+%\begin{tabularx}{\textwidth}{ccccc}
+\begin{tabular}{ccccc}
+\hline\midrule
+Sort Group&$\theta_{\mathrm{lab}}$ $[^{\circ}]$&Run Numbers&Target&Enge Field [$T$]\\ \midrule
+1&5&9, 10&KI $\#$1&1.14\\
+2&5&11&KI $\#$1&1.14\\
+3&5&$83-87$&KI $\#$6&1.14\\
+4&7&$15-20$&KI $\#$1&1.14\\
+5&7&72, $75-78$&KI $\#$6&1.14\\
+6&9&23&KI $\#$5&1.145\\
+7&9&24, 25&KI $\#$5&1.145\\
+8&9&26, 27&KI $\#$5&1.145\\
+9&11&$31-33$&KI $\#$5&1.145\\
+10&13&$39-41$&KI $\#$5&1.145\\
+11&13&42&KI $\#$5&1.145\\
+12&13&43, 44&KI $\#$5&1.145\\
+13&13&45, 47&KI $\#$5, KI $\#$6&1.145\\
+14&15&$55-59$&KI $\#$6&1.145\\
+15&20&60, 61, 64&KI $\#$6&1.145\\
+16&20&65, 66&KI $\#$6&1.145\\
+\hline\hline
+%\end{tabularx}
+\end{tabular}
+%\footnotetext{Even though this sort group uses 2 different targets, the focal-plane peaks do not shift between them. The targets are from the same evaporation batch and therefore should have the same thickness.}
+\end{table}
+
+It would not be appropriate to sort all runs at $\theta_{\mathrm{lab}} = 9^{\circ}$ together for the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ energy calibration and yield analysis. Because of the presence of energy shifts at some angles, it was necessary to group runs together based on where the energy shifts occurred. I refer to these groups as \emph{sort groups}. All of the runs in the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, as well as their sort groups, are shown in Table \ref{tab:run}. Because there were 7 angles measured in this experiment ($\theta_{\mathrm{lab}} = 5^{\circ}, 7^{\circ}, 9^{\circ}, 11^{\circ}, 13^{\circ}, 15^{\circ}$ and $20^{\circ}$), the ideal scenario would be to have 7 sort groups, 1 for each angle. However, there are 16 sort groups for various reasons, including beam retunes, switching targets, and the occassional beam noise from beamline element power supplies failing. In the case of sort group $\#$13 at $\theta_{\mathrm{lab}} = 13^{\circ}$, consisting of runs $\#$45 and $\#$47, 2 different targets are used between them, but they are from the same evaporation batch and therefore did not cause an energy shift.
+
+In the case of run $\#$23 at $\theta_{\mathrm{lab}} = 9^{\circ}$, and for a few other runs, the energy shift occurred during the run, not between runs. For this reason, it was also necessary to have the ability to gate on the P1 vs Event Number histogram for the entire area before or after a shift. I added this feature to both my local EngeSpec and Jam source codes. Only the events occurring in the gate are used in a new, event-gated P1 spectrum. Unfortunately, this means that the recorded BCI is no longer accurate. An approximation to the new, reduced BCI is to scale the original BCI by the fraction of events in the gate. This is not exact due to the loss of resolution when compressing the events into 512 bins, but it is more than sufficient considering the much larger uncertainty from the BCI measurement itself. The exact same gate is also used in these cases for the silicon detector telescope spectra, as introduced in the next section, to ensure consistency with the reduced BCI.
 
 \subsection{Silicon Detector Telescope}
 
