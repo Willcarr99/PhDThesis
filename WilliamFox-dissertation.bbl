@@ -17,6 +17,40 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global}
+  \entry{Babu2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BS}{%
+         family={Babu},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Badiger},
+         familyi={B\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BSBN1}
+    \strng{fullhash}{BSBN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bab16}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.12693/APhysPolA.129.1118
+    \endverb
+    \field{pages}{1118\bibrangedash 1123}
+    \field{title}{Measurement of Energy Loss Straggling of Relativistic
+  Electrons in Thin Aluminum Foils}
+    \field{volume}{129}
+    \field{journaltitle}{Acta Physica Polonica A}
+    \field{month}{06}
+    \field{year}{2016}
+  \endentry
+
   \entry{Cage1971}{article}{}
     \name{author}{4}{}{%
       {{hash=CM}{%
@@ -962,6 +996,29 @@
     \field{year}{1990}
   \endentry
 
+  \entry{Landau1944}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LLD}{%
+         family={Landau},
+         familyi={L\bibinitperiod},
+         given={L.\bibnamedelima D.},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LLD1}
+    \strng{fullhash}{LLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lan44}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{pages}{201}
+    \field{title}{On the Energy Loss of Fast Particles by Ionisation}
+    \field{volume}{8}
+    \field{journaltitle}{J. Exp. Phys. (USSR)}
+    \field{year}{1944}
+  \endentry
+
   \entry{Langer1993}{article}{}
     \name{author}{3}{}{%
       {{hash=LGE}{%
@@ -1048,6 +1105,50 @@
     \field{year}{1966}
   \endentry
 
+  \entry{Liang2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LCT}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Chun-Tian},
+         giveni={C\bibinithyphendelim T\bibinitperiod},
+      }}%
+      {{hash=LXH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xiao-Hua},
+         giveni={X\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=CCH}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Chong-Hai},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCTLXHCCH1}
+    \strng{fullhash}{LCTLXHCCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lia09}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1088/0954-3899/36/8/085104
+    \endverb
+    \field{number}{8}
+    \field{pages}{085104}
+    \field{title}{Global $^{3}\mathrm{He}$ optical model potential below 270
+  $\mathrm{MeV}$}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/0954-3899/36/8/085104
+    \endverb
+    \field{volume}{36}
+    \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+    \field{year}{2009}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Longland2010a}{article}{}
     \name{author}{7}{}{%
       {{hash=LR}{%
@@ -1117,6 +1218,31 @@
     \field{year}{2010}
   \endentry
 
+  \entry{BayeSpec}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LR}{%
+         family={Longland},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {GitHub}%
+    }
+    \strng{namehash}{LR1}
+    \strng{fullhash}{LR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lon18}
+    \field{extraalpha}{1}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{note}{Private GitHub Repository}
+    \field{title}{\textnormal{``Analysis-BayeSpec''}}
+    \field{year}{2018}
+  \endentry
+
   \entry{Longland2018}{article}{}
     \name{author}{3}{}{%
       {{hash=LR}{%
@@ -1146,6 +1272,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Lon18}
+    \field{extraalpha}{2}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \verb{doi}
@@ -1164,6 +1291,30 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{EngeSpec}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LR}{%
+         family={Longland},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {GitHub}%
+    }
+    \strng{namehash}{LR1}
+    \strng{fullhash}{LR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lon19}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{note}{\url{https://github.com/TUNL-Enge/DAQ-EngeSpec}}
+    \field{title}{\textnormal{``DAQ-EngeSpec''}}
+    \field{year}{2019}
+  \endentry
+
   \entry{RatesMC}{misc}{}
     \name{author}{1}{}{%
       {{hash=LR}{%
@@ -1173,6 +1324,9 @@
          giveni={R\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {GitHub}%
+    }
     \strng{namehash}{LR1}
     \strng{fullhash}{LR1}
     \field{labelnamesource}{author}
@@ -1181,7 +1335,7 @@
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{note}{\url{https://github.com/rlongland/RatesMC}}
-    \field{title}{$\mathrm{RatesMC}$}
+    \field{title}{\textnormal{``RatesMC''}}
     \field{year}{2023}
   \endentry
 
@@ -1253,6 +1407,30 @@
     \field{volume}{68}
     \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
     \field{year}{2019}
+  \endentry
+
+  \entry{Rethinking}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MR}{%
+         family={McElreath},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {GitHub}%
+    }
+    \strng{namehash}{MR1}
+    \strng{fullhash}{MR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{McE13}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{\url{https://github.com/rmcelreath/rethinking}}
+    \field{title}{\textnormal{``rethinking''}}
+    \field{year}{2013}
   \endentry
 
   \entry{Mucciarelli2012}{article}{}
@@ -1675,7 +1853,89 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{FRESCO}{misc}{}
+  \entry{Swartz2001}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SKB}{%
+         family={Swartz},
+         familyi={S\bibinitperiod},
+         given={Kenneth\bibnamedelima B.},
+         giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=VDW}{%
+         family={Visser},
+         familyi={V\bibinitperiod},
+         given={Dale\bibnamedelima W.},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Baris},
+         familyi={B\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Nuclear physics, Data acquisition, Java, Computer languages, CAMAC,
+  VME}
+    \strng{namehash}{SKBVDWBJM1}
+    \strng{fullhash}{SKBVDWBJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Swa01}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb https://doi.org/10.1016/S0168-9002(01)00316-3
+    \endverb
+    \field{issn}{0168-9002}
+    \field{number}{1}
+    \field{pages}{354\bibrangedash 360}
+    \field{title}{A Java-based data acquisition system for nuclear physics}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0168900201003163
+    \endverb
+    \field{volume}{463}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Jam}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=SK}{%
+         family={Swartz},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Visser},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Baris},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SourceForge}%
+    }
+    \strng{namehash}{SKVDBJ1}
+    \strng{fullhash}{SKVDBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Swa02}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{\url{http://jam-daq.sourceforge.net/}}
+    \field{title}{\textnormal{``Jam-v3.1.3-Linux''}}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Fresco}{misc}{}
     \name{author}{1}{}{%
       {{hash=TIJ}{%
          family={Thompson},
@@ -1684,6 +1944,9 @@
          giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {GitHub}%
+    }
     \strng{namehash}{TIJ1}
     \strng{fullhash}{TIJ1}
     \field{labelnamesource}{author}
@@ -1691,8 +1954,8 @@
     \field{labelalpha}{Tho06}
     \field{sortinit}{T}
     \field{sortinithash}{T}
-    \field{note}{\url{http://www.fresco.org.uk/}}
-    \field{title}{$\mathrm{FRESCO}$}
+    \field{note}{\url{https://github.com/I-Thompson/fresco}}
+    \field{title}{\textnormal{``Fresco''}}
     \field{year}{2006}
   \endentry
 

@@ -26,57 +26,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11533 items from 5000.
+Reallocated field_info (elt_size=4) to 11811 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
-Warning--I didn't find a database entry for "Landau"
-Warning--I didn't find a database entry for "Jam"
-Warning--I didn't find a database entry for "EngeSpec"
-Warning--I didn't find a database entry for "BayeSpec"
-Warning--I didn't find a database entry for "McElreath2020"
-Warning--I didn't find a database entry for "Babu2016"
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 41 entries,
+You've used 49 entries,
             6365 wiz_defined-function locations,
-            1592 strings with 21140 characters,
-and the built_in function-call counts, 341084 in all, are:
-= -- 25690
-> -- 5451
-< -- 1739
-+ -- 8507
-- -- 2148
-* -- 25977
-:= -- 37600
+            1636 strings with 22505 characters,
+and the built_in function-call counts, 388263 in all, are:
+= -- 28752
+> -- 6407
+< -- 2066
++ -- 9446
+- -- 2505
+* -- 29628
+:= -- 42205
 add.period$ -- 0
-call.type$ -- 41
-change.case$ -- 1079
-chr.to.int$ -- 90
-cite$ -- 80
-duplicate$ -- 35217
-empty$ -- 30411
-format.name$ -- 3532
-if$ -- 69660
+call.type$ -- 49
+change.case$ -- 1230
+chr.to.int$ -- 97
+cite$ -- 96
+duplicate$ -- 40097
+empty$ -- 34870
+format.name$ -- 4098
+if$ -- 79695
 int.to.chr$ -- 0
-int.to.str$ -- 97
+int.to.str$ -- 124
 missing$ -- 0
-newline$ -- 1943
-num.names$ -- 2362
-pop$ -- 14910
+newline$ -- 2202
+num.names$ -- 2793
+pop$ -- 17681
 preamble$ -- 1
-purify$ -- 1415
+purify$ -- 1603
 quote$ -- 0
-skip$ -- 8759
+skip$ -- 10340
 stack$ -- 0
-substring$ -- 46373
-swap$ -- 8163
-text.length$ -- 1258
-text.prefix$ -- 80
+substring$ -- 51552
+swap$ -- 9457
+text.length$ -- 1532
+text.prefix$ -- 96
 top$ -- 1
-type$ -- 1382
+type$ -- 1654
 warning$ -- 0
-while$ -- 5215
+while$ -- 5832
 width$ -- 0
-write$ -- 1903
-(There were 6 warnings)
+write$ -- 2154
