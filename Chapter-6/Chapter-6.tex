@@ -514,7 +514,7 @@ It would not be appropriate to sort all runs at $\theta_{\mathrm{lab}} = 9^{\cir
 
 In the case of the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ run $\#$23 at $\theta_{\mathrm{lab}} = 9^{\circ}$, and for a few other runs, the energy shift occurred during the run, not between runs. For this reason, it was also necessary to have the ability to gate on the P1 vs Event Number histogram for the entire area before or after a shift. I added this feature to both my local \texttt{EngeSpec} and \texttt{Jam} source codes. Only the events occurring in the gate are used in a new, event-gated P1 spectrum. Unfortunately, this means that the recorded BCI is no longer accurate. An approximation to the new, reduced BCI is to scale the original BCI by the fraction of events in the gate. This is not exact due to the loss of resolution when compressing the events into 512 bins, but it is more than sufficient considering the much larger uncertainty from the BCI measurement itself. The same fraction can be applied to the time-keeping scalars to correct for the new deadtime. The exact same gate is also used in these cases for the simultaneous silicon detector telescope spectra, as introduced in the next section, to ensure consistency with the reduced BCI and deadtime between the focal-plane and silicon detector spectra.
 
-\subsection{Silicon Detector Telescope}
+\subsection{Silicon Detector Telescope} \label{subsec:SiDet}
 
 To minimize the effects of uncertainty in the target thickness, non-uniformity in the target, and target degradation after exposure to the beam, the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ proton-transfer yields from the focal-plane P1 spectra were normalized to the simultaneous $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering yield of a Si detector telescope positioned at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$ inside the target chamber. The scale for the Si-normalized focal-plane differential cross-section measurements was then corrected using the global $^{3}\mathrm{He}$ optical model potential (OMP) differential cross-section for $^{39}\mathrm{K}$ from Ref. \cite{Liang2009} (see Sections \ref{subsec:OMP} and \ref{subsec:SiNorm}). The scaling factor was the ratio between the differential cross-section of the global OMP and that of the Si-normalized focal-plane $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements.
 
@@ -849,11 +849,11 @@ N_{\mathrm{R}} = \frac{N_{\mathrm{c}}}{t_{\mathrm{live}}}.
 \end{equation}
 The total number of incident particles $N_{\mathrm{b}}$ is
 \begin{equation}
-N_{\mathrm{b}} = \frac{q}{ne},
+N_{\mathrm{b}} = \frac{q}{Z_{p} \, e},
 \end{equation}
-where $q$ is the total charge deposited by the incident particles, $n$ is the unit charge of the incident particles, and $e$ is the electronic charge (1.6 $\times$ $10^{-19}$ C). The total charge $q$ is derived from the beam-integrated current (BCI) scalar value collected for each pulse during a given run. The BCI has an associated $\mathrm{BCI}_{\mathrm{scale}}$ setting that determines the scale of the deposited charge, which can be adjusted on the beam current readout module. For the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, the $\mathrm{BCI}_{\mathrm{scale}}$ setting was $10^{-10}$ C/pulse. The number of incident particles $N_{\mathrm{b}}$ is therefore
+where $q$ is the total charge deposited by the incident particles, $Z_{p}$ is the unit charge of the incident particles, and $e$ is the electronic charge (1.6 $\times$ $10^{-19}$ C). The total charge $q$ is derived from the beam-integrated current (BCI) scalar value collected for each pulse during a given run. The BCI has an associated $\mathrm{BCI}_{\mathrm{scale}}$ setting that determines the scale of the deposited charge, which can be adjusted on the beam current readout module. For the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, the $\mathrm{BCI}_{\mathrm{scale}}$ setting was $10^{-10}$ C/pulse. The number of incident particles $N_{\mathrm{b}}$ is therefore
 \begin{equation}
-N_{\mathrm{b}} = \frac{\mathrm{BCI} \times \mathrm{BCI_{\mathrm{scale}}}}{ne}.
+N_{\mathrm{b}} = \frac{\mathrm{BCI} \times \mathrm{BCI_{\mathrm{scale}}}}{Z_{p} \, e}.
 \end{equation}
 As described in Section \ref{subsec:cs_calc}, the conversion between the yield and the cross section depends on the target thickness $\Delta$E (in energy units) and the stopping power $\mathcal{E} = -(1/N_{\mathrm{t}})dE/dx$ (in units of eV $\mathrm{cm}^{2} / \mathrm{atom}$), where $N_{\mathrm{t}}$ denotes the number density of target nuclei.
 
@@ -866,35 +866,89 @@ For thin targets, where the cross section $\sigma$ and stopping power $\mathcal{
 n_{\mathrm{X}} = \frac{\Delta E}{\mathcal{E}_{\mathrm{eff}}}
 \end{equation}
 also applies to the differential yield and differential cross section. Additionally, as some of the energy of the incident particles $E_{0}$ is lost in the target, the cross section is evaluated at an effective, reduced energy $E_{\mathrm{eff}} = E_{0} - \Delta\mathrm{E}/2$. The conversion between the differential yield and differential cross section therefore becomes
-\begin{equation}
+\begin{equation} \label{eqn:yield_to_cross}
 \left[ \frac{dY(E_{0})}{d\Omega} \right]_{\theta} = n_{\mathrm{X}} \, \left[ \frac{d\sigma(E_{\mathrm{eff}})}{d\Omega} \right]_{\theta}.
 \end{equation}
 
 The number of active nuclei per $\mathrm{cm}^{2}$, $n_{\mathrm{X}}$, can also be expressed in a form more tractable for experiments in the lab system as \cite{Rolfs1988,SetoodehniaThesis}\footnote{The ``yield'' $Y$ defined in Eqns. 3.30 and 3.31 of Ref. \cite{SetoodehniaThesis} is $N_{\mathrm{R}}$, not $N_{\mathrm{R}}/N_{\mathrm{b}}$, even though it describes it as such in the text.}
 \begin{equation}
-n_{\mathrm{X}} = \frac{\nu N_{A} \Delta x}{A} \,\,\, [\mathrm{in \,\, cm}^{-2}],
+n_{\mathrm{X}} = \frac{\nu N_{A} \Delta x}{A_{t, \, \mathrm{mol}}} \,\,\, [\mathrm{in \,\, cm}^{-2}],
 \end{equation}
-where $\nu$ is the number of $\mathrm{X}$ atoms per molecule in the target material, $N_{A}$ is Avogadro's number (6.023 $\times$ $10^{23}$ $\mathrm{atoms}/\mathrm{mole}$), $\Delta x$ is the thickness of the target (in g/$\mathrm{cm}^{2}$), and $A$ is the molecular mass of the target material (in grams).
+where $\nu$ is the number of $\mathrm{X}$ atoms per molecule in the target material, $N_{A}$ is Avogadro's number (6.023 $\times$ $10^{23}$ $\mathrm{atoms}/\mathrm{mole}$), $\Delta x$ is the thickness of the target (in g/$\mathrm{cm}^{2}$), and $A_{t, \, \mathrm{mol}}$ is the molecular mass of the target material (in grams).
 
 Combining everything, the differential cross section in units of mb/sr, where 1 b $ = 10^{-24}$ $\mathrm{cm}^{-2}$, measured in the lab system is calculated as
 \begin{equation}
-\left[ \frac{d\sigma}{d\Omega} \right]_{\theta} = \frac{N_{c} \, n \, A}{(3.75 \times 10^{9}) \, \Omega \, t_{\mathrm{live}} \, \mathrm{BCI} \times \mathrm{BCI}_{\mathrm{scale}} \, \nu \, \Delta x},
+\left[ \frac{d\sigma}{d\Omega} \right]_{\theta} = \frac{N_{c} \, Z_{p} \, A_{t, \, \mathrm{mol}}}{(3.75 \times 10^{9}) \, \Omega \, t_{\mathrm{live}} \, \mathrm{BCI} \times \mathrm{BCI}_{\mathrm{scale}} \, \nu \, \Delta x} \, \, \, [\mathrm{in} \, \, \mathrm{mb}/\mathrm{sr}],
 \end{equation}
 where the solid angle $\Omega$ is in units of msr, all other variables are defined as before, and the factor $e/N_{A}$ has been evaluated and converged into the numerical factor in the denominator.
 
 \subsection{Rutherford Scattering} \label{subsec:Ruth}
 
+For elastic scattering cross section measurements, it is typical to report the cross section as a ratio to the theoretical Rutherford scattering cross section at the same angle. Theoretical elastic scattering cross sections from optical model potentials (OMPs) are also typically given in terms of the Rutherford ratio, depending on the nuclear reaction code. In the coupled-reaction channels code Fresco \cite{Fresco} for example, the Rutherford ratio is the default output of the elastic scattering cross section. 
+
+In the center-of-mass system, the Rutherford scattering cross section is \cite{Iliadis2015}
+\begin{align}
+\left[ \frac{d\sigma}{d\Omega} \right]^{\mathrm{Ruth}}_{\theta} &= \left( \frac{Z_{p}Z_{t}e^{2}}{4E_{\mathrm{c.m.}}} \right)^{2} \frac{1}{\sin^{4}(\theta_{\mathrm{c.m.}}/2)} \nonumber \\
+&= 1.296 \left( \frac{Z_{p}Z_{t}}{E_{\mathrm{c.m.}}} \right)^{2} \frac{1}{\sin^{4}(\theta_{\mathrm{c.m.}}/2)} \, \, \, [\mathrm{in} \, \, \mathrm{mb}/\mathrm{sr}],
+\end{align}
+where $Z_{p}$ is the unit charge of the incident particles, as before, $Z_{t}$ is the unit charge of the active target nuclei, $E_{\mathrm{c.m.}}$ is the total kinetic energy in the center-of-mass system, in units of MeV, and $\theta_{\mathrm{c.m.}}$ is the angle measured in the center-of-mass system. The elastic scattering cross section measured in the lab system must first be converted to the center-of-mass system before taking the ratio to Rutherford scattering. This conversion is described in Section \ref{subsec:lab_to_cm}.
+
+\subsection{Cross Sections in the Center-of-Mass System} \label{subsec:lab_to_cm}
+
+The incident beam energy $E_{\mathrm{lab}}$, scattering angle $\theta_{\mathrm{lab}}$, and the differential cross section itself $d\sigma/d\Omega_{\theta_{\mathrm{lab}}}$ must be converted to the center-of-mass frame to apply the Rutherford ratio and to compare with theoretical differential cross sections, which are usually given in the center-of-mass frame.
+
+The conversion from the incident beam energy in the lab system $E_{\mathrm{lab}}$ to the total kinetic energy in the center-of-mass system $E_{\mathrm{c.m.}}$ is \cite{Iliadis2015}
+\begin{equation}
+E_{\mathrm{c.m.}} = E_{\mathrm{lab}} \frac{A_{t}}{A_{t} + A_{p}},
+\end{equation}
+where $A_{t}$ and $A_{p}$ are the nuclear masses of the active target nucleus and the incident particle nucleus, respectively. However, mass evaluations typically report atomic masses, not nuclear masses. In general, the nuclear masses $A_{\mathrm{Nuc}}$ can be calculated from the reported atomic masses $A_{\mathrm{Atom}}$ as \cite{Wang2021}
+\begin{equation}
+A_{\mathrm{Nuc}} = A_{\mathrm{Atom}} - Z \, m_{e} + B_{e}(Z),
+\end{equation}
+where $Z$ is the unit charge of the nucleus, $m_{e}$ is the electron mass  (548579.909065(16) $\times 10^{-9}$ $\mathrm{g}/\mathrm{mole}$ \cite{Huang2021}), and $B_{e}$ is the electron binding energy, found from Ref. \cite{Huang2021} to be calculated as
+\begin{equation}
+B_{e}(Z) = 14.4381 \, Z^{2.39} + 1.55468 \times 10^{-8} \, Z^{5.35} \, \mathrm{eV}.
+\end{equation} 
+
+The lab angle $\theta_{\mathrm{lab}}$ can be converted to the center-of-mass angle $\theta_{\mathrm{c.m.}}$ using the kinematics relation \cite{Iliadis2015}
+\begin{equation} \label{eqn:angle_cm}
+\cos \theta_{\mathrm{lab}} = \frac{\gamma + \cos \theta_{\mathrm{c.m.}}}{\sqrt{1 + \gamma^{2} + 2\gamma\cos \theta_{\mathrm{c.m.}}}},
+\end{equation}
+where the $\gamma$ parameter is defined as
+\begin{equation}
+\gamma = \sqrt{\frac{A_{p}A_{e}E_{\mathrm{lab}}}{A_{r}(A_{e} + A_{r})Q + A_{r}(A_{r} + A_{e} - A_{p})E_{\mathrm{lab}}}},
+\end{equation}
+with $A_{e}$ and $A_{r}$ representing the nuclear masses of the ejected particle and recoil nucleus, respectively, and $Q$ representing the $Q$-value of the reaction. For elastic scattering, $A_{e} = A_{p}$, $A_{r} = A_{t}$, and $Q=0$, so that $\gamma = A_{p}/A_{t}$. Eqn. \ref{eqn:angle_cm} can be solved numerically or it can be rewritten as a quadratic equation for $\theta_{\mathrm{c.m.}}$, using the positive solution for forward scattering.
+
+The differential cross section is defined such that the same number of ejected particles cross the solid angle $d\Omega_{\mathrm{lab}}$ in the direction $\theta_{\mathrm{lab}}$ as those crossing the solid angle $d\Omega_{\mathrm{c.m.}}$ in the direction $\theta_{\mathrm{c.m.}}$. That is,
+\begin{equation}
+\left( \frac{d\sigma}{d\Omega} \right)^{\mathrm{lab}}_{\theta_{\mathrm{lab}}} \, d\Omega_{\mathrm{lab}} = \left( \frac{d\sigma}{d\Omega} \right)^{\mathrm{c.m.}}_{\theta_{\mathrm{c.m.}}} \, d\Omega_{\mathrm{c.m.}}.
+\end{equation}
+Assuming the cross section does not depend on the azimuthal angle, the conversion between the lab and center-of-mass systems is therefore
+\begin{equation}
+\frac{\left( d\sigma/d\Omega \right)^{\mathrm{c.m.}}_{\theta_{\mathrm{c.m.}}}}{\left( d\sigma/d\Omega \right)^{\mathrm{lab}}_{\theta_{\mathrm{lab}}}} = \frac{d\Omega_{\mathrm{lab}}}{d\Omega_{\mathrm{c.m.}}} = \frac{d(\cos \theta_{\mathrm{lab}})}{d(\cos \theta_{\mathrm{c.m.}})} = \frac{1 + \gamma \cos \theta_{\mathrm{c.m.}}}{\left( 1 + \gamma^{2} + 2 \gamma \cos \theta_{\mathrm{c.m.}} \right)^{3/2}}.
+\end{equation}
 
 
 \subsection{Si Detector Normalization} \label{subsec:SiNorm}
 
-\newpage
+As mentioned in Section \ref{subsec:SiDet}, a Si detector telescope was used to  measure the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering differential cross section at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$, while the focal-plane detector was simultaneously measuring the differential cross sections of both $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ over multiple $\theta_{\mathrm{lab}}$ angles. The Si detector elastic scattering cross section was used as a normalization to correct for systematic uncertainties associated with unknown target effects during the focal-plane measurements. Although this implies a relative measurement, an absolute scale can be established by comparing to optical model predictions.
+
+The reason the relative measurement is effective is due to the conversion factor $n_{\mathrm{X}}$ between the yield and cross section in Eqn. \ref{eqn:yield_to_cross} being consistent between the measurements. Since $n_{\mathrm{X}}$ only depends on the target properties, taking a relative cross section is equivalent to taking a relative yield, where the target properties cancel out. Because of the angular dependence, however, each differential yield (or equivalently, each differential cross section) must first be converted into the center-of-mass system before taking the ratio.
+
+The final form of the Si-normalized differential cross-section in the center-of-mass system becomes
+\begin{equation}
+\frac{\left( d\sigma/d\Omega_{\mathrm{FP}} \right)^{\mathrm{FP}}_{\theta_{\mathrm{c.m.}}}}{\left( d\sigma/d\Omega_{\mathrm{Si}} \right)^{\mathrm{Si}}_{\theta_{\mathrm{c.m.}} = 48.14^{\circ}}} = 
+\end{equation}
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=6in]{Chapter-6/figs/ES_41K_Correction.png}
 \caption{\label{fig:ES_41K_Correction}The differential cross-section (ratio to Rutherford scattering) of the global $^{3}$He optical model potential of Ref. \cite{Liang2009} for $^{39}$K normalized to that of the present focal plane $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements. The focal plane differential cross-section has been corrected to account for the fact that $^{39}$K and $^{41}$K are unresolvable in the silicon detector peak for potassium and in some angles of the focal plane detector peak for potassium (see text).}
 \end{figure}
+
+
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{$^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Analysis}

@@ -874,6 +874,69 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Huang2021}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HW}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={W.J.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Meng},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KF}{%
+         family={Kondev},
+         familyi={K\bibinitperiod},
+         given={F.G.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Audi},
+         familyi={A\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Naimi},
+         familyi={N\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{4}{%
+      {Chinese Physical Society}%
+      {the Institute of High Energy Physics of the Chinese Academy of
+  Sciences}%
+      {the Institute of Modern Physics of the Chinese Academy of Sciences}%
+      {IOP Publishing Ltd}%
+    }
+    \strng{namehash}{HW+1}
+    \strng{fullhash}{HWWMKFAGNS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hua21}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1088/1674-1137/abddb0
+    \endverb
+    \field{number}{3}
+    \field{pages}{030002}
+    \field{title}{The AME 2020 atomic mass evaluation (I). Evaluation of input
+  data, and adjustment procedures*}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/1674-1137/abddb0
+    \endverb
+    \field{volume}{45}
+    \field{journaltitle}{Chinese Physics C}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Iliadis2015}{book}{}
     \name{author}{1}{}{%
       {{hash=IC}{%
