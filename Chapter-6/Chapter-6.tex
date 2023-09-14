@@ -839,13 +839,56 @@ Figure \ref{fig:EMG_Multiplet} shows how powerful this method can be for high re
 \section{Cross Sections} \label{sec:cs_calc}
 
 % Short introduction here...
+An essential ingredient in the calculation of thermonuclear reaction rates is the nuclear reaction cross section $\sigma$, introduced in Section \ref{sec:rates}. The reaction cross section is an imaginary, effective area around the target nucleus where the reaction proceeds with a probability of unity if an incident particle passes through it. It is therefore a measure of the probability for a reaction to occur, varying with the incident particle energy. The cross section is closely related to the yield $Y$ of the reaction
+\begin{equation}
+Y = \frac{N_{\mathrm{R}}}{N_{\mathrm{b}}},
+\end{equation}
+where $N_{\mathrm{R}}$ is the total number of reactions and $N_{\mathrm{b}}$ is the total number of incident particles. The total number of reactions $N_{\mathrm{R}}$ that occur is related to the number of counts $N_{\mathrm{c}}$, or the area, of a given peak in a detector. However, this peak count is affected by the deadtime $t_{\mathrm{dead}}$ of the data acquisition system. To correct for the deadtime, and therefore get an accurate measure of the number of reactions, the livetime $t_{\mathrm{live}} = 1 - t_{\mathrm{dead}}$ is used as in
+\begin{equation}
+N_{\mathrm{R}} = \frac{N_{\mathrm{c}}}{t_{\mathrm{live}}}.
+\end{equation}
+The total number of incident particles $N_{\mathrm{b}}$ is
+\begin{equation}
+N_{\mathrm{b}} = \frac{q}{ne},
+\end{equation}
+where $q$ is the total charge deposited by the incident particles, $n$ is the unit charge of the incident particles, and $e$ is the electronic charge (1.6 $\times$ $10^{-19}$ C). The total charge $q$ is derived from the beam-integrated current (BCI) scalar value collected for each pulse during a given run. The BCI has an associated $\mathrm{BCI}_{\mathrm{scale}}$ setting that determines the scale of the deposited charge, which can be adjusted on the beam current readout module. For the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, the $\mathrm{BCI}_{\mathrm{scale}}$ setting was $10^{-10}$ C/pulse. The number of incident particles $N_{\mathrm{b}}$ is therefore
+\begin{equation}
+N_{\mathrm{b}} = \frac{\mathrm{BCI} \times \mathrm{BCI_{\mathrm{scale}}}}{ne}.
+\end{equation}
+As described in Section \ref{subsec:cs_calc}, the conversion between the yield and the cross section depends on the target thickness $\Delta$E (in energy units) and the stopping power $\mathcal{E} = -(1/N_{\mathrm{t}})dE/dx$ (in units of eV $\mathrm{cm}^{2} / \mathrm{atom}$), where $N_{\mathrm{t}}$ denotes the number density of target nuclei.
 
+A measurement of the total cross section or total yield would require the full $4\pi$ sr solid angle coverage of detectors around the target to ensure that no emitted particles from the reaction are missed. Since this is usually not feasible, the alternative is the measurement of a differential cross section $d\sigma/d\Omega_{\theta}$ or differential yield $dY/d\Omega_{\theta}$ from a detector covering a solid angle $\Omega$ collecting the particles ejected at an angle $\theta$ from the incident beam. The differential cross section can be measured at several angles to determine the angular distribution of the reaction. In the case of charged-particle reactions, such as $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$, each excited state of the recoil nucleus $^{40}$Ca has its own angular distribution that depends theoretically on the single-particle quantum numbers associated with the quantum mechanical selection rules for the transition, presented in Section \ref{subsec:DWBA_Spec}.
 
 \subsection{Yield to Cross Section Conversion} \label{subsec:cs_calc}
+
+For thin targets, where the cross section $\sigma$ and stopping power $\mathcal{E}$ are approximately constant over the target thickness $\Delta$E, the yield $Y$ is proportional to $\sigma$, with a proportionality constant $n_{\mathrm{X}} = \Delta \mathrm{E} / \mathcal{E}$ representing the number of active target nuclei per $\mathrm{cm}^{2}$ in the target compound $\mathrm{X}_{a}\mathrm{Y}_{b}$ \cite{Iliadis2015}. The term \emph{active nuclei} in this sense means the nuclei of interest $\mathrm{X}$ in the target, whereas the term \emph{inactive nuclei} refers to the nuclei not of interest $\mathrm{Y}$ in the target. The number of inactive target nuclei per unit area is defined as $n_{\mathrm{Y}}$, and the ratio $n_{\mathrm{Y}}/n_{\mathrm{X}}$ is equivalent to the target molecule stoichiometry, $b/a$. For compound targets, the effective stopping power $\mathcal{E}_{\mathrm{eff}} = \mathcal{E}_{\mathrm{X}} + n_{\mathrm{Y}}\mathcal{E}_{\mathrm{Y}} / n_{\mathrm{X}}$ must be used. The same proportionality constant 
+\begin{equation}
+n_{\mathrm{X}} = \frac{\Delta E}{\mathcal{E}_{\mathrm{eff}}}
+\end{equation}
+also applies to the differential yield and differential cross section. Additionally, as some of the energy of the incident particles $E_{0}$ is lost in the target, the cross section is evaluated at an effective, reduced energy $E_{\mathrm{eff}} = E_{0} - \Delta\mathrm{E}/2$. The conversion between the differential yield and differential cross section therefore becomes
+\begin{equation}
+\left[ \frac{dY(E_{0})}{d\Omega} \right]_{\theta} = n_{\mathrm{X}} \, \left[ \frac{d\sigma(E_{\mathrm{eff}})}{d\Omega} \right]_{\theta}.
+\end{equation}
+
+The number of active nuclei per $\mathrm{cm}^{2}$, $n_{\mathrm{X}}$, can also be expressed in a form more tractable for experiments in the lab system as \cite{Rolfs1988,SetoodehniaThesis}\footnote{The ``yield'' $Y$ defined in Eqns. 3.30 and 3.31 of Ref. \cite{SetoodehniaThesis} is $N_{\mathrm{R}}$, not $N_{\mathrm{R}}/N_{\mathrm{b}}$, even though it describes it as such in the text.}
+\begin{equation}
+n_{\mathrm{X}} = \frac{\nu N_{A} \Delta x}{A} \,\,\, [\mathrm{in \,\, cm}^{-2}],
+\end{equation}
+where $\nu$ is the number of $\mathrm{X}$ atoms per molecule in the target material, $N_{A}$ is Avogadro's number (6.023 $\times$ $10^{23}$ $\mathrm{atoms}/\mathrm{mole}$), $\Delta x$ is the thickness of the target (in g/$\mathrm{cm}^{2}$), and $A$ is the molecular mass of the target material (in grams).
+
+Combining everything, the differential cross section in units of mb/sr, where 1 b $ = 10^{-24}$ $\mathrm{cm}^{-2}$, measured in the lab system is calculated as
+\begin{equation}
+\left[ \frac{d\sigma}{d\Omega} \right]_{\theta} = \frac{N_{c} \, n \, A}{(3.75 \times 10^{9}) \, \Omega \, t_{\mathrm{live}} \, \mathrm{BCI} \times \mathrm{BCI}_{\mathrm{scale}} \, \nu \, \Delta x},
+\end{equation}
+where the solid angle $\Omega$ is in units of msr, all other variables are defined as before, and the factor $e/N_{A}$ has been evaluated and converged into the numerical factor in the denominator.
+
+\subsection{Rutherford Scattering} \label{subsec:Ruth}
 
 
 
 \subsection{Si Detector Normalization} \label{subsec:SiNorm}
+
+\newpage
 
 \begin{figure}[t]
 \centering
@@ -860,7 +903,7 @@ Figure \ref{fig:EMG_Multiplet} shows how powerful this method can be for high re
 
 
 
-\subsection{Cross Sections}
+\subsection{Differential Cross Sections}
 
 \begin{figure*}[t]
 \centering
@@ -878,7 +921,7 @@ Figure \ref{fig:EMG_Multiplet} shows how powerful this method can be for high re
 % Effects oxidized targets have on the cross-section
 % Adding a 10% scatter? Any corrections? Revisit python notebook to see what I did
 
-\subsection{Spectroscopic Factors from DWBA Models}
+\subsection{Spectroscopic Factors from DWBA Models} \label{subsec:DWBA_Spec}
 
 
 

@@ -874,6 +874,30 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Iliadis2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley-VCH}%
+    }
+    \strng{namehash}{IC1}
+    \strng{fullhash}{IC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ili15}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{edition}{2}
+    \field{title}{Nuclear Physics of Stars}
+    \field{year}{2015}
+  \endentry
+
   \entry{Iliadis2016}{article}{}
     \name{author}{5}{}{%
       {{hash=IC}{%
@@ -1686,6 +1710,36 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Rolfs1988}{book}{}
+    \name{author}{2}{}{%
+      {{hash=RC}{%
+         family={Rolfs},
+         familyi={R\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RW}{%
+         family={Rodney},
+         familyi={R\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The University of Chicago Press}%
+    }
+    \strng{namehash}{RCRW1}
+    \strng{fullhash}{RCRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Rol88}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{edition}{1}
+    \field{title}{Cauldrons in the Cosmos}
+    \field{year}{1988}
+  \endentry
+
   \entry{Sallaska2013}{article}{}
     \name{author}{6}{}{%
       {{hash=SAL}{%
@@ -1798,6 +1852,31 @@
     \field{volume}{465}
     \field{journaltitle}{A\&A}
     \field{year}{2007}
+  \endentry
+
+  \entry{SetoodehniaThesis}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=SK}{%
+         family={Setoodehnia},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SK1}
+    \strng{fullhash}{SK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Set11}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Level Structure of $^{30}$S and the
+  $^{29}\mathrm{P}(p,\gamma)^{30}\mathrm{S}$ Reaction Rate}
+    \list{institution}{1}{%
+      {McMaster University}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2011}
   \endentry
 
   \entry{Seth1967}{article}{}
