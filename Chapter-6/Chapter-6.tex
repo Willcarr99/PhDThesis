@@ -353,7 +353,7 @@ A separate 21 $\mu\mathrm{g/cm}^{2}$ natural carbon target was also used in the 
 %\caption{\label{fig:KI_Evap}The evaporation chamber before the production of KI targets. The 3 targets shown in position become the KI $\#$1, KI $\#$2, and KI $\#$3 targets after evaporation. The thickness monitor is also shown in position around a fourth opening in the 16-slot target holder.}
 %\end{figure}
 
-Potassium iodide is hygroscopic, meaning it will eventually oxidize at atmospheric pressure. To prevent this, care was taken to transport the targets from the evaporation chamber to the target chamber in a vacuum-sealed box at rough vacuum ($\sim 10^{-2}$ torr), where they were then exposed to high vacuum ($\sim 10^{-6}$ torr) for the remainder of the experiment. However, as will be described later, the first batch of targets (KI $\#$1, KI $\#$2, and KI $\#$3) oxidized at some point during the first day of the experiment, for the $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$ ($^{3}\mathrm{He},d$) measurements. The focal-plane spectra for these runs, exclusively using the KI $\#$1 target, consisted of peaks with high-energy tails, expected of targets that undergo oxidation \cite{Landau1944}. These angles were measured again toward the end of the experiment with the non-oxidized KI $\#$6 target, but the oxidized KI $\#$1 data was not discarded nevertheless. Section \ref{subsec:oxidation} details a novel technique for fitting these spectra, an example of which is shown in Section \ref{subsec:oxidation}.
+Potassium iodide is hygroscopic, meaning it will eventually oxidize at atmospheric pressure. To prevent this, care was taken to transport the targets from the evaporation chamber to the target chamber in a vacuum-sealed box at rough vacuum ($\sim 10^{-2}$ torr), where they were then exposed to high vacuum ($\sim 10^{-6}$ torr) for the remainder of the experiment. However, as will be described later, the first batch of targets (KI $\#$1, KI $\#$2, and KI $\#$3) oxidized at some point during the first day of the experiment, for the $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$ ($^{3}\mathrm{He},d$) measurements. The focal-plane spectra for these runs, exclusively using the KI $\#$1 target, consisted of peaks with high-energy tails, expected of targets that undergo oxidation \cite{Landau1944}. These angles were measured again toward the end of the experiment with the non-oxidized KI $\#$6 target, but the oxidized KI $\#$1 data was not discarded nevertheless. Section \ref{subsec:oxidation} details a novel technique for fitting these spectra, an example of which is shown in Section \ref{subsec:oxidized_spectra}.
 
 \subsection{Focal-Plane Spectra}
 
@@ -431,7 +431,7 @@ The 1D histogram of the P1 section, gated on the deuteron group of Fig \ref{fig:
 \caption{\label{fig:5deg_fp}A histogram spectrum of the front (P1) focal-plane detector position section at $\theta_{\mathrm{lab}} = 5^{\circ}$ and $E_{\mathrm{lab}} = 21$ MeV with the KI $\#$6 target (in red) and the carbon target (in black), both gated on the deuteron group from the the $\Delta$E vs. E spectrum. Overlapping peaks indicate contaminants.}
 \end{figure}
 
-\subsection{Energy Shifts}
+\subsection{Energy Shifts} \label{subsec:energy_shifts}
 
 % I want to cover all the angles, targets, magnetic fields, and sort groups. Introduce what I mean by sort groups. Cover energy shifts for various reasons, the Pos1 vs Event spectrum, etc.
 
@@ -512,11 +512,11 @@ Sort Group&$\theta_{\mathrm{lab}}$ $[^{\circ}]$&Run Numbers&Target&Enge Field [$
 
 It would not be appropriate to sort all runs at $\theta_{\mathrm{lab}} = 9^{\circ}$ together for the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ energy calibration and yield analysis. Because of the presence of energy shifts at some angles, it was necessary to group runs together based on where the energy shifts occurred. I refer to these groups as \emph{sort groups}. All of the runs in the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, as well as their sort groups, are shown in Table \ref{tab:run}. Because there were 7 angles measured in this experiment ($\theta_{\mathrm{lab}} = 5^{\circ}, 7^{\circ}, 9^{\circ}, 11^{\circ}, 13^{\circ}, 15^{\circ}$ and $20^{\circ}$), the ideal scenario would be to have 7 sort groups, 1 for each angle. However, there are 16 sort groups for various reasons, including beam retunes, switching targets, and the occassional beam noise from beamline element power supplies failing. In the case of sort group $\#$13 at $\theta_{\mathrm{lab}} = 13^{\circ}$, consisting of runs $\#$45 and $\#$47, 2 different targets are used between them, but they are from the same evaporation batch and therefore did not cause an energy shift. The $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ P1 spectra fortunately did not contain energy shifts because only a single run was needed per angle, and the same target (KI $\#$7) was used for each run.
 
-In the case of the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ run $\#$23 at $\theta_{\mathrm{lab}} = 9^{\circ}$, and for a few other runs, the energy shift occurred during the run, not between runs. For this reason, it was also necessary to have the ability to gate on the P1 vs Event Number histogram for the entire area before or after a shift. I added this feature to both my local \texttt{EngeSpec} and \texttt{Jam} source codes. Only the events occurring in the gate are used in a new, event-gated P1 spectrum. Unfortunately, this means that the recorded BCI is no longer accurate. An approximation to the new, reduced BCI is to scale the original BCI by the fraction of events in the gate. This is not exact due to the loss of resolution when compressing the events into 512 bins, but it is more than sufficient considering the much larger uncertainty from the BCI measurement itself. The same fraction can be applied to the time-keeping scalars to correct for the new deadtime. The exact same gate is also used in these cases for the simultaneous silicon detector telescope spectra, as introduced in the next section, to ensure consistency with the reduced BCI and deadtime between the focal-plane and silicon detector spectra.
+In the case of the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ run $\#$23 at $\theta_{\mathrm{lab}} = 9^{\circ}$, and for a few other runs, the energy shift occurred during the run, not between runs. For this reason, it was also necessary to have the ability to gate on the P1 vs Event Number histogram for the entire area before or after a shift. I added this feature to both my local \texttt{EngeSpec} and \texttt{Jam} source codes. Only the events occurring in the gate are used in a new, event-gated P1 spectrum. Unfortunately, this means that the recorded BCI is no longer accurate. An approximation to the new, reduced BCI is to scale the original BCI by the fraction of events in the gate. This is not exact due to the loss of resolution when compressing the events into 512 bins, but it is more than sufficient considering the much larger uncertainty from the BCI measurement itself. The same fraction can be applied to the time-keeping scalars to correct for the new deadtime. The exact same gate is also used in these cases for the simultaneous silicon detector telescope spectra, as introduced in the next section, to ensure consistency with the reduced BCI and deadtime between the focal-plane and silicon detector spectra. This is essential for a relative measurement between the two detectors, as discussed in Section \ref{subsec:SiNorm}.
 
 \subsection{Silicon Detector Telescope} \label{subsec:SiDet}
 
-To minimize the effects of uncertainty in the target thickness, non-uniformity in the target, and target degradation after exposure to the beam, the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ proton-transfer yields from the focal-plane P1 spectra were normalized to the simultaneous $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering yield of a Si detector telescope positioned at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$ inside the target chamber. The scale for the Si-normalized focal-plane differential cross-section measurements was then corrected using the global $^{3}\mathrm{He}$ optical model potential (OMP) differential cross-section for $^{39}\mathrm{K}$ from Ref. \cite{Liang2009} (see Sections \ref{subsec:OMP} and \ref{subsec:SiNorm}). The scaling factor was the ratio between the differential cross-section of the global OMP and that of the Si-normalized focal-plane $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements.
+To minimize the effects of uncertainty in the target thickness, non-uniformity in the target, and target degradation after exposure to the beam, the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ proton-transfer yields from the focal-plane P1 spectra were normalized to the simultaneous $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering yield of a Si detector telescope positioned at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$ inside the target chamber. The scale for the Si-normalized focal-plane differential cross-section measurements was then corrected using the global $^{3}\mathrm{He}$ optical model potential (OMP) differential cross-section for $^{39}\mathrm{K}$ from Ref. \cite{Liang2009} (see Sections \ref{subsec:SiNorm} and \ref{subsec:global_norm}). The scaling factor was the ratio between the differential cross-section of the global OMP and that of the Si-normalized focal-plane $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements.
 
 The silicon detector telescope consists of a $\Delta$E detector and a thicker, residual energy E detector, used in coincidence for particle discrimination in the same way as the $\Delta$E and E focal-plane detectors. A representative 2D $\Delta$E vs E histogram for the silicon detectors at $\theta_{\mathrm{lab}} = 45^{\circ}$ with the KI $\#$6 target is shown in Fig. \ref{fig:5deg_SiDEvsSiE}. As before, different groups correspond to different particles depending on mass and charge. The highlighted gate is around the $^{3}$He group. It is clear that there are 4 regions in this group that are more dense than the background and that have an even more negative slope than the trend of the overall group. These different regions correspond to scattering from different elements in the target. From left to right, they are carbon, oxygen, potassium, and iodine, as the more massive elements will deposit more energy in the Si E detector. 
 
@@ -564,7 +564,6 @@ The silicon detector telescope consists of a $\Delta$E detector and a thicker, r
 \node at (4.3,-1.4) {\rlap{\LARGE{$^{\textbf{3}}$\textbf{He}}}};
 \node at (1.1,1) {\rlap{\LARGE{$^{\textbf{4}}$\textbf{He}}}};
 
-
 \end{tikzpicture}
 \caption{\label{fig:5deg_SiDEvsSiE}A 2D histogram of the Si $\Delta$E vs Si E detector signals. Different groups correspond to different particles depending on their mass and charge. The $^{3}$He group, highlighted in red, is being gated on in the figure.}
 \end{figure}
@@ -578,7 +577,7 @@ E^{\mathrm{tot}} = \frac{E + p_{\mathrm{Si}}\Delta E}{1 + p_{\mathrm{Si}}},
 \def\xTS{1.875} % x tick space
 \def\sl{0.38} % shift left
 \def\su{0.4} % shift up
-\begin{figure}[!htb]
+\begin{figure}[t]
 \centering
 \begin{tikzpicture}[scale=0.8, every node/.style={transform shape}]
 \node at (0,0) {\includegraphics[width=5.5in]{Chapter-6/figs/5deg_SiDEvsSiTotE_GSiDEvsSiE.png}};
@@ -625,7 +624,7 @@ E^{\mathrm{tot}} = \frac{E + p_{\mathrm{Si}}\Delta E}{1 + p_{\mathrm{Si}}},
 \def\xTS{1.858} % x tick space
 \def\sl{0.38} % shift left
 \def\su{0.4} % shift up
-\begin{figure}[!htb]
+\begin{figure}[t]
 \centering
 \begin{tikzpicture}[scale=0.8, every node/.style={transform shape}]
 \node at (0,0) {\includegraphics[width=5.5in]{Chapter-6/figs/5deg_SiTotE_GSiDEvsSiE.png}};
@@ -651,14 +650,14 @@ E^{\mathrm{tot}} = \frac{E + p_{\mathrm{Si}}\Delta E}{1 + p_{\mathrm{Si}}},
 \caption{\label{fig:5deg_SiTotE}A histogram spectrum of Si Total E gated on the $^{3}$He group at $\theta_{\mathrm{lab}} = 45^{\circ}$, obtained by projecting Fig. \ref{fig:5deg_SiDEvsSiTotE} onto its $x$-axis. Each peak is labeled with its corresponding elastic scattering element. The individual $^{39}$K and $^{41}$K isotopes are unresolvable.}
 \end{figure}
 
-\pagebreak
-
 \noindent
 where $p_{\mathrm{Si}}$ is the Si slope parameter defined by the user in either \texttt{EngeSpec} or \texttt{Jam}. The transformed 2D Si $\Delta$E vs Si total E spectrum, gated on the $^{3}$He group, is shown in Fig. \ref{fig:5deg_SiDEvsSiTotE}. The scattering elements are labaled with their element symbols. Finally, the projected 1D histogram for Si total E is presented in Fig. \ref{fig:5deg_SiTotE}, where the potassium (K) peak can be seen on the shoulder of the iodine (I) peak. The yield of the potassium peak ideally remains constant throughout the experiment, for a given target, since the Si detector telescope is positioned at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$. However, target degradation occurs naturally over time, decreasing the yield of both focal-plane and Si detector measurements. Hence, the normalization corrects for this, as well as the other unknown target properties. 
 
-One complication is the poor resolution between different isotopes for elastic scattering, especially at low angles. In the Si detectors, the potassium peak always consisted of $^{41}$K in addition to $^{39}$K, since a natural KI target was used. In the focal-plane P1 detector, which has better energy resolution, the elastic scattering $^{39}$K peak could be resolved only for $\theta_{\mathrm{lab}} \geq 40^{\circ}$. The presence of $^{41}$K was corrected for in the differential cross-section calculations of $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ by taking into account both the isotopic abundance ratio of potassium and the relative differential cross-sections of global $^{3}$He OMPs for $^{39}$K and $^{41}$K, as detailed in Section \ref{subsec:SiNorm}.
+One complication is the poor resolution between different isotopes for elastic scattering, especially at low angles. In the Si detectors, the potassium peak always consisted of $^{41}$K in addition to $^{39}$K, since a natural KI target was used. In the focal-plane P1 detector, which has better energy resolution, the elastic scattering $^{39}$K peak could be resolved only for $\theta_{\mathrm{lab}} \geq 40^{\circ}$. The presence of $^{41}$K was corrected for in the differential cross-section calculations of $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ by taking into account both the isotopic abundance ratio of potassium and the relative differential cross-sections of global $^{3}$He OMPs for $^{39}$K and $^{41}$K.
 
-\subsection{Oxidized Spectra}
+%, as detailed in Section \ref{subsec:SiNorm}.
+
+\subsection{Oxidized Spectra} \label{subsec:oxidized_spectra}
 
 % the first batch of targets (KI $\#$1, KI $\#$2, and KI $\#$3) oxidized at some point during the first day of the experiment, for the $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$ ($^{3}\mathrm{He},d$) measurements. The focal-plane spectra for these runs consisted of peaks with high-energy tails, expected of targets that undergo oxidation \cite{Landau}. These angles were measured again toward the end of the experiment with the non-oxidized KI $\#$6 target, but the oxidized KI $\#$1 data was not discarded nevertheless. Section \ref{subsec:oxidation} details a novel technique for fitting these spectra.
 
@@ -929,17 +928,58 @@ Assuming the cross section does not depend on the azimuthal angle, the conversio
 \frac{\left( d\sigma/d\Omega \right)^{\mathrm{c.m.}}_{\theta_{\mathrm{c.m.}}}}{\left( d\sigma/d\Omega \right)^{\mathrm{lab}}_{\theta_{\mathrm{lab}}}} = \frac{d\Omega_{\mathrm{lab}}}{d\Omega_{\mathrm{c.m.}}} = \frac{d(\cos \theta_{\mathrm{lab}})}{d(\cos \theta_{\mathrm{c.m.}})} = \frac{1 + \gamma \cos \theta_{\mathrm{c.m.}}}{\left( 1 + \gamma^{2} + 2 \gamma \cos \theta_{\mathrm{c.m.}} \right)^{3/2}}.
 \end{equation}
 
-
 \subsection{Si Detector Normalization} \label{subsec:SiNorm}
 
-As mentioned in Section \ref{subsec:SiDet}, a Si detector telescope was used to  measure the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering differential cross section at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$, while the focal-plane detector was simultaneously measuring the differential cross sections of both $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ over multiple $\theta_{\mathrm{lab}}$ angles. The Si detector elastic scattering cross section was used as a normalization to correct for systematic uncertainties associated with unknown target effects during the focal-plane measurements. Although this implies a relative measurement, an absolute scale can be established by comparing to optical model predictions.
+As mentioned in Section \ref{subsec:SiDet}, a Si detector telescope was used to  measure the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering differential cross section at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$, while the focal-plane detector was simultaneously measuring the differential cross sections of both $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ over multiple $\theta_{\mathrm{lab}}$ angles. The Si detector elastic scattering cross section was used as a normalization to correct for systematic uncertainties associated with unknown target effects during the focal-plane measurements. Although this is a relative measurement, an absolute scale can be established by comparing to optical model predictions.
 
-The reason the relative measurement is effective is due to the conversion factor $n_{\mathrm{X}}$ between the yield and cross section in Eqn. \ref{eqn:yield_to_cross} being consistent between the measurements. Since $n_{\mathrm{X}}$ only depends on the target properties, taking a relative cross section is equivalent to taking a relative yield, where the target properties cancel out. Because of the angular dependence, however, each differential yield (or equivalently, each differential cross section) must first be converted into the center-of-mass system before taking the ratio.
+The reason the relative measurement is effective is due to the conversion factor $n_{\mathrm{X}}$ between the yield and cross section in Eqn. \ref{eqn:yield_to_cross}. Since $n_{\mathrm{X}}$ only depends on the target properties, taking a relative cross section is equivalent to taking a relative yield, where the target properties cancel out. Because of the angular dependence, however, each differential yield (or equivalently, each differential cross section) must first be converted into the center-of-mass system before taking the ratio.
 
-The final form of the Si-normalized differential cross-section in the center-of-mass system becomes
+The final form of the differential cross-section ratio $R$ in the center-of-mass system becomes
 \begin{equation}
-\frac{\left( d\sigma/d\Omega_{\mathrm{FP}} \right)^{\mathrm{FP}}_{\theta_{\mathrm{c.m.}}}}{\left( d\sigma/d\Omega_{\mathrm{Si}} \right)^{\mathrm{Si}}_{\theta_{\mathrm{c.m.}} = 48.14^{\circ}}} = 
+R \equiv \frac{\left( d\sigma/d\Omega_{\mathrm{FP}} \right)^{\mathrm{FP}}_{\theta_{\mathrm{c.m.}}}}{\left( d\sigma/d\Omega_{\mathrm{Si}} \right)^{\mathrm{Si}}_{\theta_{\mathrm{Si}}}} = \frac{N^{\mathrm{FP}}_{c} \, \Omega_{\mathrm{Si}}}{\Omega_{\mathrm{FP}} \, N^{\mathrm{Si}}_{c}} \, \frac{1 + \gamma \cos \theta_{\mathrm{c.m.}}}{\left( 1 + \gamma^{2} + 2 \gamma \cos \theta_{\mathrm{c.m.}} \right)^{3/2}} \, \frac{\left( 1 + \gamma^{2} + 2 \gamma \cos \theta_{\mathrm{Si}} \right)^{3/2}}{1 + \gamma \cos \theta_{\mathrm{Si}}},
 \end{equation}
+where $\theta_{\mathrm{c.m.}}$ is the angle for the focal plane measurement, $\theta_{\mathrm{Si}} = 48.14^{\circ}$ is the center-of-mass angle for the Si measurement ($\theta_{\mathrm{lab}} = 45^{\circ}$), $\Omega_{\mathrm{Si}} = 4.23(4)$ msr, and $\Omega_{\mathrm{FP}} = 1.00(4)$ msr for all runs of the transfer reaction and at angles $\theta_{\mathrm{lab}} \leq 35^{\circ}$ for elastic scattering; otherwise, $\Omega_{\mathrm{FP}} = 0.50(4)$ msr for elastic scattering. Note that the only experimental quantities required with a relative measurement are the number of detector counts $N_{c}$ and the solid angle $\Omega$ that each detector covers, in addition to the quantities making up the center-of-mass conversion.
+
+% Sort groups and weighted average over them at each angle. Variation from average ratio as an additional scatter uncertainty. Oxidation as an additional scatter uncertainty (20%).
+
+Due to the presence of energy shifts in the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment (see Section \ref{subsec:energy_shifts}), the runs usually could not all be sorted together at a given scattering angle. Therefore, there were multiple relative cross sections that needed to be calculated at these angles, one per sort group, and a method of averaging these measurements was necessary. A weighted average over each sort group $i$ at a given angle was deemed appropriate, where the weight is given in terms of the individual relative cross section uncertainties, $u_{R}$, as in
+\begin{equation}
+\bar{R} = \frac{\sum^{n}_{i} R_{i}/u^{2}_{R, i}}{\sum^{n}_{i} 1/u^{2}_{R, i}},
+\end{equation}
+for $n$ total sort groups at the given angle. This ensures that the more precise measurements are weighted more. The uncertainty in this weighted average is then
+\begin{equation}
+u_{\bar{R}} = \sqrt{\frac{1}{\sum^{n}_{i} 1/u^{2}_{R, i}}}.
+\end{equation}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=6in]{Chapter-6/figs/variation_13deg.png}
+\caption{\label{fig:deviation}The deviations from the average differential cross-section ratio $R$ for each sort group over all $^{40}$Ca states measured at $\theta_{\mathrm{lab}} = 13^{\circ}$. The colored lines correspond to each $^{40}$Ca state up to $E_{x} = 8935$ keV. The average deviation has been normalized to unity. The deviations are typically within $10\%$ of the average, which is true for the other angles as well. The average deviation for a given angle is used as an additional scatter uncertainty, as described in the text.}
+\end{figure}
+
+In calculating the individual relative cross section uncertainties $u_{R}$, it was clear that an additional scatter uncertainty $u_{s}$ was required to accurately account for the variations from the average $R$. The goal was to apply the same fractional scatter uncertainty for all measurements of a given angle, based on the typical deviation from the average $R$ over all $^{40}$Ca states. An example of this is depicted in Fig. \ref{fig:deviation}, where the variations from the average $R$, normalized to unity, at $\theta_{\mathrm{lab}} = 13^{\circ}$ is shown over all sort groups and for all $^{40}$Ca states, up to $E_{x} = 8935$ keV. Each color represents a different $^{40}$Ca state. It is clear that the variations from the average are typically no more than about $10\%$, which is also true for the other angles. The variation from the average $R$ is written as
+\begin{equation}
+\mathrm{var} = \frac{R}{R_{\mathrm{avg}}},
+\end{equation}
+where each fractional deviation is found from
+\begin{equation}
+f_{\mathrm{dev}} = | \mathrm{var} - 1 |.
+\end{equation}
+The average of these fractional deviations $f_{\mathrm{dev,\, avg}}$ over all the $^{40}$Ca states and all sort groups for a given angle is used as the fractional uncertainty applied to the additional scatter,
+\begin{equation}
+u_{s} = f_{\mathrm{dev,\, avg}} \, R.
+\end{equation}
+In cases where only one sort group was needed for an angle, the fractional uncertainty was instead obtained by taking $f_{\mathrm{dev,\, avg}}$ for each sort group and $^{40}$Ca state over all angles. 
+
+For sort groups where an oxidized target (KI $\#$1) was used, it was determined that the uncertainty was still underestimated, based on the tension between measurements at the same angle with targets that were not oxidized. An additional $f_{\mathrm{ox}} = 20\%$ scatter was added in these cases to account for any unknown variability and to apply more weight to measurements with non-oxidized targets. The resulting uncertainty in each $R$ measurement with the added scatter is thus
+\begin{equation}
+u'^{\, 2}_{R} = u^{2}_{R} + u^{2}_{s} + u^{2}_{\mathrm{ox}} = u^{2}_{R} + (f^{2}_{\mathrm{dev,\, avg}} + f^{2}_{\mathrm{ox}}) \, R^{2},
+\end{equation}
+where $f_{\mathrm{dev,\, avg}}$ covers all angles in cases where only one sort group was needed for an angle and $f_{\mathrm{ox}} = 0$ for non-oxidized targets. 
+
+\subsection{Global Optical Model Normalization} \label{subsec:global_norm}
+
+
 
 \begin{figure}[t]
 \centering
