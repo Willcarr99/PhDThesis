@@ -60,7 +60,7 @@ Polluter stars are likely the site of the nucleosynthesis that gives rise to the
 \def\BoxSpacehalf{\BoxSpace * 0.5}
 \def\AOS{0.2} % Arrow Offset
 \def\AW{0.52} % Arrow Width (mm)
-\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows, arrows.meta}
 
 \begin{figure}[t]
 \centering
@@ -930,19 +930,21 @@ Assuming the cross section does not depend on the azimuthal angle, the conversio
 
 \subsection{Si Detector Normalization} \label{subsec:SiNorm}
 
-As mentioned in Section \ref{subsec:SiDet}, a Si detector telescope was used to  measure the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering differential cross section at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$, while the focal-plane detector was simultaneously measuring the differential cross sections of both $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ over multiple $\theta_{\mathrm{lab}}$ angles. The Si detector elastic scattering cross section was used as a normalization to correct for systematic uncertainties associated with unknown target effects during the focal-plane measurements. Although this is a relative measurement, an absolute scale can be established by comparing to optical model predictions.
+As mentioned in Section \ref{subsec:SiDet}, a Si detector telescope was used to  measure the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering differential cross section at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$, while the focal-plane detector was simultaneously measuring the differential cross sections of both $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ over multiple $\theta_{\mathrm{lab}}$ angles. The Si detector elastic scattering cross section was used as a normalization to correct for systematic uncertainties associated with unknown target effects during the focal-plane measurements. Although this is a relative measurement, an absolute scale can be established by comparing to optical model predictions, described in Section \ref{subsec:global_norm}.
 
-The reason the relative measurement is effective is due to the conversion factor $n_{\mathrm{X}}$ between the yield and cross section in Eqn. \ref{eqn:yield_to_cross}. Since $n_{\mathrm{X}}$ only depends on the target properties, taking a relative cross section is equivalent to taking a relative yield, where the target properties cancel out. Because of the angular dependence, however, each differential yield (or equivalently, each differential cross section) must first be converted into the center-of-mass system before taking the ratio.
-
-The final form of the differential cross-section ratio $R$ in the center-of-mass system becomes
+The reason the relative measurement is effective is due to the conversion factor $n_{\mathrm{X}}$ between the yield and cross section in Eqn. \ref{eqn:yield_to_cross}. Since $n_{\mathrm{X}}$ only depends on the target properties, taking a relative cross section is equivalent to taking a relative yield, where the target properties cancel out. Because of the angular dependence, however, each differential yield (or equivalently, each differential cross section) must first be converted into the center-of-mass system before taking the ratio. The final form of the differential cross-section ratio $R$ in the center-of-mass system becomes
 \begin{equation}
 R \equiv \frac{\left( d\sigma/d\Omega_{\mathrm{FP}} \right)^{\mathrm{FP}}_{\theta_{\mathrm{c.m.}}}}{\left( d\sigma/d\Omega_{\mathrm{Si}} \right)^{\mathrm{Si}}_{\theta_{\mathrm{Si}}}} = \frac{N^{\mathrm{FP}}_{c} \, \Omega_{\mathrm{Si}}}{\Omega_{\mathrm{FP}} \, N^{\mathrm{Si}}_{c}} \, \frac{1 + \gamma \cos \theta_{\mathrm{c.m.}}}{\left( 1 + \gamma^{2} + 2 \gamma \cos \theta_{\mathrm{c.m.}} \right)^{3/2}} \, \frac{\left( 1 + \gamma^{2} + 2 \gamma \cos \theta_{\mathrm{Si}} \right)^{3/2}}{1 + \gamma \cos \theta_{\mathrm{Si}}},
 \end{equation}
-where $\theta_{\mathrm{c.m.}}$ is the angle for the focal plane measurement, $\theta_{\mathrm{Si}} = 48.14^{\circ}$ is the center-of-mass angle for the Si measurement ($\theta_{\mathrm{lab}} = 45^{\circ}$), $\Omega_{\mathrm{Si}} = 4.23(4)$ msr, and $\Omega_{\mathrm{FP}} = 1.00(4)$ msr for all runs of the transfer reaction and at angles $\theta_{\mathrm{lab}} \leq 35^{\circ}$ for elastic scattering; otherwise, $\Omega_{\mathrm{FP}} = 0.50(4)$ msr for elastic scattering. Note that the only experimental quantities required with a relative measurement are the number of detector counts $N_{c}$ and the solid angle $\Omega$ that each detector covers, in addition to the quantities making up the center-of-mass conversion.
+where $\theta_{\mathrm{c.m.}}$ is the angle for the focal plane measurement, $\theta_{\mathrm{Si}} = 48.14^{\circ}$ is the center-of-mass angle for the Si measurement ($\theta_{\mathrm{lab}} = 45^{\circ}$), $\Omega_{\mathrm{Si}} = 4.23(4)$ msr, and $\Omega_{\mathrm{FP}} = 1.00(4)$ msr for all runs of the transfer reaction and at angles $\theta_{\mathrm{lab}} \leq 35^{\circ}$ for elastic scattering; otherwise, $\Omega_{\mathrm{FP}} = 0.50(4)$ msr for elastic scattering. Note that the only experimental quantities required with a relative measurement are the number of detector counts $N_{c}$ and the solid angle $\Omega$ that each detector covers, in addition to the quantities making up the center-of-mass conversion. The $u_{R}$ uncertainty is found to be
+\begin{equation}
+u_{R} = R \sqrt{\left( \frac{u_{N_{c}}}{N_{c}} \right)^{2}_{\mathrm{FP}} + \left( \frac{u_{\Omega}}{\Omega} \right)^{2}_{\mathrm{FP}} + \left( \frac{u_{N_{c}}}{N_{c}} \right)^{2}_{\mathrm{Si}} + \left( \frac{u_{\Omega}}{\Omega} \right)^{2}_{\mathrm{Si}}},
+\end{equation}
+where the uncertainties in the angle measurement and $\gamma$ are sufficiently small to be neglected.
 
 % Sort groups and weighted average over them at each angle. Variation from average ratio as an additional scatter uncertainty. Oxidation as an additional scatter uncertainty (20%).
 
-Due to the presence of energy shifts in the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment (see Section \ref{subsec:energy_shifts}), the runs usually could not all be sorted together at a given scattering angle. Therefore, there were multiple relative cross sections that needed to be calculated at these angles, one per sort group, and a method of averaging these measurements was necessary. A weighted average over each sort group $i$ at a given angle was deemed appropriate, where the weight is given in terms of the individual relative cross section uncertainties, $u_{R}$, as in
+Due to the presence of energy shifts in the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment (see Section \ref{subsec:energy_shifts}), the runs usually could not all be sorted together at a given scattering angle. Therefore, there were multiple relative cross sections that needed to be calculated at these angles, one per sort group, and a method of averaging these measurements was necessary. A weighted average over each sort group $i$ at a given angle was deemed appropriate, where the weight is given in terms of the individual relative cross section uncertainties $u_{R}$, as in
 \begin{equation}
 \bar{R} = \frac{\sum^{n}_{i} R_{i}/u^{2}_{R, i}}{\sum^{n}_{i} 1/u^{2}_{R, i}},
 \end{equation}
@@ -951,13 +953,7 @@ for $n$ total sort groups at the given angle. This ensures that the more precise
 u_{\bar{R}} = \sqrt{\frac{1}{\sum^{n}_{i} 1/u^{2}_{R, i}}}.
 \end{equation}
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=6in]{Chapter-6/figs/variation_13deg.png}
-\caption{\label{fig:deviation}The deviations from the average differential cross-section ratio $R$ for each sort group over all $^{40}$Ca states measured at $\theta_{\mathrm{lab}} = 13^{\circ}$. The colored lines correspond to each $^{40}$Ca state up to $E_{x} = 8935$ keV. The average deviation has been normalized to unity. The deviations are typically within $10\%$ of the average, which is true for the other angles as well. The average deviation for a given angle is used as an additional scatter uncertainty, as described in the text.}
-\end{figure}
-
-In calculating the individual relative cross section uncertainties $u_{R}$, it was clear that an additional scatter uncertainty $u_{s}$ was required to accurately account for the variations from the average $R$. The goal was to apply the same fractional scatter uncertainty for all measurements of a given angle, based on the typical deviation from the average $R$ over all $^{40}$Ca states. An example of this is depicted in Fig. \ref{fig:deviation}, where the variations from the average $R$, normalized to unity, at $\theta_{\mathrm{lab}} = 13^{\circ}$ is shown over all sort groups and for all $^{40}$Ca states, up to $E_{x} = 8935$ keV. Each color represents a different $^{40}$Ca state. It is clear that the variations from the average are typically no more than about $10\%$, which is also true for the other angles. The variation from the average $R$ is written as
+In calculating the individual relative cross section uncertainties $u_{R}$, it was clear that an additional scatter uncertainty $u_{s}$ was required to accurately account for the variations from the average $R$. The goal was to apply the same fractional scatter uncertainty for all measurements of a given angle, based on the typical deviation from the average $R$ over all $^{40}$Ca states. An example of this is depicted in Fig. \ref{fig:variation}, where the variations from the average $R$, normalized to unity, at $\theta_{\mathrm{lab}} = 13^{\circ}$ are shown over all sort groups and for all $^{40}$Ca states, up to $E_{x} = 8935$ keV. Each color represents a different $^{40}$Ca state. It is clear that the variations from the average are typically no more than about $10\%$, which is also true for the other angles. The variation from the average $R$ is written as
 \begin{equation}
 \mathrm{var} = \frac{R}{R_{\mathrm{avg}}},
 \end{equation}
@@ -971,22 +967,77 @@ u_{s} = f_{\mathrm{dev,\, avg}} \, R.
 \end{equation}
 In cases where only one sort group was needed for an angle, the fractional uncertainty was instead obtained by taking $f_{\mathrm{dev,\, avg}}$ for each sort group and $^{40}$Ca state over all angles. 
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=6in]{Chapter-6/figs/variation_13deg.png}
+\caption{\label{fig:variation}The variations from the average differential cross-section ratio $R$, normalized to unity, for each sort group over all $^{40}$Ca states measured at $\theta_{\mathrm{lab}} = 13^{\circ}$. The colored lines correspond to each $^{40}$Ca state up to $E_{x} = 8935$ keV. The variations are typically within $10\%$ of the average, which is true for the other angles as well. The average deviation for a given angle is used as an additional scatter uncertainty, as described in the text.}
+\end{figure}
+
 For sort groups where an oxidized target (KI $\#$1) was used, it was determined that the uncertainty was still underestimated, based on the tension between measurements at the same angle with targets that were not oxidized. An additional $f_{\mathrm{ox}} = 20\%$ scatter was added in these cases to account for any unknown variability and to apply more weight to measurements with non-oxidized targets. The resulting uncertainty in each $R$ measurement with the added scatter is thus
 \begin{equation}
 u'^{\, 2}_{R} = u^{2}_{R} + u^{2}_{s} + u^{2}_{\mathrm{ox}} = u^{2}_{R} + (f^{2}_{\mathrm{dev,\, avg}} + f^{2}_{\mathrm{ox}}) \, R^{2},
 \end{equation}
 where $f_{\mathrm{dev,\, avg}}$ covers all angles in cases where only one sort group was needed for an angle and $f_{\mathrm{ox}} = 0$ for non-oxidized targets. 
 
-\subsection{Global Optical Model Normalization} \label{subsec:global_norm}
+\subsection{Optical Model Normalization} \label{subsec:global_norm}
 
+An absolute scale for the relative cross section is established by applying a normalization factor $N_{\mathrm{ES}}$ obtained from the comparison between the measured $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{40}\mathrm{Ca}$ elastic scattering relative cross section and the absolute cross section from a global $^{3}$He optical model potential for $^{39}$K (see Section \ref{subsec:Optical_Model}, covering optical model potentials). Both of these cross sections are given in terms of a ratio to Rutherford scattering, which is theoretically unity at $\theta_{\mathrm{c.m.}} = 0^{\circ}$.
 
+% Part 1: The Optical Model Potential itself
+The global $^{3}$He optical model potential of Ref. \cite{Liang2009} was chosen as the reference for the absolute scale. A global optical model potential is found through an optimization procedure fitting an exhaustive list of experimental elastic scattering data for several target nuclei. In the case of Ref. \cite{Liang2009}, there were 148 sets of elastic scattering data for 52 target nuclei. The potential parameters are expressed as functions of beam energy and target mass. For $^{39}\mathrm{K} + \, {}^{3}\mathrm{He}$ at $E_{\mathrm{lab}} = 21$ MeV, the potential parameters are given in Tabel \ref{tab:OMP_3He}.
 
-\begin{figure}[t]
+\begin{table}[t]
 \centering
-\includegraphics[width=6in]{Chapter-6/figs/ES_41K_Correction.png}
-\caption{\label{fig:ES_41K_Correction}The differential cross-section (ratio to Rutherford scattering) of the global $^{3}$He optical model potential of Ref. \cite{Liang2009} for $^{39}$K normalized to that of the present focal plane $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements. The focal plane differential cross-section has been corrected to account for the fact that $^{39}$K and $^{41}$K are unresolvable in the silicon detector peak for potassium and in some angles of the focal plane detector peak for potassium (see text).}
+\caption{\label{tab:OMP_3He}Global optical model potential parameters for $^{39}\mathrm{K} + {}^{3}\mathrm{He}$ at $E_{\mathrm{lab}} = 21$ MeV from Ref. \cite{Liang2009}.}
+\begin{tabular}{ccccccc}
+\hline\midrule
+$V_{r}$ & $r_{r}$ & $a_{r}$ & $W_{v}$ & $r_{v}$ & $a_{v}$ & $W_{s}$\\ \midrule
+117.881 & 1.178 & 0.768 & -0.646 & 1.415 & 0.847 & 20.665\\
+\hline\hline
+\end{tabular}
+\begin{tabular}{ccccccc}
+$r_{s}$ & $a_{s}$ & $V_{so}$ & $r_{so}$ & $a_{so}$ & $W_{so}$ & $r_{c}$\\ \midrule
+1.198 & 0.852 & 2.083 & 0.738 & 0.946 & -1.159 & 1.289\\
+\hline\hline
+\end{tabular}
+\end{table}
+
+%\begin{table}[t]
+%\centering
+%\caption{\label{tab:OMP_3He}Global optical model potential parameters for $^{39}\mathrm{K} + \,^{3}\mathrm{He}$ at $E_{\mathrm{lab}} = 21$ MeV from Ref. \cite{Liang2009}.}
+%\begin{tabular}{llllllllllllll}
+%\hline\midrule
+%$V_{r}$ & $r_{r}$ & $a_{r}$ & $W_{v}$ & $r_{v}$ & $a_{v}$ & $W_{s}$ & $r_{s}$ & $a_{s}$ & $V_{so}$ & $r_{so}$ & $a_{so}$ & $W_{so}$ & $r_{c}$\\ \midrule
+%117.881 & 1.178 & 0.768 & -0.646 & 1.415 & 0.847 & 20.665 & 1.198 & 0.852 & 2.083 & 0.738 & 0.946 & -1.159 & 1.289\\
+%\hline\hline
+%\end{tabular}
+%\end{table}
+
+% Part 2: The non-normalized differential cross sections
+
+% Part 3: The cubic interpolation method for normalization
+
+%The focal plane differential cross-section has been corrected to account for the fact that $^{39}$K and $^{41}$K are unresolvable in the silicon detector peak for potassium and in some angles of the focal plane detector peak for potassium (see text).
+
+\newpage
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[scale=1.0, every node/.style={transform shape}]
+\node at (0,0) {\includegraphics[width=6.5in]{Chapter-6/figs/global_NoNorm.png}};
+\node at (0,1.5) {\rlap{\LARGE{$\textbf{N}_{\mathrm{\textbf{ES}}}$}}};
+\draw[>=triangle 45, line width = 0.5 mm, <->] (-0.3,3.9) -- (-0.3,-0.9);
+\end{tikzpicture}
+\caption{\label{fig:ES_NoNorm}The differential cross-section, as a ratio to Rutherford scattering, of the global $^{3}$He optical model potential of Ref. \cite{Liang2009} for $^{39}$K (black line) and that of the present relative $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements (red data). The scaling factor $N_{\mathrm{ES}}$ is illustrated, which is applied to the transfer data to establish an absolute scale.}
 \end{figure}
 
+\newpage
+
+\begin{figure}
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/global_Norm.png}
+\caption{\label{fig:ES_Norm}The same as Fig. \ref{fig:ES_NoNorm}, except the differential cross-section of the global $^{3}$He optical model potential has been scaled by $N_{\mathrm{ES}}$ to match the experimental measurements, as described in the text.}
+\end{figure}
 
 \newpage
 
