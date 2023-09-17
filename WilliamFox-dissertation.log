@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.30)  15 SEP 2023 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.30)  16 SEP 2023 20:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1809,92 +1809,104 @@ File: Chapter-6/figs/variation_13deg.png Graphic file (type png)
 Package pdftex.def Info: Chapter-6/figs/variation_13deg.png  used on input line
  972.
 (pdftex.def)             Requested size: 433.62pt x 321.07724pt.
- [43] [44 <./Chapter-6/figs/variation_13deg.png (PNG copy)>] [45]
-<Chapter-6/figs/global_NoNorm.png, id=1071, 3668.70625pt x 2684.0275pt>
+ [43] [44 <./Chapter-6/figs/variation_13deg.png (PNG copy)>]
+Overfull \hbox (7.15096pt too wide) in paragraph at lines 1006--1007
+[]\T1/lmr/m/n/12 (-20) The nu-clear re-ac-tion code \T1/lmtt/m/n/12 Fresco \T1/
+lmr/m/n/12 (-20) [[][]Tho88[][], [][]Tho06[][]] was used to cal-cu-late the $[]
+\OT1/lmr/m/n/12 (-20) K([][]\OML/lmm/m/it/12 ; [][][]\OT1/lmr/m/n/12 (-20) )[]K
+$
+ []
+
+<Chapter-6/figs/global_NoNorm.png, id=1073, 3482.00874pt x 2320.67pt>
 File: Chapter-6/figs/global_NoNorm.png Graphic file (type png)
 <use Chapter-6/figs/global_NoNorm.png>
 Package pdftex.def Info: Chapter-6/figs/global_NoNorm.png  used on input line 1
-027.
-(pdftex.def)             Requested size: 469.75499pt x 343.65265pt.
+011.
+(pdftex.def)             Requested size: 469.75499pt x 313.06447pt.
 
-Overfull \hbox (7.83232pt too wide) in paragraph at lines 1030--1031
+Overfull \hbox (7.83232pt too wide) in paragraph at lines 1014--1015
  [][] 
  []
 
-<Chapter-6/figs/global_Norm.png, id=1074, 3668.70625pt x 2684.0275pt>
+[45]
+<Chapter-6/figs/global_Norm.png, id=1084, 3668.70625pt x 2684.0275pt>
 File: Chapter-6/figs/global_Norm.png Graphic file (type png)
 <use Chapter-6/figs/global_Norm.png>
-Package pdftex.def Info: Chapter-6/figs/global_Norm.png  used on input line 103
-8.
+Package pdftex.def Info: Chapter-6/figs/global_Norm.png  used on input line 102
+7.
 (pdftex.def)             Requested size: 469.75499pt x 343.65265pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1045.
 
+LaTeX Warning: Citation '??' on page 46 undefined on input line 1031.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1045.
-
+[46 <./Chapter-6/figs/global_NoNorm.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1045.
+(hyperref)                removing `math shift' on input line 1034.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1045.
+(hyperref)                removing `superscript' on input line 1034.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1045.
+(hyperref)                removing `superscript' on input line 1034.
 
-<Chapter-6/figs/unbound.png, id=1077, 8356.21875pt x 2791.42876pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1034.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1034.
+
+<Chapter-6/figs/unbound.png, id=1091, 8356.21875pt x 2791.42876pt>
 File: Chapter-6/figs/unbound.png Graphic file (type png)
 <use Chapter-6/figs/unbound.png>
-Package pdftex.def Info: Chapter-6/figs/unbound.png  used on input line 1060.
+Package pdftex.def Info: Chapter-6/figs/unbound.png  used on input line 1049.
 (pdftex.def)             Requested size: 469.75499pt x 156.91525pt.
+[47 <./Chapter-6/figs/global_Norm.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1078.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1078.
+(hyperref)                removing `math shift' on input line 1067.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 1078.
+(hyperref)                removing `superscript' on input line 1067.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1078.
+(hyperref)                removing `\gamma' on input line 1067.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1078.
+(hyperref)                removing `superscript' on input line 1067.
 
-[46 <./Chapter-6/figs/global_NoNorm.png (PNG copy)>] [47 <./Chapter-6/figs/glob
-al_Norm.png (PNG copy)>] [48 <./Chapter-6/figs/unbound.png (PNG copy)>]
-<Chapter-6/figs/rateCompare.png, id=1119, 433.62pt x 361.35pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1067.
+
+[48 <./Chapter-6/figs/unbound.png (PNG copy)>]
+<Chapter-6/figs/rateCompare.png, id=1129, 433.62pt x 361.35pt>
 File: Chapter-6/figs/rateCompare.png Graphic file (type png)
 <use Chapter-6/figs/rateCompare.png>
-Package pdftex.def Info: Chapter-6/figs/rateCompare.png  used on input line 109
-5.
+Package pdftex.def Info: Chapter-6/figs/rateCompare.png  used on input line 108
+4.
 (pdftex.def)             Requested size: 469.75499pt x 391.48175pt.
-<Chapter-6/figs/uncCompare.png, id=1124, 433.62pt x 433.62pt>
+<Chapter-6/figs/uncCompare.png, id=1134, 433.62pt x 433.62pt>
 File: Chapter-6/figs/uncCompare.png Graphic file (type png)
 <use Chapter-6/figs/uncCompare.png>
-Package pdftex.def Info: Chapter-6/figs/uncCompare.png  used on input line 1100
+Package pdftex.def Info: Chapter-6/figs/uncCompare.png  used on input line 1089
 .
 (pdftex.def)             Requested size: 469.75499pt x 469.7781pt.
-<Chapter-6/figs/Contrib_Fox.png, id=1127, 433.62pt x 361.35pt>
+<Chapter-6/figs/Contrib_Fox.png, id=1137, 433.62pt x 361.35pt>
 File: Chapter-6/figs/Contrib_Fox.png Graphic file (type png)
 <use Chapter-6/figs/Contrib_Fox.png>
-Package pdftex.def Info: Chapter-6/figs/Contrib_Fox.png  used on input line 110
-5.
+Package pdftex.def Info: Chapter-6/figs/Contrib_Fox.png  used on input line 109
+4.
 (pdftex.def)             Requested size: 469.75499pt x 391.48175pt.
-)
-[49] [50 <./Chapter-6/figs/rateCompare.png>] [51 <./Chapter-6/figs/uncCompare.p
-ng>] [52 <./Chapter-6/figs/Contrib_Fox.png>]
+) [49] [50 <./Chapter-6/figs/rateCompare.png>] [51 <./Chapter-6/figs/uncCompare
+.png>] [52 <./Chapter-6/figs/Contrib_Fox.png>]
 \openout2 = `Chapter-7/Chapter-7.aux'.
 
  (./Chapter-7/Chapter-7.tex
@@ -1943,15 +1955,20 @@ Package rerunfilecheck Info: File `WilliamFox-dissertation.out' has not changed
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                WilliamFox-dissertation
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'WilliamFox-dissertation.run.xml'.
 \openout1 = `WilliamFox-dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30750 strings out of 481239
- 580879 string characters out of 5920377
- 1106540 words of memory out of 5000000
- 44890 multiletter control sequences out of 15000+600000
+ 30752 strings out of 481239
+ 580911 string characters out of 5920377
+ 1105906 words of memory out of 5000000
+ 44891 multiletter control sequences out of 15000+600000
  639508 words of font info for 193 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,12n,73p,2572b,1695s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1971,10 +1988,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on WilliamFox-dissertation.pdf (70 pages, 3307681 bytes).
+Output written on WilliamFox-dissertation.pdf (70 pages, 3300099 bytes).
 PDF statistics:
- 1312 PDF objects out of 1440 (max. 8388607)
- 1155 compressed objects within 12 object streams
- 244 named destinations out of 1000 (max. 500000)
+ 1322 PDF objects out of 1440 (max. 8388607)
+ 1165 compressed objects within 12 object streams
+ 245 named destinations out of 1000 (max. 500000)
  26692 words of extra memory for PDF output out of 29859 (max. 10000000)
 

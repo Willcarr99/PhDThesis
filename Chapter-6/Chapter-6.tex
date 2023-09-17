@@ -933,7 +933,7 @@ Assuming the cross section does not depend on the azimuthal angle, the conversio
 As mentioned in Section \ref{subsec:SiDet}, a Si detector telescope was used to  measure the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering differential cross section at a constant $\theta_{\mathrm{lab}} = 45^{\circ}$, while the focal-plane detector was simultaneously measuring the differential cross sections of both $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ and $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ over multiple $\theta_{\mathrm{lab}}$ angles. The Si detector elastic scattering cross section was used as a normalization to correct for systematic uncertainties associated with unknown target effects during the focal-plane measurements. Although this is a relative measurement, an absolute scale can be established by comparing to optical model predictions, described in Section \ref{subsec:global_norm}.
 
 The reason the relative measurement is effective is due to the conversion factor $n_{\mathrm{X}}$ between the yield and cross section in Eqn. \ref{eqn:yield_to_cross}. Since $n_{\mathrm{X}}$ only depends on the target properties, taking a relative cross section is equivalent to taking a relative yield, where the target properties cancel out. Because of the angular dependence, however, each differential yield (or equivalently, each differential cross section) must first be converted into the center-of-mass system before taking the ratio. The final form of the differential cross-section ratio $R$ in the center-of-mass system becomes
-\begin{equation}
+\begin{equation} \label{eqn:cross_ratio}
 R \equiv \frac{\left( d\sigma/d\Omega_{\mathrm{FP}} \right)^{\mathrm{FP}}_{\theta_{\mathrm{c.m.}}}}{\left( d\sigma/d\Omega_{\mathrm{Si}} \right)^{\mathrm{Si}}_{\theta_{\mathrm{Si}}}} = \frac{N^{\mathrm{FP}}_{c} \, \Omega_{\mathrm{Si}}}{\Omega_{\mathrm{FP}} \, N^{\mathrm{Si}}_{c}} \, \frac{1 + \gamma \cos \theta_{\mathrm{c.m.}}}{\left( 1 + \gamma^{2} + 2 \gamma \cos \theta_{\mathrm{c.m.}} \right)^{3/2}} \, \frac{\left( 1 + \gamma^{2} + 2 \gamma \cos \theta_{\mathrm{Si}} \right)^{3/2}}{1 + \gamma \cos \theta_{\mathrm{Si}}},
 \end{equation}
 where $\theta_{\mathrm{c.m.}}$ is the angle for the focal plane measurement, $\theta_{\mathrm{Si}} = 48.14^{\circ}$ is the center-of-mass angle for the Si measurement ($\theta_{\mathrm{lab}} = 45^{\circ}$), $\Omega_{\mathrm{Si}} = 4.23(4)$ msr, and $\Omega_{\mathrm{FP}} = 1.00(4)$ msr for all runs of the transfer reaction and at angles $\theta_{\mathrm{lab}} \leq 35^{\circ}$ for elastic scattering; otherwise, $\Omega_{\mathrm{FP}} = 0.50(4)$ msr for elastic scattering. Note that the only experimental quantities required with a relative measurement are the number of detector counts $N_{c}$ and the solid angle $\Omega$ that each detector covers, in addition to the quantities making up the center-of-mass conversion. The $u_{R}$ uncertainty is found to be
@@ -981,10 +981,10 @@ where $f_{\mathrm{dev,\, avg}}$ covers all angles in cases where only one sort g
 
 \subsection{Optical Model Normalization} \label{subsec:global_norm}
 
-An absolute scale for the relative cross section is established by applying a normalization factor $N_{\mathrm{ES}}$ obtained from the comparison between the measured $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{40}\mathrm{Ca}$ elastic scattering relative cross section and the absolute cross section from a global $^{3}$He optical model potential for $^{39}$K (see Section \ref{subsec:Optical_Model}, covering optical model potentials). Both of these cross sections are given in terms of a ratio to Rutherford scattering, which is theoretically unity at $\theta_{\mathrm{c.m.}} = 0^{\circ}$.
+An absolute scale for the relative cross section is established by applying a normalization factor $N_{\mathrm{ES}}$ obtained from the comparison between the measured $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering relative cross section and the absolute cross section from a global $^{3}$He optical model potential (OMP) for $^{39}$K (see Section \ref{subsec:Optical_Model}, covering optical model potentials). Both of these cross sections are given in terms of a ratio to Rutherford scattering, which is theoretically unity at $\theta_{\mathrm{c.m.}} = 0^{\circ}$. The parameters of a global OMP are found through an optimization procedure, fitting them to an exhaustive list of experimental elastic scattering data for several target nuclei.
 
 % Part 1: The Optical Model Potential itself
-The global $^{3}$He optical model potential of Ref. \cite{Liang2009} was chosen as the reference for the absolute scale. A global optical model potential is found through an optimization procedure fitting an exhaustive list of experimental elastic scattering data for several target nuclei. In the case of Ref. \cite{Liang2009}, there were 148 sets of elastic scattering data for 52 target nuclei. The potential parameters are expressed as functions of beam energy and target mass. For $^{39}\mathrm{K} + \, {}^{3}\mathrm{He}$ at $E_{\mathrm{lab}} = 21$ MeV, the potential parameters are given in Tabel \ref{tab:OMP_3He}.
+The global $^{3}$He OMP of Ref. \cite{Liang2009} was chosen as the reference for the absolute scale. This potential includes real and imaginary volume terms, an imaginary surface term, real and imaginary spin-orbit terms, and a Coulomb potential, where the Woods-Saxon form factor $f_{i}(r)$ and its derivative are used, as described in Section \ref{subsec:Optical_Model}. A total of 148 sets of elastic scattering data for 52 target nuclei were used in the parametrization. The potential parameters are expressed as functions of beam energy and target mass. For $^{39}\mathrm{K} + \, {}^{3}\mathrm{He}$ at $E_{\mathrm{lab}} = 21$ MeV, the potential parameters from Ref. \cite{Liang2009} are given in Table \ref{tab:OMP_3He}, which are defined the same as in Section \ref{subsec:Optical_Model}.
 
 \begin{table}[t]
 \centering
@@ -1002,44 +1002,33 @@ $r_{s}$ & $a_{s}$ & $V_{so}$ & $r_{so}$ & $a_{so}$ & $W_{so}$ & $r_{c}$\\ \midru
 \end{tabular}
 \end{table}
 
-%\begin{table}[t]
-%\centering
-%\caption{\label{tab:OMP_3He}Global optical model potential parameters for $^{39}\mathrm{K} + \,^{3}\mathrm{He}$ at $E_{\mathrm{lab}} = 21$ MeV from Ref. \cite{Liang2009}.}
-%\begin{tabular}{llllllllllllll}
-%\hline\midrule
-%$V_{r}$ & $r_{r}$ & $a_{r}$ & $W_{v}$ & $r_{v}$ & $a_{v}$ & $W_{s}$ & $r_{s}$ & $a_{s}$ & $V_{so}$ & $r_{so}$ & $a_{so}$ & $W_{so}$ & $r_{c}$\\ \midrule
-%117.881 & 1.178 & 0.768 & -0.646 & 1.415 & 0.847 & 20.665 & 1.198 & 0.852 & 2.083 & 0.738 & 0.946 & -1.159 & 1.289\\
-%\hline\hline
-%\end{tabular}
-%\end{table}
-
 % Part 2: The non-normalized differential cross sections
+The nuclear reaction code \texttt{Fresco} \cite{Thompson1988,Fresco} was used to calculate the $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ differential cross section shown in Fig. \ref{fig:ES_NoNorm} using the OMP parameters in Table \ref{tab:OMP_3He} at $E_{\mathrm{lab}} = 21$ MeV. This differential cross section, represented as the black curve, was calculated in steps of $1^{\circ}$ from $\theta_{\mathrm{c.m.}} = 0^{\circ} - 80^{\circ}$. The present experimental differential cross section is shown in red at the angles $\theta_{\mathrm{lab}} = 15^{\circ} - 55^{\circ}$ in steps of $5^{\circ}$, and $59^{\circ}$, converted to $\theta_{\mathrm{c.m.}}$. The experimental points have been corrected for the presence of $^{41}$K in all of the elastic scattering peaks of the Si spectra and only at $\theta_{\mathrm{lab}} < 40^{\circ}$ in the focal-plane P1 spectra, described in Section \ref{subsec:SiDet}. Both the data and the model are given in terms of the ratio to Rutherford scattering. The difference in scale is attributed to the relative measurement of the focal-plane and the Si detectors.
 
-% Part 3: The cubic interpolation method for normalization
-
-%The focal plane differential cross-section has been corrected to account for the fact that $^{39}$K and $^{41}$K are unresolvable in the silicon detector peak for potassium and in some angles of the focal plane detector peak for potassium (see text).
-
-\newpage
-
-\begin{figure}
+\begin{figure}[t]
 \centering
 \begin{tikzpicture}[scale=1.0, every node/.style={transform shape}]
 \node at (0,0) {\includegraphics[width=6.5in]{Chapter-6/figs/global_NoNorm.png}};
 \node at (0,1.5) {\rlap{\LARGE{$\textbf{N}_{\mathrm{\textbf{ES}}}$}}};
-\draw[>=triangle 45, line width = 0.5 mm, <->] (-0.3,3.9) -- (-0.3,-0.9);
+\draw[>=triangle 45, line width = 0.5 mm, <->] (-0.3,3.6) -- (-0.3,-0.6);
 \end{tikzpicture}
-\caption{\label{fig:ES_NoNorm}The differential cross-section, as a ratio to Rutherford scattering, of the global $^{3}$He optical model potential of Ref. \cite{Liang2009} for $^{39}$K (black line) and that of the present relative $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements (red data). The scaling factor $N_{\mathrm{ES}}$ is illustrated, which is applied to the transfer data to establish an absolute scale.}
+\caption{\label{fig:ES_NoNorm}The differential cross-section, as a ratio to Rutherford scattering, of the global $^{3}$He optical model potential of Ref. \cite{Liang2009} for $^{39}$K (black line) and that of the present relative $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements (red data). The scaling factor $N_{\mathrm{ES}}$ is illustrated, which is also applied to the transfer data to establish an absolute scale.}
 \end{figure}
 
-\newpage
+% Part 3: The cubic interpolation method for normalization
+The elastic scattering scale factor $N_{\mathrm{ES}}$ was calculated by taking the average ratio between each experimental point and the global model,
+\begin{equation}
+N_{\mathrm{ES}} = \frac{1}{N} \sum_{i=1}^{N} \frac{R_{\mathrm{ES}, i}}{\left( d\sigma/d\Omega_{\mathrm{ES, global}} \right)_{i}},
+\end{equation}
+where $R_{\mathrm{ES}}$ is defined by Eqn. \ref{eqn:cross_ratio} for the simultaneous $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements of the focal-plane and Si detectors, and $N$ is the number of experimental points. Since the global OMP differential cross section is not continuous, its value at each experimental center-of-mass angle must be interpolated. This is performed by cubic spline interpolation, where each pair of neighboring $\left( d\sigma/d\Omega_{\mathrm{ES}, global} \right)_{i}$ points defines a polynomial that ensures its first and second derivatives at each point are equal to that of neighboring polynomials. After interpolating the $N$ points, the scale factor becomes $N_{\mathrm{ES}} = 0.0277(11) \approx 1/36$. Fig. \ref{fig:ES_Norm} shows the global model scaled by $N_{\mathrm{ES}}$ to match the data. Note that no $\chi^{2}$-minimization or Bayesian Monte Carlo algorithm has been performed on the OMP potential parameters. The global $^{3}$He parameters themselves sufficiently reproduce the angular distribution of the experimental points.
 
-\begin{figure}
+\begin{figure}[t]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/global_Norm.png}
 \caption{\label{fig:ES_Norm}The same as Fig. \ref{fig:ES_NoNorm}, except the differential cross-section of the global $^{3}$He optical model potential has been scaled by $N_{\mathrm{ES}}$ to match the experimental measurements, as described in the text.}
 \end{figure}
 
-\newpage
+The same $N_{\mathrm{ES}}$ normalization is applied to the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross sections, since they were also measured relative to the elastic scattering of the Si detector. The ratio between this corrected transfer differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the combined spectroscopic factor $C^{2}S = C^{2}S_{^{39}\mathrm{K}+p} \, C^{2}S_{d+p}$ of the $^{39}\mathrm{K}+p$ and $d+p$ overlaps. This ratio is performed in the exact same way as the elastic scattering normalization, including the cubic spline interpolation. It is common to not include ratios past the first DWBA minimum in transfer normalizations \cite{??}, but the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not measure yields at angles beyond the first minimum.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{$^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Analysis}

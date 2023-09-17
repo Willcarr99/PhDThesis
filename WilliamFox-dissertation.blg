@@ -26,15 +26,16 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12367 items from 5000.
+Reallocated field_info (elt_size=4) to 12506 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
+Warning--I didn't find a database entry for "??"
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 53 entries,
             6365 wiz_defined-function locations,
-            1658 strings with 23072 characters,
+            1659 strings with 23074 characters,
 and the built_in function-call counts, 417597 in all, are:
 = -- 31007
 > -- 7046
@@ -73,3 +74,4 @@ warning$ -- 0
 while$ -- 6176
 width$ -- 0
 write$ -- 2289
+(There was 1 warning)
