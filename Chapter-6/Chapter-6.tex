@@ -981,10 +981,10 @@ where $f_{\mathrm{dev,\, avg}}$ covers all angles in cases where only one sort g
 
 \subsection{Optical Model Normalization} \label{subsec:global_norm}
 
-An absolute scale for the relative cross section is established by applying a normalization factor $N_{\mathrm{ES}}$ obtained from the comparison between the measured $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ elastic scattering relative cross section and the absolute cross section from a global $^{3}$He optical model potential (OMP) for $^{39}$K (see Section \ref{subsec:Optical_Model}, covering optical model potentials). Both of these cross sections are given in terms of a ratio to Rutherford scattering, which is theoretically unity at $\theta_{\mathrm{c.m.}} = 0^{\circ}$. The parameters of a global OMP are found through an optimization procedure, fitting them to an exhaustive list of experimental elastic scattering data for several target nuclei.
+An absolute scale for the relative transfer differential cross section is established by applying a normalization factor $N_{\mathrm{ES}}$ obtained from the comparison between the relative elastic scattering differential cross section and the absolute differential cross section from a global $^{3}$He optical model potential (OMP) for $^{39}$K (see Section \ref{subsec:Optical_Model}). The parameters of a global OMP are found through an optimization procedure, fitting them to an exhaustive list of experimental elastic scattering data for several target nuclei. Both the elastic scattering and global OMP cross sections are given in terms of a ratio to Rutherford scattering, which is theoretically unity at $\theta_{\mathrm{c.m.}} = 0^{\circ}$.
 
 % Part 1: The Optical Model Potential itself
-The global $^{3}$He OMP of Ref. \cite{Liang2009} was chosen as the reference for the absolute scale. This potential includes real and imaginary volume terms, an imaginary surface term, real and imaginary spin-orbit terms, and a Coulomb potential, where the Woods-Saxon form factor $f_{i}(r)$ and its derivative are used, as described in Section \ref{subsec:Optical_Model}. A total of 148 sets of elastic scattering data for 52 target nuclei were used in the parametrization. The potential parameters are expressed as functions of beam energy and target mass. For $^{39}\mathrm{K} + \, {}^{3}\mathrm{He}$ at $E_{\mathrm{lab}} = 21$ MeV, the potential parameters from Ref. \cite{Liang2009} are given in Table \ref{tab:OMP_3He}, which are defined the same as in Section \ref{subsec:Optical_Model}.
+The global $^{3}$He OMP of Ref. \cite{Liang2009} was chosen as the reference for the absolute scale. This potential includes real and imaginary volume terms, an imaginary surface term, real and imaginary spin-orbit terms, and a Coulomb potential, where the Woods-Saxon form factor $f_{i}(r)$ and its derivative are used, as described in Section \ref{subsec:Optical_Model}. A total of 148 sets of elastic scattering data for 52 target nuclei were used in the parametrization. The potential parameters are expressed as functions of beam energy and target mass. For $^{39}\mathrm{K} + {}^{3}\mathrm{He}$ at $E_{\mathrm{lab}} = 21$ MeV, the potential parameters of Ref. \cite{Liang2009} are given in Table \ref{tab:OMP_3He}, which are defined in the same manner as in Section \ref{subsec:Optical_Model}.
 
 \begin{table}[t]
 \centering
@@ -1020,7 +1020,7 @@ The elastic scattering scale factor $N_{\mathrm{ES}}$ was calculated by taking t
 \begin{equation}
 N_{\mathrm{ES}} = \frac{1}{N} \sum_{i=1}^{N} \frac{R_{\mathrm{ES}, i}}{\left( d\sigma/d\Omega_{\mathrm{ES, global}} \right)_{i}},
 \end{equation}
-where $R_{\mathrm{ES}}$ is defined by Eqn. \ref{eqn:cross_ratio} for the simultaneous $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements of the focal-plane and Si detectors, and $N$ is the number of experimental points. Since the global OMP differential cross section is not continuous, its value at each experimental center-of-mass angle must be interpolated. This is performed by cubic spline interpolation, where each pair of neighboring $\left( d\sigma/d\Omega_{\mathrm{ES}, global} \right)_{i}$ points defines a polynomial that ensures its first and second derivatives at each point are equal to that of neighboring polynomials. After interpolating the $N$ points, the scale factor becomes $N_{\mathrm{ES}} = 0.0277(11) \approx 1/36$. Fig. \ref{fig:ES_Norm} shows the global model scaled by $N_{\mathrm{ES}}$ to match the data. Note that no $\chi^{2}$-minimization or Bayesian Monte Carlo algorithm has been performed on the OMP potential parameters. The global $^{3}$He parameters themselves sufficiently reproduce the angular distribution of the experimental points.
+where $R_{\mathrm{ES}, i}$ is defined by Eqn. \ref{eqn:cross_ratio} for the simultaneous $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements of the focal-plane and Si detectors, $\left( d\sigma/d\Omega_{\mathrm{ES, global}} \right)_{i}$ is the global OMP differential cross section evaluated at the experimental angle $\theta_{\mathrm{c.m., i}}$, and $N$ is the number of experimental points. Since the global OMP differential cross section is not continuous, its value at each experimental center-of-mass angle must be interpolated. This is performed by cubic spline interpolation, where each pair of neighboring $d\sigma/d\Omega_{\mathrm{ES, global}}$ points defines a polynomial that ensures its first and second derivatives at each point are equal to that of neighboring polynomials. After interpolating the $N$ points, the scale factor becomes $N_{\mathrm{ES}} = 0.0277(11) \approx 1/36$. Fig. \ref{fig:ES_Norm} shows the global model scaled by $N_{\mathrm{ES}}$ to match the data. No $\chi^{2}$-minimization or Bayesian Monte Carlo algorithm has been performed on the OMP potential parameters. The global $^{3}$He OMP parameters themselves sufficiently reproduce the angular distribution of the experimental points. However, the OMP parameters give rise to large systematic uncertainties in the spectroscopic factor calculations for the transfer reaction, as demonstrated in Section \ref{subsec:DWBA_Spec}.
 
 \begin{figure}[t]
 \centering
@@ -1028,14 +1028,164 @@ where $R_{\mathrm{ES}}$ is defined by Eqn. \ref{eqn:cross_ratio} for the simulta
 \caption{\label{fig:ES_Norm}The same as Fig. \ref{fig:ES_NoNorm}, except the differential cross-section of the global $^{3}$He optical model potential has been scaled by $N_{\mathrm{ES}}$ to match the experimental measurements, as described in the text.}
 \end{figure}
 
-The same $N_{\mathrm{ES}}$ normalization is applied to the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross sections, since they were also measured relative to the elastic scattering of the Si detector. The ratio between this corrected transfer differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the combined spectroscopic factor $C^{2}S = C^{2}S_{^{39}\mathrm{K}+p} \, C^{2}S_{d+p}$ of the $^{39}\mathrm{K}+p$ and $d+p$ overlaps. This ratio is performed in the exact same way as the elastic scattering normalization, including the cubic spline interpolation. It is common to not include ratios past the first DWBA minimum in transfer normalizations \cite{??}, but the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not measure yields at angles beyond the first minimum.
+The same $N_{\mathrm{ES}}$ normalization is applied to the transfer differential cross sections, since they were also measured relative to the elastic scattering of the Si detector. The ratio between this corrected $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the combined spectroscopic factor $C^{2}S = C^{2}S_{^{39}\mathrm{K}+p} \, C^{2}S_{d+p}$ of the $^{39}\mathrm{K}+p$ and $d+p$ overlaps (see Sections \ref{subsec:DWBA} and \ref{subsec:C2S}). This ratio is performed in the exact same way as the global OMP normalization, including the cubic spline interpolation. It is common to not include ratios past the first DWBA minimum in transfer normalizations \cite{??}, but the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not measure yields at angles beyond the first minimum.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{$^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Analysis}
 
 \subsection{Energy Calibrations} \label{subsec:cal}
 
+The centroid positions $\mu$ of the $^{40}$Ca states along the P1 focal-plane spectra were used to calibrate their excitation energies, given several known calibration states. These $\mu$ were obtained with high precision through the Bayesian peak fitting procedure, detailed in Section \ref{sec:peak_fitting}. However, the centroid uncertainty obtained from the fit does not represent the true channel uncertainty. The fit underestimates the uncertainty, as it does not take into account scatter associated with the focal-plane detector response. An additional scatter uncertainty of $u_{\mathrm{s}} \sim 0.6$ channels was added to rectify this, corresponding to roughly 1 keV in excitation energy. The new channel uncertainty associated with each centroid value is
+\begin{equation}
+u_{\mathrm{ch}}^{2} = u_{\mu}^{2} + u_{\mathrm{s}}^{2}.
+\end{equation}
 
+The oxidized target fits were also not used in the energy calibration. It is not clear whether the mode of the exponentially-modified gaussian (EMG) fits properly represents their energies. The inconsistency between using gaussian means and EMG modes could cause problems. However, the only angles that have oxidized target data, $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$, also have data from a target that was not oxidized. The EMG fit area was still used for the yield determination because the total number of counts should not be affected by target oxidation. Scatter was added to these yields regardless to put more weight on those from non-oxidized targets in the weighted averages.
+
+% 1.) Energy calibration + Calibration states figure
+The energy calibration was performed using a Markov chain Monte Carlo (MCMC) fit with over 50,000 iterations and for 25,000 samples.
+
+
+% 2.) MCMC Residual figure for 5 deg:
+% Uncertainty bars shown for the test states are simply the channel uncertainty converted to energy from the fit $u_{\mathrm{ch-E}}$ added in quadrature with the ENSDF uncertainties. The final uncertainties reported for each sort group are $u_{\mathrm{ch-E}}$ added in quadrature with half the $1\sigma$ width from the fit.
+
+
+% 3.) Dealing with uncertainties and averaging + 8551 keV Simple Average figure
+
+
+% 4.) Final Residuals from ENSDF for all states
+
+
+% 5.) The Final Energy table
+
+
+% 6.) The energy-calibrated position spectrum, focused on the astrophysical region.
+
+
+\newpage
+
+\begingroup % This and the following line are used to get table footnote marks to be alphabetic, but do this locally (not globally)
+  \renewcommand*{\thefootnote}{\alph{footnote}}
+  \renewcommand*\footnoterule{} % Get rid of the footnote rule
+\begin{table}[H]
+\centering
+\begin{minipage}{\textwidth}
+\centering
+\caption{\label{tab:partialwidth}Excitation energies $E_{x}$ determined through a Markov Chain Monte Carlo (MCMC) energy calibration for the $^{40}$Ca states observed in the present experiment. For comparison, the ENSDF \cite{Chen2017} excitation energies and $J^{\pi}$ values are also given, unless otherwise indicated. Brackets represent states from ENSDF too close in energy to resolve via the energy calibration alone. Calibration states are shown in italics.}
+\hrule width \hsize \kern 1mm \hrule width \hsize height 0.4pt
+\vspace{0.1cm}
+\begin{tabular}{lll}
+%\hline\midrule
+$E_{x}$\footnotemark[1] [keV]&$E_{x}$\footnotemark[2] [keV]&$J^{\pi}$\footnotemark[1]\\ \midrule
+4491.43(4)&\emph{4491}\footnotemark[3]&$5^{-}$\\
+5613.52(3)&\emph{5614}\footnotemark[3]&$4^{-}$\\
+5902.63(7)&5900.5(26)&$1^{-}$\\
+6025.47(5)&\emph{6025}\footnotemark[3]&$2^{-}$\\
+6285.15(4)&6290.0(28)&$3^{-}$\\
+6582.47(10)&6582.6(30)&$3^{-}$\\
+6750.41(7)&6745.3(34)&$2^{-}$\\
+6950.48(7)&6946.1(24)&$1^{-}$\\
+&&\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}7113.1(10)&7109.4(29)&$1^{-}$\\
+7113.73(5)&&$4^{-}$\\
+&&\\
+7532.26(5)&\emph{7532}\footnotemark[3]&$2^{-}$\\
+7623.11(8)&7627.8(28)&$(2^{-},3,4^{+})$\\
+7658.23(5)&7661.0(28)&$4^{-}$\\
+7694.08(4)&7696.3(27)&$3^{-}$\\
+7972.5&7976.5(30)&$3^{-}$\\ % No NNDC Uncertainty given
+8113.2(5)&8112.2(28)&$1^{-}$\\
+8187.5(8)&8199.3(27)&$3,4,5^{-}$\\
+8271(1)&8270.6(25)&$3^{-}$\\
+8358.9(6)&8357.3(25)&$(0,1,2)^{-}$\\
+8424.35(31)\footnotemark[4]& \emph{8425}\footnotemark[3]&$2^{-}$\\
+8484.02(13)&8482.3(29)\footnotemark[3]&$(1^{-},2^{-},3^{-})$\\
+8551.1(7)&8549.5(25)&$5^{-}$\\
+8665.3(8)&8662.9(25)&$1^{-}$\\
+8748.59(19)\footnotemark[4]&8743.6(28)&$2^{+}$\\
+8764.18(6)&8767.3(27)&$3^{-}$\\
+%\hline\hline
+\end{tabular}
+\quad
+\begin{tabular}{lll}
+%\hline\midrule
+$E_{x}$\footnotemark[1] [keV]&$E_{x}$\footnotemark[2] [keV]&$J^{\pi}$\footnotemark[1]\\ \midrule
+8850.6(9)&8849.5(27)&$6^{-},7^{-},8^{-}$\\
+&&\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}8934.81(7)&8936.3(27)&$2^{+}$\\
+8938.4(9)&&$0^{+}$\\
+&&\\
+8994.5(11)&8992.2(25)&$(1^{-},2^{+})$\\
+9091.7(6)&9092.2(36)&$3^{-}$\\
+9135.66(5)&9137.8(34)\footnotemark[3]&$2^{-},3^{-}$\\
+&&\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}9226.69(5)&9227.8(34)&$(1^{-},2,3^{-})$\\
+9227.43(7)&&$(1,2^{+})$\\
+&&\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}9404.85(19)&9403.7(31)&$2^{-}$\\
+9406.3(6)&&$0^{+}$\\
+&&\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}9412.3(2)&9416.7(32)&\\
+9418.8(2)&&$3^{-}$\\
+&&\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}9429.11(5)&9431.7(32)&$(3,4)^{-}$\\
+9432.46(18)&&$1^{-}$\\
+&&\\
+9453.95(5)&\emph{9454}\footnotemark[3]&$3^{-}$\\
+9537.8(5)&9538.4(34)&$1^{-}$\\
+&&\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}9603.0(4)&9605.1(40)&$3^{-}$\\
+9604.6(4)&&$1^{-}$\\
+% NOTE: Not including the 9662+9669 keV doublet's energy, since it was only extracted for 2 angles
+%\hspace{-3mm}\ldelim \{ {2}{3mm}9662.2(2)&9673.4(31)&1345.2(31)&$3^{-}$\footnotemark[3]& & & \\
+%9668.71(8)& & &$3^{-}$\footnotemark[3]& & &$1.73 \times 10^{4}$ \\
+%\hline\hline
+\vspace{0.0001cm}
+\end{tabular}
+\hrule width \hsize \kern 1mm \hrule width \hsize height 0.4pt
+\vspace{-0.2cm}
+\footnotetext[1]{From the ENSDF evaluation of Ref. \cite{Chen2017}, unless otherwise indicated.}
+\footnotetext[2]{Present experiment.}
+\footnotetext[3]{Level used as a calibration point for at least one angle in this work. See text for details.}
+\footnotetext[4]{Energy from the nuclear resonance fluorescence measurement of Ref. \cite{Gribble2022}.}
+\end{minipage}
+\end{table}
+\endgroup
+
+\newpage
+
+\begin{figure}
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/CalibrationStates.png}
+\caption{\label{fig:Calibration_States}The calibration states for the MCMC energy calibration, represented by red vertical lines for the $\theta_{\mathrm{lab}} = 5^{\circ}$ focal plane position spectrum. Their ENSDF \cite{Chen2017} energies are labeled in keV. The 8425 keV state uses the energy of the recent measurement from Ref. \cite{Gribble2022} instead. The 8484 keV and 9136 keV alternative calibration states are used when the 8425 keV and 9454 keV states were obscured at $\theta_{\mathrm{lab}} = 5,7^{\circ}$ and $20^{\circ}$, respectively. The $^{17}$F contaminant appears in exactly the same position as the 8425 keV state in the figure.}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/residuals-5deg.png}
+\caption{\label{fig:residuals_5deg}Residuals between the excitation energies predicted from the MCMC energy calibration and that of ENSDF \cite{Chen2017} at $\theta_{\mathrm{lab}} = 5^{\circ}$ (sort group $\#$3) for the calibration states (in red) and the test states (in black). The $68\%$ ($1\sigma$) and $95\%$ ($2\sigma$) confidence intervals for the fit are represented by the dark and light shading, respectively. See text for details.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/8551keV_comparison.png}
+\caption{\label{fig:8551keV_comparison}Excitation energies and their uncertainties of the 8551 keV state from the MCMC energy calibration for each sort group, excluding sort groups $\#$1 and $\#$2 that used an oxidized target. The ENSDF energy and its uncertainty are given as the red line and red band, respectively. A simple average and a weighted average of the energies are given by the black and orange lines, respectively. The uncertainty propagated from the simple average and from the weighted average are given by the blue and orange bands, respectively. The simple average of the MCMC uncertainties is represented by the green band, which best captures the range of the individual uncertainties for each state.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/res.png}
+\caption{\label{fig:residuals}Residuals between the final reported energies for each state from the MCMC energy calibration and that of ENSDF \cite{Chen2017}. The residuals and uncertainties for each state result from a simple average of the MCMC energies and uncertainties of each sort group, respectively. The residuals in red represent the astrophysical region, from 8359 keV to 8995 keV. The $x$-axis values correspond to the following states in keV; 1: 5903, 2: 6285, 3: 6582, 4: 6750, 5: 6950, 6: 7113, 7: 7623, 8: 7658, 9: 7694, 10: 7973, 11: 8113, 12: 8188, 13: 8271, 14: 8359, 15: 8484, 16: 8551, 17: 8665, 18: 8748, 19: 8764, 20: 8851, 21: 8935, 22: 8995, 23: 9092, 24: 9136, 25: 9227, 26: 9405, 27: 9419, 28: 9432, 29: 9538, 30: 9603.}
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\node at (0,0) {\includegraphics[width=6.5in]{Chapter-6/figs/AstroRegion_Calibrated.png}};
+\draw[line width = 0.5mm, color=red] (-6.36,-3.5) -- (-6.36,-2.5);
+\end{tikzpicture}
+\caption{\label{fig:AstroRegion}The energy-calibrated focal plane position spectrum, focused on the $^{40}$Ca states above the proton separation energy at $\theta_{\mathrm{lab}} = 5^{\circ}$ (sort group $\#$3). The $^{40}$Ca states are labeled with their ENSDF \cite{Chen2017} energies in keV, and contaminants at this angle are indicated. The red vertical line indicates the proton separation energy, $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}.}
+\end{figure}
 
 \subsection{Differential Cross Sections}
 
@@ -1050,10 +1200,7 @@ The same $N_{\mathrm{ES}}$ normalization is applied to the $^{39}\mathrm{K}(^{3}
 \caption{\label{fig:unbound_l}Differential cross-sections of unbound $^{40}\mathrm{Ca}$ states below 8935 keV observed in the present experiment. The left panel shows the $l=1$ distributions, while the right panel shows all other distributions. The experimental data were normalized to the Si detector telescope yield, as described in the text, and further scaling for illustration purposes was not necessary. The zero-range DWBA model curves were computed using the nuclear reaction code, \texttt{Fresco} \cite{Thompson1988,Fresco}.}
 \end{figure*}
 
-\subsection{Oxidized Targets} \label{subsec:oxidized_cs}
 
-% Effects oxidized targets have on the cross-section
-% Adding a 10% scatter? Any corrections? Revisit python notebook to see what I did
 
 \subsection{Spectroscopic Factors from DWBA Models} \label{subsec:DWBA_Spec}
 

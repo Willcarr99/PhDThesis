@@ -874,6 +874,70 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Gribble2022}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GD}{%
+         family={Gribble},
+         familyi={G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JRVF}{%
+         family={Janssens},
+         familyi={J\bibinitperiod},
+         given={R.\bibnamedelima V.\bibnamedelima F.},
+         giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=FGU}{%
+         family={Friman-Gayer},
+         familyi={F\bibinithyphendelim G\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={Krishichayan},
+         familyi={K\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Finch},
+         familyi={F\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GD+1}
+    \strng{fullhash}{GDICJRVFFGUKFS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Gri22}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.106.014308
+    \endverb
+    \field{issue}{1}
+    \field{pages}{014308}
+    \field{title}{Investigation of $^{11}\mathrm{B}$ and $^{40}\mathrm{Ca}$
+  levels at 8--9 MeV by nuclear resonance fluorescence}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.106.014308
+    \endverb
+    \field{volume}{106}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{2022}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Huang2021}{article}{}
     \name{author}{5}{}{%
       {{hash=HW}{%
