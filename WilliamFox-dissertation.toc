@@ -86,24 +86,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.8.1}Energy Calibrations}{48}{subsection.6.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.2}Differential Cross Sections}{50}{subsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.8.2}Differential Cross Sections Compared to DWBA}{56}{subsection.6.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.3}Spectroscopic Factors from DWBA Models}{50}{subsection.6.8.3}%
+\contentsline {subsection}{\numberline {6.8.3}Spectroscopic Factors}{56}{subsection.6.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.4}Proton Partial Widths}{50}{subsection.6.8.4}%
+\contentsline {subsection}{\numberline {6.8.4}Proton Partial Widths}{56}{subsection.6.8.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{50}{section.6.9}%
+\contentsline {section}{\numberline {6.9}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{56}{section.6.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.1}Resonance Contributions}{55}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.1}Resonance Contributions}{61}{subsection.6.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}Potassium Abundance in Reaction Network Calculations}{55}{section.6.10}%
+\contentsline {section}{\numberline {6.10}Potassium Abundance in Reaction Network Calculations}{61}{section.6.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.11}Conclusions}{55}{section.6.11}%
+\contentsline {section}{\numberline {6.11}Conclusions}{61}{section.6.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{59}{chapter.7}%
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{66}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{64}{chapter*.40}%
+\contentsline {chapter}{APPENDIX}{72}{chapter*.44}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{65}{appendix.A}%
+\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{73}{appendix.A}%

@@ -26,52 +26,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12645 items from 5000.
+Reallocated field_info (elt_size=4) to 13340 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
 Warning--I didn't find a database entry for "??"
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 54 entries,
+You've used 59 entries,
             6365 wiz_defined-function locations,
-            1669 strings with 23403 characters,
-and the built_in function-call counts, 429845 in all, are:
-= -- 32041
-> -- 7197
-< -- 2489
-+ -- 10489
-- -- 2710
-* -- 32123
-:= -- 46031
+            1701 strings with 24180 characters,
+and the built_in function-call counts, 462047 in all, are:
+= -- 34298
+> -- 7744
+< -- 2689
++ -- 11233
+- -- 2913
+* -- 34464
+:= -- 49383
 add.period$ -- 0
-call.type$ -- 54
-change.case$ -- 1565
-chr.to.int$ -- 99
-cite$ -- 106
-duplicate$ -- 44551
-empty$ -- 38410
-format.name$ -- 4476
-if$ -- 88670
+call.type$ -- 59
+change.case$ -- 1674
+chr.to.int$ -- 100
+cite$ -- 116
+duplicate$ -- 48086
+empty$ -- 41375
+format.name$ -- 4831
+if$ -- 95347
 int.to.chr$ -- 0
-int.to.str$ -- 139
+int.to.str$ -- 152
 missing$ -- 0
-newline$ -- 2403
-num.names$ -- 3299
-pop$ -- 19504
+newline$ -- 2579
+num.names$ -- 3575
+pop$ -- 21306
 preamble$ -- 1
-purify$ -- 1969
+purify$ -- 2105
 quote$ -- 0
-skip$ -- 11988
+skip$ -- 12938
 stack$ -- 0
-substring$ -- 56642
-swap$ -- 10566
-text.length$ -- 1687
-text.prefix$ -- 106
+substring$ -- 60375
+swap$ -- 11397
+text.length$ -- 1842
+text.prefix$ -- 116
 top$ -- 1
-type$ -- 1823
+type$ -- 1993
 warning$ -- 0
-while$ -- 6356
+while$ -- 6834
 width$ -- 0
-write$ -- 2350
+write$ -- 2521
 (There was 1 warning)

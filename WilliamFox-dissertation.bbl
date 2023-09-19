@@ -938,6 +938,56 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Rstan}{misc}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{5}{}{%
+      {{hash=GJ}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gabry},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Goodrich},
+         familyi={G\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Weber},
+         familyi={W\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {GitHub}%
+    }
+    \strng{namehash}{GJ+1}
+    \strng{fullhash}{GJGJGBJAWS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Guo20}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{\url{https://github.com/stan-dev/rstan}}
+    \field{title}{\textnormal{``RStan'', v2.26.23}}
+    \field{year}{2020}
+  \endentry
+
   \entry{Huang2021}{article}{}
     \name{author}{5}{}{%
       {{hash=HW}{%
@@ -1755,6 +1805,47 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Nolen1975}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NJA}{%
+         family={Nolen},
+         familyi={N\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GRJ}{%
+         family={Gleitsmann},
+         familyi={G\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{NJAGRJ1}
+    \strng{fullhash}{NJAGRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Nol75}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.11.1159
+    \endverb
+    \field{issue}{4}
+    \field{pages}{1159\bibrangedash 1166}
+    \field{title}{High-resolution study of $^{40}\mathrm{Ca}$ via inelastic
+  proton scattering at 35 MeV}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.11.1159
+    \endverb
+    \field{volume}{11}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{1975}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Porter1956}{article}{}
     \name{author}{2}{}{%
       {{hash=PCE}{%
@@ -2141,6 +2232,69 @@
     \field{year}{2002}
   \endentry
 
+  \entry{Stan}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TSD}{%
+         family={Team},
+         familyi={T\bibinitperiod},
+         given={Stan\bibnamedelima Development},
+         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TSD1}
+    \strng{fullhash}{TSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Tea11}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{note}{\url{https://mc-stan.org}}
+    \field{title}{\textnormal{``Stan Modeling Language Users Guide and
+  Reference Manual'', v2.33}}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Tellez1973}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TA}{%
+         family={{Tellez}},
+         familyi={T\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={{Ronsin}},
+         familyi={R\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={{Ballini}},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FI}{%
+         family={{Fodor}},
+         familyi={F\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TA+1}
+    \strng{fullhash}{TARHBRFI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Tel}73}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{pages}{281}
+    \field{title}{Etats de $^{40}\mathrm{Ca}$ Excites Jusqu'a 9 $\mathrm{MeV}$}
+    \field{volume}{34}
+    \field{journaltitle}{J.Phys.(Paris)}
+    \field{year}{1973}
+  \endentry
+
   \entry{Fresco}{misc}{}
     \name{author}{1}{}{%
       {{hash=TIJ}{%
@@ -2259,6 +2413,30 @@
     \field{journaltitle}{The Astrophysical Journal Letters}
     \field{year}{2012}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{jrelkin}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=VD}{%
+         family={Visser},
+         familyi={V\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SourceForge}%
+    }
+    \strng{namehash}{VD1}
+    \strng{fullhash}{VD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Vis03}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{note}{\url{https://sourceforge.net/projects/nukesim-classes/}}
+    \field{title}{\textnormal{``JRelKin''}}
+    \field{year}{2003}
   \endentry
 
   \entry{Wang2021}{article}{}
