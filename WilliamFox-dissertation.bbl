@@ -17,6 +17,47 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global}
+  \entry{An2006}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AH}{%
+         family={An},
+         familyi={A\bibinitperiod},
+         given={Haixia},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Chonghai},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{AHCC1}
+    \strng{fullhash}{AHCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{An06}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.73.054605
+    \endverb
+    \field{issue}{5}
+    \field{pages}{054605}
+    \field{title}{Global deuteron optical model potential for the energy range
+  up to 183 $\mathrm{MeV}$}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.73.054605
+    \endverb
+    \field{volume}{73}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Babu2016}{article}{}
     \name{author}{2}{}{%
       {{hash=BS}{%
@@ -49,6 +90,53 @@
     \field{journaltitle}{Acta Physica Polonica A}
     \field{month}{06}
     \field{year}{2016}
+  \endentry
+
+  \entry{Brida2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BI}{%
+         family={Brida},
+         familyi={B\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PSC}{%
+         family={Pieper},
+         familyi={P\bibinitperiod},
+         given={Steven\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WRB}{%
+         family={Wiringa},
+         familyi={W\bibinitperiod},
+         given={R.\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BIPSCWRB1}
+    \strng{fullhash}{BIPSCWRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bri11}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.84.024319
+    \endverb
+    \field{issue}{2}
+    \field{pages}{024319}
+    \field{title}{Quantum Monte Carlo calculations of spectroscopic overlaps in
+  $A\ensuremath{\leqslant}7$ nuclei}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.84.024319
+    \endverb
+    \field{volume}{84}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Cage1971}{article}{}
@@ -988,6 +1076,30 @@
     \field{year}{2020}
   \endentry
 
+  \entry{Hodgson1971}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HP}{%
+         family={Hodgson},
+         familyi={H\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Clarendon Press}%
+    }
+    \strng{namehash}{HP1}
+    \strng{fullhash}{HP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hod71}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{note}{International series of monographs on physics}
+    \field{title}{Nuclear reactions and nuclear structure}
+    \field{year}{1971}
+  \endentry
+
   \entry{Huang2021}{article}{}
     \name{author}{5}{}{%
       {{hash=HW}{%
@@ -1134,6 +1246,395 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Kahl2019}{article}{}
+    \name{author}{27}{}{%
+      {{hash=KD}{%
+         family={Kahl},
+         familyi={K\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Woods},
+         familyi={W\bibinitperiod},
+         given={P.J.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PPT}{%
+         family={Poxon-Pearson},
+         familyi={P\bibinithyphendelim P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NF}{%
+         family={Nunes},
+         familyi={N\bibinitperiod},
+         given={F.M.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={B.A.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Schatz},
+         familyi={S\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Baumann},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bazin},
+         familyi={B\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Belarge},
+         familyi={B\bibinitperiod},
+         given={J.A.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bender},
+         familyi={B\bibinitperiod},
+         given={P.C.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=EB}{%
+         family={Elman},
+         familyi={E\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Estrade},
+         familyi={E\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gade},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kankainen},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LWC}{%
+         family={Lederer-Woods},
+         familyi={L\bibinithyphendelim W\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lipschutz},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Longfellow},
+         familyi={L\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LSJ}{%
+         family={Lonsdale},
+         familyi={L\bibinitperiod},
+         given={S.-J.},
+         giveni={S\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lunderberg},
+         familyi={L\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Montes},
+         familyi={M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=OW}{%
+         family={Ong},
+         familyi={O\bibinitperiod},
+         given={W.J.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Perdikakis},
+         familyi={P\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Pereira},
+         familyi={P\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sullivan},
+         familyi={S\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Taverner},
+         familyi={T\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Weisshaar},
+         familyi={W\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zegers},
+         familyi={Z\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{X-ray bursts, Shell model, Transfer reactions, Radioactive beams}
+    \strng{namehash}{KD+1}
+  \strng{fullhash}{KDWPPPTNFBBSHBTBDBJBPEBEAGAKALWCLSLBLSJLEMFOWPGPJSCTRWDZR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Kah19}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.physletb.2019.134803
+    \endverb
+    \field{issn}{0370-2693}
+    \field{pages}{134803}
+    \field{title}{Single-particle shell strengths near the doubly magic nucleus
+  $^{56}\mathrm{Ni}$ and the $^{56}\mathrm{Ni}(p, \gamma)^{57}\mathrm{Cu}$
+  reaction rate in explosive astrophysical burning}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0370269319305076
+    \endverb
+    \field{volume}{797}
+    \field{journaltitle}{Physics Letters B}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Kankainen2016}{article}{}
+    \name{author}{29}{}{%
+      {{hash=KA}{%
+         family={Kankainen},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Woods},
+         familyi={W\bibinitperiod},
+         given={P.J.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NF}{%
+         family={Nunes},
+         familyi={N\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+      {{hash=LC}{%
+         family={Langer},
+         familyi={L\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Schatz},
+         familyi={S\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Bader},
+         familyi={B\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Baugher},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bazin},
+         familyi={B\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={B.A.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Browne},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Doherty},
+         familyi={D\bibinitperiod},
+         given={D.T.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Estrade},
+         familyi={E\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gade},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kontos},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lotay},
+         familyi={L\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MZ}{%
+         family={Meisel},
+         familyi={M\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Montes},
+         familyi={M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Noji},
+         familyi={N\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Perdikakis},
+         familyi={P\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Pereira},
+         familyi={P\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Recchia},
+         familyi={R\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Redpath},
+         familyi={R\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Stroberg},
+         familyi={S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Scott},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Seweryniak},
+         familyi={S\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Stevens},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Weisshaar},
+         familyi={W\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wimmer},
+         familyi={W\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zegers},
+         familyi={Z\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA+1}
+  \strng{fullhash}{KAWPNFLCSHBVBTBDBBBJDDEAGAKALGMZMFNSPGPJRFRTSRSMSDSJWDWKZR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Kan16}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1140/epja/i2016-16006-5
+    \endverb
+    \field{issn}{1}
+    \field{pages}{16006}
+    \field{title}{Angle-integrated measurements of the $^{26}\mathrm{Al}(d,
+  n)^{27}\mathrm{Si}$ reaction cross section: a probe of spectroscopic factors
+  and astrophysical resonance strengths}
+    \verb{url}
+    \verb https://doi.org/10.1140/epja/i2016-16006-5
+    \endverb
+    \field{volume}{52}
+    \field{journaltitle}{Eur. Phys. J. A}
+    \field{year}{2016}
+  \endentry
+
   \entry{Kikstra1990}{article}{}
     \name{author}{6}{}{%
       {{hash=KS}{%
@@ -1195,6 +1696,29 @@
     \field{volume}{512}
     \field{journaltitle}{Nuclear Physics A}
     \field{year}{1990}
+  \endentry
+
+  \entry{Krane1987}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KK}{%
+         family={Krane},
+         familyi={K\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{KK1}
+    \strng{fullhash}{KK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Kra87}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Introductory Nuclear Physics}
+    \field{year}{1987}
   \endentry
 
   \entry{Landau1944}{article}{}
@@ -2021,6 +2545,29 @@
     \field{journaltitle}{The Astrophysical Journal Supplement Series}
     \field{year}{2013}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Satchler1988}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Satchler},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sat88}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Direct nuclear reactions}
+    \field{year}{1988}
   \endentry
 
   \entry{Sbordone2007}{article}{}

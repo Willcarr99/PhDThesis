@@ -1028,7 +1028,7 @@ where $R_{\mathrm{ES}, i}$ is defined by Eqn. \ref{eqn:cross_ratio} for the simu
 \caption{\label{fig:ES_Norm}The same as Fig. \ref{fig:ES_NoNorm}, except the differential cross-section of the global $^{3}$He optical model potential has been scaled by $N_{\mathrm{ES}}$ to match the experimental measurements, as described in the text.}
 \end{figure}
 
-The same $N_{\mathrm{ES}}$ normalization is applied to the transfer differential cross sections, since they were also measured relative to the elastic scattering of the Si detector. The ratio between this corrected $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the combined spectroscopic factor $C^{2}S = C^{2}S_{^{39}\mathrm{K}+p} \, C^{2}S_{d+p}$ of the $^{39}\mathrm{K}+p$ and $d+p$ overlaps (see Sections \ref{subsec:DWBA} and \ref{subsec:C2S}). This ratio is performed in the exact same way as the global OMP normalization, including the cubic spline interpolation. It is common to not include ratios past the first DWBA minimum in transfer normalizations \cite{??}, but the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not measure yields at angles beyond the first minimum.
+The same $N_{\mathrm{ES}}$ normalization is applied to the transfer differential cross sections, since they were also measured relative to the elastic scattering of the Si detector. The ratio between this corrected $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the spectroscopic factor $C^{2}S$ (see Sections \ref{subsec:DWBA} and \ref{subsec:C2S}). This ratio is performed in the exact same way as the global OMP normalization, including the cubic spline interpolation. The transfer differential cross sections will be presented in Section \ref{subsec:DWBA_Cross}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{$^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Analysis}
@@ -1200,7 +1200,82 @@ $E_{x}$\footnotemark[1] [keV]&$E_{x}$\footnotemark[2] [keV]&$J^{\pi}$\footnotema
 
 \newpage
 
-\subsection{Differential Cross Sections Compared to DWBA}
+\subsection{DWBA Calculations} \label{subsec:DWBA_Cross}
+
+% C2S from DWBA
+The $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ differential cross sections were normalized by the same amount $N_{\mathrm{ES}}$ as that of the focal plane $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements, since both were measured relative to the elastic scattering of the Si detector. The remaining normalization,
+\begin{equation}
+\frac{d\sigma}{d\Omega}_{\mathrm{Exp}} = C^{2}S \frac{d\sigma}{d\Omega}_{\mathrm{DWBA}},
+\end{equation}
+between the scale-corrected transfer differential cross section $d\sigma/d\Omega_{\mathrm{Exp}}$ and that of an appropriate distorted-wave Born approximation (DWBA) $d\sigma/d\Omega_{\mathrm{DWBA}}$ defines the spectroscopic factor $C^{2}S$. The spectroscopic factor for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ is broken into two parts, corresponding to the $^{39}\mathrm{K}+p$ and $d+p$ overlaps (see Sections \ref{subsec:DWBA} and \ref{subsec:C2S}),
+\begin{equation}
+C^{2}S = C^{2}S_{^{39}\mathrm{K}+p} \, C^{2}S_{d+p}.
+\end{equation}
+The $C^{2}S_{d+p}$ spectroscopic factor is frequently omitted in the literature, as it is a constant factor applied to all $C^{2}S$ for $(^{3}\mathrm{He},d)$ reactions. It can be approximated as $A/2$ for $A \leq 4$ nuclei from Ref. \cite{Satchler1988}, which implies $C^{2}S_{d+p} = 3/2$. However, \emph{ab-initio} calculations such as those from Ref. \cite{Brida2011} can be more precise, reducing systematic uncertainties associated with $C^{2}S_{^{39}\mathrm{K}+p}$. Ref. \cite{Brida2011} calculates $C^{2}S_{d+p} = 1.32(1)$, which is adopted in the present analysis. The $C^{2}S_{^{39}\mathrm{K}+p}$ spectroscopic factor, when converted to a proton partial-width in Section \ref{subsec:partial_widths}, is a direct input in the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate. This is the main quantity of astrophysical interest in transfer reactions.
+
+% DWBA OMPs for incoming and outgoing channels
+DWBA transfer reaction calculations require optical model potentials (OMPs) for both the incoming $^{39}\mathrm{K} + {}^{3}\mathrm{He}$ and the outgoing $d + {}^{40}\mathrm{Ca}$ channels. The potential for the incoming channel is evaluated at the lab beam energy $E_{\mathrm{lab}}$, whereas the outgoing channel potential is evaluated at $E_{\mathrm{lab}} - Q$, where $Q$ is the $Q$-value of the transfer reaction. The global $^{3}$He OMP of Ref. \cite{Liang2009} from the elastic scattering normalization is retained for the incoming channel. The parameters of this OMP were given in Table \ref{tab:OMP_3He}. For the outgoing channel, the global $d$ OMP of Ref. \cite{An2006} is used in the present analysis, where the potential is defined in the exact same way as that of Ref. \cite{Liang2009}.
+
+% DWBA proton-bound state potential and the weak binding approximation
+The proton bound-state potential must also be specified for DWBA calculations of proton-bound $^{40}$Ca states. It consists of a real volume potential with a Woods-Saxon form and a Coulomb potential. The Woods-Saxon well depth $V_{r}$ is automatically adjusted to reproduce the proton binding energy,
+\begin{equation}
+\mathrm{BE}\left(^{A-1}(X-1) + p \right) = S_{p}(^{A}X) - E_{x},
+\end{equation}
+where $S_{p}$ is the proton-seperation energy of the compound nucleus $^{A}X$, and $E_{x}$ is the excitation energy of the final state. However, many of the states observed in the present experiment, and indeed all of the states of astrophysical interest, are proton-unbound. In these cases, one could adjust the Woods-Saxon well depth until a resonance is formed at $E_{r}$. This is unfortunately not performed automatically in \texttt{Fresco} \cite{Thompson1988,Fresco}, the nuclear reaction code chosen for the present analysis. An alternative to this is to approximate the resonance scattering wave function as the wave function for a loosely-bound particle, with a binding energy of $\sim$ 1 keV. This is known as the weak binding approximation, and it has been shown to reproduce unbound calculations to within $1\%$ \cite{Kankainen2016,Kahl2019} for states within about 500 keV of the particle threshold. The present analysis uses the weak binding approximation for unbound $^{40}$Ca states. The proton bound-state parameters, along with the global OMP parameters are summarized in Table \ref{tab:OMP_all}.
+
+% Global OMP parameters
+\begin{table}[t]
+\caption{\label{tab:OMP_all}Global optical model potential parameters for $^{39}\mathrm{K} + \,^{3}\mathrm{He}$ and $^{40}\mathrm{Ca} + d$ and the proton bound-state parameters.}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{cllllllllllllll}
+\hline\midrule
+ $\mathrm{particle}$ & $V_{r}$ & $r_{r}$ & $a_{r}$ & $W_{v}$ & $r_{v}$ & $a_{v}$ & $W_{s}$ & $r_{s}$ & $a_{s}$ & $V_{so}$ & $r_{so}$ & $a_{so}$ & $W_{so}$ & $r_{c}$\\ \midrule
+ $^{3}\mathrm{He}$ & 117.881 & 1.178 & 0.768 & -0.646 & 1.415 & 0.847 & 20.665 & 1.198 & 0.852 & 2.083 & 0.738 & 0.946 & -1.159 & 1.289\\
+ $d$ & 91.120 & 1.150 & 0.762 & 2.234 & 1.334 & 0.513 & 10.274 & 1.378 & 0.743 & 3.557 & 0.972 & 1.011 & & 1.303\\
+ $p$ & $V_{p}\footnotemark[1]$ & 1.250 & 0.650 &  &  &  &  &  &  &  &  &  &  & 1.250\\
+\hline\hline
+\end{tabular}%
+}
+\footnotetext[1]{Well depth is adjusted to reproduce the proton binding energy.}
+\end{table}
+
+% Overlaps and the different nlj combinations
+Another factor that must be considered in DWBA calculations is the transferred-particle overlaps, in this case for $^{39}\mathrm{K}+p$ and $d+p$. Each overlap is specified by a single-particle state $n \ell_{j}$ from the shell model with the quantum numbers $n$, $\ell$, and $j$ corresponding to the node, transferred orbital angular momentum, and total angular momentum ($j = \ell \pm 1/2$), respectively (see Ref. \cite{Krane1987}). Only a select few single-particle states can be populated from a given transition, based on quantum-mechanical selection rules for angular momentum and parity (see Ref. \cite{Iliadis2015}). For example, if the spin-parity $J^{\pi}$ of the final $^{40}$Ca state is known, the possible $n$, $\ell$, and $j$ single-particle quantum numbers can be extracted from the selection rules. This can also be done for final states where $J^{\pi}$ is narrowed down to a few possibilities. This extraction was performed for each excited state of $^{40}$Ca populated in the present experiment, given their known spin-parities, or spin-parity candidates, from the ENSDF evaluation of Ref. \cite{Chen2017}. The $d+p$ overlap was treated as constant for each DWBA calculation, since it was assumed that it occupied only the $^{3}$He ground state.
+
+The nuclear reaction code \texttt{Fresco} \cite{Thompson1988,Fresco} was used to calculate $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ DWBA differential cross sections using the zero-range (ZR) approximation introduced in Section \ref{subsec:DWBA}. Calculations were performed for the allowed $n\ell_{j}$ combinations of each excited state, based on their known $J^{\pi}$ values from ENSDF. In cases where none of the angular distributions agreed with the experimental cross section, the $n\ell_{j}$ combinations were expanded to account for different final $J^{\pi}$ values. An example of the normalization procedure and the different $n\ell_{j}$ combinations for the 7532 keV state is shown in Fig. \ref{fig:7532keV_NoNorm}. This state has a spin-parity of $2^{-}$ from ENSDF, and therefore allows $\ell=1$ or $\ell=3$ orbital angular momenta from selection rules. The most likely single-particle states corresponding to these $\ell$-values are $2\mathrm{p}_{3/2}$ or $2\mathrm{p}_{1/2}$ for $\ell=1$ and $1\mathrm{f}_{7/2}$ or $1\mathrm{f}_{5/2}$ for $\ell=3$, as they are the lowest energy transitions. The higher $n$-values have a much greater transition energy and are therefore less likely. However, they were included in the analysis for completion and to test their effects. From Fig. \ref{fig:7532keV_NoNorm}, it is clear that the DWBA differential cross sections increase with increasing $n$. It can also be seen that the $n$-$\ell$ pairs produce very similar differential cross sections at low angles. This is especially true at angles below the first minimum, where the DWBA differential cross sections are most reliable. It is common during normalization to omit angles greater than the first DWBA minimum because of this unreliability \cite{??}. However, the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not obtain data beyond the first minimum, so normalization was performed with all experimental points.
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+\node at (0,0) {\includegraphics[width=6.5in]{Chapter-6/figs/7532keV_NoNorm.png}};
+\node at (-4.2,0.2) {\rlap{\LARGE{$\textbf{N}_{\mathrm{\textbf{ES}}}$}}};
+\node at (-4.2,3.15) {\rlap{\LARGE{$\textbf{C}^{2}\textbf{S}$}}};
+\draw[>=triangle 45, line width = 0.5 mm, <->] (-2.7,3.9) -- (-2.7,2.4);
+\draw[>=triangle 45, line width = 0.5 mm, <->] (-2.7,2.4) -- (-2.7,-2.0);
+\end{tikzpicture}
+\caption{\label{fig:7532keV_NoNorm}Normalization between the relative transfer differential cross section of the 7532 keV state and that of all possible DWBA models based on the current ENSDF $J^{\pi} = 2^{-}$ assignment. The normalization $N_{\mathrm{ES}}$ between elastic scattering and the global $^{3}$He OMP is shown to scale, as is the $C^{2}S$ normalization.}
+\end{figure}
+
+Fig. \ref{fig:7532keV_Norm} shows the same differential cross sections as in Fig. \ref{fig:7532keV_NoNorm}, but the DWBA models have been scaled down to the experimental points to show all normalizations simultaneously. It is clear that the $\ell=1$ models match the angular distribution of the points. However, it is not possible to tell which of the $\ell=1$ models is the best match. As is done in the literature \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}, the present analysis chooses the $n$-$j$ pair associated with the lowest energy single-particle state, unless it is forbidden by selection rules. That is, unless they are forbidden, all $\ell=0$, $\ell=1$, $\ell=2$, and $\ell=3$ distributions will be associated with $3\mathrm{s}_{1/2}$, $2\mathrm{p}_{3/2}$, $2\mathrm{d}_{5/2}$, and $1\mathrm{f}_{7/2}$ single-particle states, respectively.
+
+Finally, another transfer consideration comes from the fact that $^{39}$K has a non-zero ground state ($J^{\pi} = 3/2^{+}$). It is possible in this case that more than one single-particle state contributes to the differential cross section, resulting in a mixed-$\ell$ angular distribution. Theoretically, all allowed $\ell$ transitions can contribute, but it is usually impossible to distinguish between more than the two lowest $\ell$ transitions. The differential cross section decreases with increasing $\ell$, making each larger $\ell$ contribution more negligible \cite{Hodgson1971}. The mixed-$\ell$ angular distributions should then resemble a sum of two DWBA differential cross sections,
+\begin{equation}
+\frac{d\sigma}{d\Omega}_{\mathrm{Exp}} = C^{2}S_{\ell_{1}} \frac{d\sigma}{d\Omega}_{\mathrm{DWBA},\ell_{1}} + C^{2}S_{\ell_{2}} \frac{d\sigma}{d\Omega}_{\mathrm{DWBA},\ell_{2}}.
+\end{equation} 
+The individual spectroscopic factors are given the common parameter $\alpha$ which determines their fractional contributions, as in
+\begin{align}
+C^{2}S_{\ell_{1}} &= \alpha C^{2}S, \\
+C^{2}S_{\ell_{2}} &= (1 - \alpha) C^{2}S,
+\end{align}
+where $C^{2}S$ represents the joint spectroscopic factor. A $\chi^{2}$-minimization is performed in mixed-$\ell$ cases to determine the $\alpha$ and $C^{2}S$ parameters, and the individual $C^{2}S_{\ell_{1}}$ and $C^{2}S_{\ell_{2}}$ are then reported.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/7532keV_Norm.png}
+\caption{\label{fig:7532keV_Norm}The DWBA models of Fig. \ref{fig:7532keV_NoNorm} scaled down to the 7532 keV data to compare angular distributions. The $l=1$ models are a clear match for this state.}
+\end{figure}
+
+\subsection{Angular Distribution Results}
 
 \begin{figure}
 \centering
