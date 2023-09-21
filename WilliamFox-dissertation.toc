@@ -88,24 +88,60 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.8.2}DWBA Calculations}{56}{subsection.6.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.3}Angular Distribution Results}{60}{subsection.6.8.3}%
+\contentsline {subsection}{\numberline {6.8.3}Angular Distribution Results}{61}{subsection.6.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.4}Spectroscopic Factors}{60}{subsection.6.8.4}%
+\contentsline {subsubsection}{$E_{x} = 4491$ keV}{62}{section*.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.5}Proton Partial Widths}{60}{subsection.6.8.5}%
+\contentsline {subsubsection}{$E_{x} = 5614$ keV}{62}{section*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{60}{section.6.9}%
+\contentsline {subsubsection}{$E_{x} = 5903$ keV}{62}{section*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.9.1}Resonance Contributions}{67}{subsection.6.9.1}%
+\contentsline {subsubsection}{$E_{x} = 6025$ keV}{62}{section*.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}Potassium Abundance in Reaction Network Calculations}{67}{section.6.10}%
+\contentsline {subsubsection}{$E_{x} = 6285$ keV}{62}{section*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.11}Conclusions}{67}{section.6.11}%
+\contentsline {subsubsection}{$E_{x} = 6582$ keV}{62}{section*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{71}{chapter.7}%
+\contentsline {subsubsection}{$E_{x} = 6750$ keV}{63}{section*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{77}{chapter*.47}%
+\contentsline {subsubsection}{$E_{x} = 6950$ keV}{63}{section*.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 7113$ keV}{63}{section*.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 7532$ keV}{63}{section*.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 7623$ keV}{64}{section*.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 7658$ keV}{64}{section*.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 7694$ keV}{64}{section*.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 7973$ keV}{64}{section*.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 8113$ keV}{64}{section*.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 8188$ keV (or 8196 keV)}{65}{section*.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 8271$ keV}{65}{section*.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{$E_{x} = 8359$ keV ($E_{r}^{\mathrm {c.m.}} = 29$ keV)}{65}{section*.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.8.4}Spectroscopic Factors}{65}{subsection.6.8.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.8.5}Proton Partial Widths and Resonance Energies}{65}{subsection.6.8.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.9}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{65}{section.6.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.9.1}Resonance Contributions}{71}{subsection.6.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.10}Potassium Abundance in Reaction Network Calculations}{71}{section.6.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.11}Conclusions}{71}{section.6.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{75}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{APPENDIX}{81}{chapter*.65}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{78}{appendix.A}%
+\contentsline {chapter}{\numberline {A}$^{40}\mathrm {C\MakeLowercase {a}}$ Energy Calibrations}{82}{appendix.A}%

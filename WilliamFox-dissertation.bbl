@@ -2674,7 +2674,7 @@
     \list{publisher}{1}{%
       {American Physical Society}%
     }
-    \strng{namehash}{SKK+1}
+    \strng{namehash}{SKK+2}
     \strng{fullhash}{SKKBJAMPDSGR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -2695,6 +2695,116 @@
     \field{journaltitle}{Phys. Rev.}
     \field{year}{1967}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Seth1974}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SKK}{%
+         family={Seth},
+         familyi={S\bibinitperiod},
+         given={Kamal\bibnamedelima K.},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Saha},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BW}{%
+         family={Benenson},
+         familyi={B\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LWA}{%
+         family={Lanford},
+         familyi={L\bibinitperiod},
+         given={W.\bibnamedelima A.},
+         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Nann},
+         familyi={N\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WBH}{%
+         family={Wildenthal},
+         familyi={W\bibinitperiod},
+         given={B.\bibnamedelima H.},
+         giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SKK+2}
+    \strng{fullhash}{SKKSABWLWANHWBH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Set74}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.33.233
+    \endverb
+    \field{issue}{4}
+    \field{pages}{233\bibrangedash 236}
+    \field{title}{Discovery of the Missing Two-Particle, Two-Hole ${0}^{+}$
+  States in $^{40}\mathrm{Ca}$}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.33.233
+    \endverb
+    \field{volume}{33}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1974}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Seth1977}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=SKK}{%
+         family={{Seth}},
+         familyi={S\bibinitperiod},
+         given={K.\bibnamedelima K.},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={{Saha}},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={{Nann}},
+         familyi={N\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WBH}{%
+         family={{Wildenthal}},
+         familyi={W\bibinitperiod},
+         given={B.\bibnamedelima H.},
+         giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SKK+1}
+    \strng{fullhash}{SKKSANHWBH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Set}77}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{Proc.Intern.Conf.Nuclear Structure}
+    \field{pages}{225}
+    \field{title}{$(p, t)$ Reactions on $^{41}\mathrm{K}$, $^{42}\mathrm{Ca}$
+  and $^{43}\mathrm{Ca}$ and Core Excited States}
+    \field{volume}{1}
+    \list{location}{1}{%
+      {Tokyo}%
+    }
+    \field{year}{1977}
   \endentry
 
   \entry{Swartz2001}{article}{}
@@ -2799,47 +2909,6 @@
     \field{title}{\textnormal{``Stan Modeling Language Users Guide and
   Reference Manual'', v2.33}}
     \field{year}{2011}
-  \endentry
-
-  \entry{Tellez1973}{article}{}
-    \name{author}{4}{}{%
-      {{hash=TA}{%
-         family={{Tellez}},
-         familyi={T\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=RH}{%
-         family={{Ronsin}},
-         familyi={R\bibinitperiod},
-         given={H.},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={{Ballini}},
-         familyi={B\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=FI}{%
-         family={{Fodor}},
-         familyi={F\bibinitperiod},
-         given={I.},
-         giveni={I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TA+1}
-    \strng{fullhash}{TARHBRFI1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Tel}73}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{pages}{281}
-    \field{title}{Etats de $^{40}\mathrm{Ca}$ Excites Jusqu'a 9 $\mathrm{MeV}$}
-    \field{volume}{34}
-    \field{journaltitle}{J.Phys.(Paris)}
-    \field{year}{1973}
   \endentry
 
   \entry{Fresco}{misc}{}

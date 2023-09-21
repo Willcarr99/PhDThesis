@@ -1101,12 +1101,10 @@ was determined to be the appropriate final energy and uncertainty for each state
 To illustrate these different averaging methods, the resulting distribution of calibrated energies for the representative 8551 keV state is shown by the black data in Fig. \ref{fig:8551keV_comparison}. This is an example where the scatter was minimized, potentially due to its relatively large yield, but the different averaging methods are clearly distinguished. The black line represents the simple average, while the orange line represents the weighted average. The propagated uncertainty from each of these averages are the blue and orange bands, respectively. The green band shows the simple average uncertainty of Eqn. \ref{eqn:simple_avg}, coming from the black line. The energy from ENSDF is shown in red, with its uncertainty band also in red. Note that the blue band does not agree with ENSDF, and there is also tension between the orange band and ENSDF.
 
 % 4.) Final Residuals from ENSDF for all states
-The final residuals between the energy-calibrated states using Eqn. \ref{eqn:simple_avg} and their corresponding ENSDF state are shown in Fig. \ref{fig:residuals}. It is clear that the typical energy uncertainty is in the range of $2-3$ keV. The states highlighted in red are the ones that contribute to the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate and are therefore of astrophysical interest. These range from 8359 keV to 8995 keV. The excited state labels are provided in the figure capture. There is decent agreement with ENSDF for most states at relatively high excitation energy, but there is considerable scatter at lower energies.
-
-In particular, the state that most disagrees with ENSDF is the 8188 keV state, which has a calibrated energy of 8199.3(27) keV, or a residual of 11.8(28) keV. It is not clear the reason this state has such a large residual because the individual energies of each sort group for this state were relatively consistent. This state was not resolved by the other proton-transfer experiments of Refs. \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}. However, interestingly, the ENSDF evaluation from Ref. \cite{Chen2017} reports the $(d,n)$ experiment of Ref. \cite{Fuchs1969} as having assigned an $l=0$ angular momentum to a state at 8186 keV, but this is not expressed in their own paper. Its assigned energy appears to result from a weighted average over $(p,\gamma)$ \cite{Kikstra1990}, $(p,p')$ \cite{Nolen1975}, and $(p,p'\gamma)$ \cite{Tellez1973}, which are consistent.
+The final residuals between the energy-calibrated states using Eqn. \ref{eqn:simple_avg} and their corresponding ENSDF state are shown in Fig. \ref{fig:residuals}. It is clear that the typical energy uncertainty is in the range of $2-3$ keV. The states highlighted in red are the ones that contribute to the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate and are therefore of astrophysical interest. These range from 8359 keV to 8995 keV. The excited state labels are provided in the figure capture. There is decent agreement with ENSDF for most states at relatively high excitation energy, but there is considerable scatter at lower energies. In particular, the state that most disagrees with ENSDF is the 8188 keV state, which has a calibrated energy of 8199.3(27) keV, or a residual of 11.8(28) keV. This may correspond to the 8196 keV state in ENSDF instead, but there is a considerable lack of experimental evidence for this state. This hypothesis will be discussed further in Section \ref{subsec:DWBA_Cross}.
 
 % 5.) The Final Energy table
-The final energies from the MCMC calibration are reported in Table \ref{tab:energies}. Calibration states are shown in italics, except for the alternative calibration states 8484 keV and 9136 keV that were still able to have their energies determined. Cases where the observed state corresponds to an unresolvable doublet according to ENSDF are represented with a bracket around the doublet. The assigned $J^{\pi}$ values from ENSDF are also given.
+The final energies from the MCMC calibration are reported in Table \ref{tab:energies}. Calibration states are shown in italics, except for the alternative calibration states 8484 keV and 9136 keV that were still able to have their energies determined. Cases where the observed state corresponds to an unresolvable doublet according to ENSDF are represented with a bracket around the doublet. The assigned $J^{\pi}$ values from ENSDF are also given. Fig. \ref{fig:AstroRegion} shows an energy calibrated focal plane spectrum of the proton-unbound $^{40}$Ca states labeled with their ENSDF \cite{Chen2017} energies, where the proton separation energy $S_{p} = 8328(18)$ keV is indicated by the red line.
 
 \newpage
 
@@ -1200,6 +1198,18 @@ $E_{x}$\footnotemark[1] [keV]&$E_{x}$\footnotemark[2] [keV]&$J^{\pi}$\footnotema
 
 \newpage
 
+% Energy-calibrated spectrum in the astrophysical region of interest
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\node at (0,0) {\includegraphics[width=6.5in]{Chapter-6/figs/AstroRegion_Calibrated.png}};
+\draw[line width = 0.5mm, color=red] (-6.36,-3.5) -- (-6.36,-2.5);
+\end{tikzpicture}
+\caption{\label{fig:AstroRegion}The energy-calibrated focal plane position spectrum, focused on the $^{40}$Ca states above the proton separation energy at $\theta_{\mathrm{lab}} = 5^{\circ}$ (sort group $\#$3). The $^{40}$Ca states are labeled with their ENSDF \cite{Chen2017} energies in keV, and contaminants at this angle are indicated. The red vertical line indicates the proton separation energy, $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}.}
+\end{figure}
+
+\newpage
+
 \subsection{DWBA Calculations} \label{subsec:DWBA_Cross}
 
 % C2S from DWBA
@@ -1211,7 +1221,7 @@ between the scale-corrected transfer differential cross section $d\sigma/d\Omega
 \begin{equation}
 C^{2}S = C^{2}S_{^{39}\mathrm{K}+p} \, C^{2}S_{d+p}.
 \end{equation}
-The $C^{2}S_{d+p}$ spectroscopic factor is frequently omitted in the literature, as it is a constant factor applied to all $C^{2}S$ for $(^{3}\mathrm{He},d)$ reactions. It can be approximated as $A/2$ for $A \leq 4$ nuclei from Ref. \cite{Satchler1988}, which implies $C^{2}S_{d+p} = 3/2$. However, \emph{ab-initio} calculations such as those from Ref. \cite{Brida2011} can be more precise, reducing systematic uncertainties associated with $C^{2}S_{^{39}\mathrm{K}+p}$. Ref. \cite{Brida2011} calculates $C^{2}S_{d+p} = 1.32(1)$, which is adopted in the present analysis. The $C^{2}S_{^{39}\mathrm{K}+p}$ spectroscopic factor, when converted to a proton partial-width in Section \ref{subsec:partial_widths}, is a direct input in the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate. This is the main quantity of astrophysical interest in transfer reactions.
+The $C^{2}S_{d+p}$ spectroscopic factor is frequently omitted in the literature, as it is a constant factor applied to all $C^{2}S$ for $(^{3}\mathrm{He},d)$ reactions. It can be approximated as $A/2$ for $A \leq 4$ nuclei \cite{Satchler1988}, which implies $C^{2}S_{d+p} = 1.5$. However, \emph{ab-initio} calculations such as those from Ref. \cite{Brida2011} can be more precise, reducing systematic uncertainties associated with $C^{2}S_{^{39}\mathrm{K}+p}$. Ref. \cite{Brida2011} calculates $C^{2}S_{d+p} = 1.32(1)$, which is adopted in the present analysis. The $C^{2}S_{^{39}\mathrm{K}+p}$ spectroscopic factor for proton-unbound states, when converted to a proton partial-width in Section \ref{subsec:partial_widths}, is a direct input in the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate. This is the main quantity of astrophysical interest in transfer reactions.
 
 % DWBA OMPs for incoming and outgoing channels
 DWBA transfer reaction calculations require optical model potentials (OMPs) for both the incoming $^{39}\mathrm{K} + {}^{3}\mathrm{He}$ and the outgoing $d + {}^{40}\mathrm{Ca}$ channels. The potential for the incoming channel is evaluated at the lab beam energy $E_{\mathrm{lab}}$, whereas the outgoing channel potential is evaluated at $E_{\mathrm{lab}} - Q$, where $Q$ is the $Q$-value of the transfer reaction. The global $^{3}$He OMP of Ref. \cite{Liang2009} from the elastic scattering normalization is retained for the incoming channel. The parameters of this OMP were given in Table \ref{tab:OMP_3He}. For the outgoing channel, the global $d$ OMP of Ref. \cite{An2006} is used in the present analysis, where the potential is defined in the exact same way as that of Ref. \cite{Liang2009}.
@@ -1221,7 +1231,7 @@ The proton bound-state potential must also be specified for DWBA calculations of
 \begin{equation}
 \mathrm{BE}\left(^{A-1}(X-1) + p \right) = S_{p}(^{A}X) - E_{x},
 \end{equation}
-where $S_{p}$ is the proton-seperation energy of the compound nucleus $^{A}X$, and $E_{x}$ is the excitation energy of the final state. However, many of the states observed in the present experiment, and indeed all of the states of astrophysical interest, are proton-unbound. In these cases, one could adjust the Woods-Saxon well depth until a resonance is formed at $E_{r}$. This is unfortunately not performed automatically in \texttt{Fresco} \cite{Thompson1988,Fresco}, the nuclear reaction code chosen for the present analysis. An alternative to this is to approximate the resonance scattering wave function as the wave function for a loosely-bound particle, with a binding energy of $\sim$ 1 keV. This is known as the weak binding approximation, and it has been shown to reproduce unbound calculations to within $1\%$ \cite{Kankainen2016,Kahl2019} for states within about 500 keV of the particle threshold. The present analysis uses the weak binding approximation for unbound $^{40}$Ca states. The proton bound-state parameters, along with the global OMP parameters are summarized in Table \ref{tab:OMP_all}.
+where $S_{p}$ is the proton-seperation energy of the compound nucleus $^{A}X$, and $E_{x}$ is its excitation energy. However, many of the states observed in the present experiment, and indeed all of the states of astrophysical interest, are proton-unbound. In these cases, one could adjust the Woods-Saxon well depth until a resonance is formed at $E_{r}$. This is unfortunately not performed automatically in \texttt{Fresco} \cite{Thompson1988,Fresco}, the nuclear reaction code chosen for the present analysis. An alternative to this is to approximate the resonance scattering wave function as the wave function for a loosely-bound particle, with a binding energy of $\sim$ 1 keV. This is known as the weak binding approximation, and it has been shown to reproduce unbound calculations to within $1\%$ for states within about 500 keV of the particle threshold and $6\%$ for states within about 1800 keV above the particle threshold \cite{Kankainen2016,Kahl2019}. The present analysis uses the weak binding approximation for unbound $^{40}$Ca states. The proton bound-state parameters, along with the global OMP parameters are summarized in Table \ref{tab:OMP_all}.
 
 % Global OMP parameters
 \begin{table}[t]
@@ -1242,7 +1252,7 @@ where $S_{p}$ is the proton-seperation energy of the compound nucleus $^{A}X$, a
 % Overlaps and the different nlj combinations
 Another factor that must be considered in DWBA calculations is the transferred-particle overlaps, in this case for $^{39}\mathrm{K}+p$ and $d+p$. Each overlap is specified by a single-particle state $n \ell_{j}$ from the shell model with the quantum numbers $n$, $\ell$, and $j$ corresponding to the node, transferred orbital angular momentum, and total angular momentum ($j = \ell \pm 1/2$), respectively (see Ref. \cite{Krane1987}). Only a select few single-particle states can be populated from a given transition, based on quantum-mechanical selection rules for angular momentum and parity (see Ref. \cite{Iliadis2015}). For example, if the spin-parity $J^{\pi}$ of the final $^{40}$Ca state is known, the possible $n$, $\ell$, and $j$ single-particle quantum numbers can be extracted from the selection rules. This can also be done for final states where $J^{\pi}$ is narrowed down to a few possibilities. This extraction was performed for each excited state of $^{40}$Ca populated in the present experiment, given their known spin-parities, or spin-parity candidates, from the ENSDF evaluation of Ref. \cite{Chen2017}. The $d+p$ overlap was treated as constant for each DWBA calculation, since it was assumed that it occupied only the $^{3}$He ground state.
 
-The nuclear reaction code \texttt{Fresco} \cite{Thompson1988,Fresco} was used to calculate $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ DWBA differential cross sections using the zero-range (ZR) approximation introduced in Section \ref{subsec:DWBA}. Calculations were performed for the allowed $n\ell_{j}$ combinations of each excited state, based on their known $J^{\pi}$ values from ENSDF. In cases where none of the angular distributions agreed with the experimental cross section, the $n\ell_{j}$ combinations were expanded to account for different final $J^{\pi}$ values. An example of the normalization procedure and the different $n\ell_{j}$ combinations for the 7532 keV state is shown in Fig. \ref{fig:7532keV_NoNorm}. This state has a spin-parity of $2^{-}$ from ENSDF, and therefore allows $\ell=1$ or $\ell=3$ orbital angular momenta from selection rules. The most likely single-particle states corresponding to these $\ell$-values are $2\mathrm{p}_{3/2}$ or $2\mathrm{p}_{1/2}$ for $\ell=1$ and $1\mathrm{f}_{7/2}$ or $1\mathrm{f}_{5/2}$ for $\ell=3$, as they are the lowest energy transitions. The higher $n$-values have a much greater transition energy and are therefore less likely. However, they were included in the analysis for completion and to test their effects. From Fig. \ref{fig:7532keV_NoNorm}, it is clear that the DWBA differential cross sections increase with increasing $n$. It can also be seen that the $n$-$\ell$ pairs produce very similar differential cross sections at low angles. This is especially true at angles below the first minimum, where the DWBA differential cross sections are most reliable. It is common during normalization to omit angles greater than the first DWBA minimum because of this unreliability \cite{??}. However, the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not obtain data beyond the first minimum, so normalization was performed with all experimental points.
+The nuclear reaction code \texttt{Fresco} \cite{Thompson1988,Fresco} was used to calculate $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ DWBA differential cross sections using the zero-range (ZR) approximation introduced in Section \ref{subsec:DWBA}. Calculations were performed for the allowed $n\ell_{j}$ combinations of each excited state, based on their known $J^{\pi}$ values from ENSDF. In cases where none of the angular distributions agreed with the experimental cross section, the $n\ell_{j}$ combinations were expanded to account for different final $J^{\pi}$ values. An example of the normalization procedure and the different $n\ell_{j}$ combinations for the 7532 keV state is shown in Fig. \ref{fig:7532keV_NoNorm}. This state has a spin-parity of $2^{-}$ from ENSDF, and therefore allows $\ell=1$ or $\ell=3$ orbital angular momenta from selection rules. The most likely single-particle states corresponding to these $\ell$-values are $2\mathrm{p}_{3/2}$ or $2\mathrm{p}_{1/2}$ for $\ell=1$ and $1\mathrm{f}_{7/2}$ or $1\mathrm{f}_{5/2}$ for $\ell=3$, as they are the lowest energy transitions from the $^{39}$K ground state at $1d_{3/2}$. The higher $n$-values for a given $\ell$ transition have a much greater transition energy and are therefore less likely. For that reason they are typically omitted in the literature. However, they were included in the analysis for completion and to test their effects. From Fig. \ref{fig:7532keV_NoNorm}, it is clear that the DWBA differential cross sections increase with increasing $n$. It can also be seen that the $n$-$\ell$ pairs produce very similar differential cross sections at low angles. This is especially true at angles below the first minimum, where the DWBA differential cross sections are most reliable. It is common during normalization to omit angles greater than the first DWBA minimum because that is roughly where the distorted-wave Born approximation loses validity \cite{??}. However, the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not obtain data beyond the first minimum, so normalization was performed with all experimental points.
 
 \begin{figure}[t]
 \centering
@@ -1258,6 +1268,12 @@ The nuclear reaction code \texttt{Fresco} \cite{Thompson1988,Fresco} was used to
 
 Fig. \ref{fig:7532keV_Norm} shows the same differential cross sections as in Fig. \ref{fig:7532keV_NoNorm}, but the DWBA models have been scaled down to the experimental points to show all normalizations simultaneously. It is clear that the $\ell=1$ models match the angular distribution of the points. However, it is not possible to tell which of the $\ell=1$ models is the best match. As is done in the literature \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}, the present analysis chooses the $n$-$j$ pair associated with the lowest energy single-particle state, unless it is forbidden by selection rules. That is, unless they are forbidden, all $\ell=0$, $\ell=1$, $\ell=2$, and $\ell=3$ distributions will be associated with $3\mathrm{s}_{1/2}$, $2\mathrm{p}_{3/2}$, $2\mathrm{d}_{5/2}$, and $1\mathrm{f}_{7/2}$ single-particle states, respectively.
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/7532keV_Norm.png}
+\caption{\label{fig:7532keV_Norm}The DWBA models of Fig. \ref{fig:7532keV_NoNorm} scaled down to the 7532 keV data to compare angular distributions. The $l=1$ models are a clear match for this state.}
+\end{figure}
+
 Finally, another transfer consideration comes from the fact that $^{39}$K has a non-zero ground state ($J^{\pi} = 3/2^{+}$). It is possible in this case that more than one single-particle state contributes to the differential cross section, resulting in a mixed-$\ell$ angular distribution. Theoretically, all allowed $\ell$ transitions can contribute, but it is usually impossible to distinguish between more than the two lowest $\ell$ transitions. The differential cross section decreases with increasing $\ell$, making each larger $\ell$ contribution more negligible \cite{Hodgson1971}. The mixed-$\ell$ angular distributions should then resemble a sum of two DWBA differential cross sections,
 \begin{equation}
 \frac{d\sigma}{d\Omega}_{\mathrm{Exp}} = C^{2}S_{\ell_{1}} \frac{d\sigma}{d\Omega}_{\mathrm{DWBA},\ell_{1}} + C^{2}S_{\ell_{2}} \frac{d\sigma}{d\Omega}_{\mathrm{DWBA},\ell_{2}}.
@@ -1267,15 +1283,68 @@ The individual spectroscopic factors are given the common parameter $\alpha$ whi
 C^{2}S_{\ell_{1}} &= \alpha C^{2}S, \\
 C^{2}S_{\ell_{2}} &= (1 - \alpha) C^{2}S,
 \end{align}
-where $C^{2}S$ represents the joint spectroscopic factor. A $\chi^{2}$-minimization is performed in mixed-$\ell$ cases to determine the $\alpha$ and $C^{2}S$ parameters, and the individual $C^{2}S_{\ell_{1}}$ and $C^{2}S_{\ell_{2}}$ are then reported.
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=6.5in]{Chapter-6/figs/7532keV_Norm.png}
-\caption{\label{fig:7532keV_Norm}The DWBA models of Fig. \ref{fig:7532keV_NoNorm} scaled down to the 7532 keV data to compare angular distributions. The $l=1$ models are a clear match for this state.}
-\end{figure}
+where $C^{2}S$ represents the joint spectroscopic factor. A $\chi^{2}$-minimization is performed in mixed-$\ell$ cases to determine the $\alpha$ and $C^{2}S$ parameters, and the individual $C^{2}S_{\ell_{1}}$ and $C^{2}S_{\ell_{2}}$ are then reported. Their statistical uncertainties are obtained from the variance-covariance matrix elements added in quadrature to the $d\sigma/d\Omega_{\mathrm{Exp}}$ uncertainties.
 
 \subsection{Angular Distribution Results}
+
+Figs. \ref{fig:diffcross_6panel_1}--\ref{fig:unbound_l} show the angular distributions extracted for each $^{40}$Ca state observed in the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment, with a few exceptions. The states observed above 9227 keV (9405--9603 keV) did not match any DWBA prescription. The experimental differential cross sections for these states rapidly decreased as a function of angle faster than even the lowest possible $\ell$ transition. This is likely due to these peaks being too near the edge of the focal plane detector, which is exacerbated with increasing angle. The detector efficiency is significantly reduced at the fringes, which makes yield measurements unreliable. Another factor could be the breakdown of the weak binding approximation in DWBA models for states with energies this high above the proton separation energy, albeit likely to a lesser degree, considering the good agreement with the nearby 9227 keV differential cross section. Energies were still extracted for states up to 9603 keV with relatively small residuals from ENSDF \cite{Chen2017} because detector efficiency does not affect centroid position, and DWBA calculations are not used in the energy calibration. Fig. \ref{fig:unbound_l} focuses on the proton-unbound $^{40}$Ca states of astrophysical interest ($E_{x} =$ 8359--8851 keV), which are below the lowest directly measured $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ resonance at $E_{x} =$ 8935 keV ($E_{r}^{\mathrm{c.m.}} =$ 606 keV). These are the states that are updated in the new reaction rate calculation, shown in Section \ref{sec:pg_reac_rate}. 
+
+The angular distribution of each state is described in detail in the following discussion, where each excited state energy is labeled by its ENSDF \cite{Chen2017} energy for clarity. Spectroscopic factors are compared to literature in Section \ref{subsec:DWBA_Spec}, and the proton partial-widths of the states of astrophysical interest are discussed in Section \ref{subsec:partial_widths}.
+
+\subsubsection{$E_{x} = 4491$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 5^{-}$ by ENSDF \cite{Chen2017}, and its angular distribution is assigned $\ell=3$ from the present analysis. This is in agreement with all of the $(^{3}\mathrm{He}, d)$ measurements from Refs. \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and the only $(d, n)$ measurement of Ref. \cite{Fuchs1969} in the literature.
+
+\subsubsection{$E_{x} = 5614$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 4^{-}$ by ENSDF. Its angular distribution is assigned $\ell=3$ from the present analysis, in agreement with the literature \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}.
+
+\subsubsection{$E_{x} = 5903$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF. Its angular distribution is assigned $\ell=1$ from the present analysis, despite it being obscured by the 4915 keV $^{14}$N contaminant at $\theta_{\mathrm{lab}} = 7^{\circ}$ and $9^{\circ}$. This is in agreement with Refs. \cite{Erskine1966,Seth1967,Cage1971} but in disagreement with $(d,n)$ \cite{Fuchs1969}, where $\ell = 1+3$ is assigned. It was not resolved by Ref. \cite{Forster1970}.
+
+\subsubsection{$E_{x} = 6025$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Seth1967} and $(d,n)$ \cite{Fuchs1969}, but in disagreement with Ref. \cite{Cage1971}, where $\ell=3$ is assigned. It was not resolved by Ref. \cite{Forster1970}.
+
+\subsubsection{$E_{x} = 6285$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Forster1970,Cage1971}, but in disagreement with Ref. \cite{Seth1967} and $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
+
+\subsubsection{$E_{x} = 6582$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis, with most of the contribution from $\ell=1$. It is obscured by the $^{12}$C ground state at $\theta_{\mathrm{lab}} \leq 7^{\circ}$. This is in agreement with $(d,n)$ \cite{Fuchs1969}, but in disagreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, which assign it purely $\ell=1$.
+
+\subsubsection{$E_{x} = 6750$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis. It is obscured by the $^{12}$C ground state at $\theta_{\mathrm{lab}} = 11^{\circ}, 13^{\circ}$, and $15^{\circ}$. This state is widely disputed in the literature. It is in agreement with $(d,n)$ \cite{Fuchs1969}, but Refs. \cite{Erskine1966,Seth1967,Forster1970} assign it $\ell=1$, and Ref. \cite{Cage1971} assigns it $\ell=3$.
+
+\subsubsection{$E_{x} = 6950$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. It is obscured by the 5834 keV $^{14}$N state at $\theta_{\mathrm{lab}} = 15^{\circ}$ and $20^{\circ}$. The energy residuals are about 13 keV lower than ENSDF at $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$, which makes these measurements questionable, but the remaining angles show only a 2 keV residual from ENSDF. Even among the other angles alone, however, the angular distribution is clearly $\ell=1$ and not $\ell=3$. This assignment is in agreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, but in disagreement with $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
+
+\subsubsection{$E_{x} = 7113$ keV}
+In ENSDF, the 7113.1(10) keV and 7113.73(5) keV states have spin-parities of $J^{\pi} = 1^{-}$ and $J^{\pi} = 4^{-}$, respectively. The present energy calibration yielded a state at 7109.4(29) keV, within the uncertainty of the $1^{-}$ state, but not the $4^{-}$ state. An angular distribution of $\ell=1+3$ is assigned in the present analysis, with the main contribution from $\ell=1$. This is impossible for a $4^{-}$ state, where only $\ell=3$ and/or $\ell=5$ can be observed. Both of these measurements indicate that this corresponds with the 7113.1(10) keV $1^{-}$ state, with possibly a small contribution from the 7113.73(5) keV $4^{-}$ state at $\ell=3$. This assignment is in agreement with $(d,n)$ \cite{Fuchs1969}, but in disagreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, where purely $\ell=1$ is assigned. This was the highest energy state measured by Ref. \cite{Forster1970}, so this reference is omitted from the remaining discussion.
+
+\subsubsection{$E_{x} = 7532$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Cage1971}, but in disagreement with Ref. \cite{Seth1967} and $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
+
+\subsubsection{$E_{x} = 7623$ keV}
+The spin-parity of this state is assigned $J^{\pi} = (2^{-},3,4^{+})$ by ENSDF and was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(d,n)$ \cite{Fuchs1969}. This experiment has resolved this state for the first time through proton-transfer. Its angular distribution is assigned $\ell=1+3$ in the present analysis. This implies a $J^{\pi}$ assignment of $1^{-},2^{-},3^{-}$. Comparing with ENSDF, the $J^{\pi} = 3^{+}$ and $4^{+}$ assignments can be ruled out with this measurement.
+
+\subsubsection{$E_{x} = 7658$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 4^{-}$ by ENSDF, and its angular distribution is assigned $\ell=3$ in the present analysis, in agreement with the literature \cite{Erskine1966,Seth1967,Cage1971,Fuchs1969}.
+
+\subsubsection{$E_{x} = 7694$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ in the present analysis. This state is disputed across the literature. The present assignment is in agreement with Ref. \cite{Erskine1966}, but in disagreement with Refs. \cite{Seth1967,Cage1971} and $(d,n)$ \cite{Fuchs1969}, where $\ell=3$ and $\ell=1$ are assigned, respectively.
+
+\subsubsection{$E_{x} = 7973$ keV}
+The spin-parity of this state is assigned $J^{\pi} =$ (LE $3)^{-}$ by ENSDF based only on $(d,n)$ \cite{Fuchs1969}. It was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. This state was obscured in this experiment by the $^{17}$F ground state at $\theta_{\mathrm{lab}} = 11^{\circ}$ and $13^{\circ}$. The present analysis assigns $\ell=1$, in agreement with $(d,n)$. This experiment alone suggests $J^{\pi} = 0^{-}, 1^{-}, 2^{-}, 3^{-}$.
+
+\subsubsection{$E_{x} = 8113$ keV}
+The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in disagreement with $(d,n)$ \cite{Fuchs1969}, where $\ell=1+3$ is assigned. However, Ref. \cite{Fuchs1969} observes a doublet at 8113 keV and 8135 keV, which is not observed in the present experiment. The presence of the 6859 keV $^{15}$O contaminant complicates matters because it overlaps with where the 8135 keV state is expected, making this state impossible to resolve. The 7029 keV $^{14}$N and 6793 keV $^{15}$O contaminants obscure the $\theta_{\mathrm{lab}} = 11^{\circ}$ measurement.
+
+\subsubsection{$E_{x} = 8188$ keV (or 8196 keV)}
+The spin-parity of the 8188 keV state is assigned $J^{\pi} = (3,4,5^{-})$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. No spectroscopic factor was reported from $(d,n)$ \cite{Fuchs1969} either, but it was assigned as a $\ell=0$ transition nonetheless. This would imply $J^{\pi} = 1^{+},2^{+}$, which conflicts with ENSDF. The present energy calibration found a state at 8199.3(27) keV, or a residual from the 8188 keV state of 11.8(28) keV. There is in fact a state at 8196 keV reported in ENSDF, but it has only been observed in $(p,t)$ \cite{Seth1974,Seth1977} and $(p,p')$ \cite{Nolen1975}, and no official $J^{\pi}$ assignment has been made. However, the $(p,t)$ measurement of Ref. \cite{Seth1977} makes a weak assignment of $\ell=(2)$ for this state, which for $(p,t)$ implies $J^{\pi} = (0,1)^{+}$. In the present experiment, there is ambiguity in the angular momentum between $\ell=0+2$ and $\ell=1$, with the $\ell=0+2$ transition being slightly more favorable. The spin-parities would be $J^{\pi} = 0^{+},1^{+}$ for the former transition and $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$ for the latter. It is possible that the $(d,n)$ \cite{Fuchs1969} assignment of $\ell=0$ applies to the 8196 keV state, which would be more in alignment with the present measurement and Refs. \cite{Seth1974,Seth1977,Nolen1975}.
+
+\subsubsection{$E_{x} = 8271$ keV}
+The spin-parity of this state is assigned $J^{\pi} =$ (LE $3)^{-}$ by ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in agreement with $(d,n)$ \cite{Fuchs1969}. These experiments alone suggest $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$.
+
+\subsubsection{$E_{x} = 8359$ keV ($E_{r}^{\mathrm{c.m.}} = 29$ keV)}
+
+
 
 \begin{figure}
 \centering
@@ -1301,7 +1370,7 @@ where $C^{2}S$ represents the joint spectroscopic factor. A $\chi^{2}$-minimizat
 \caption{\label{fig:diffcross_6panel_4}Differential cross sections for 8935 keV through 9227 keV. See text for details.}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}
 \centering
 %\begin{tikzpicture}
 %%\hspace{0.3cm}
@@ -1312,26 +1381,14 @@ where $C^{2}S$ represents the joint spectroscopic factor. A $\chi^{2}$-minimizat
 \caption{\label{fig:unbound_l}Differential cross-sections of unbound $^{40}\mathrm{Ca}$ states below 8935 keV observed in the present experiment. The left panel shows the $l=1$ distributions, while the right panel shows all other distributions. The experimental data were normalized to the Si detector telescope yield, as described in the text, and further scaling for illustration purposes was not necessary. The zero-range DWBA model curves were computed using the nuclear reaction code, \texttt{Fresco} \cite{Thompson1988,Fresco}.}
 \end{figure}
 
-
-
 \subsection{Spectroscopic Factors} \label{subsec:DWBA_Spec}
 
 
 
-\subsection{Proton Partial Widths} \label{subsec:partial_widths}
-
-% Energy-calibrated spectrum in the astrophysical region of interest
-\begin{figure}
-\centering
-\begin{tikzpicture}
-\node at (0,0) {\includegraphics[width=6.5in]{Chapter-6/figs/AstroRegion_Calibrated.png}};
-\draw[line width = 0.5mm, color=red] (-6.36,-3.5) -- (-6.36,-2.5);
-\end{tikzpicture}
-\caption{\label{fig:AstroRegion}The energy-calibrated focal plane position spectrum, focused on the $^{40}$Ca states above the proton separation energy at $\theta_{\mathrm{lab}} = 5^{\circ}$ (sort group $\#$3). The $^{40}$Ca states are labeled with their ENSDF \cite{Chen2017} energies in keV, and contaminants at this angle are indicated. The red vertical line indicates the proton separation energy, $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}.}
-\end{figure}
+\subsection{Proton Partial Widths and Resonance Energies} \label{subsec:partial_widths}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{New $^{39}\mathrm{\textbf{K}}(p,\gamma)^{40}\mathrm{\textbf{Ca}}$ Reaction Rate}
+\section{New $^{39}\mathrm{\textbf{K}}(p,\gamma)^{40}\mathrm{\textbf{Ca}}$ Reaction Rate} \label{sec:pg_reac_rate}
 
 The Monte Carlo reaction rate code, \texttt{RatesMC} \cite{Longland2010a,RatesMC}, was used to calculate a new $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate probability density from the resonance energies and proton partial-widths reported in Sections \ref{subsec:cal} and \ref{subsec:partial_widths}, respectively. Among the states observed in the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, only those that do not already have a directly measured $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ resonance strength from Refs. \cite{Kikstra1990,Cheng1981,Leenhouts1966} were modified from the most recent reaction rate evaluation of Ref. \cite{Longland2018}. That is, the only resonance strengths and resonance energies that were updated from those in Ref. \cite{Longland2018} are below the $E_{x} = 8935$ keV ($E^{\mathrm{c.m.}}_{r} = 606$ keV) resonance. Otherwise, the expectation values and variances of the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ experiments \cite{Kikstra1990,Cheng1981,Leenhouts1966} are adopted from Ref. \cite{Longland2018}.
 
