@@ -681,6 +681,38 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Endt1977}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EPM}{%
+         family={Endt},
+         familyi={E\bibinitperiod},
+         given={P.\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EPM1}
+    \strng{fullhash}{EPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{End77}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0092-640X(77)90008-0
+    \endverb
+    \field{issn}{0092-640X}
+    \field{number}{1}
+    \field{pages}{23\bibrangedash 61}
+    \field{title}{Spectroscopic factors for single-nucleon transfer in the A =
+  21–44 region}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0092640X77900080
+    \endverb
+    \field{volume}{19}
+    \field{journaltitle}{Atomic Data and Nuclear Data Tables}
+    \field{year}{1977}
+  \endentry
+
   \entry{Erskine1966}{article}{}
     \name{author}{1}{}{%
       {{hash=EJR}{%
@@ -1023,6 +1055,72 @@
     \field{volume}{106}
     \field{journaltitle}{Phys. Rev. C}
     \field{year}{2022}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Gruhn1972}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GCR}{%
+         family={Gruhn},
+         familyi={G\bibinitperiod},
+         given={C.\bibnamedelima R.},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KTYT}{%
+         family={Kuo},
+         familyi={K\bibinitperiod},
+         given={T.\bibnamedelima Y.\bibnamedelima T.},
+         giveni={T\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim
+  T\bibinitperiod},
+      }}%
+      {{hash=MCJ}{%
+         family={Maggiore},
+         familyi={M\bibinitperiod},
+         given={C.\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={McManus},
+         familyi={M\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Petrovich},
+         familyi={P\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PBM}{%
+         family={Preedom},
+         familyi={P\bibinitperiod},
+         given={B.\bibnamedelima M.},
+         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GCR+1}
+    \strng{fullhash}{GCRKTYTMCJMHPFPBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Gru72}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.6.915
+    \endverb
+    \field{issue}{3}
+    \field{pages}{915\bibrangedash 944}
+    \field{title}{Energy Dependence of Proton Inelastic Scattering from
+  $^{40}\mathrm{Ca}$}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.6.915
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{1972}
     \warn{\item Invalid format of field 'month'}
   \endentry
 

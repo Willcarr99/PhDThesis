@@ -1214,7 +1214,7 @@ $E_{x}$\footnotemark[1] [keV]&$E_{x}$\footnotemark[2] [keV]&$J^{\pi}$\footnotema
 
 % C2S from DWBA
 The $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ differential cross sections were normalized by the same amount $N_{\mathrm{ES}}$ as that of the focal plane $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements, since both were measured relative to the elastic scattering of the Si detector. The remaining normalization,
-\begin{equation}
+\begin{equation} \label{eqn:spec_factor_dwba}
 \frac{d\sigma}{d\Omega}_{\mathrm{Exp}} = C^{2}S \frac{d\sigma}{d\Omega}_{\mathrm{DWBA}},
 \end{equation}
 between the scale-corrected transfer differential cross section $d\sigma/d\Omega_{\mathrm{Exp}}$ and that of an appropriate distorted-wave Born approximation (DWBA) $d\sigma/d\Omega_{\mathrm{DWBA}}$ defines the spectroscopic factor $C^{2}S$. The spectroscopic factor for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ is broken into two parts, corresponding to the $^{39}\mathrm{K}+p$ and $d+p$ overlaps (see Sections \ref{subsec:DWBA} and \ref{subsec:C2S}),
@@ -1275,7 +1275,7 @@ Fig. \ref{fig:7532keV_Norm} shows the same differential cross sections as in Fig
 \end{figure}
 
 Finally, another transfer consideration comes from the fact that $^{39}$K has a non-zero ground state ($J^{\pi} = 3/2^{+}$). It is possible in this case that more than one single-particle state contributes to the differential cross section, resulting in a mixed-$\ell$ angular distribution. Theoretically, all allowed $\ell$ transitions can contribute, but it is usually impossible to distinguish between more than the two lowest $\ell$ transitions. The differential cross section decreases with increasing $\ell$, making each larger $\ell$ contribution more negligible \cite{Hodgson1971}. The mixed-$\ell$ angular distributions should then resemble a sum of two DWBA differential cross sections,
-\begin{equation}
+\begin{equation} \label{eqn:mixed_l}
 \frac{d\sigma}{d\Omega}_{\mathrm{Exp}} = C^{2}S_{\ell_{1}} \frac{d\sigma}{d\Omega}_{\mathrm{DWBA},\ell_{1}} + C^{2}S_{\ell_{2}} \frac{d\sigma}{d\Omega}_{\mathrm{DWBA},\ell_{2}}.
 \end{equation} 
 The individual spectroscopic factors are given the common parameter $\alpha$ which determines their fractional contributions, as in
@@ -1289,88 +1289,43 @@ where $C^{2}S$ represents the joint spectroscopic factor. A $\chi^{2}$-minimizat
 
 Figs. \ref{fig:diffcross_6panel_1}--\ref{fig:unbound_l} show the angular distributions extracted for each $^{40}$Ca state observed in the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment, with a few exceptions. The states observed above 9227 keV (9405--9603 keV) did not match any DWBA prescription. The experimental differential cross sections for these states rapidly decreased as a function of angle faster than even the lowest possible $\ell$ transition. This is likely due to these peaks being too near the edge of the focal plane detector, which is exacerbated with increasing angle. The detector efficiency is significantly reduced at the fringes, which makes yield measurements unreliable. Another factor could be the breakdown of the weak binding approximation in DWBA models for states with energies this high above the proton separation energy, albeit likely to a lesser degree, considering the good agreement with the nearby 9227 keV differential cross section. Energies were still extracted for states up to 9603 keV with relatively small residuals from ENSDF \cite{Chen2017} because detector efficiency does not affect centroid position, and DWBA calculations are not used in the energy calibration. Fig. \ref{fig:unbound_l} focuses on the proton-unbound $^{40}$Ca states of astrophysical interest ($E_{x} =$ 8359--8851 keV), which are below the lowest directly measured $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ resonance at $E_{x} =$ 8935 keV ($E_{r}^{\mathrm{c.m.}} =$ 606 keV). These are the states that are updated in the new reaction rate calculation, shown in Section \ref{sec:pg_reac_rate}. 
 
-The angular distribution of each state is described in detail in the following discussion, where each excited state energy is labeled by its ENSDF \cite{Chen2017} energy for clarity. Spectroscopic factors are compared to literature in Section \ref{subsec:DWBA_Spec}, and the proton partial-widths of the states of astrophysical interest are discussed in Section \ref{subsec:partial_widths}.
+The angular distribution of each state is described in detail in the following discussion, where each excited state energy is labeled by its ENSDF \cite{Chen2017} energy for clarity. For proton-unbound states, the resonance energy $E_{r}^{\mathrm{c.m.}}$ is also provided based on the energy calibration of the present analysis. Spectroscopic factors are compared to literature in Section \ref{subsec:DWBA_Spec}, and the proton partial-widths of the states of astrophysical interest are discussed in Section \ref{subsec:partial_widths}.
 
-\subsubsection{$E_{x} = 4491$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 5^{-}$ by ENSDF \cite{Chen2017}, and its angular distribution is assigned $\ell=3$ from the present analysis. This is in agreement with all of the $(^{3}\mathrm{He}, d)$ measurements from Refs. \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and the only $(d, n)$ measurement of Ref. \cite{Fuchs1969} in the literature.
+\newpage
 
-\subsubsection{$E_{x} = 5614$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 4^{-}$ by ENSDF. Its angular distribution is assigned $\ell=3$ from the present analysis, in agreement with the literature \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}.
-
-\subsubsection{$E_{x} = 5903$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF. Its angular distribution is assigned $\ell=1$ from the present analysis, despite it being obscured by the 4915 keV $^{14}$N contaminant at $\theta_{\mathrm{lab}} = 7^{\circ}$ and $9^{\circ}$. This is in agreement with Refs. \cite{Erskine1966,Seth1967,Cage1971} but in disagreement with $(d,n)$ \cite{Fuchs1969}, where $\ell = 1+3$ is assigned. It was not resolved by Ref. \cite{Forster1970}.
-
-\subsubsection{$E_{x} = 6025$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Seth1967} and $(d,n)$ \cite{Fuchs1969}, but in disagreement with Ref. \cite{Cage1971}, where $\ell=3$ is assigned. It was not resolved by Ref. \cite{Forster1970}.
-
-\subsubsection{$E_{x} = 6285$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Forster1970,Cage1971}, but in disagreement with Ref. \cite{Seth1967} and $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
-
-\subsubsection{$E_{x} = 6582$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis, with most of the contribution from $\ell=1$. It is obscured by the $^{12}$C ground state at $\theta_{\mathrm{lab}} \leq 7^{\circ}$. This is in agreement with $(d,n)$ \cite{Fuchs1969}, but in disagreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, which assign it purely $\ell=1$.
-
-\subsubsection{$E_{x} = 6750$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis. It is obscured by the $^{12}$C ground state at $\theta_{\mathrm{lab}} = 11^{\circ}, 13^{\circ}$, and $15^{\circ}$. This state is widely disputed in the literature. It is in agreement with $(d,n)$ \cite{Fuchs1969}, but Refs. \cite{Erskine1966,Seth1967,Forster1970} assign it $\ell=1$, and Ref. \cite{Cage1971} assigns it $\ell=3$.
-
-\subsubsection{$E_{x} = 6950$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. It is obscured by the 5834 keV $^{14}$N state at $\theta_{\mathrm{lab}} = 15^{\circ}$ and $20^{\circ}$. The energy residuals are about 13 keV lower than ENSDF at $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$, which makes these measurements questionable, but the remaining angles show only a 2 keV residual from ENSDF. Even among the other angles alone, however, the angular distribution is clearly $\ell=1$ and not $\ell=3$. This assignment is in agreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, but in disagreement with $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
-
-\subsubsection{$E_{x} = 7113$ keV}
-In ENSDF, the 7113.1(10) keV and 7113.73(5) keV states have spin-parities of $J^{\pi} = 1^{-}$ and $J^{\pi} = 4^{-}$, respectively. The present energy calibration yielded a state at 7109.4(29) keV, within the uncertainty of the $1^{-}$ state, but not the $4^{-}$ state. An angular distribution of $\ell=1+3$ is assigned in the present analysis, with the main contribution from $\ell=1$. This is impossible for a $4^{-}$ state, where only $\ell=3$ and/or $\ell=5$ can be observed. Both of these measurements indicate that this corresponds with the 7113.1(10) keV $1^{-}$ state, with possibly a small contribution from the 7113.73(5) keV $4^{-}$ state at $\ell=3$. This assignment is in agreement with $(d,n)$ \cite{Fuchs1969}, but in disagreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, where purely $\ell=1$ is assigned. This was the highest energy state measured by Ref. \cite{Forster1970}, so this reference is omitted from the remaining discussion.
-
-\subsubsection{$E_{x} = 7532$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Cage1971}, but in disagreement with Ref. \cite{Seth1967} and $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
-
-\subsubsection{$E_{x} = 7623$ keV}
-The spin-parity of this state is assigned $J^{\pi} = (2^{-},3,4^{+})$ by ENSDF and was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(d,n)$ \cite{Fuchs1969}. This experiment has resolved this state for the first time through proton-transfer. Its angular distribution is assigned $\ell=1+3$ in the present analysis. This implies a $J^{\pi}$ assignment of $1^{-},2^{-},3^{-}$. Comparing with ENSDF, the $J^{\pi} = 3^{+}$ and $4^{+}$ assignments can be ruled out with this measurement.
-
-\subsubsection{$E_{x} = 7658$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 4^{-}$ by ENSDF, and its angular distribution is assigned $\ell=3$ in the present analysis, in agreement with the literature \cite{Erskine1966,Seth1967,Cage1971,Fuchs1969}.
-
-\subsubsection{$E_{x} = 7694$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ in the present analysis. This state is disputed across the literature. The present assignment is in agreement with Ref. \cite{Erskine1966}, but in disagreement with Refs. \cite{Seth1967,Cage1971} and $(d,n)$ \cite{Fuchs1969}, where $\ell=3$ and $\ell=1$ are assigned, respectively.
-
-\subsubsection{$E_{x} = 7973$ keV}
-The spin-parity of this state is assigned $J^{\pi} =$ (LE $3)^{-}$ by ENSDF based only on $(d,n)$ \cite{Fuchs1969}. It was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. This state was obscured in this experiment by the $^{17}$F ground state at $\theta_{\mathrm{lab}} = 11^{\circ}$ and $13^{\circ}$. The present analysis assigns $\ell=1$, in agreement with $(d,n)$. This experiment alone suggests $J^{\pi} = 0^{-}, 1^{-}, 2^{-}, 3^{-}$.
-
-\subsubsection{$E_{x} = 8113$ keV}
-The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in disagreement with $(d,n)$ \cite{Fuchs1969}, where $\ell=1+3$ is assigned. However, Ref. \cite{Fuchs1969} observes a doublet at 8113 keV and 8135 keV, which is not observed in the present experiment. The presence of the 6859 keV $^{15}$O contaminant complicates matters because it overlaps with where the 8135 keV state is expected, making this state impossible to resolve. The 7029 keV $^{14}$N and 6793 keV $^{15}$O contaminants obscure the $\theta_{\mathrm{lab}} = 11^{\circ}$ measurement.
-
-\subsubsection{$E_{x} = 8188$ keV (or 8196 keV)}
-The spin-parity of the 8188 keV state is assigned $J^{\pi} = (3,4,5^{-})$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. No spectroscopic factor was reported from $(d,n)$ \cite{Fuchs1969} either, but it was assigned as a $\ell=0$ transition nonetheless. This would imply $J^{\pi} = 1^{+},2^{+}$, which conflicts with ENSDF. The present energy calibration found a state at 8199.3(27) keV, or a residual from the 8188 keV state of 11.8(28) keV. There is in fact a state at 8196 keV reported in ENSDF, but it has only been observed in $(p,t)$ \cite{Seth1974,Seth1977} and $(p,p')$ \cite{Nolen1975}, and no official $J^{\pi}$ assignment has been made. However, the $(p,t)$ measurement of Ref. \cite{Seth1977} makes a weak assignment of $\ell=(2)$ for this state, which for $(p,t)$ implies $J^{\pi} = (0,1)^{+}$. In the present experiment, there is ambiguity in the angular momentum between $\ell=0+2$ and $\ell=1$, with the $\ell=0+2$ transition being slightly more favorable. The spin-parities would be $J^{\pi} = 0^{+},1^{+}$ for the former transition and $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$ for the latter. It is possible that the $(d,n)$ \cite{Fuchs1969} assignment of $\ell=0$ applies to the 8196 keV state, which would be more in alignment with the present measurement and Refs. \cite{Seth1974,Seth1977,Nolen1975}.
-
-\subsubsection{$E_{x} = 8271$ keV}
-The spin-parity of this state is assigned $J^{\pi} =$ (LE $3)^{-}$ by ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in agreement with $(d,n)$ \cite{Fuchs1969}. These experiments alone suggest $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$.
-
-\subsubsection{$E_{x} = 8359$ keV ($E_{r}^{\mathrm{c.m.}} = 29$ keV)}
-
-
-
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_1.png}
 \caption{\label{fig:diffcross_6panel_1}Differential cross sections for 4491 keV through 6582 keV. See text for details.}
 \end{figure}
 
-\begin{figure}
+\newpage
+
+\begin{figure}[H]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_2.png}
 \caption{\label{fig:diffcross_6panel_2}Differential cross sections for 6750 keV through 7658 keV. See text for details.}
 \end{figure}
 
-\begin{figure}
+\newpage
+
+\begin{figure}[H]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_3.png}
 \caption{\label{fig:diffcross_6panel_3}Differential cross sections for 7694 keV through 8271 keV. See text for details.}
 \end{figure}
 
-\begin{figure}
+\newpage
+
+\begin{figure}[H]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_4.png}
 \caption{\label{fig:diffcross_6panel_4}Differential cross sections for 8935 keV through 9227 keV. See text for details.}
 \end{figure}
 
-\begin{figure}
+\newpage
+
+\begin{figure}[t]
 \centering
 %\begin{tikzpicture}
 %%\hspace{0.3cm}
@@ -1378,14 +1333,276 @@ The spin-parity of this state is assigned $J^{\pi} =$ (LE $3)^{-}$ by ENSDF, and
 %\node at (4,0) {\includegraphics[width=8.6cm]{Chapter-4/figs/unbound_others.png}};
 %\end{tikzpicture}
 \includegraphics[width=6.5in]{Chapter-6/figs/unbound.png}
-\caption{\label{fig:unbound_l}Differential cross-sections of unbound $^{40}\mathrm{Ca}$ states below 8935 keV observed in the present experiment. The left panel shows the $l=1$ distributions, while the right panel shows all other distributions. The experimental data were normalized to the Si detector telescope yield, as described in the text, and further scaling for illustration purposes was not necessary. The zero-range DWBA model curves were computed using the nuclear reaction code, \texttt{Fresco} \cite{Thompson1988,Fresco}.}
+\caption{\label{fig:unbound_l}Differential cross-sections of proton-unbound $^{40}\mathrm{Ca}$ states observed in the present experiment below the lowest directly measured $(p,\gamma)$ resonance at 8935 keV. The left panel shows the $l=1$ distributions, while the right panel shows all other distributions.}
 \end{figure}
+
+\emph{$\mathbf{E_{x} = 4491}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 5^{-}$ by ENSDF \cite{Chen2017}, and its angular distribution is assigned $\ell=3$ from the present analysis. This is in agreement with all of the $(^{3}\mathrm{He}, d)$ measurements from Refs. \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and the only $(d, n)$ measurement of Ref. \cite{Fuchs1969} in the literature.
+
+\emph{$\mathbf{E_{x} = 5614}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 4^{-}$ by ENSDF. Its angular distribution is assigned $\ell=3$ from the present analysis, in agreement with the literature \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}.
+
+\emph{$\mathbf{E_{x} = 5903}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF. Its angular distribution is assigned $\ell=1$ from the present analysis, despite it being obscured by the 4915 keV $^{14}$N contaminant at $\theta_{\mathrm{lab}} = 7^{\circ}$ and $9^{\circ}$. This is in agreement with Refs. \cite{Erskine1966,Seth1967,Cage1971} but in disagreement with $(d,n)$ \cite{Fuchs1969}, where $\ell = 1+3$ is assigned. It was not resolved by Ref. \cite{Forster1970}.
+
+\emph{$\mathbf{E_{x} = 6025}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Seth1967} and $(d,n)$ \cite{Fuchs1969}, but in disagreement with Ref. \cite{Cage1971}, where $\ell=3$ is assigned. It was not resolved by Ref. \cite{Forster1970}.
+
+\emph{$\mathbf{E_{x} = 6285}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Forster1970,Cage1971}, but in disagreement with Ref. \cite{Seth1967} and $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
+
+\emph{$\mathbf{E_{x} = 6582}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis, with most of the contribution from $\ell=1$. It is obscured by the $^{13}$N ground state at $\theta_{\mathrm{lab}} \leq 7^{\circ}$. This is in agreement with $(d,n)$ \cite{Fuchs1969}, but in disagreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, which assign it purely $\ell=1$.
+
+\emph{$\mathbf{E_{x} = 6750}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis. It is obscured by the $^{13}$N ground state at $\theta_{\mathrm{lab}} = 11^{\circ}, 13^{\circ}$, and $15^{\circ}$. This state is widely disputed in the literature. It is in agreement with $(d,n)$ \cite{Fuchs1969}, but Refs. \cite{Erskine1966,Seth1967,Forster1970} assign it $\ell=1$, and Ref. \cite{Cage1971} assigns it $\ell=3$.
+
+\emph{$\mathbf{E_{x} = 6950}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. It is obscured by the 5834 keV $^{14}$N state at $\theta_{\mathrm{lab}} = 15^{\circ}$ and $20^{\circ}$. The energy residuals are about 13 keV lower than ENSDF at $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$, which makes these measurements questionable, but the remaining angles show only a 2 keV residual from ENSDF. Even among the other angles alone, however, the angular distribution is clearly $\ell=1$ and not $\ell=3$. This assignment is in agreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, but in disagreement with $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
+
+\emph{$\mathbf{E_{x} = 7113}$} \textbf{keV:} \, 
+In ENSDF, the 7113.1(10) keV and 7113.73(5) keV states have spin-parities of $J^{\pi} = 1^{-}$ and $J^{\pi} = 4^{-}$, respectively. The present energy calibration yielded a state at 7109.4(29) keV, within the uncertainty of the $1^{-}$ state, but not the $4^{-}$ state. An angular distribution of $\ell=1+3$ is assigned in the present analysis, with the main contribution from $\ell=1$. This is impossible for a $4^{-}$ state, where only $\ell=3$ and/or $\ell=5$ can be observed. Both of these measurements indicate that this corresponds with the 7113.1(10) keV $1^{-}$ state, with possibly a small contribution from the 7113.73(5) keV $4^{-}$ state at $\ell=3$. This assignment is in agreement with $(d,n)$ \cite{Fuchs1969}, but in disagreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, where purely $\ell=1$ is assigned. This was the highest energy state measured by Ref. \cite{Forster1970}, so this reference is omitted from the remaining discussion.
+
+\emph{$\mathbf{E_{x} = 7532}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Cage1971}, but in disagreement with Ref. \cite{Seth1967} and $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
+
+\emph{$\mathbf{E_{x} = 7623}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = (2^{-},3,4^{+})$ by ENSDF and was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(d,n)$ \cite{Fuchs1969}. This experiment has resolved this state for the first time through proton-transfer. Its angular distribution is assigned $\ell=1+3$ in the present analysis. This implies a $J^{\pi}$ assignment of $1^{-},2^{-},3^{-}$. Comparing with ENSDF, the $J^{\pi} = 3^{+}$ and $4^{+}$ assignments can be ruled out with this measurement.
+
+\emph{$\mathbf{E_{x} = 7658}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 4^{-}$ by ENSDF, and its angular distribution is assigned $\ell=3$ in the present analysis, in agreement with the literature \cite{Erskine1966,Seth1967,Cage1971,Fuchs1969}.
+
+\emph{$\mathbf{E_{x} = 7694}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ in the present analysis. This state is disputed across the literature. The present assignment is in agreement with Ref. \cite{Erskine1966}, but in disagreement with Refs. \cite{Seth1967,Cage1971} and $(d,n)$ \cite{Fuchs1969}, where $\ell=3$ and $\ell=1$ are assigned, respectively.
+
+\emph{$\mathbf{E_{x} = 7973}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} =$ (LE $3)^{-}$ by ENSDF based only on $(d,n)$ \cite{Fuchs1969}. It was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. This state was obscured in this experiment by the $^{17}$F ground state at $\theta_{\mathrm{lab}} = 11^{\circ}$ and $13^{\circ}$. The present analysis assigns $\ell=1$, in agreement with $(d,n)$. This experiment alone suggests $J^{\pi} = 0^{-}, 1^{-}, 2^{-}, 3^{-}$.
+
+\emph{$\mathbf{E_{x} = 8113}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in disagreement with $(d,n)$ \cite{Fuchs1969}, where $\ell=1+3$ is assigned. However, Ref. \cite{Fuchs1969} observes a doublet at 8113 keV and 8135 keV, which is not observed in the present experiment. The presence of the 6859 keV $^{15}$O contaminant complicates matters because it overlaps with where the 8135 keV state is expected, making this state impossible to resolve. The 7029 keV $^{14}$N and 6793 keV $^{15}$O contaminants obscure the $\theta_{\mathrm{lab}} = 11^{\circ}$ measurement.
+
+\emph{$\mathbf{E_{x} = 8188}$} \textbf{keV} (\emph{$\mathbf{E_{x} = 8196}$} \textbf{keV})\textbf{:} \, 
+The spin-parity of the 8188 keV state is assigned $J^{\pi} = (3,4,5^{-})$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. No spectroscopic factor was reported from $(d,n)$ \cite{Fuchs1969} for a state observed at 8186 keV, but it was assigned a $\ell=0$ transition nonetheless. This would imply $J^{\pi} = 1^{+},2^{+}$, which conflicts with ENSDF. The present energy calibration found a state at 8199.3(27) keV, or a residual from the 8188 keV state of 11.8(28) keV. There is in fact a state at 8196 keV reported in ENSDF, but it has only been observed in $(p,t)$ \cite{Seth1974,Seth1977} and $(p,p')$ \cite{Nolen1975}, and no official $J^{\pi}$ assignment has been made. However, the $(p,t)$ measurement of Ref. \cite{Seth1977} makes a weak assignment of $\ell=(2)$ for this state, which for $(p,t)$ implies $J^{\pi} = (0,1)^{+}$. In the present experiment, there is ambiguity in the angular momentum between $\ell=0+2$ and $\ell=1$, with the $\ell=0+2$ transition being slightly more favorable. The spin-parities would be $J^{\pi} = 0^{+},1^{+}$ for the former transition and $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$ for the latter. It is possible that the $(d,n)$ \cite{Fuchs1969} assignment of $\ell=0$ applies to the 8196 keV state, a 10 keV residual, which would be more in alignment with the present measurement and Refs. \cite{Seth1974,Seth1977,Nolen1975}. This may even be likely, considering that Ref. \cite{Fuchs1969} also determined the energy of a nearby state to be 8371 keV, which is interpreted by ENSDF as coinciding with the 8359 keV state, a 12 keV residual. Observation of this state in the present experiment was obscured at $\theta_{\mathrm{lab}} = 11^{\circ}$ by the 6859 keV $^{15}$O state and at $15^{\circ}$ by the 7029 keV $^{14}$N and 6793 keV $^{15}$O states.
+
+\emph{$\mathbf{E_{x} = 8271}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} =$ (LE $3)^{-}$ by ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in agreement with $(d,n)$ \cite{Fuchs1969}. These experiments alone suggest $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$.
+
+\emph{$\mathbf{E_{x} = 8359}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 29}$} \textbf{keV:} \, 
+This is the lowest energy proton-unbound state observed in the present experiment. The spin-parity of this state is assigned $J^{\pi} = (0, 1, 2)^{-}$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in agreement with $(d,n)$ \cite{Fuchs1969}. The recent  $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate evaluation from Ref. \cite{Longland2018} did not use the $(d,n)$ \cite{Fuchs1969} $C^{2}S$ measurement for a state at 8371 keV in their analysis because of the 12 keV energy discrepancy with ENSDF. This state was instead assigned a proton partial-width upper limit in the reaction rate calculation which the present work now replaces.
+
+\emph{$\mathbf{E_{x} = 8425}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 96}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ in ENSDF, and it has also since been confirmed via NRF \cite{Gribble2022}. The present work assigns $\ell=1+3$, in agreement with $(d, n)$ \cite{Fuchs1969}, but in disagreement with $(^{3}\mathrm{He}, d)$ \cite{Erskine1966,Seth1967,Cage1971}, where $\ell=3$ is assigned. Ref. \cite{Longland2018} uses the $(^{3}\mathrm{He},d)$ $C^{2}S$ measurement of Ref. \cite{Cage1971} in their reaction rate calculation. This state was obscured in the present experiment at $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$ by the $^{17}$F first excited state.
+
+\emph{$\mathbf{E_{x} = 8484}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 154}$} \textbf{keV:} \, 
+This weakly-populated state has not been observed in $(^{3}\mathrm{He}, d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(d, n)$ \cite{Fuchs1969}. It has therefore been resolved for the first time in $^{39}\mathrm{K}+p$ from this experiment because the lowest energy resonance resolved by $(p,\gamma)$ \cite{Kikstra1990,Cheng1981,Leenhouts1966} is for $E_{r}^{\mathrm{c.m.}} = 606$ keV. Its spin-parity is assigned $J^{\pi} = (1^{-},2^{-},3^{-})$ in ENSDF. The present work assigns $\ell=1$ in support of the ENSDF $J^{\pi}$ assignment. This measurement replaces the proton partial-width upper limit of Ref. \cite{Longland2018} in the reaction rate calculation. This state was obscured in the present experiment at $\theta_{\mathrm{lab}} = 13^{\circ}$ by the $^{17}$F first excited state.
+
+\emph{$\mathbf{E_{x} = 8551}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 221}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 5^{-}$ in ENSDF. The present work assigns $\ell=3$, in agreement with $(^{3}\mathrm{He}, d)$ \cite{Erskine1966,Seth1967,Cage1971} and $(d, n)$ \cite{Fuchs1969}.
+
+\emph{$\mathbf{E_{x} = 8665}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 335}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present work assigns $\ell=1$ in agreement with $(d, n)$ \cite{Fuchs1969}.
+
+\emph{$\mathbf{E_{x} = 8748}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 415}$} \textbf{keV:} \, 
+This weakly-populated state was observed in $(d, n)$ \cite{Fuchs1969} as part of an unresolved doublet with the 8764 keV state, but no $\ell$ assignments were made. Neither states were resolved in $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(p,\gamma)$ \cite{Kikstra1990,Cheng1981,Leenhouts1966}, but they have been resolved in the present experiment, making this the first time they have been resolved in $^{39}\mathrm{K}+p$ altogether. The spin-parity of the 8748 keV state is assigned $J^{\pi} = 2^{+}$ in ENSDF and has since been confirmed by NRF \cite{Gribble2022}. The present work assigns $\ell=2$ in support of the ENSDF $J^{\pi}$ assignment. This measurement replaces the proton partial-width upper limit of Ref. \cite{Longland2018} in the reaction rate calculation. The statistics were not sufficient to obtain fits for $\theta_{\mathrm{lab}} = 13^{\circ}$ for this state.
+
+\emph{$\mathbf{E_{x} = 8764}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 439}$} \textbf{keV:} \, 
+This state is part of a doublet with 8748 keV and was not resolved in $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}, $(d, n)$ \cite{Fuchs1969}, or $(p,\gamma)$ \cite{Kikstra1990,Cheng1981,Leenhouts1966}. Its spin-parity is assigned $J^{\pi} = 3^{-}$ in ENSDF, and the present work assigns $\ell=1$, in support of this assignment. This experiment is therefore the first to resolve this state for $^{39}\mathrm{K}+p$, and its measurement replaces the proton partial-width upper limit of Ref. \cite{Longland2018} in the reaction rate calculation.
+
+\emph{$\mathbf{E_{x} = 8851}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 521}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 6^{-}, 7^{-}, 8^{-}$ in ENSDF based on $(p, p')$ \cite{Gruhn1972}. It was observed in $(d, n)$ \cite{Fuchs1969} with no $\ell$ assignment determined, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(p,\gamma)$ \cite{Kikstra1990,Cheng1981,Leenhouts1966}. The present experiment assigns $\ell=1+3$, making its resolution a first for $^{39}\mathrm{K}+p$. The $\ell$ assignment suggests $J^{\pi} = (1, 2, 3)^{-}$, in stark disagreement with ENSDF. The upper limit from Ref. \cite{Longland2018} for this state uses the ENSDF $J^{\pi}$ assignment in the reaction rate calculation. For this reason, the $(2J+1)\Gamma_{p}$ value from this work is about 2 orders of magnitude larger than the upper limit, as shown in Table \ref{tab:partial_widths}.
+
+\emph{$\mathbf{E_{x} = 8935}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 608}$} \textbf{keV:} \, 
+In ENSDF, the 8934.81(7) keV and 8938.4(9) keV states have spin-parities of $J^{\pi} = 2^{+}$ and $J^{\pi} = 0^{+}$, respectively. The 8934.81(7) keV state is the lowest energy proton-unbound state measured by the direct $(p,g)$ \cite{Kikstra1990} experiment, and they do not observe the 8938.4(9) keV state. The present energy calibration yielded a state at 8936.3(27) keV, within the uncertainty of both states. Neither state is resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in agreement with the 8931 keV assignment from $(d,n)$ \cite{Fuchs1969}, and this joins Ref. \cite{Fuchs1969} in disagreement with ENSDF. These measurements imply $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$. It is worth noting that a $\ell=0+2$ assignment was considered in the present analysis, which would imply $J^{\pi} = 1^{+},2^{+}$, in agreement with $(p,g)$ \cite{Kikstra1990}. However, the $\ell=1$ transition is significantly more likely.
+
+\emph{$\mathbf{E_{x} = 8995}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 664}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = (1^{-},2^{+})$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(d,n)$ \cite{Fuchs1969}. The angular momentum assignment in the present analysis is ambiguous between $\ell=0+2$ and $\ell=1$, which does not narrow down the $J^{\pi}$ assignment. Higher angle measurements of $\theta_{\mathrm{lab}} \geq 30^{\circ}$ could resolve the angular momentum. The state was obscured at $\theta_{\mathrm{lab}} \geq 5^{\circ}$ by the $^{13}$N first excited state, and the statistics were insufficient at $\theta_{\mathrm{lab}} \geq 20^{\circ}$.
+
+\emph{$\mathbf{E_{x} = 9092}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 764}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 3^{-}$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(d,n)$ \cite{Fuchs1969}. The present analysis assigns $\ell=1$, despite the state being obscured at $\theta_{\mathrm{lab}} = 5$--$11^{\circ}$ by the $^{13}$N first excited state. This is in agreement with the $J^{\pi}$ assignment.
+
+\emph{$\mathbf{E_{x} = 9136}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 810}$} \textbf{keV:} \, 
+The spin-parity of this state is assigned $J^{\pi} = 2^{-},3^{-}$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in agreement with $(d,n)$ \cite{Fuchs1969}, despite the state being obscured at $\theta_{\mathrm{lab}} = 5$--$11^{\circ}$ by the $^{13}$N first excited state. This is in agreement with the $J^{\pi}$ assignment.
+
+\emph{$\mathbf{E_{x} = 9227}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 900}$} \textbf{keV:} \, 
+In ENSDF, the 9226.69(5) keV and 9227.43(7) keV states have spin-parities of $J^{\pi} = (1^{-},2,3^{-})$ and $J^{\pi} = (1,2^{+})$, respectively. The present energy calibration yielded a state at 9227.8(34) keV, within the uncertainty of both states. Neither state is resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The angular momentum assignment in the present analysis is ambiguous between $\ell=0+2$ and $\ell=1$, which does not narrow down the $J^{\pi}$ assignment in either case. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} unambiguously assigns $\ell=1$. The state was obscured at $\theta_{\mathrm{lab}} = 13^{\circ}$ and $15^{\circ}$ by the $^{13}$N first excited state.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/5deg_9400keVGroup.png}
+\caption{\label{fig:5deg_9400keVGroup}A Bayesian Monte Carlo fit for the 9405--9432 keV multiplet at $\theta_{\mathrm{lab}} = 5^{\circ}$, including the clearly distinguishable 9454 keV state. The multiplet is fit with 3 peaks in this experiment, with calibrated energies of 9403.7(31) keV, 9416.7(32) keV, and 9431.7(32) keV. This is better resolution than $(d,n)$ \cite{Fuchs1969} was able to achieve, where only 2 peaks in the multiplet were fit at energies of 9408 keV and 9431 keV.}
+\end{figure}
+
+\emph{$\mathbf{E_{x} = 9405-9432}$} \textbf{keV Multiplet:} \, 
+This multiplet consists of the states 9405 keV ($J^{\pi} = 2^{-}$), 9406 keV ($J^{\pi} = 0^{+}$), 9412 keV (no $J^{\pi}$ assignment), 9419 keV ($J^{\pi} = 3^{-}$), 9429 keV ($J^{\pi} = (3,4)^{-}$), and 9432 keV ($J^{\pi} = 1^{-}$) in ENSDF. Even though these individual states are unresolvable at the energy resolution attainable with the focal plane detector, it was possible to consistently fit 3 peaks in this region with the Bayesian Monte Carlo procedure of Section \ref{sec:peak_fitting}, as shown in Fig. \ref{fig:5deg_9400keVGroup}. From the present energy calibration, the peaks result in energies of 9403.7(31) keV, 9416.7(32) keV, and 9431.7(32) keV. These can likely be assigned as 3 seperate doublets from the 6 ENSDF states, 9405+9406 keV, 9412+9419 keV, and 9429+9432 keV. Angular distributions were not obtained for these states in the present analysis, or for any higher energy states, since the focal plane detector efficiency at the high energy fringe resulted in dramatic yield loss over increasing angle. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} obtained fits for only 2 peaks in this region, at 9408 keV and 9431 keV. Attempting fits with 2 peaks in this region resulted in much worse agreement with the present data.
+
+To summarize the results of this section, the present experiment has unambiguously resolved 13 new states in $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$, 6 new states in $^{39}$K proton-transfer, and 4 new states in $^{39}\mathrm{K}+p$ altogether. Table \ref{tab:new_states} lists the states that are newly resolved in these regimes. States in parentheses were given an ambiguous $\ell$ assignment in the present experiment.
+
+\begin{table}[t]
+\centering
+\caption{\label{tab:new_states}The states resolved in the present experiment for the first time in the indicated regimes. Parentheses denote ambiguous $\ell$ assignments.}
+\begin{tabular}{ccc}
+\hline\midrule
+New for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$&New for $^{39}$K Proton-Transfer&New for $^{39}\mathrm{K}+p$\\ \midrule
+7623 keV&7623 keV&\\
+7973 keV&&\\
+8113 keV&&\\
+(8188 keV)&(8188 keV)&\\
+8271 keV&&\\
+8359 keV&&\\
+8484 keV&8484 keV&8484 keV\\
+8665 keV&&\\
+8748 keV&8748 keV&8748 keV\\
+8764 keV&8764 keV&8764 keV\\
+8851 keV&8851 keV&8851 keV\\
+8935 keV&&\\
+(8995 keV)&(8995 keV)&\\
+9092 keV&9092 keV&\\
+9136 keV&&\\
+(9227 keV)&&\\
+\hline\hline
+\end{tabular}
+\end{table}
 
 \subsection{Spectroscopic Factors} \label{subsec:DWBA_Spec}
 
+Spectroscopic factors $C^{2}S_{^{39}\mathrm{K} + p}$ for each state were extracted from Eqns. \ref{eqn:spec_factor_dwba} and \ref{eqn:mixed_l}, using the angular momentum assignments and DWBA calculations from the previous section. These are summarized and compared with the $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and $(d,n)$ \cite{Fuchs1969} measurements in the literature in Table \ref{tab:spec}. Doublets unresolved in the present analysis are given brackets around their ENSDF \cite{Chen2017} energies. Ambiguous $\ell$ assignments are also indicated with brackets. In mixed-$\ell$ or disputed-$\ell$ cases, each component is shown in parentheses on separate rows, where the lowest $\ell$ is always the first row. The statistical uncertainty of $C^{2}S$ for the present experiment is given. An additional $30\%$ systematic uncertainty in $C^{2}S$ is assumed, which is typical of $(^{3}\mathrm{He},d)$ reactions in the literature \cite{Endt1977}. The $J^{\pi}$ values shown were used in the present DWBA models to calculate $C^{2}S$. They were also used to convert the other measurements from their reported $(2J+1)C^{2}S$ values to $C^{2}S$ for consistency, since their chosen $J^{\pi}$ sometimes differed.
+
+%From Table \ref{tab:spec},
+
+%In all but one case where a single $J^{\pi}$ value is given, it was used for the associated $C^{2}S$ calculation and the determination of the literature $C^{2}S$ values from $(2J+1)C^{2}S$. The one exception is the 8935+8938 keV doublet, where $J^{\pi}=2^{+}$ and $J^{\pi}=0^{+}$ according to ENSDF, respectively. This was observed as a $\ell=1$ transition in the present experiment, in agreement with $(d,n)$ \cite{Fuchs1969}, and $J^{\pi}=1^{-}$ was therefore used instead.
+
+\newpage
+
+\begingroup % This and the following line are used to get table footnote marks to be alphabetic, but do this locally (not globally)
+  \renewcommand*{\thefootnote}{\alph{footnote}}
+  \renewcommand*\footnoterule{} % Get rid of the footnote rule
+\begin{table}[!tp]
+\centering
+\begin{minipage}{\textwidth}
+\centering
+%\caption{\label{tab:spec}Spectroscopic factors of the present experiment, compared with that of the other $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and $(d,n)$ \cite{Fuchs1969} measurements in the literature.}
+\caption{\label{tab:spec}Spectroscopic factors compared with Refs. \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}.}
+\resizebox{\linewidth}{!}{%
+%\hspace{0.5cm}
+% - 0.25cm
+%\hrule width \hsize \kern 1mm \hrule width \hsize height 0.4pt
+%\vspace{0.1cm}
+\begin{tabular}{cllllllll}
+\hline\midrule
+$E_{x}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$\ell$\footnotemark[2]&$C^{2}S_{^{39}\mathrm{K} + p}$\footnotemark[2]&\phantom{<}\cite{Erskine1966}&\phantom{<}\cite{Seth1967}&\cite{Forster1970}&\cite{Cage1971}\footnotemark[3]&\phantom{<}\cite{Fuchs1969}\\ \midrule
+4491&$5^{-}$&$3$&0.454(25)&\phantom{<}0.609&\phantom{<}0.382&0.364&0.418&\phantom{<}0.340\\
+5614&$4^{-}$&$3$&0.461(25)&\phantom{<}0.656&\phantom{<}0.389&0.378&0.389&\phantom{<}0.470\\
+5903&$1^{-}$&$1$&0.019(1)&\phantom{<}0.037&\phantom{<}0.025&&0.015&\phantom{<}0.027 ($1$)\\
+&&&&&&&&<0.067 ($3$)\\
+6025&$2^{-}$&$1+3$&0.018(1) \phantom{a}($1$)&\phantom{<}0.027 ($1$)&\phantom{<}0.020 ($1$)&&&\phantom{<}0.030 ($1$)\\
+&&&0.072(6) \phantom{a}($3$)&\phantom{<}0.180 ($3$)&\phantom{<}0.100 ($3$)&&0.105&\phantom{<}0.096 ($3$)\\
+6285&$3^{-}$&$1$&0.167(9)&\phantom{<}0.357&\phantom{<}0.200 ($1$)&0.307&0.150&\phantom{<}0.246 ($1$)\\
+&&&&&<0.050 ($3$)&&&<0.171 ($3$)\\
+6582&$3^{-}$&$1+3$&0.047(3) \phantom{a}($1$)&\phantom{<}0.114&\phantom{<}0.086&0.107&0.060&\phantom{<}0.080 ($1$)\\
+&&&0.069(9) \phantom{a}($3$)&&&&&<0.114 ($3$)\\
+6750&$2^{-}$&$1+3$&0.024(2) \phantom{a}($1$)&\phantom{<}0.100&\phantom{<}0.096&0.094&&\phantom{<}0.027 ($1$)\\
+&&&0.135(11) ($3$)&&&&0.190&\phantom{<}0.264 ($3$)\\
+6950&$1^{-}$&$1$&0.134(8)&\phantom{<}0.275&\phantom{<}0.200&0.215&0.080&\phantom{<}0.227 ($1$)\\
+&&&&&&&&<0.267 ($3$)\\
+7113&$1^{-}$&$1+3$&0.150(8) \phantom{a}($1$)&\phantom{<}0.317&\phantom{<}0.257&0.233&0.257&\phantom{<}0.240 ($1$)\\
+&&&0.132(23) ($3$)&&&&&<0.133 ($3$)\\
+7532&$2^{-}$&$1$&0.227(12)&\phantom{<}0.436&\phantom{<}0.150 ($1$)&&0.095&\phantom{<}0.392 ($1$)\\
+&&&&&\phantom{<}0.400 ($3$)&&&<0.080 ($3$)\\
+7623&$2^{-}$\footnotemark[4]&$1+3$&0.005(1) \phantom{a}($1$)&&&&&\\
+&&&0.037(3) \phantom{a}($3$)&&&&&\\
+7658&$4^{-}$&$3$&0.375(20)&\phantom{<}0.483&\phantom{<}0.306&&0.306&\phantom{<}0.345\\
+7694&$3^{-}$&$1+3$&0.027(4) \phantom{a}($1$)&<0.057 ($1$)&&&&\phantom{<}0.029\\
+&&&0.279(20) ($3$)&\phantom{<}0.584 ($3$)&\phantom{<}0.414&&0.393&\\
+7973&$3^{-}$&$1$&0.017(1)&&&&&\phantom{<}0.023\\
+8113&$1^{-}$&$1$&0.026(2)&&&&&\phantom{<}0.033 ($1$)\\
+&&&&&&&&\phantom{<}0.160 ($3$)\\
+8188&$3^{-}$\footnotemark[4]&\hspace{-3mm}\ldelim \{ {3}{3mm}$1$&0.007(1)&&&&&\\
+&$1^{+}$\footnotemark[4]&$0+2$&0.017(2) \phantom{a}($0$)&&&&&\\ %l=0 component
+&&&0.006(1) \phantom{a}($2$)&&&&&\\ %l=2 component
+8271&$3^{-}$&$1$&0.031(2)&&&&&\phantom{<}0.046\\
+8359&$0^{-}$\footnotemark[4]&$1$&0.191(11)&&&&&\phantom{<}0.320\\
+8425&$2^{-}$&$1+3$&0.037(6) \phantom{a}($1$)&&&&&\phantom{<}0.008 ($1$)\\
+&&&0.246(21) ($3$)&\phantom{<}0.320&\phantom{<}0.500&&0.280&\phantom{<}0.288 ($3$)\\
+8484&$1^{-}$\footnotemark[4]&$1$&0.031(2)&&&&&\\
+8551&$5^{-}$&$3$&0.416(23)&\phantom{<}0.591&\phantom{<}0.455&&0.418&\phantom{<}0.356\\
+8665&$1^{-}$&$1$&0.148(8)&&&&&\phantom{<}0.187\\
+8748&$2^{+}$&$2$&0.004(1)&&&&&\\
+8764&$3^{-}$&$1$&0.005(1)&&&&&\\
+8851&$2^{-}$\footnotemark[4]&$1+3$&0.011(1) \phantom{a}($1$)&&&&&\\
+&&&0.011(1) \phantom{a}($3$)&&&&&\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}8935&$1^{-}$\footnotemark[4]&$1$&0.057(3)&&&&&\phantom{<}0.147\\
+8938&&&&&&&&\\
+%\hline
+\end{tabular}%
+}
+%\hrule width \hsize \kern 1mm \hrule width \hsize height 0.4pt
+\vspace{-0.2cm}
+
+\end{minipage}
+\end{table}
+\endgroup
+
+\newpage
+
+\addtocounter{table}{-1} % reset table numbering so that the 2nd table has the same counter number
+\begingroup % This and the following line are used to get table footnote marks to be alphabetic, but do this locally (not globally)
+  \renewcommand*{\thefootnote}{\alph{footnote}}
+  \renewcommand*\footnoterule{} % Get rid of the footnote rule
+\begin{table}[!tp]
+\centering
+\begin{minipage}{\textwidth}
+\centering
+%\caption{\label{tab:spec}Spectroscopic factors of the present experiment, compared with that of the other $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and $(d,n)$ \cite{Fuchs1969} measurements in the literature.}
+\caption{\label{tab:spec}(continued)}
+\resizebox{\linewidth}{!}{%
+%\hspace{0.5cm}
+% - 0.25cm
+%\hrule width \hsize \kern 1mm \hrule width \hsize height 0.4pt
+%\vspace{0.1cm}
+\begin{tabular}{cllllllll}
+\hline\midrule
+$E_{x}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$\ell$\footnotemark[2]&$C^{2}S_{^{39}\mathrm{K} + p}$\footnotemark[2]&\phantom{<}\cite{Erskine1966}&\phantom{<}\cite{Seth1967}&\cite{Forster1970}&\cite{Cage1971}\footnotemark[3]&\phantom{<}\cite{Fuchs1969}\\ \midrule
+8995&$1^{-}$&\hspace{-3mm}\ldelim \{ {3}{3mm}$1$&0.020(1)&&&&&\\
+&$2^{+}$&$0+2$&0.006(1) \phantom{a}($0$)&&&&&\\ %l=0 component
+&&&0.006(1) \phantom{a}($2$)&&&&&\\ %l=2 component
+9092&$3^{-}$&$1$&0.007(1)&&&&&\\
+9136&$2^{-}$\footnotemark[4]&$1$&0.152(9)&&&&&\phantom{<}0.136\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}9226.69&$1^{-}$\footnotemark[4]&\hspace{-3mm}\ldelim \{ {3}{3mm}$1$&0.143(9)&&&&&\phantom{<}0.213\\
+9227.43&$1^{+}$\footnotemark[4]&$0+2$&0.048(6) \phantom{a}($0$)&&&&&\\ %l=0 component
+&&&0.071(6) \phantom{a}($2$)&&&&&\\ %l=2 component
+%\hspace{-3mm}\ldelim \{ {1.8}{3mm}9404.85(19)&9403.7(31)&$2^{-}$\\
+%9406.3(6)&&$0^{+}$\\
+%\hspace{-3mm}\ldelim \{ {1.8}{3mm}9412.3(2)&9416.7(32)&\\
+%9418.8(2)&&$3^{-}$\\
+%\hspace{-3mm}\ldelim \{ {1.8}{3mm}9429.11(5)&9431.7(32)&$(3,4)^{-}$\\
+%9432.46(18)&&$1^{-}$\\
+%9453.95(5)&\emph{9454}\footnotemark[3]&$3^{-}$\\
+%9537.8(5)&9538.4(34)&$1^{-}$\\
+%\hspace{-3mm}\ldelim \{ {1.8}{3mm}9603.0(4)&9605.1(40)&$3^{-}$\\
+%9604.6(4)&&$1^{-}$\\
+% NOTE: Not including the 9662+9669 keV doublet's energy, since it was only extracted for 2 angles
+%\hspace{-3mm}\ldelim \{ {2}{3mm}9662.2(2)&9673.4(31)&1345.2(31)&$3^{-}$\footnotemark[3]& & & \\
+%9668.71(8)& & &$3^{-}$\footnotemark[3]& & &$1.73 \times 10^{4}$ \\
+%\vspace{0.0001cm}
+\hline\hline
+\end{tabular}%
+}
+%\hrule width \hsize \kern 1mm \hrule width \hsize height 0.4pt
+\vspace{-0.2cm}
+\footnotetext[1]{From the ENSDF evaluation of Ref. \cite{Chen2017}. Energy is given in keV.}
+\footnotetext[2]{Present experiment. Statistical uncertainties are given. A 30$\%$ systematic uncertainty is assumed.}
+\footnotetext[3]{Using the modified DWBA results of Ref. \cite{Cage1971}.}
+\footnotetext[4]{Either differs from ENSDF or is the lowest $J^{\pi}$ from the ENSDF assignment possibilities.}
+\end{minipage}
+\end{table}
+\endgroup
 
 
 \subsection{Proton Partial Widths and Resonance Energies} \label{subsec:partial_widths}
+
+%\begin{table}
+%\caption{\label{tab:partial_widths}}}
+%\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{New $^{39}\mathrm{\textbf{K}}(p,\gamma)^{40}\mathrm{\textbf{Ca}}$ Reaction Rate} \label{sec:pg_reac_rate}
