@@ -12,7 +12,7 @@
 %  - Abundance anticorrelations result from pollution/mixing from older stars in the globular cluster (polluter stars) ["The (anti-)correlation among light elements is simply a manifestation of the multiple stellar populations." (Gratton et al. 2019)]
 %  - Hydrogen burning in the polluter stars is the mechanism behind these anticorrelations (
 
-This chapter details the original research constraining hydrogen-burning conditions responsible for abundance anomalies in globular clusters. In particular, the observed potassium enrichment and magnesium depletion in red giants of the globular cluster NGC 2419 is reproduced with nuclear reaction network calculations using new nuclear physics information presented in this chapter. A new reaction rate of the key potassium-destroying reaction, $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, is calculated from the new proton partial-widths and resonance energies of astrophysically-important, unbound $^{40}$Ca states measured in the proton-transfer reaction $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$. The reaction rate is significantly constrained for $T \lesssim 110$ MK. Monte Carlo network calculations will show new temperature-density constraints for hydrogen-burning, compared with that of the previously calculated reaction rate. Hot-bottom burning in Super-AGB stars is investigated as a polluter candidate driving the Mg--K anticorrelation in NGC 2419, as well as other abundance patterns involving potassium.
+This chapter details the original research constraining hydrogen-burning conditions responsible for abundance anomalies in globular clusters. In particular, the observed potassium enrichment and magnesium depletion in red giants of the globular cluster NGC 2419 is reproduced with nuclear reaction network calculations using new nuclear physics information presented in this chapter. A new reaction rate of the key potassium-destroying reaction, $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, is calculated from the new proton partial-widths and resonance energies of astrophysically-important, proton-unbound $^{40}$Ca states measured in the proton-transfer reaction $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$. The reaction rate is significantly constrained for $T \lesssim 110$ MK. Monte Carlo network calculations will show new temperature-density constraints for hydrogen-burning, compared with that of the previously calculated reaction rate. Hot-bottom burning in Super-AGB stars is investigated as a polluter candidate driving the Mg--K anticorrelation in NGC 2419, as well as other abundance patterns involving potassium.
 
 \section{Globular Clusters}
 
@@ -1028,7 +1028,7 @@ where $R_{\mathrm{ES}, i}$ is defined by Eqn. \ref{eqn:cross_ratio} for the simu
 \caption{\label{fig:ES_Norm}The same as Fig. \ref{fig:ES_NoNorm}, except the differential cross-section of the global $^{3}$He optical model potential has been scaled by $N_{\mathrm{ES}}$ to match the experimental measurements, as described in the text.}
 \end{figure}
 
-The same $N_{\mathrm{ES}}$ normalization is applied to the transfer differential cross sections, since they were also measured relative to the elastic scattering of the Si detector. The ratio between this corrected $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the spectroscopic factor $C^{2}S$ (see Sections \ref{subsec:DWBA} and \ref{subsec:C2S}). This ratio is performed in the exact same way as the global OMP normalization, including the cubic spline interpolation. The transfer differential cross sections will be presented in Section \ref{subsec:DWBA_Cross}.
+The same $N_{\mathrm{ES}}$ normalization is applied to the transfer differential cross sections, since they were also measured relative to the elastic scattering of the Si detector. The ratio between this corrected $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the spectroscopic factor $C^{2}S$ (see Sections \ref{subsec:narrow_resonances} and \ref{subsec:DWBA}). This ratio is performed in the exact same way as the global OMP normalization, including the cubic spline interpolation. The transfer differential cross sections will be presented in Section \ref{subsec:DWBA_Cross}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{$^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Analysis}
@@ -1217,7 +1217,7 @@ The $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ differential cross sect
 \begin{equation} \label{eqn:spec_factor_dwba}
 \frac{d\sigma}{d\Omega}_{\mathrm{Exp}} = C^{2}S \frac{d\sigma}{d\Omega}_{\mathrm{DWBA}},
 \end{equation}
-between the scale-corrected transfer differential cross section $d\sigma/d\Omega_{\mathrm{Exp}}$ and that of an appropriate distorted-wave Born approximation (DWBA) $d\sigma/d\Omega_{\mathrm{DWBA}}$ defines the spectroscopic factor $C^{2}S$. The spectroscopic factor for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ is broken into two parts, corresponding to the $^{39}\mathrm{K}+p$ and $d+p$ overlaps (see Sections \ref{subsec:DWBA} and \ref{subsec:C2S}),
+between the scale-corrected transfer differential cross section $d\sigma/d\Omega_{\mathrm{Exp}}$ and that of an appropriate distorted-wave Born approximation (DWBA) $d\sigma/d\Omega_{\mathrm{DWBA}}$ defines the spectroscopic factor $C^{2}S$. The spectroscopic factor for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ is broken into two parts, corresponding to the $^{39}\mathrm{K}+p$ and $d+p$ overlaps (see Section \ref{subsec:DWBA}),
 \begin{equation}
 C^{2}S = C^{2}S_{^{39}\mathrm{K}+p} \, C^{2}S_{d+p}.
 \end{equation}
@@ -1465,7 +1465,11 @@ New for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$&New for $^{39}$K Pr
 
 \subsection{Spectroscopic Factors} \label{subsec:DWBA_Spec}
 
-Spectroscopic factors $C^{2}S_{^{39}\mathrm{K} + p}$ for each state were extracted from Eqns. \ref{eqn:spec_factor_dwba} and \ref{eqn:mixed_l}, using the angular momentum assignments and DWBA calculations from the previous section. These are summarized and compared with the $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and $(d,n)$ \cite{Fuchs1969} measurements in the literature in Table \ref{tab:spec}. Doublets unresolved in the present analysis are given brackets around their ENSDF \cite{Chen2017} energies. Ambiguous $\ell$ assignments are also indicated with brackets. In mixed-$\ell$ or disputed-$\ell$ cases, each component is shown in parentheses on separate rows, where the lowest $\ell$ is always the first row. The statistical uncertainty of $C^{2}S$ for the present experiment is given. An additional $30\%$ systematic uncertainty in $C^{2}S$ is assumed, which is typical of $(^{3}\mathrm{He},d)$ reactions in the literature \cite{Endt1977}. The $J^{\pi}$ values shown were used in the present DWBA models to calculate $C^{2}S$. They were also used to convert the other measurements from their reported $(2J+1)C^{2}S$ values to $C^{2}S$ for consistency, since their chosen $J^{\pi}$ sometimes differed.
+Spectroscopic factors $C^{2}S_{^{39}\mathrm{K} + p}$ for each state were extracted from Eqns. \ref{eqn:spec_factor_dwba} and \ref{eqn:mixed_l}, using the angular momentum assignments and DWBA calculations from the previous section. These are summarized and compared with the $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and $(d,n)$ \cite{Fuchs1969} measurements in the literature in Table \ref{tab:spec}. Doublets unresolved in the present analysis are given brackets around their ENSDF \cite{Chen2017} energies. Ambiguous $\ell$ assignments are also indicated with brackets. In mixed-$\ell$ or disputed-$\ell$ cases, each $\ell$-component is shown in parentheses on separate rows, where the lowest $\ell$ is always the first row. 
+
+The $J^{\pi}$ values shown in the table were used in the present DWBA models to calculate $C^{2}S$. They were also used to convert the other measurements from their reported $(2J+1)C^{2}S$ values to $C^{2}S$ for consistency, since their chosen $J^{\pi}$ sometimes differed. The $J^{\pi}$ values that differ from ENDSF are indicated. This difference is usually an arbitrary choice of the lowest appropriate ENSDF $J^{\pi}$ value that is consistent with the present $\ell$-assignment. However, the choice sometimes genuinely conflicts with the ENSDF assignment, as is the case for the 8188 keV $1^{+}$ ambiguity, 8851 keV, and the 8935+8938 keV doublet.
+
+The statistical uncertainty of $C^{2}S$ for the present experiment is also given in the table. An additional $30\%$ systematic uncertainty in $C^{2}S$ is assumed, which is typical of $(^{3}\mathrm{He},d)$ reactions in the literature \cite{Endt1977}. The main contribution to this systematic uncertainty is the choice of OMP parameters, especially for the $^{3}\mathrm{He} + {}^{39}\mathrm{K}$ incoming channel. This is due to the fact that the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ differential cross section was normalized to the $^{3}\mathrm{He} + {}^{39}\mathrm{K}$ OMP prediction. The OMP parameters for the $d + {}^{40}\mathrm{Ca}$ outgoing channel also contribute to the systematic uncertainty, albeit to a lesser degree. For example, the $^{23}\mathrm{Na}(^{3}\mathrm{He},d)^{24}\mathrm{Mg}$ measurement of Ref. \cite{Hale2004} varied the choice of OMP parameters within a reasonable range. They found a $26\%$ uncertainty associated with the $^{3}$He parameters alone and a $11\%$ uncertainty associated with the $d$ parameters alone. Added in quadrature, this is a $28\%$ uncertainty from the choice of OMP parameters, which agrees with the historical scatter between $(^{3}\mathrm{He},d)$ measurements of $C^{2}S$ \cite{Endt1977}.
 
 %From Table \ref{tab:spec},
 
@@ -1517,7 +1521,7 @@ $E_{x}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$\ell$\footnotemark[2]&$C^{2}S
 8113&$1^{-}$&$1$&0.026(2)&&&&&\phantom{<}0.033 ($1$)\\
 &&&&&&&&\phantom{<}0.160 ($3$)\\
 8188&$3^{-}$\footnotemark[4]&\hspace{-3mm}\ldelim \{ {3}{3mm}$1$&0.007(1)&&&&&\\
-&$1^{+}$\footnotemark[4]&$0+2$&0.017(2) \phantom{a}($0$)&&&&&\\ %l=0 component
+&$1^{+}$\footnotemark[5]&$0+2$&0.017(2) \phantom{a}($0$)&&&&&\\ %l=0 component
 &&&0.006(1) \phantom{a}($2$)&&&&&\\ %l=2 component
 8271&$3^{-}$&$1$&0.031(2)&&&&&\phantom{<}0.046\\
 8359&$0^{-}$\footnotemark[4]&$1$&0.191(11)&&&&&\phantom{<}0.320\\
@@ -1528,9 +1532,9 @@ $E_{x}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$\ell$\footnotemark[2]&$C^{2}S
 8665&$1^{-}$&$1$&0.148(8)&&&&&\phantom{<}0.187\\
 8748&$2^{+}$&$2$&0.004(1)&&&&&\\
 8764&$3^{-}$&$1$&0.005(1)&&&&&\\
-8851&$2^{-}$\footnotemark[4]&$1+3$&0.011(1) \phantom{a}($1$)&&&&&\\
+8851&$2^{-}$\footnotemark[5]&$1+3$&0.011(1) \phantom{a}($1$)&&&&&\\
 &&&0.011(1) \phantom{a}($3$)&&&&&\\
-\hspace{-3mm}\ldelim \{ {1.8}{3mm}8935&$1^{-}$\footnotemark[4]&$1$&0.057(3)&&&&&\phantom{<}0.147\\
+\hspace{-3mm}\ldelim \{ {1.8}{3mm}8935&$1^{-}$\footnotemark[5]&$1$&0.057(3)&&&&&\phantom{<}0.147\\
 8938&&&&&&&&\\
 %\hline
 \end{tabular}%
@@ -1592,13 +1596,35 @@ $E_{x}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$\ell$\footnotemark[2]&$C^{2}S
 \footnotetext[1]{From the ENSDF evaluation of Ref. \cite{Chen2017}. Energy is given in keV.}
 \footnotetext[2]{Present experiment. Statistical uncertainties are given. A 30$\%$ systematic uncertainty is assumed.}
 \footnotetext[3]{Using the modified DWBA results of Ref. \cite{Cage1971}.}
-\footnotetext[4]{Either differs from ENSDF or is the lowest $J^{\pi}$ from the ENSDF assignment possibilities.}
+\footnotetext[4]{The lowest appropriate $J^{\pi}$ from the ENSDF assignment possibilities.}
+\footnotetext[5]{Differs from the ENSDF $J^{\pi}$ assignment altogether.}
 \end{minipage}
 \end{table}
 \endgroup
 
 
 \subsection{Proton Partial Widths and Resonance Energies} \label{subsec:partial_widths}
+
+As described in Section \ref{subsec:narrow_resonances}, narrow resonances contribute individually to thermonuclear reaction rates. The resonance strength $\omega\gamma$ and resonance energy $E_{r}$ of each resonance are the key experimental quantities that go into the reaction rate calculation of Eqn. \ref{eqn:narrow_rate}. The resonance strength
+\begin{equation} \label{eqn:resonance_strength}
+\omega\gamma = \omega \frac{\Gamma_{a}\Gamma_{b}}{\Gamma}
+\end{equation}
+depends on the partial widths of the incoming ($\Gamma_{a}$) and outgoing ($\Gamma_{b}$) channels and the total partial width $\Gamma$. The spin factor $\omega$ is defined as
+\begin{equation}
+\omega = \frac{(2J+1)}{(2J_{0}+1) (2J_{1}+1)},
+\end{equation}
+where $J$ is the resonance spin, $J_{0}$ is the target spin, and $J_{1}$ is the incoming particle spin. For $(p,\gamma)$ reactions, the incoming proton partial width $\Gamma_{p}$ and the outgoing $\gamma$-ray partial width $\Gamma_{\gamma}$ are the quantities of interest. If $\Gamma_{\gamma} >> \Gamma_{p}$, then
+\begin{align*}
+\omega\gamma &\approx \frac{\Gamma_{p} \Gamma_{\gamma}}{\Gamma_{\gamma}} \\
+&\approx \Gamma_{p},
+\end{align*}
+which means the proton partial width dominates the resonance strength. This occurs for $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ at energies below roughly the $E_{r}^{\mathrm{c.m.}} = 606$ keV resonance, in the region of astrophysical interest.
+
+The proton partial width can be written as
+\begin{equation}
+\Gamma_{p} = \frac{\bar{h}^{2}}{\mu R} C^{2}S P(E_{r}) \phi_{R}^{2},
+\end{equation}
+where $\mu$ is the reduced mass of the proton and target, $R$ is the channel radius given by $R =$
 
 %\begin{table}
 %\caption{\label{tab:partial_widths}}}

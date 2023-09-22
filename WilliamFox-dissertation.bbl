@@ -1174,6 +1174,73 @@
     \field{year}{2020}
   \endentry
 
+  \entry{Hale2004}{article}{}
+    \name{author}{6}{}{%
+      {{hash=HSE}{%
+         family={Hale},
+         familyi={H\bibinitperiod},
+         given={S.\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=CAE}{%
+         family={Champagne},
+         familyi={C\bibinitperiod},
+         given={A.\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HVY}{%
+         family={Hansper},
+         familyi={H\bibinitperiod},
+         given={V.\bibnamedelima Y.},
+         giveni={V\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=PDC}{%
+         family={Powell},
+         familyi={P\bibinitperiod},
+         given={D.\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BJC}{%
+         family={Blackmon},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HSE+1}
+    \strng{fullhash}{HSECAEICHVYPDCBJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hal04}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.70.045802
+    \endverb
+    \field{issue}{4}
+    \field{pages}{045802}
+    \field{title}{Investigation of the
+  $^{23}\mathrm{Na}(p,\ensuremath{\gamma})^{24}\mathrm{Mg}$ and
+  $^{23}\mathrm{Na}(p,\ensuremath{\alpha})^{20}\mathrm{Ne}$ reactions via
+  $(^{3}\mathrm{He},d)$ spectroscopy}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.70.045802
+    \endverb
+    \field{volume}{70}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{2004}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Hodgson1971}{book}{}
     \name{author}{1}{}{%
       {{hash=HP}{%
