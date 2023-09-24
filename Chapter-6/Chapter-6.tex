@@ -60,7 +60,6 @@ Polluter stars are likely the site of the nucleosynthesis that gives rise to the
 \def\BoxSpacehalf{\BoxSpace * 0.5}
 \def\AOS{0.2} % Arrow Offset
 \def\AW{0.52} % Arrow Width (mm)
-\usetikzlibrary{arrows, arrows.meta}
 
 \begin{figure}[t]
 \centering
@@ -1433,7 +1432,7 @@ In ENSDF, the 9226.69(5) keV and 9227.43(7) keV states have spin-parities of $J^
 \end{figure}
 
 \emph{$\mathbf{E_{x} = 9405-9432}$} \textbf{keV Multiplet:} \, 
-This multiplet consists of the states 9405 keV ($J^{\pi} = 2^{-}$), 9406 keV ($J^{\pi} = 0^{+}$), 9412 keV (no $J^{\pi}$ assignment), 9419 keV ($J^{\pi} = 3^{-}$), 9429 keV ($J^{\pi} = (3,4)^{-}$), and 9432 keV ($J^{\pi} = 1^{-}$) in ENSDF. Even though these individual states are unresolvable at the energy resolution attainable with the focal plane detector, it was possible to consistently fit 3 peaks in this region with the Bayesian Monte Carlo procedure of Section \ref{sec:peak_fitting}, as shown in Fig. \ref{fig:5deg_9400keVGroup}. From the present energy calibration, the peaks result in energies of 9403.7(31) keV, 9416.7(32) keV, and 9431.7(32) keV. These can likely be assigned as 3 seperate doublets from the 6 ENSDF states, 9405+9406 keV, 9412+9419 keV, and 9429+9432 keV. Angular distributions were not obtained for these states in the present analysis, or for any higher energy states, since the focal plane detector efficiency at the high energy fringe resulted in dramatic yield loss over increasing angle. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} obtained fits for only 2 peaks in this region, at 9408 keV and 9431 keV. Attempting fits with 2 peaks in this region resulted in much worse agreement with the present data.
+This multiplet consists of the states 9405 keV ($J^{\pi} = 2^{-}$), 9406 keV ($J^{\pi} = 0^{+}$), 9412 keV (no $J^{\pi}$ assignment), 9419 keV ($J^{\pi} = 3^{-}$), 9429 keV ($J^{\pi} = (3,4)^{-}$), and 9432 keV ($J^{\pi} = 1^{-}$) in ENSDF. Even though these individual states are unresolvable at the energy resolution attainable with the focal plane detector, it was possible to consistently fit 3 peaks in this region with the Bayesian Monte Carlo procedure of Section \ref{sec:peak_fitting}, as shown in Fig. \ref{fig:5deg_9400keVGroup}. From the present energy calibration, the peaks result in energies of 9403.7(31) keV, 9416.7(32) keV, and 9431.7(32) keV. These can likely be assigned as 3 seperate doublets from the 6 ENSDF states, 9405+9406 keV, 9412+9419 keV, and 9429+9432 keV. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} obtained fits for only 2 peaks in this region, at 9408 keV and 9431 keV. Attempting fits with 2 peaks in this region resulted in much worse agreement with the present data. Angular distributions were not obtained for these states in the present analysis, or for any higher energy states, since the focal plane detector efficiency at the high energy fringe resulted in dramatic yield loss over increasing angle.
 
 To summarize the results of this section, the present experiment has unambiguously resolved 13 new states in $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$, 6 new states in $^{39}$K proton-transfer, and 4 new states in $^{39}\mathrm{K}+p$ altogether. Table \ref{tab:new_states} lists the states that are newly resolved in these regimes. States in parentheses were given an ambiguous $\ell$ assignment in the present experiment.
 
@@ -1602,8 +1601,15 @@ $E_{x}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$\ell$\footnotemark[2]&$C^{2}S
 \end{table}
 \endgroup
 
-
 \subsection{Proton Partial Widths and Resonance Energies} \label{subsec:partial_widths}
+
+% Longland et al. 2018 --- Why only narrow resonances contribute here:
+
+% The 39 K(p, γ )40Ca reaction proceeds through the compound nucleus 40Ca at a high excitation energy (Sp = 8328.437(21) keV [12]). The average level density of 40Ca at these excitation energies is about 60 MeV−1 , corresponding to an average level spacing of about 20 keV. Of these levels, fewer will exhibit an appreciable proton width and contribute significantly to the reaction rate, as will become apparent in Sec. IV. 
+
+%At the low proton energies relevant for astrophysics, the high Coulomb barrier renders the proton width in Eq. (4) to be small. Thus, the cross section can be considered to be dominated by narrow resonances and the reaction rate is calculated using Eq. (2). Interference effects are expected to average to a negligible contribution, and the nonresonant part of the cross section can be neglected.
+
+The $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate is dominated by narrow resonances 
 
 As described in Section \ref{subsec:narrow_resonances}, narrow resonances contribute individually to thermonuclear reaction rates. The resonance strength $\omega\gamma$ and resonance energy $E_{r}$ of each resonance are the key experimental quantities that go into the reaction rate calculation of Eqn. \ref{eqn:narrow_rate}. The resonance strength
 \begin{equation} \label{eqn:resonance_strength}
@@ -1615,14 +1621,14 @@ depends on the partial widths of the incoming ($\Gamma_{a}$) and outgoing ($\Gam
 \end{equation}
 where $J$ is the resonance spin, $J_{0}$ is the target spin, and $J_{1}$ is the incoming particle spin. For $(p,\gamma)$ reactions, the incoming proton partial width $\Gamma_{p}$ and the outgoing $\gamma$-ray partial width $\Gamma_{\gamma}$ are the quantities of interest. If $\Gamma_{\gamma} >> \Gamma_{p}$, then
 \begin{align*}
-\omega\gamma &\approx \frac{\Gamma_{p} \Gamma_{\gamma}}{\Gamma_{\gamma}} \\
-&\approx \Gamma_{p},
+\omega\gamma &\approx \omega \frac{\Gamma_{p} \Gamma_{\gamma}}{\Gamma_{\gamma}} \\
+&\approx \omega \Gamma_{p},
 \end{align*}
 which means the proton partial width dominates the resonance strength. This occurs for $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ at energies below roughly the $E_{r}^{\mathrm{c.m.}} = 606$ keV resonance, in the region of astrophysical interest.
 
 The proton partial width can be written as
 \begin{equation}
-\Gamma_{p} = \frac{\bar{h}^{2}}{\mu R} C^{2}S P(E_{r}) \phi_{R}^{2},
+\Gamma_{p} = \frac{\hbar^{2}}{\mu R} \, C^{2}S \, P(E_{r}) \, \phi_{R}^{2},
 \end{equation}
 where $\mu$ is the reduced mass of the proton and target, $R$ is the channel radius given by $R =$
 
@@ -1645,7 +1651,7 @@ Fig. \ref{fig:rateCompare} illustrates that the new reaction rate increases sign
 
 Our new determination of $(2J+1)\Gamma_{p}$ for the 154 keV resonance is primarily responsible for the increase in the rate and decrease in the uncertainty between about 55 MK and 110 MK. Similar effects occur between about 20 MK and 55 MK, primarily from our $l=1+3$ assignment of the 96 keV resonance, which has replaced the $l=3$ assignment by the other $(^{3}\mathrm{He}, d)$ measurements in this calculation. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} is in agreement with the $l=1+3$ assignment for this resonance. Note that using the previous $l=3$ assignment has a negligible effect on the results mentioned above at 70 and 80 MK. Our $(2J+1)\Gamma_{p}$ determination for the 29 keV resonance is responsible for the rate increase below 20 MK. The smaller effects above 110 MK are from a combination of the 335 keV, 415 keV, 439 keV, and 521 keV resonances, the latter three of which have replaced $(2J+1)\Gamma_{p}$ upper limits in Ref. \cite{Longland2018}.
 
-\subsection{Resonance Contributions}
+\subsection{Resonance Contributions} \label{subsec:resonance_contributions}
 
 \begin{figure}[t]
 \includegraphics[width=6.5in]{Chapter-6/figs/rateCompare.png} % 6.5 in is exact page width (8.5 in) minus the 1 in margins. Height scaled automatically to keep aspect ratio.
