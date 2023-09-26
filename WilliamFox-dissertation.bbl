@@ -92,6 +92,46 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Breit1936}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BG}{%
+         family={Breit},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Wigner},
+         familyi={W\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BGWE1}
+    \strng{fullhash}{BGWE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bre36}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1103/PhysRev.49.519
+    \endverb
+    \field{issue}{7}
+    \field{pages}{519\bibrangedash 531}
+    \field{title}{Capture of Slow Neutrons}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.49.519
+    \endverb
+    \field{volume}{49}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1936}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Brida2011}{article}{}
     \name{author}{3}{}{%
       {{hash=BI}{%
@@ -136,6 +176,58 @@
     \field{volume}{84}
     \field{journaltitle}{Phys. Rev. C}
     \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Burbidge1957}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BEM}{%
+         family={Burbidge},
+         familyi={B\bibinitperiod},
+         given={E.\bibnamedelima Margaret},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BGR}{%
+         family={Burbidge},
+         familyi={B\bibinitperiod},
+         given={G.\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=FWA}{%
+         family={Fowler},
+         familyi={F\bibinitperiod},
+         given={William\bibnamedelima A.},
+         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Hoyle},
+         familyi={H\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BEM+1}
+    \strng{fullhash}{BEMBGRFWAHF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bur57}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.29.547
+    \endverb
+    \field{issue}{4}
+    \field{pages}{547\bibrangedash 650}
+    \field{title}{Synthesis of the Elements in Stars}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.29.547
+    \endverb
+    \field{volume}{29}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{1957}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -1241,6 +1333,51 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Hammache2021}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=HF}{%
+         family={Hammache},
+         familyi={H\bibinitperiod},
+         given={Faïrouz},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=dSN}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Séréville},
+         familyi={S\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \keyw{Business And Economics--Banking And Finance; Stellar evolution;
+  Astrophysics; Nuclear reactions; Charged particles; Nuclear astrophysics;
+  Cross-sections}
+    \strng{namehash}{HFSNd1}
+    \strng{fullhash}{HFSNd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ham21}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{note}{Copyright - © 2021. This work is published under
+  http://creativecommons.org/licenses/by-nc-nd/4.0/ (the “License”).
+  Notwithstanding the ProQuest Terms and Conditions, you may use this content
+  in accordance with the terms of the License; Last updated - 2023-03-20}
+    \field{title}{Transfer reactions as a Tool in Nuclear Astrophysics}
+    \verb{url}
+    \verb https://proxying.lib.ncsu.edu/index.php/login?url=https://www.proques
+    \verb t.com/working-papers/transfer-reactions-as-tool-nuclear-astrophysics/
+    \verb docview/2556168924/se-2
+    \endverb
+    \field{journaltitle}{arXiv.org}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Hodgson1971}{book}{}
     \name{author}{1}{}{%
       {{hash=HP}{%
@@ -1409,6 +1546,37 @@
     \field{journaltitle}{The Astrophysical Journal}
     \field{year}{2016}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Iliadis1997}{article}{}
+    \name{author}{1}{}{%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IC1}
+    \strng{fullhash}{IC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ili97}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \verb{doi}
+    \verb https://doi.org/10.1016/S0375-9474(97)00065-1
+    \endverb
+    \field{issn}{0375-9474}
+    \field{number}{1}
+    \field{pages}{166\bibrangedash 175}
+    \field{title}{Proton single-particle reduced widths for unbound states}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0375947497000651
+    \endverb
+    \field{volume}{618}
+    \field{journaltitle}{Nuclear Physics A}
+    \field{year}{1997}
   \endentry
 
   \entry{Kahl2019}{article}{}

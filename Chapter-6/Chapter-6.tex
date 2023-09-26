@@ -313,7 +313,7 @@ The reaction rate probability density evaulated by Ref. \cite{Longland2018} is s
 
 \subsection{Contributing Resonances}
 
-Those contributing $^{39}\mathrm{K}+p$ resonances in the $\approx50-260$ MK range span resonance energies of $E^{\mathrm{c.m.}}_{r} \approx 65-560$ keV (See Section \ref{sec:Gamow}) and $^{40}$Ca excited state energies of about $E_{x} \approx 8400-8900$ keV, where the most recent $^{40}\mathrm{Ca}$ proton separation energy measurement is $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}. This resonance energy range is below the lowest directly measured resonance at $E^{\mathrm{c.m.}}_{r} = 606$ keV ($E_{x} = 8935$ keV), indicating that this region is entirely described by inferred transfer reaction partial widths or upper limits at present.
+Those contributing $^{39}\mathrm{K}+p$ resonances in the $\approx50-260$ MK range span resonance energies of $E^{\mathrm{c.m.}}_{r} \approx 90-450$ keV (See Section \ref{sec:rates}) and $^{40}$Ca excited state energies of about $E_{x} \approx 8400-8800$ keV, where the most recent $^{40}\mathrm{Ca}$ proton separation energy measurement is $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}. This resonance energy range is below the lowest directly measured resonance at $E^{\mathrm{c.m.}}_{r} = 606$ keV ($E_{x} = 8935$ keV), indicating that this region is entirely described by inferred transfer reaction partial widths or upper limits at present.
 
 \begin{figure}
 \centering
@@ -322,8 +322,6 @@ Those contributing $^{39}\mathrm{K}+p$ resonances in the $\approx50-260$ MK rang
 \end{figure}
 
 The contributing resonances from the reaction rate evaluation of Ref. \cite{Longland2018} are shown in Fig. \ref{fig:contrib_longland2018}. The individual, fractional resonance contribution for each resonance is shown as a function of temperature. Measured resonances are shown with their $1\sigma$ width, representative of the Monte Carlo formalism \cite{Longland2010a} and are shaded or have hatched lines for clarity. Upper limit resonances are represented by dashed lines at their $84\%$ (+$1\sigma$) value. All resonances that individually contribute at least $20\%$ to the total reaction rate are shown in the figure with corresponding resonance energy labels, while the remaining resonance contributions sum to the black line. Of note are the 96 keV, 156 keV, and 337 keV resonances, which overwhelmingly contribute to the reaction rate at their respective temperatures. The 337 keV resonance, in particular, is the most important resonance between $\approx 0.15-0.4$ GK ($150-400$ MK), which makes up most of the astrophysical temperature range of interest, $80-260$ MK. However, the discrepancy between the $84\%$ ($+1\sigma$) contribution and the $16\%$ (-$1\sigma$) contribution is very large. The large uncertainty in the reaction rate around $50-200$ MK in Fig. \ref{fig:39K_p_g_Longland} is partly due to the uncertainty in this resonance contribution, but it is mostly a result of the many unknown resonances with only upper limit values between the 96 keV resonance and the 337 keV resonance.
-
-%\section{The Previous $^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ and $^{39}\mathrm{\textbf{K}}(d,n)^{40}\mathrm{\textbf{Ca}}$ Measurements}
 
 \subsection{Previous Proton-Transfer Measurements}
 
@@ -1609,28 +1607,11 @@ $E_{x}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$\ell$\footnotemark[2]&$C^{2}S
 
 %At the low proton energies relevant for astrophysics, the high Coulomb barrier renders the proton width in Eq. (4) to be small. Thus, the cross section can be considered to be dominated by narrow resonances and the reaction rate is calculated using Eq. (2). Interference effects are expected to average to a negligible contribution, and the nonresonant part of the cross section can be neglected.
 
-The $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate is dominated by narrow resonances 
+The $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate is dominated by narrow resonances. As described in Section \ref{subsec:narrow_resonances}, narrow resonances contribute individually to thermonuclear reaction rates. The resonance strength $\omega\gamma$ and resonance energy $E_{r}$ of each resonance are the key experimental quantities that go into the reaction rate calculation of Eqn. \ref{eqn:narrow_rate}. Typically, proton-transfer experiments report proton partial widths from Eqn. \ref{eqn:partial_width}, rather than resonance strengths from Eqn. \ref{eqn:resonance_strength}. The only difference is the knowledge of the $\gamma$-ray partial width and any other partial widths contributing to the total width, which arise from other measurements. The spectroscopic factors of the proton-unbound $^{40}$Ca states from the previous section go directly into the proton partial width calculation, along with the penetration factor $P(E)$ and the dimensionless single-particle reduced width. The latter two quantities are calculated theoretically and are detailed in Section \ref{subsec:narrow_resonances}.
 
-As described in Section \ref{subsec:narrow_resonances}, narrow resonances contribute individually to thermonuclear reaction rates. The resonance strength $\omega\gamma$ and resonance energy $E_{r}$ of each resonance are the key experimental quantities that go into the reaction rate calculation of Eqn. \ref{eqn:narrow_rate}. The resonance strength
-\begin{equation} \label{eqn:resonance_strength}
-\omega\gamma = \omega \frac{\Gamma_{a}\Gamma_{b}}{\Gamma}
-\end{equation}
-depends on the partial widths of the incoming ($\Gamma_{a}$) and outgoing ($\Gamma_{b}$) channels and the total partial width $\Gamma$. The spin factor $\omega$ is defined as
-\begin{equation}
-\omega = \frac{(2J+1)}{(2J_{0}+1) (2J_{1}+1)},
-\end{equation}
-where $J$ is the resonance spin, $J_{0}$ is the target spin, and $J_{1}$ is the incoming particle spin. For $(p,\gamma)$ reactions, the incoming proton partial width $\Gamma_{p}$ and the outgoing $\gamma$-ray partial width $\Gamma_{\gamma}$ are the quantities of interest. If $\Gamma_{\gamma} >> \Gamma_{p}$, then
-\begin{align*}
-\omega\gamma &\approx \omega \frac{\Gamma_{p} \Gamma_{\gamma}}{\Gamma_{\gamma}} \\
-&\approx \omega \Gamma_{p},
-\end{align*}
-which means the proton partial width dominates the resonance strength. This occurs for $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ at energies below roughly the $E_{r}^{\mathrm{c.m.}} = 606$ keV resonance, in the region of astrophysical interest.
+Center-of-mass resonance energies $E_{r}^{\mathrm{c.m.}}$ are simply calculated from the measured excitation energies in Section \ref{subsec:cal} by adding the proton separation energy $S_{p}$ of $^{40}$Ca, or equivalently, the $Q$-value of the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction. The present work uses $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}.
 
-The proton partial width can be written as
-\begin{equation}
-\Gamma_{p} = \frac{\hbar^{2}}{\mu R} \, C^{2}S \, P(E_{r}) \, \phi_{R}^{2},
-\end{equation}
-where $\mu$ is the reduced mass of the proton and target, $R$ is the channel radius given by $R =$
+The results of the proton partial widths and the resonance energies are summarized in Table \ref{tab:partial_widths}.
 
 %\begin{table}
 %\caption{\label{tab:partial_widths}}}
@@ -1651,8 +1632,6 @@ Fig. \ref{fig:rateCompare} illustrates that the new reaction rate increases sign
 
 Our new determination of $(2J+1)\Gamma_{p}$ for the 154 keV resonance is primarily responsible for the increase in the rate and decrease in the uncertainty between about 55 MK and 110 MK. Similar effects occur between about 20 MK and 55 MK, primarily from our $l=1+3$ assignment of the 96 keV resonance, which has replaced the $l=3$ assignment by the other $(^{3}\mathrm{He}, d)$ measurements in this calculation. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} is in agreement with the $l=1+3$ assignment for this resonance. Note that using the previous $l=3$ assignment has a negligible effect on the results mentioned above at 70 and 80 MK. Our $(2J+1)\Gamma_{p}$ determination for the 29 keV resonance is responsible for the rate increase below 20 MK. The smaller effects above 110 MK are from a combination of the 335 keV, 415 keV, 439 keV, and 521 keV resonances, the latter three of which have replaced $(2J+1)\Gamma_{p}$ upper limits in Ref. \cite{Longland2018}.
 
-\subsection{Resonance Contributions} \label{subsec:resonance_contributions}
-
 \begin{figure}[t]
 \includegraphics[width=6.5in]{Chapter-6/figs/rateCompare.png} % 6.5 in is exact page width (8.5 in) minus the 1 in margins. Height scaled automatically to keep aspect ratio.
 \caption{\label{fig:rateCompare}Comparison between the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate using the proton partial-widths and resonance energies of the present experiment (solid line, blue band) and the most recent evaluation of Ref. \cite{Longland2018} (dotted line, gray band). The reaction rate ratio is taken with respect to the median, recommended rate of Ref. \cite{Longland2018} for both calculations. The $1\sigma$ uncertainty bands are shown.}
@@ -1663,6 +1642,8 @@ Our new determination of $(2J+1)\Gamma_{p}$ for the 154 keV resonance is primari
 \caption{\label{fig:uncCompare}Comparison between the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate uncertainty using the proton partial-widths and resonance energies of the present experiment (solid band) and the most recent evaluation of Ref. \cite{Longland2018} (dotted band). Each reaction rate ratio is taken with respect to their own median, recommended rate. The $1\sigma$ uncertainty bands are shown.}
 \end{figure}
 
+\subsection{Resonance Contributions} \label{subsec:resonance_contributions}
+
 \begin{figure}[t]
 \includegraphics[width=6.5in]{Chapter-6/figs/Contrib_Fox.png} % 6.5 in is exact page width (8.5 in) minus the 1 in margins. Height scaled automatically to keep aspect ratio.
 \caption{\label{fig:contrib}Individual resonance contributions to the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate, where a value of 1.0 implies that the given resonance contributes 100$\%$ to the reaction rate at that temperature. The labels correspond to center-of-mass resonance energies in keV. Resonances with shading or hatched lines have been measured and are shown with their $1\sigma$ uncertainty bands. Resonances with a single, dashed line are upper limit calculations and show their 84$\%$ $1\sigma$ value, for clarity. The resonances displayed are those that individually account for at least 10$\%$ of the total reaction rate at their corresponding temperatures. The remaining summed resonance contributions are represented by the dotted line.}
@@ -1671,6 +1652,10 @@ Our new determination of $(2J+1)\Gamma_{p}$ for the 154 keV resonance is primari
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Potassium Abundance in Reaction Network Calculations}
 
+\begin{figure}[t]
+\includegraphics[width=6.5in]{Chapter-6/figs/MaxKSeparation_T100_rho4d7_xlast20_HDA.png}
+\caption{\label{fig:MaxSeparation}The maximum change in potassium abundance from Starlib, occuring at $T = 100$ MK, $\rho = 4 \times 10^{7}$ $\mathrm{g}/\mathrm{cm}^{3}$, and $X_{^{3}\mathrm{He}, \, f} = 20\%$. This corresponds to a decrease in [K/Fe] by a factor of 1.7 from Starlib. This configuration is now an acceptable configuration reproducing the Mg--K anticorrelation in NGC 2419.}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
