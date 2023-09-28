@@ -231,6 +231,52 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Busso1999}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BM}{%
+         family={Busso},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gallino},
+         familyi={G\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WGJ}{%
+         family={Wasserburg},
+         familyi={W\bibinitperiod},
+         given={G.\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BMGRWGJ1}
+    \strng{fullhash}{BMGRWGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bus99}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1146/annurev.astro.37.1.239
+    \endverb
+    \verb{eprint}
+    \verb https://doi.org/10.1146/annurev.astro.37.1.239
+    \endverb
+    \field{number}{1}
+    \field{pages}{239\bibrangedash 309}
+    \field{title}{Nucleosynthesis in Asymptotic Giant Branch Stars: Relevance
+  for Galactic Enrichment and Solar System Formation}
+    \verb{url}
+    \verb https://doi.org/10.1146/annurev.astro.37.1.239
+    \endverb
+    \field{volume}{37}
+    \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+    \field{year}{1999}
+  \endentry
+
   \entry{Cage1971}{article}{}
     \name{author}{4}{}{%
       {{hash=CM}{%
@@ -1333,48 +1379,30 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{Hammache2021}{misc}{}
-    \name{author}{2}{}{%
-      {{hash=HF}{%
-         family={Hammache},
+  \entry{Harrouz2023}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=HDS}{%
+         family={HARROUZ},
          familyi={H\bibinitperiod},
-         given={Faïrouz},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=dSN}{%
-         prefix={de},
-         prefixi={d\bibinitperiod},
-         family={Séréville},
-         familyi={S\bibinitperiod},
-         given={Nicolas},
-         giveni={N\bibinitperiod},
+         given={Djamila\bibnamedelima Sarah},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
-    \list{language}{1}{%
-      {English}%
-    }
-    \keyw{Business And Economics--Banking And Finance; Stellar evolution;
-  Astrophysics; Nuclear reactions; Charged particles; Nuclear astrophysics;
-  Cross-sections}
-    \strng{namehash}{HFSNd1}
-    \strng{fullhash}{HFSNd1}
+    \strng{namehash}{HDS1}
+    \strng{fullhash}{HDS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{Ham21}
+    \field{labelalpha}{HAR23}
     \field{sortinit}{H}
     \field{sortinithash}{H}
-    \field{note}{Copyright - © 2021. This work is published under
-  http://creativecommons.org/licenses/by-nc-nd/4.0/ (the “License”).
-  Notwithstanding the ProQuest Terms and Conditions, you may use this content
-  in accordance with the terms of the License; Last updated - 2023-03-20}
-    \field{title}{Transfer reactions as a Tool in Nuclear Astrophysics}
-    \verb{url}
-    \verb https://proxying.lib.ncsu.edu/index.php/login?url=https://www.proques
-    \verb t.com/working-papers/transfer-reactions-as-tool-nuclear-astrophysics/
-    \verb docview/2556168924/se-2
-    \endverb
-    \field{journaltitle}{arXiv.org}
-    \field{year}{2021}
+    \field{title}{Experimental study of the
+  $^{30}\mathrm{Si}(p,\gamma)^{31}\mathrm{P}$ reaction for understanding
+  elemental anomalies in globular clusters}
+    \list{institution}{1}{%
+      {Universit\'e Paris-Saclay}%
+    }
+    \field{type}{PhD thesis}
+    \field{year}{2023}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -2782,6 +2810,32 @@
     \field{volume}{470}
     \field{journaltitle}{Astronomy and Astrophysics}
     \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Reifarth2014}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=RR}{%
+         family={Reifarth},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Joliot Curie School}%
+    }
+    \strng{namehash}{RR1}
+    \strng{fullhash}{RR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Rei14}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Neutrons and Nuclei}
+    \field{title}{Nuclear astrophysics of the $s$ and $r$-process}
+    \field{venue}{Fr\'ejus, France}
+    \field{year}{2014}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
