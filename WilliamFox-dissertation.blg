@@ -26,52 +26,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 15780 items from 5000.
+Reallocated field_info (elt_size=4) to 16060 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
 Warning--I didn't find a database entry for "??"
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 76 entries,
+You've used 78 entries,
             6393 wiz_defined-function locations,
-            1851 strings with 29071 characters,
-and the built_in function-call counts, 643123 in all, are:
-= -- 48969
-> -- 10228
-< -- 3489
-+ -- 16430
-- -- 3884
-* -- 48027
-:= -- 70938
+            1861 strings with 29300 characters,
+and the built_in function-call counts, 655498 in all, are:
+= -- 49824
+> -- 10521
+< -- 3628
++ -- 16729
+- -- 3974
+* -- 48783
+:= -- 72030
 add.period$ -- 0
-call.type$ -- 76
-change.case$ -- 2180
+call.type$ -- 78
+change.case$ -- 2271
 chr.to.int$ -- 109
-cite$ -- 150
-duplicate$ -- 67522
-empty$ -- 56843
-format.name$ -- 6635
-if$ -- 130511
+cite$ -- 154
+duplicate$ -- 68920
+empty$ -- 57907
+format.name$ -- 6779
+if$ -- 133201
 int.to.chr$ -- 0
-int.to.str$ -- 203
+int.to.str$ -- 209
 missing$ -- 0
-newline$ -- 3565
-num.names$ -- 4656
-pop$ -- 28155
+newline$ -- 3624
+num.names$ -- 4817
+pop$ -- 28861
 preamble$ -- 1
-purify$ -- 2807
+purify$ -- 2908
 quote$ -- 0
-skip$ -- 16927
+skip$ -- 17484
 stack$ -- 0
-substring$ -- 86985
-swap$ -- 15291
-text.length$ -- 2413
-text.prefix$ -- 151
+substring$ -- 88143
+swap$ -- 15644
+text.length$ -- 2485
+text.prefix$ -- 155
 top$ -- 1
-type$ -- 2566
+type$ -- 2634
 warning$ -- 0
-while$ -- 9921
+while$ -- 10077
 width$ -- 0
-write$ -- 3490
+write$ -- 3547
 (There was 1 warning)

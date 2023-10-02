@@ -329,6 +329,36 @@
     \field{year}{1971}
   \endentry
 
+  \entry{Carroll2007}{book}{}
+    \name{author}{2}{}{%
+      {{hash=CB}{%
+         family={Carroll},
+         familyi={C\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OD}{%
+         family={Ostlie},
+         familyi={O\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson Education Inc., publishing as Addison-Wesley}%
+    }
+    \strng{namehash}{CBOD1}
+    \strng{fullhash}{CBOD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Car07}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{edition}{2}
+    \field{title}{An Introduction to Modern Astrophysics}
+    \field{year}{2007}
+  \endentry
+
   \entry{Carretta2009}{article}{}
     \name{author}{4}{}{%
       {{hash=C}{%
@@ -1310,6 +1340,35 @@
     \field{note}{\url{https://github.com/stan-dev/rstan}}
     \field{title}{\textnormal{``RStan'', v2.26.23}}
     \field{year}{2020}
+  \endentry
+
+  \entry{Habing2004}{book}{}
+    \name{author}{2}{}{%
+      {{hash=HH}{%
+         family={Habing},
+         familyi={H\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=OH}{%
+         family={Olofsson},
+         familyi={O\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{HHOH1}
+    \strng{fullhash}{HHOH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hab04}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Asymptotic Giant Branch Stars}
+    \field{year}{2004}
   \endentry
 
   \entry{Hale2004}{article}{}
