@@ -537,6 +537,55 @@
     \field{year}{1981}
   \endentry
 
+  \entry{Clayton1961}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CD}{%
+         family={Clayton},
+         familyi={C\bibinitperiod},
+         given={D.D},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FW}{%
+         family={Fowler},
+         familyi={F\bibinitperiod},
+         given={W.A},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hull},
+         familyi={H\bibinitperiod},
+         given={T.E},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zimmerman},
+         familyi={Z\bibinitperiod},
+         given={B.A},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CD+1}
+    \strng{fullhash}{CDFWHTZB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Cla61}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0003-4916(61)90067-7
+    \endverb
+    \field{issn}{0003-4916}
+    \field{number}{3}
+    \field{pages}{331\bibrangedash 408}
+    \field{title}{Neutron capture chains in heavy element synthesis}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0003491661900677
+    \endverb
+    \field{volume}{12}
+    \field{journaltitle}{Annals of Physics}
+    \field{year}{1961}
+  \endentry
+
   \entry{Cohen2004}{article}{}
     \name{author}{1}{}{%
       {{hash=CJG}{%
@@ -3063,6 +3112,47 @@
     \field{volume}{465}
     \field{journaltitle}{A\&A}
     \field{year}{2007}
+  \endentry
+
+  \entry{Seeger1965}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SPA}{%
+         family={Seeger},
+         familyi={S\bibinitperiod},
+         given={P\bibnamedelima A},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FWA}{%
+         family={Fowler},
+         familyi={F\bibinitperiod},
+         given={W\bibnamedelima A},
+         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CDD}{%
+         family={Clayton},
+         familyi={C\bibinitperiod},
+         given={D\bibnamedelima D},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SPAFWACDD1}
+    \strng{fullhash}{SPAFWACDD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{See65}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1086/190111
+    \endverb
+    \field{title}{NUCLEOSYNTHESIS OF HEAVY ELEMENTS BY NEUTRON CAPTURE}
+    \verb{url}
+    \verb https://www.osti.gov/biblio/4656089
+    \endverb
+    \field{volume}{11}
+    \field{journaltitle}{Astrophys. J.,Suppl. Ser.}
+    \field{month}{02}
+    \field{year}{1965}
   \endentry
 
   \entry{SetoodehniaThesis}{thesis}{}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.2)  1 OCT 2023 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.2)  3 OCT 2023 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1127,6 +1127,10 @@ File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 braryfit.code.tex
 File: tikzlibraryfit.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
 \@quotelevel=\count452
 \@quotereset=\count453
@@ -1552,7 +1556,7 @@ l.14 \maketitlepage
 ] (./WilliamFox-dissertation.lof [6
 
 ]
-Overfull \hbox (20.0949pt too wide) in paragraph at lines 33--33
+Overfull \hbox (20.0949pt too wide) in paragraph at lines 35--35
  [][] [][][]\T1/lmr/m/n/12 (-20) Systematic ef-fects of the $[]\OT1/lmr/m/n/12 
 (-20) K(\OML/lmm/m/it/12 p; ^^M\OT1/lmr/m/n/12 (-20) )[][]$ \T1/lmr/m/n/12 (-20
 ) re-ac-tion rate in-flu-enc-ing temperature- 
@@ -1560,7 +1564,7 @@ Overfull \hbox (20.0949pt too wide) in paragraph at lines 33--33
 
 [7]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-3.
+5.
  (c:/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1568,15 +1572,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [8] [9] [10])
+ [8] [9] [10] [11])
 \tf@lof=\write8
 \openout8 = `WilliamFox-dissertation.lof'.
 
- [11])
+
+[12])
 \openout2 = `Chapter-1/Chapter-1.aux'.
 
-
-(./Chapter-1/Chapter-1.tex
+ (./Chapter-1/Chapter-1.tex
 Chapter 1.
 [1
 
@@ -1586,46 +1590,45 @@ Chapter 1.
 
 
 ] [2]
-<Chapter-1/figs/5M_Evolution.png, id=754, 733.99219pt x 606.76688pt>
+<Chapter-1/figs/5M_Evolution.png, id=764, 733.99219pt x 606.76688pt>
 File: Chapter-1/figs/5M_Evolution.png Graphic file (type png)
 <use Chapter-1/figs/5M_Evolution.png>
 Package pdftex.def Info: Chapter-1/figs/5M_Evolution.png  used on input line 20
 .
 (pdftex.def)             Requested size: 361.34999pt x 298.7164pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 27.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 27.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 27.
  [3 <./Chapter-1/figs/5M_Evolution.PNG>]
-<Chapter-1/figs/sProcess_AGB.JPG, id=768, 625.73775pt x 473.97075pt>
+<Chapter-1/figs/sProcess_AGB.JPG, id=780, 625.73775pt x 473.97075pt>
 File: Chapter-1/figs/sProcess_AGB.JPG Graphic file (type jpg)
 <use Chapter-1/figs/sProcess_AGB.JPG>
 Package pdftex.def Info: Chapter-1/figs/sProcess_AGB.JPG  used on input line 37
 .
 (pdftex.def)             Requested size: 469.75499pt x 355.82433pt.
  [4 <./Chapter-1/figs/sProcess_AGB.JPG>] [5]
-<Chapter-1/figs/sProcess_path.jpg, id=785, 689.57625pt x 405.31425pt>
+<Chapter-1/figs/sProcess_path.jpg, id=809, 689.57625pt x 405.31425pt>
 File: Chapter-1/figs/sProcess_path.jpg Graphic file (type jpg)
 <use Chapter-1/figs/sProcess_path.jpg>
-Package pdftex.def Info: Chapter-1/figs/sProcess_path.jpg  used on input line 7
-5.
+Package pdftex.def Info: Chapter-1/figs/sProcess_path.jpg  used on input line 6
+7.
 (pdftex.def)             Requested size: 469.75499pt x 276.111pt.
-) [6] [7 <./Chapter-1/figs/sProcess_path.JPG>]
+ [6 <./Chapter-1/figs/sProcess_path.JPG>] [7] [8]) [9] [10]
 \openout2 = `Chapter-2/Chapter-2.aux'.
 
 
 (./Chapter-2/Chapter-2.tex
 Chapter 2.
-[8
+[11
 
 
 
 
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 31.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 31.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 31.
- [9]
-<Chapter-2/figs/Gamow_Window.png, id=824, 5525.64375pt x 3291.29625pt>
+] [12]
+<Chapter-2/figs/Gamow_Window.png, id=875, 5525.64375pt x 3291.29625pt>
 File: Chapter-2/figs/Gamow_Window.png Graphic file (type png)
 <use Chapter-2/figs/Gamow_Window.png>
 Package pdftex.def Info: Chapter-2/figs/Gamow_Window.png  used on input line 46
@@ -1644,7 +1647,7 @@ Overfull \hbox (7.83232pt too wide) in paragraph at lines 55--56
 [][] 
  []
 
-[10 <./Chapter-2/figs/Gamow_Window.png (PNG copy)>] [11] [12]
+[13 <./Chapter-2/figs/Gamow_Window.png (PNG copy)>] [14] [15]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 114.
@@ -1657,12 +1660,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 114.
 
-) [13]
+) [16]
 \openout2 = `Chapter-3/Chapter-3.aux'.
 
  (./Chapter-3/Chapter-3.tex
 Chapter 3.
-) [14
+) [17
 
 
 
@@ -1672,7 +1675,7 @@ Chapter 3.
 
  (./Chapter-4/Chapter-4.tex
 Chapter 4.
-) [15
+) [18
 
 
 
@@ -1682,7 +1685,7 @@ Chapter 4.
 
  (./Chapter-5/Chapter-5.tex
 Chapter 5.
-) [16
+) [19
 
 
 
@@ -1692,50 +1695,50 @@ Chapter 5.
 
  (./Chapter-6/Chapter-6.tex
 Chapter 6.
-[17
+[20
 
 
 
 
 ]
-<Chapter-6/figs/O-Na.png, id=901, 1044.90375pt x 818.05624pt>
+<Chapter-6/figs/O-Na.png, id=950, 1044.90375pt x 818.05624pt>
 File: Chapter-6/figs/O-Na.png Graphic file (type png)
 <use Chapter-6/figs/O-Na.png>
 Package pdftex.def Info: Chapter-6/figs/O-Na.png  used on input line 39.
 (pdftex.def)             Requested size: 469.75499pt x 367.7724pt.
- [18] [19 <./Chapter-6/figs/O-Na.png>]
+ [21] [22 <./Chapter-6/figs/O-Na.png>]
 Overfull \hbox (2.8347pt too wide) in paragraph at lines 104--105
 [][] 
  []
 
-[20]
-<Chapter-6/figs/MgK_Observation.png, id=947, 289.08pt x 361.35pt>
+[23]
+<Chapter-6/figs/MgK_Observation.png, id=997, 289.08pt x 361.35pt>
 File: Chapter-6/figs/MgK_Observation.png Graphic file (type png)
 <use Chapter-6/figs/MgK_Observation.png>
 Package pdftex.def Info: Chapter-6/figs/MgK_Observation.png  used on input line
  171.
 (pdftex.def)             Requested size: 180.67499pt x 225.8432pt.
- [21] [22 <./Chapter-6/figs/MgK_Observation.png>] [23]
-<Chapter-6/figs/Trho_Iliadis2016.png, id=987, 814.04124pt x 730.73pt>
+ [24] [25 <./Chapter-6/figs/MgK_Observation.png>] [26]
+<Chapter-6/figs/Trho_Iliadis2016.png, id=1035, 814.04124pt x 730.73pt>
 File: Chapter-6/figs/Trho_Iliadis2016.png Graphic file (type png)
 <use Chapter-6/figs/Trho_Iliadis2016.png>
 Package pdftex.def Info: Chapter-6/figs/Trho_Iliadis2016.png  used on input lin
 e 273.
 (pdftex.def)             Requested size: 325.215pt x 291.93002pt.
- [24 <./Chapter-6/figs/Trho_Iliadis2016.png>]
-<Chapter-6/figs/39K_p_g_Sens1.png, id=1001, 690.58pt x 228.855pt>
+ [27 <./Chapter-6/figs/Trho_Iliadis2016.png>]
+<Chapter-6/figs/39K_p_g_Sens1.png, id=1048, 690.58pt x 228.855pt>
 File: Chapter-6/figs/39K_p_g_Sens1.png Graphic file (type png)
 <use Chapter-6/figs/39K_p_g_Sens1.png>
 Package pdftex.def Info: Chapter-6/figs/39K_p_g_Sens1.png  used on input line 2
 85.
 (pdftex.def)             Requested size: 310.75812pt x 102.9838pt.
-<Chapter-6/figs/39K_p_g_Sens2.png, id=1002, 685.56125pt x 230.8625pt>
+<Chapter-6/figs/39K_p_g_Sens2.png, id=1049, 685.56125pt x 230.8625pt>
 File: Chapter-6/figs/39K_p_g_Sens2.png Graphic file (type png)
 <use Chapter-6/figs/39K_p_g_Sens2.png>
 Package pdftex.def Info: Chapter-6/figs/39K_p_g_Sens2.png  used on input line 2
 86.
 (pdftex.def)             Requested size: 308.49971pt x 103.88715pt.
- [25 <./Chapter-6/figs/39K_p_g_Sens1.png> <./Chapter-6/figs/39K_p_g_Sens2.png>]
+ [28 <./Chapter-6/figs/39K_p_g_Sens1.png> <./Chapter-6/figs/39K_p_g_Sens2.png>]
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1757,21 +1760,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 298.
 
-[26]
-<Chapter-6/figs/39K_p_g_Longland2018.png, id=1041, 674.52pt x 653.44125pt>
+[29]
+<Chapter-6/figs/39K_p_g_Longland2018.png, id=1089, 674.52pt x 653.44125pt>
 File: Chapter-6/figs/39K_p_g_Longland2018.png Graphic file (type png)
 <use Chapter-6/figs/39K_p_g_Longland2018.png>
 Package pdftex.def Info: Chapter-6/figs/39K_p_g_Longland2018.png  used on input
  line 310.
 (pdftex.def)             Requested size: 289.07999pt x 280.04698pt.
- [27 <./Chapter-6/figs/39K_p_g_Longland2018.png>]
-<Chapter-6/figs/Contrib_Longland2018.png, id=1052, 816.04875pt x 679.53876pt>
+ [30 <./Chapter-6/figs/39K_p_g_Longland2018.png>]
+<Chapter-6/figs/Contrib_Longland2018.png, id=1101, 816.04875pt x 679.53876pt>
 File: Chapter-6/figs/Contrib_Longland2018.png Graphic file (type png)
 <use Chapter-6/figs/Contrib_Longland2018.png>
 Package pdftex.def Info: Chapter-6/figs/Contrib_Longland2018.png  used on input
  line 320.
 (pdftex.def)             Requested size: 361.34999pt x 300.90585pt.
- [28 <./Chapter-6/figs/Contrib_Longland2018.png>]
+ [31 <./Chapter-6/figs/Contrib_Longland2018.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 331.
@@ -1793,23 +1796,23 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 331.
 
 
-LaTeX Warning: Reference `sec:exp' on page 29 undefined on input line 337.
+LaTeX Warning: Reference `sec:exp' on page 32 undefined on input line 337.
 
 
-LaTeX Warning: Reference `sec:Brho' on page 29 undefined on input line 337.
+LaTeX Warning: Reference `sec:Brho' on page 32 undefined on input line 337.
 
-[29]
+[32]
 
-LaTeX Warning: Reference `sec:Evap' on page 30 undefined on input line 341.
+LaTeX Warning: Reference `sec:Evap' on page 33 undefined on input line 341.
 
-[30]
-<Chapter-6/figs/5deg_DEvsE.png, id=1095, 1452.42625pt x 695.59875pt>
+[33]
+<Chapter-6/figs/5deg_DEvsE.png, id=1142, 1452.42625pt x 695.59875pt>
 File: Chapter-6/figs/5deg_DEvsE.png Graphic file (type png)
 <use Chapter-6/figs/5deg_DEvsE.png>
 Package pdftex.def Info: Chapter-6/figs/5deg_DEvsE.png  used on input line 363.
 
 (pdftex.def)             Requested size: 397.48499pt x 190.36153pt.
-<Chapter-6/figs/5deg_DEvsE_Scale.png, id=1096, 18.0675pt x 85.31876pt>
+<Chapter-6/figs/5deg_DEvsE_Scale.png, id=1143, 18.0675pt x 85.31876pt>
 File: Chapter-6/figs/5deg_DEvsE_Scale.png Graphic file (type png)
 <use Chapter-6/figs/5deg_DEvsE_Scale.png>
 Package pdftex.def Info: Chapter-6/figs/5deg_DEvsE_Scale.png  used on input lin
@@ -1817,13 +1820,13 @@ e 364.
 (pdftex.def)             Requested size: 10.84058pt x 51.19164pt.
 
 
-LaTeX Warning: Reference `sec:fp' on page 31 undefined on input line 397.
+LaTeX Warning: Reference `sec:fp' on page 34 undefined on input line 397.
 
 
-LaTeX Warning: Reference `sec:DAQ' on page 31 undefined on input line 397.
+LaTeX Warning: Reference `sec:DAQ' on page 34 undefined on input line 397.
 
-[31 <./Chapter-6/figs/5deg_DEvsE.png> <./Chapter-6/figs/5deg_DEvsE_Scale.png>]
-<Chapter-6/figs/5deg_KI6.png, id=1111, 1345.025pt x 530.98375pt>
+[34 <./Chapter-6/figs/5deg_DEvsE.png> <./Chapter-6/figs/5deg_DEvsE_Scale.png>]
+<Chapter-6/figs/5deg_KI6.png, id=1158, 1345.025pt x 530.98375pt>
 File: Chapter-6/figs/5deg_KI6.png Graphic file (type png)
 <use Chapter-6/figs/5deg_KI6.png>
 Package pdftex.def Info: Chapter-6/figs/5deg_KI6.png  used on input line 409.
@@ -1833,23 +1836,23 @@ Overfull \hbox (0.8689pt too wide) in paragraph at lines 427--428
  [][] 
  []
 
-[32 <./Chapter-6/figs/5deg_KI6.png>]
-<Chapter-6/figs/9deg_AllRuns_Pos1vsEvent.png, id=1118, 1456.44125pt x 700.6175p
+[35 <./Chapter-6/figs/5deg_KI6.png>]
+<Chapter-6/figs/9deg_AllRuns_Pos1vsEvent.png, id=1166, 1456.44125pt x 700.6175p
 t>
 File: Chapter-6/figs/9deg_AllRuns_Pos1vsEvent.png Graphic file (type png)
 <use Chapter-6/figs/9deg_AllRuns_Pos1vsEvent.png>
 Package pdftex.def Info: Chapter-6/figs/9deg_AllRuns_Pos1vsEvent.png  used on i
 nput line 447.
 (pdftex.def)             Requested size: 361.34999pt x 173.81763pt.
-<Chapter-6/figs/9deg_Scale.png, id=1119, 21.07875pt x 101.37875pt>
+<Chapter-6/figs/9deg_Scale.png, id=1167, 21.07875pt x 101.37875pt>
 File: Chapter-6/figs/9deg_Scale.png Graphic file (type png)
 <use Chapter-6/figs/9deg_Scale.png>
 Package pdftex.def Info: Chapter-6/figs/9deg_Scale.png  used on input line 475.
 
 (pdftex.def)             Requested size: 12.64732pt x 60.82771pt.
- [33] [34 <./Chapter-6/figs/9deg_AllRuns_Pos1vsEvent.png> <./Chapter-6/figs/9de
-g_Scale.png>] [35]
-<Chapter-6/figs/5deg_SiDEvsSiE.png, id=1139, 1450.41875pt x 694.595pt>
+ [36] [37 <./Chapter-6/figs/9deg_AllRuns_Pos1vsEvent.png> <./Chapter-6/figs/9de
+g_Scale.png>] [38]
+<Chapter-6/figs/5deg_SiDEvsSiE.png, id=1187, 1450.41875pt x 694.595pt>
 File: Chapter-6/figs/5deg_SiDEvsSiE.png Graphic file (type png)
 <use Chapter-6/figs/5deg_SiDEvsSiE.png>
 Package pdftex.def Info: Chapter-6/figs/5deg_SiDEvsSiE.png  used on input line 
@@ -1860,8 +1863,8 @@ File: Chapter-6/figs/9deg_Scale.png Graphic file (type png)
 Package pdftex.def Info: Chapter-6/figs/9deg_Scale.png  used on input line 529.
 
 (pdftex.def)             Requested size: 14.755pt x 70.96463pt.
- [36 <./Chapter-6/figs/5deg_SiDEvsSiE.png>]
-<Chapter-6/figs/5deg_SiDEvsSiTotE_GSiDEvsSiE.png, id=1145, 1451.4225pt x 694.59
+ [39 <./Chapter-6/figs/5deg_SiDEvsSiE.png>]
+<Chapter-6/figs/5deg_SiDEvsSiTotE_GSiDEvsSiE.png, id=1192, 1451.4225pt x 694.59
 5pt>
 File: Chapter-6/figs/5deg_SiDEvsSiTotE_GSiDEvsSiE.png Graphic file (type png)
 <use Chapter-6/figs/5deg_SiDEvsSiTotE_GSiDEvsSiE.png>
@@ -1873,15 +1876,15 @@ File: Chapter-6/figs/9deg_Scale.png Graphic file (type png)
 Package pdftex.def Info: Chapter-6/figs/9deg_Scale.png  used on input line 581.
 
 (pdftex.def)             Requested size: 15.809pt x 76.03386pt.
-<Chapter-6/figs/5deg_SiTotE_GSiDEvsSiE.png, id=1150, 727.71875pt x 530.98375pt>
+<Chapter-6/figs/5deg_SiTotE_GSiDEvsSiE.png, id=1197, 727.71875pt x 530.98375pt>
 
 File: Chapter-6/figs/5deg_SiTotE_GSiDEvsSiE.png Graphic file (type png)
 <use Chapter-6/figs/5deg_SiTotE_GSiDEvsSiE.png>
 Package pdftex.def Info: Chapter-6/figs/5deg_SiTotE_GSiDEvsSiE.png  used on inp
 ut line 627.
 (pdftex.def)             Requested size: 397.48499pt x 290.03262pt.
- [37 <./Chapter-6/figs/5deg_SiDEvsSiTotE_GSiDEvsSiE.png>]
-<Chapter-6/figs/7deg_oxidized.png, id=1162, 1340.00626pt x 527.9725pt>
+ [40 <./Chapter-6/figs/5deg_SiDEvsSiTotE_GSiDEvsSiE.png>]
+<Chapter-6/figs/7deg_oxidized.png, id=1209, 1340.00626pt x 527.9725pt>
 File: Chapter-6/figs/7deg_oxidized.png Graphic file (type png)
 <use Chapter-6/figs/7deg_oxidized.png>
 Package pdftex.def Info: Chapter-6/figs/7deg_oxidized.png  used on input line 6
@@ -1892,21 +1895,21 @@ Overfull \hbox (3.71434pt too wide) in paragraph at lines 691--692
  [][] 
  []
 
-[38 <./Chapter-6/figs/5deg_SiTotE_GSiDEvsSiE.png>] [39 <./Chapter-6/figs/7deg_o
-xidized.png>] [40] [41]
-<Chapter-6/figs/Gaus_Bayesian.png, id=1194, 1880.02374pt x 960.58875pt>
+[41 <./Chapter-6/figs/5deg_SiTotE_GSiDEvsSiE.png>] [42 <./Chapter-6/figs/7deg_o
+xidized.png>] [43] [44]
+<Chapter-6/figs/Gaus_Bayesian.png, id=1243, 1880.02374pt x 960.58875pt>
 File: Chapter-6/figs/Gaus_Bayesian.png Graphic file (type png)
 <use Chapter-6/figs/Gaus_Bayesian.png>
 Package pdftex.def Info: Chapter-6/figs/Gaus_Bayesian.png  used on input line 7
 38.
 (pdftex.def)             Requested size: 469.75499pt x 240.01468pt.
- [42 <./Chapter-6/figs/Gaus_Bayesian.png>] [43] [44]
-<Chapter-6/figs/mu_and_A.png, id=1228, 1902.10625pt x 920.43875pt>
+ [45 <./Chapter-6/figs/Gaus_Bayesian.png>] [46] [47]
+<Chapter-6/figs/mu_and_A.png, id=1276, 1902.10625pt x 920.43875pt>
 File: Chapter-6/figs/mu_and_A.png Graphic file (type png)
 <use Chapter-6/figs/mu_and_A.png>
 Package pdftex.def Info: Chapter-6/figs/mu_and_A.png  used on input line 788.
 (pdftex.def)             Requested size: 469.75499pt x 227.31421pt.
-<Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png, id=1233, 935.495pt x 418.56
+<Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png, id=1281, 935.495pt x 418.56
 375pt>
 File: Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png Graphic file (type png)
 
@@ -1915,29 +1918,29 @@ Package pdftex.def Info: Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png  use
 d on input line 794.
 (pdftex.def)             Requested size: 469.75499pt x 210.18188pt.
 
-[45 <./Chapter-6/figs/mu_and_A.png>]
-<Chapter-6/figs/EMG_Multiplet.png, id=1243, 1893.0725pt x 967.615pt>
+[48 <./Chapter-6/figs/mu_and_A.png>]
+<Chapter-6/figs/EMG_Multiplet.png, id=1291, 1893.0725pt x 967.615pt>
 File: Chapter-6/figs/EMG_Multiplet.png Graphic file (type png)
 <use Chapter-6/figs/EMG_Multiplet.png>
 Package pdftex.def Info: Chapter-6/figs/EMG_Multiplet.png  used on input line 8
 06.
 (pdftex.def)             Requested size: 469.75499pt x 240.10188pt.
- [46 <./Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png>] [47 <./Chapter-6/fi
-gs/EMG_Multiplet.png>] [48] [49] [50]
+ [49 <./Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png>] [50 <./Chapter-6/fi
+gs/EMG_Multiplet.png>] [51] [52] [53]
 Overfull \hbox (1.26982pt too wide) in paragraph at lines 930--931
 \T1/lmr/m/n/12 (-20) As men-tioned in Sec-tion [][]6.5.4[][], a Si de-tec-tor t
 ele-scope was used to mea-sure the $[]\OT1/lmr/m/n/12 (-20) K([][]\OML/lmm/m/it
 /12 ; [][][]\OT1/lmr/m/n/12 (-20) )[]K$
  []
 
-[51] [52]
-<Chapter-6/figs/variation_13deg.png, id=1320, 3562.30875pt x 2637.855pt>
+[54] [55]
+<Chapter-6/figs/variation_13deg.png, id=1367, 3562.30875pt x 2637.855pt>
 File: Chapter-6/figs/variation_13deg.png Graphic file (type png)
 <use Chapter-6/figs/variation_13deg.png>
 Package pdftex.def Info: Chapter-6/figs/variation_13deg.png  used on input line
  969.
 (pdftex.def)             Requested size: 433.62pt x 321.07724pt.
- [53] [54 <./Chapter-6/figs/variation_13deg.png (PNG copy)>]
+ [56] [57 <./Chapter-6/figs/variation_13deg.png (PNG copy)>]
 Overfull \hbox (7.15096pt too wide) in paragraph at lines 1003--1004
 []\T1/lmr/m/n/12 (-20) The nu-clear re-ac-tion code \T1/lmtt/m/n/12 Fresco \T1/
 lmr/m/n/12 (-20) [[][]Tho88[][], [][]Tho06[][]] was used to cal-cu-late the $[]
@@ -1945,7 +1948,7 @@ lmr/m/n/12 (-20) [[][]Tho88[][], [][]Tho06[][]] was used to cal-cu-late the $[]
 $
  []
 
-<Chapter-6/figs/global_NoNorm.png, id=1349, 3482.00874pt x 2320.67pt>
+<Chapter-6/figs/global_NoNorm.png, id=1395, 3482.00874pt x 2320.67pt>
 File: Chapter-6/figs/global_NoNorm.png Graphic file (type png)
 <use Chapter-6/figs/global_NoNorm.png>
 Package pdftex.def Info: Chapter-6/figs/global_NoNorm.png  used on input line 1
@@ -1956,14 +1959,14 @@ Overfull \hbox (7.83232pt too wide) in paragraph at lines 1011--1012
  [][] 
  []
 
-[55]
-<Chapter-6/figs/global_Norm.png, id=1360, 3668.70625pt x 2684.0275pt>
+[58]
+<Chapter-6/figs/global_Norm.png, id=1406, 3668.70625pt x 2684.0275pt>
 File: Chapter-6/figs/global_Norm.png Graphic file (type png)
 <use Chapter-6/figs/global_Norm.png>
 Package pdftex.def Info: Chapter-6/figs/global_Norm.png  used on input line 102
 4.
 (pdftex.def)             Requested size: 469.75499pt x 343.65265pt.
- [56 <./Chapter-6/figs/global_NoNorm.png (PNG copy)>]
+ [59 <./Chapter-6/figs/global_NoNorm.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1031.
@@ -1984,34 +1987,34 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1031.
 
-[57 <./Chapter-6/figs/global_Norm.png (PNG copy)>] [58]
-<Chapter-6/figs/CalibrationStates.png, id=1384, 1300.86pt x 722.7pt>
+[60 <./Chapter-6/figs/global_Norm.png (PNG copy)>] [61]
+<Chapter-6/figs/CalibrationStates.png, id=1431, 1300.86pt x 722.7pt>
 File: Chapter-6/figs/CalibrationStates.png Graphic file (type png)
 <use Chapter-6/figs/CalibrationStates.png>
 Package pdftex.def Info: Chapter-6/figs/CalibrationStates.png  used on input li
 ne 1047.
 (pdftex.def)             Requested size: 469.75499pt x 260.9768pt.
- [59 <./Chapter-6/figs/CalibrationStates.png>]
-<Chapter-6/figs/residuals-5deg.png, id=1400, 650.43pt x 361.35pt>
+ [62 <./Chapter-6/figs/CalibrationStates.png>]
+<Chapter-6/figs/residuals-5deg.png, id=1448, 650.43pt x 361.35pt>
 File: Chapter-6/figs/residuals-5deg.png Graphic file (type png)
 <use Chapter-6/figs/residuals-5deg.png>
 Package pdftex.def Info: Chapter-6/figs/residuals-5deg.png  used on input line 
 1069.
 (pdftex.def)             Requested size: 469.75499pt x 260.98232pt.
- [60]
-<Chapter-6/figs/8551keV_comparison.png, id=1411, 3430.8175pt x 2492.31125pt>
+ [63]
+<Chapter-6/figs/8551keV_comparison.png, id=1458, 3430.8175pt x 2492.31125pt>
 File: Chapter-6/figs/8551keV_comparison.png Graphic file (type png)
 <use Chapter-6/figs/8551keV_comparison.png>
 Package pdftex.def Info: Chapter-6/figs/8551keV_comparison.png  used on input l
 ine 1088.
 (pdftex.def)             Requested size: 469.75499pt x 341.23923pt.
-<Chapter-6/figs/res.png, id=1412, 3360.555pt x 2314.6475pt>
+<Chapter-6/figs/res.png, id=1459, 3360.555pt x 2314.6475pt>
 File: Chapter-6/figs/res.png Graphic file (type png)
 <use Chapter-6/figs/res.png>
 Package pdftex.def Info: Chapter-6/figs/res.png  used on input line 1094.
 (pdftex.def)             Requested size: 469.75499pt x 323.55399pt.
- [61 <./Chapter-6/figs/Residuals-5deg.png>] [62 <./Chapter-6/figs/8551keV_compa
-rison.png (PNG copy)>] [63 <./Chapter-6/figs/res.png (PNG copy)>] [64]
+ [64 <./Chapter-6/figs/Residuals-5deg.png>] [65 <./Chapter-6/figs/8551keV_compa
+rison.png (PNG copy)>] [66 <./Chapter-6/figs/res.png (PNG copy)>] [67]
 Overfull \hbox (0.71977pt too wide) in paragraph at lines 1130--1130
 []|$[]$|  
  []
@@ -2050,8 +2053,8 @@ Overfull \hbox (0.71977pt too wide) in paragraph at lines 1178--1178
 Overfull \vbox (5.27773pt too high) has occurred while \output is active []
 
 
-[65]
-<Chapter-6/figs/AstroRegion_Calibrated.png, id=1451, 1300.86pt x 722.7pt>
+[68]
+<Chapter-6/figs/AstroRegion_Calibrated.png, id=1498, 1300.86pt x 722.7pt>
 File: Chapter-6/figs/AstroRegion_Calibrated.png Graphic file (type png)
 <use Chapter-6/figs/AstroRegion_Calibrated.png>
 Package pdftex.def Info: Chapter-6/figs/AstroRegion_Calibrated.png  used on inp
@@ -2062,12 +2065,12 @@ Overfull \hbox (7.83232pt too wide) in paragraph at lines 1204--1205
  [][] 
  []
 
-[66 <./Chapter-6/figs/AstroRegion_Calibrated.png>] [67]
+[69 <./Chapter-6/figs/AstroRegion_Calibrated.png>] [70]
 
-LaTeX Warning: Citation '??' on page 68 undefined on input line 1252.
+LaTeX Warning: Citation '??' on page 71 undefined on input line 1252.
 
-[68]
-<Chapter-6/figs/7532keV_NoNorm.png, id=1501, 4511.85625pt x 3428.81pt>
+[71]
+<Chapter-6/figs/7532keV_NoNorm.png, id=1548, 4511.85625pt x 3428.81pt>
 File: Chapter-6/figs/7532keV_NoNorm.png Graphic file (type png)
 <use Chapter-6/figs/7532keV_NoNorm.png>
 Package pdftex.def Info: Chapter-6/figs/7532keV_NoNorm.png  used on input line 
@@ -2078,61 +2081,61 @@ Overfull \hbox (7.83232pt too wide) in paragraph at lines 1262--1263
  [][] 
  []
 
-[69 <./Chapter-6/figs/7532keV_NoNorm.png (PNG copy)>]
-<Chapter-6/figs/7532keV_Norm.png, id=1513, 4511.85625pt x 3428.81pt>
+[72 <./Chapter-6/figs/7532keV_NoNorm.png (PNG copy)>]
+<Chapter-6/figs/7532keV_Norm.png, id=1560, 4511.85625pt x 3428.81pt>
 File: Chapter-6/figs/7532keV_Norm.png Graphic file (type png)
 <use Chapter-6/figs/7532keV_Norm.png>
 Package pdftex.def Info: Chapter-6/figs/7532keV_Norm.png  used on input line 12
 70.
 (pdftex.def)             Requested size: 469.75499pt x 356.97499pt.
- [70 <./Chapter-6/figs/7532keV_Norm.png (PNG copy)>] [71]
-<Chapter-6/figs/diffcross_6panel_1.png, id=1537, 8245.80624pt x 8755.71124pt>
+ [73 <./Chapter-6/figs/7532keV_Norm.png (PNG copy)>] [74]
+<Chapter-6/figs/diffcross_6panel_1.png, id=1585, 8245.80624pt x 8755.71124pt>
 File: Chapter-6/figs/diffcross_6panel_1.png Graphic file (type png)
 <use Chapter-6/figs/diffcross_6panel_1.png>
 Package pdftex.def Info: Chapter-6/figs/diffcross_6panel_1.png  used on input l
 ine 1295.
 (pdftex.def)             Requested size: 469.75499pt x 498.73337pt.
- [72 <./Chapter-6/figs/diffcross_6panel_1.png (PNG copy)>]
-<Chapter-6/figs/diffcross_6panel_2.png, id=1543, 8245.80624pt x 8755.71124pt>
+ [75 <./Chapter-6/figs/diffcross_6panel_1.png (PNG copy)>]
+<Chapter-6/figs/diffcross_6panel_2.png, id=1590, 8245.80624pt x 8755.71124pt>
 File: Chapter-6/figs/diffcross_6panel_2.png Graphic file (type png)
 <use Chapter-6/figs/diffcross_6panel_2.png>
 Package pdftex.def Info: Chapter-6/figs/diffcross_6panel_2.png  used on input l
 ine 1303.
 (pdftex.def)             Requested size: 469.75499pt x 498.73337pt.
- [73 <./Chapter-6/figs/diffcross_6panel_2.png (PNG copy)>]
-<Chapter-6/figs/diffcross_6panel_3.png, id=1548, 8245.80624pt x 8702.5125pt>
+ [76 <./Chapter-6/figs/diffcross_6panel_2.png (PNG copy)>]
+<Chapter-6/figs/diffcross_6panel_3.png, id=1595, 8245.80624pt x 8702.5125pt>
 File: Chapter-6/figs/diffcross_6panel_3.png Graphic file (type png)
 <use Chapter-6/figs/diffcross_6panel_3.png>
 Package pdftex.def Info: Chapter-6/figs/diffcross_6panel_3.png  used on input l
 ine 1311.
 (pdftex.def)             Requested size: 469.75499pt x 495.70313pt.
- [74 <./Chapter-6/figs/diffcross_6panel_3.png (PNG copy)>]
-<Chapter-6/figs/diffcross_6panel_4.png, id=1553, 8245.80624pt x 8702.5125pt>
+ [77 <./Chapter-6/figs/diffcross_6panel_3.png (PNG copy)>]
+<Chapter-6/figs/diffcross_6panel_4.png, id=1601, 8245.80624pt x 8702.5125pt>
 File: Chapter-6/figs/diffcross_6panel_4.png Graphic file (type png)
 <use Chapter-6/figs/diffcross_6panel_4.png>
 Package pdftex.def Info: Chapter-6/figs/diffcross_6panel_4.png  used on input l
 ine 1319.
 (pdftex.def)             Requested size: 469.75499pt x 495.70313pt.
- [75 <./Chapter-6/figs/diffcross_6panel_4.png (PNG copy)>]
-<Chapter-6/figs/unbound.png, id=1558, 8356.21875pt x 2791.42876pt>
+ [78 <./Chapter-6/figs/diffcross_6panel_4.png (PNG copy)>]
+<Chapter-6/figs/unbound.png, id=1606, 8356.21875pt x 2791.42876pt>
 File: Chapter-6/figs/unbound.png Graphic file (type png)
 <use Chapter-6/figs/unbound.png>
 Package pdftex.def Info: Chapter-6/figs/unbound.png  used on input line 1332.
 (pdftex.def)             Requested size: 469.75499pt x 156.91525pt.
- [76 <./Chapter-6/figs/unbound.png (PNG copy)>]
-[77] [78] [79]
+ [79 <./Chapter-6/figs/unbound.png (PNG copy)>]
+[80] [81] [82]
 
-LaTeX Warning: Reference `tab:partial_widths' on page 80 undefined on input lin
+LaTeX Warning: Reference `tab:partial_widths' on page 83 undefined on input lin
 e 1409.
 
-[80]
-<Chapter-6/figs/5deg_9400keVGroup.png, id=1756, 1892.06876pt x 886.31125pt>
+[83]
+<Chapter-6/figs/5deg_9400keVGroup.png, id=1804, 1892.06876pt x 886.31125pt>
 File: Chapter-6/figs/5deg_9400keVGroup.png Graphic file (type png)
 <use Chapter-6/figs/5deg_9400keVGroup.png>
 Package pdftex.def Info: Chapter-6/figs/5deg_9400keVGroup.png  used on input li
 ne 1428.
 (pdftex.def)             Requested size: 469.75499pt x 220.04906pt.
- [81 <./Chapter-6/figs/5deg_9400keVGroup.png>] [82] [83]
+ [84 <./Chapter-6/figs/5deg_9400keVGroup.png>] [85] [86]
 Overfull \hbox (1.55309pt too wide) in paragraph at lines 1538--1538
 []|$[]$|  
  []
@@ -2148,15 +2151,15 @@ Overfull \hbox (1.55309pt too wide) in paragraph at lines 1590--1590
  []
 
 
-LaTeX Warning: Reference `eqn:narrow_rate' on page 84 undefined on input line 1
+LaTeX Warning: Reference `eqn:narrow_rate' on page 87 undefined on input line 1
 610.
 
 
-LaTeX Warning: Reference `eqn:resonance_strength' on page 84 undefined on input
+LaTeX Warning: Reference `eqn:resonance_strength' on page 87 undefined on input
  line 1610.
 
 
-LaTeX Warning: Reference `tab:partial_widths' on page 84 undefined on input lin
+LaTeX Warning: Reference `tab:partial_widths' on page 87 undefined on input lin
 e 1614.
 
 
@@ -2179,26 +2182,26 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1621.
 
-[84] [85]
-<Chapter-6/figs/rateCompare.png, id=1851, 433.62pt x 361.35pt>
+[87] [88]
+<Chapter-6/figs/rateCompare.png, id=1897, 433.62pt x 361.35pt>
 File: Chapter-6/figs/rateCompare.png Graphic file (type png)
 <use Chapter-6/figs/rateCompare.png>
 Package pdftex.def Info: Chapter-6/figs/rateCompare.png  used on input line 163
 6.
 (pdftex.def)             Requested size: 469.75499pt x 391.48175pt.
-<Chapter-6/figs/uncCompare.png, id=1856, 433.62pt x 433.62pt>
+<Chapter-6/figs/uncCompare.png, id=1902, 433.62pt x 433.62pt>
 File: Chapter-6/figs/uncCompare.png Graphic file (type png)
 <use Chapter-6/figs/uncCompare.png>
 Package pdftex.def Info: Chapter-6/figs/uncCompare.png  used on input line 1641
 .
 (pdftex.def)             Requested size: 469.75499pt x 469.7781pt.
-<Chapter-6/figs/Contrib_Fox.png, id=1859, 433.62pt x 361.35pt>
+<Chapter-6/figs/Contrib_Fox.png, id=1905, 433.62pt x 361.35pt>
 File: Chapter-6/figs/Contrib_Fox.png Graphic file (type png)
 <use Chapter-6/figs/Contrib_Fox.png>
 Package pdftex.def Info: Chapter-6/figs/Contrib_Fox.png  used on input line 164
 8.
 (pdftex.def)             Requested size: 469.75499pt x 391.48175pt.
-<Chapter-6/figs/MaxKSeparation_T100_rho4d7_xlast20_HDA.png, id=1860, 289.08pt x
+<Chapter-6/figs/MaxKSeparation_T100_rho4d7_xlast20_HDA.png, id=1906, 289.08pt x
  361.35pt>
 File: Chapter-6/figs/MaxKSeparation_T100_rho4d7_xlast20_HDA.png Graphic file (t
 ype png)
@@ -2210,19 +2213,19 @@ png  used on input line 1656.
 
 LaTeX Warning: Float too large for page by 4.79538pt on input line 1658.
 
-[86]) [87] [88 <./Chapter-6/figs/rateCompare.png>] [89 <./Chapter-6/figs/uncCom
-pare.png>] [90 <./Chapter-6/figs/Contrib_Fox.png>] [91 <./Chapter-6/figs/MaxKSe
+[89]) [90] [91 <./Chapter-6/figs/rateCompare.png>] [92 <./Chapter-6/figs/uncCom
+pare.png>] [93 <./Chapter-6/figs/Contrib_Fox.png>] [94 <./Chapter-6/figs/MaxKSe
 paration_T100_rho4d7_xlast20_HDA.png>]
 \openout2 = `Chapter-7/Chapter-7.aux'.
 
  (./Chapter-7/Chapter-7.tex
 Chapter 7.
-) [92
+) [95
 
 
 
 
-] [93
+] [96
 
 
 
@@ -2233,7 +2236,7 @@ s Ob-served with the $[]\OT1/lmr/m/n/12 (-20) K([][]\OML/lmm/m/it/12 ; d\OT1/lm
 r/m/n/12 (-20) )[][]$
  []
 
-[94] [95] [96] [97] [98] [99
+[97] [98] [99] [100] [101] [102
 
 
 ]
@@ -2241,7 +2244,7 @@ r/m/n/12 (-20) )[][]$
 
  (./Appendix-A/Appendix-A.tex
 Appendix A.
-) [100
+) [103
 
 
 
@@ -2258,7 +2261,7 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `WilliamFox-dissertation.out' has not changed
 .
-(rerunfilecheck)             Checksum: 621B3E4D159A68950D871BE258EE2E64;4170.
+(rerunfilecheck)             Checksum: AFF40C89B47C01686D6AED22804AE0A6;4170.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                WilliamFox-dissertation
@@ -2269,11 +2272,11 @@ Package logreq Info: Writing requests to 'WilliamFox-dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32084 strings out of 479304
- 611853 string characters out of 5871220
- 1260148 words of memory out of 5000000
- 47797 multiletter control sequences out of 15000+600000
- 556229 words of font info for 311 fonts, out of 8000000 for 9000
+ 32176 strings out of 479304
+ 613830 string characters out of 5871220
+ 1264958 words of memory out of 5000000
+ 47868 multiletter control sequences out of 15000+600000
+ 556522 words of font info for 314 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,19n,93p,2572b,1819s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2020
@@ -2295,14 +2298,15 @@ public/lm/lmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb><
 c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texm
 f-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1
 /public/lm/lmri7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.p
-fb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2020
-/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msbm10.pfb>
-Output written on WilliamFox-dissertation.pdf (113 pages, 13682327 bytes).
+fb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy6.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/t
+ype1/public/lm/lmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt
+12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
+fb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on WilliamFox-dissertation.pdf (117 pages, 13704105 bytes).
 PDF statistics:
- 2110 PDF objects out of 2487 (max. 8388607)
- 1862 compressed objects within 19 object streams
- 366 named destinations out of 1000 (max. 500000)
+ 2166 PDF objects out of 2487 (max. 8388607)
+ 1911 compressed objects within 20 object streams
+ 378 named destinations out of 1000 (max. 500000)
  83113 words of extra memory for PDF output out of 89155 (max. 10000000)
 
