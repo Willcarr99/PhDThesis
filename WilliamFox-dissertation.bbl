@@ -3695,6 +3695,207 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Wilhelmy2020}{article}{}
+    \name{author}{29}{}{%
+      {{hash=WJ}{%
+         family={Wilhelmy},
+         familyi={W\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={M\"uscher},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Rusev},
+         familyi={R\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Schwengner},
+         familyi={S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Beyer},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bhike},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Erbacher},
+         familyi={E\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Fiedler},
+         familyi={F\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=FGU}{%
+         family={Friman-Gayer},
+         familyi={F\bibinithyphendelim G\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Glorius},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Greifenhagen},
+         familyi={G\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hammer},
+         familyi={H\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hensel},
+         familyi={H\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=IJ}{%
+         family={Isaak},
+         familyi={I\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JAR}{%
+         family={Junghans},
+         familyi={J\bibinitperiod},
+         given={A.\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={Krishichayan},
+         familyi={K\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={L\"oher},
+         familyi={L\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MSE}{%
+         family={M\"uller},
+         familyi={M\bibinitperiod},
+         given={S.\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Pietralla},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Reinicke},
+         familyi={R\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Savran},
+         familyi={S\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Scholz},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Sonnabend},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sz\"ucs},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tamkas},
+         familyi={T\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Tornow},
+         familyi={T\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Turkat},
+         familyi={T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wagner},
+         familyi={W\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zilges},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{WJ+1}
+  \strng{fullhash}{WJMMRGSRBRBMEPFFFGUGJGRHSHTIJJARKLBMSEPNRSSDSPSKSTTMTWTSWAZA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wil20}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1103/PhysRevC.102.044327
+    \endverb
+    \field{issue}{4}
+    \field{pages}{044327}
+    \field{title}{Dipole response of $^{87}\mathrm{Rb}$ and its impact on the
+  $^{86}\mathrm{Rb}(n,\ensuremath{\gamma})^{87}\mathrm{Rb}$ cross section}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevC.102.044327
+    \endverb
+    \field{volume}{102}
+    \field{journaltitle}{Phys. Rev. C}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Yamaya1994}{article}{}
     \name{author}{9}{}{%
       {{hash=YT}{%
