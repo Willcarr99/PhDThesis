@@ -45,7 +45,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevC.73.054605
     \endverb
-    \field{issue}{5}
+    \field{number}{5}
     \field{pages}{054605}
     \field{title}{Global deuteron optical model potential for the energy range
   up to 183 $\mathrm{MeV}$}
@@ -120,7 +120,7 @@
     \verb{doi}
     \verb 10.1103/PhysRev.49.519
     \endverb
-    \field{issue}{7}
+    \field{number}{7}
     \field{pages}{519\bibrangedash 531}
     \field{title}{Capture of Slow Neutrons}
     \verb{url}
@@ -166,7 +166,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevC.84.024319
     \endverb
-    \field{issue}{2}
+    \field{number}{2}
     \field{pages}{024319}
     \field{title}{Quantum Monte Carlo calculations of spectroscopic overlaps in
   $A\ensuremath{\leqslant}7$ nuclei}
@@ -219,7 +219,7 @@
     \verb{doi}
     \verb 10.1103/RevModPhys.29.547
     \endverb
-    \field{issue}{4}
+    \field{number}{4}
     \field{pages}{547\bibrangedash 650}
     \field{title}{Synthesis of the Elements in Stars}
     \verb{url}
@@ -655,177 +655,6 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{DErcole2010}{article}{}
-    \name{author}{5}{}{%
-      {{hash=DA}{%
-         family={{D'Ercole}},
-         familyi={D\bibinitperiod},
-         given={Annibale},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=DF}{%
-         family={{D'Antona}},
-         familyi={D\bibinitperiod},
-         given={Francesca},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=VP}{%
-         family={Ventura},
-         familyi={V\bibinitperiod},
-         given={Paolo},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=VE}{%
-         family={Vesperini},
-         familyi={V\bibinitperiod},
-         given={Enrico},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=MSLW}{%
-         family={McMillan},
-         familyi={M\bibinitperiod},
-         given={Stephen L.\bibnamedelima W.},
-         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
-  W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DA+1}
-    \strng{fullhash}{DADFVPVEMSLW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{D'E}10}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \verb{doi}
-    \verb 10.1111/j.1365-2966.2010.16996.x
-    \endverb
-    \verb{eprint}
-    \verb https://academic.oup.com/mnras/article-pdf/407/2/854/3892393/mnras040
-    \verb 7-0854.pdf
-    \endverb
-    \field{issn}{0035-8711}
-    \field{number}{2}
-    \field{pages}{854\bibrangedash 869}
-    \field{title}{Abundance patterns of multiple populations in globular
-  clusters: a chemical evolution model based on yields from AGB ejecta}
-    \verb{url}
-    \verb https://doi.org/10.1111/j.1365-2966.2010.16996.x
-    \endverb
-    \field{volume}{407}
-    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
-    \field{month}{09}
-    \field{year}{2010}
-  \endentry
-
-  \entry{DErcole2011}{article}{}
-    \name{author}{3}{}{%
-      {{hash=DA}{%
-         family={{D'Ercole}},
-         familyi={D\bibinitperiod},
-         given={Annibale},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=DF}{%
-         family={{D'Antona}},
-         familyi={D\bibinitperiod},
-         given={Francesca},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=VE}{%
-         family={Vesperini},
-         familyi={V\bibinitperiod},
-         given={Enrico},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DADFVE1}
-    \strng{fullhash}{DADFVE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{D'E}11}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \verb{doi}
-    \verb 10.1111/j.1365-2966.2011.18776.x
-    \endverb
-    \verb{eprint}
-    \verb https://academic.oup.com/mnras/article-pdf/415/2/1304/3496027/mnras04
-    \verb 15-1304.pdf
-    \endverb
-    \field{issn}{0035-8711}
-    \field{number}{2}
-    \field{pages}{1304\bibrangedash 1309}
-    \field{title}{Formation of multiple populations in globular clusters:
-  constraints on the dilution by pristine gas}
-    \verb{url}
-    \verb https://doi.org/10.1111/j.1365-2966.2011.18776.x
-    \endverb
-    \field{volume}{415}
-    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
-    \field{month}{07}
-    \field{year}{2011}
-  \endentry
-
-  \entry{DErcole2012}{article}{}
-    \name{author}{5}{}{%
-      {{hash=DA}{%
-         family={{D'Ercole}},
-         familyi={D\bibinitperiod},
-         given={Annibale},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=DF}{%
-         family={{D'Antona}},
-         familyi={D\bibinitperiod},
-         given={Francesca},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=CR}{%
-         family={Carini},
-         familyi={C\bibinitperiod},
-         given={Roberta},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=VE}{%
-         family={Vesperini},
-         familyi={V\bibinitperiod},
-         given={Enrico},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=VP}{%
-         family={Ventura},
-         familyi={V\bibinitperiod},
-         given={Paolo},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DA+1}
-    \strng{fullhash}{DADFCRVEVP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{D'E}12}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \verb{doi}
-    \verb 10.1111/j.1365-2966.2012.20974.x
-    \endverb
-    \verb{eprint}
-    \verb https://academic.oup.com/mnras/article-pdf/423/2/1521/2858079/mnras04
-    \verb 23-1521.pdf
-    \endverb
-    \field{number}{2}
-    \field{pages}{1521\bibrangedash 1533}
-    \field{title}{The role of super-asymptotic giant branch ejecta in the
-  abundance patterns of multiple populations in globular clusters}
-    \verb{url}
-    \verb https://doi.org/10.1111/j.1365-2966.2012.20974.x
-    \endverb
-    \field{volume}{423}
-    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
-    \field{month}{06}
-    \field{year}{2012}
-  \endentry
-
   \entry{Denisenkov1989}{article}{}
     \name{author}{2}{}{%
       {{hash=DPA}{%
@@ -849,12 +678,12 @@
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \field{pages}{11}
-    \field{title}{{Possible Explanation of the Correlation Between Nitrogen and
-  Sodium Over Abundances for Red Giants in Globular Clusters}}
+    \field{title}{Possible Explanation of the Correlation Between Nitrogen and
+  Sodium Over Abundances for Red Giants in Globular Clusters}
     \field{volume}{1538}
     \field{journaltitle}{Astronomicheskij Tsirkulyar}
-    \field{month}{06}
     \field{year}{1989}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Dermigny2017}{article}{}
@@ -930,6 +759,180 @@
     \field{year}{1977}
   \endentry
 
+  \entry{DErcole2010}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DA}{%
+         family={{D'Ercole}},
+         familyi={D\bibinitperiod},
+         given={Annibale},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={{D'Antona}},
+         familyi={D\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Ventura},
+         familyi={V\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vesperini},
+         familyi={V\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MSLW}{%
+         family={McMillan},
+         familyi={M\bibinitperiod},
+         given={Stephen L.\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DADFVPVEMSLW1}
+    \field{label}{Erc}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Erc10}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2010.16996.x
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/mnras/article-pdf/407/2/854/3892393/mnras040
+    \verb 7-0854.pdf
+    \endverb
+    \field{issn}{0035-8711}
+    \field{number}{2}
+    \field{pages}{854\bibrangedash 869}
+    \field{title}{Abundance patterns of multiple populations in globular
+  clusters: a chemical evolution model based on yields from AGB ejecta}
+    \verb{url}
+    \verb https://doi.org/10.1111/j.1365-2966.2010.16996.x
+    \endverb
+    \field{volume}{407}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{month}{09}
+    \field{year}{2010}
+  \endentry
+
+  \entry{DErcole2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DA}{%
+         family={{D'Ercole}},
+         familyi={D\bibinitperiod},
+         given={Annibale},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={{D'Antona}},
+         familyi={D\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vesperini},
+         familyi={V\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DADFVE1}
+    \strng{fullhash}{DADFVE1}
+    \field{label}{Erc}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Erc11}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2011.18776.x
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/mnras/article-pdf/415/2/1304/3496027/mnras04
+    \verb 15-1304.pdf
+    \endverb
+    \field{issn}{0035-8711}
+    \field{number}{2}
+    \field{pages}{1304\bibrangedash 1309}
+    \field{title}{Formation of multiple populations in globular clusters:
+  constraints on the dilution by pristine gas}
+    \verb{url}
+    \verb https://doi.org/10.1111/j.1365-2966.2011.18776.x
+    \endverb
+    \field{volume}{415}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{month}{07}
+    \field{year}{2011}
+  \endentry
+
+  \entry{DErcole2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DA}{%
+         family={{D'Ercole}},
+         familyi={D\bibinitperiod},
+         given={Annibale},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={{D'Antona}},
+         familyi={D\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Carini},
+         familyi={C\bibinitperiod},
+         given={Roberta},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vesperini},
+         familyi={V\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Ventura},
+         familyi={V\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DA+1}
+    \strng{fullhash}{DADFCRVEVP1}
+    \field{label}{Erc}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Erc12}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2012.20974.x
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/mnras/article-pdf/423/2/1521/2858079/mnras04
+    \verb 23-1521.pdf
+    \endverb
+    \field{number}{2}
+    \field{pages}{1521\bibrangedash 1533}
+    \field{title}{The role of super-asymptotic giant branch ejecta in the
+  abundance patterns of multiple populations in globular clusters}
+    \verb{url}
+    \verb https://doi.org/10.1111/j.1365-2966.2012.20974.x
+    \endverb
+    \field{volume}{423}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{month}{06}
+    \field{year}{2012}
+  \endentry
+
   \entry{Erskine1966}{article}{}
     \name{author}{1}{}{%
       {{hash=EJR}{%
@@ -952,10 +955,10 @@
     \verb{doi}
     \verb 10.1103/PhysRev.149.854
     \endverb
-    \field{issue}{3}
+    \field{number}{3}
     \field{pages}{854\bibrangedash 862}
     \field{title}{Energy-Level Structure of $^{40}\mathrm{Ca}$ as Observed with
-  the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ Reaction}
+  the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)$ ${}^{40}\mathrm{Ca}$ Reaction}
     \verb{url}
     \verb https://link.aps.org/doi/10.1103/PhysRev.149.854
     \endverb
@@ -967,11 +970,11 @@
 
   \entry{Forster1970}{article}{}
     \name{author}{4}{}{%
-      {{hash=FJ}{%
+      {{hash=FJS}{%
          family={Forster},
          familyi={F\bibinitperiod},
-         given={J.S.},
-         giveni={J\bibinitperiod},
+         given={J.\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
       {{hash=BK}{%
          family={Bearpark},
@@ -979,22 +982,22 @@
          given={K.},
          giveni={K\bibinitperiod},
       }}%
-      {{hash=HJ}{%
+      {{hash=HJL}{%
          family={Hutton},
          familyi={H\bibinitperiod},
-         given={J.L.},
-         giveni={J\bibinitperiod},
+         given={J.\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
-      {{hash=SSJ}{%
+      {{hash=SSJF}{%
          family={Sharpey-Schafer},
          familyi={S\bibinithyphendelim S\bibinitperiod},
-         given={J.F.},
-         giveni={J\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
     }
     \keyw{Nuclear Reactions}
-    \strng{namehash}{FJ+1}
-    \strng{fullhash}{FJBKHJSSJ1}
+    \strng{namehash}{FJS+1}
+    \strng{fullhash}{FJSBKHJLSSJF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{For70}
@@ -1262,7 +1265,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevC.106.014308
     \endverb
-    \field{issue}{1}
+    \field{number}{1}
     \field{pages}{014308}
     \field{title}{Investigation of $^{11}\mathrm{B}$ and $^{40}\mathrm{Ca}$
   levels at 8--9 MeV by nuclear resonance fluorescence}
@@ -1328,7 +1331,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevC.6.915
     \endverb
-    \field{issue}{3}
+    \field{number}{3}
     \field{pages}{915\bibrangedash 944}
     \field{title}{Energy Dependence of Proton Inelastic Scattering from
   $^{40}\mathrm{Ca}$}
@@ -1472,7 +1475,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevC.70.045802
     \endverb
-    \field{issue}{4}
+    \field{number}{4}
     \field{pages}{045802}
     \field{title}{Investigation of the
   $^{23}\mathrm{Na}(p,\ensuremath{\gamma})^{24}\mathrm{Mg}$ and
@@ -2472,7 +2475,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevC.98.025802
     \endverb
-    \field{issue}{2}
+    \field{number}{2}
     \field{pages}{025802}
     \field{title}{Reaction rates for the
   $^{39}\mathrm{K}(p,\ensuremath{\gamma})^{40}\mathrm{Ca}$ reaction}
@@ -2826,7 +2829,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevC.11.1159
     \endverb
-    \field{issue}{4}
+    \field{number}{4}
     \field{pages}{1159\bibrangedash 1166}
     \field{title}{High-resolution study of $^{40}\mathrm{Ca}$ via inelastic
   proton scattering at 35 MeV}
@@ -2867,7 +2870,7 @@
     \verb{doi}
     \verb 10.1103/PhysRev.104.483
     \endverb
-    \field{issue}{2}
+    \field{number}{2}
     \field{pages}{483\bibrangedash 491}
     \field{title}{Fluctuations of Nuclear Reaction Widths}
     \verb{url}
@@ -3220,7 +3223,7 @@
     \verb{doi}
     \verb 10.1103/PhysRev.164.1450
     \endverb
-    \field{issue}{4}
+    \field{number}{4}
     \field{pages}{1450\bibrangedash 1474}
     \field{title}{Study of Proton Particle-Hole States in $^{40}\mathrm{Ca}$ by
   the $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ Reaction}
@@ -3285,7 +3288,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevLett.33.233
     \endverb
-    \field{issue}{4}
+    \field{number}{4}
     \field{pages}{233\bibrangedash 236}
     \field{title}{Discovery of the Missing Two-Particle, Two-Hole ${0}^{+}$
   States in $^{40}\mathrm{Ca}$}
@@ -3682,7 +3685,7 @@
     \verb{doi}
     \verb 10.1103/RevModPhys.81.539
     \endverb
-    \field{issue}{2}
+    \field{number}{2}
     \field{pages}{539\bibrangedash 589}
     \field{title}{Random matrices and chaos in nuclear physics: Nuclear
   structure}
@@ -3883,7 +3886,7 @@
     \verb{doi}
     \verb 10.1103/PhysRevC.102.044327
     \endverb
-    \field{issue}{4}
+    \field{number}{4}
     \field{pages}{044327}
     \field{title}{Dipole response of $^{87}\mathrm{Rb}$ and its impact on the
   $^{86}\mathrm{Rb}(n,\ensuremath{\gamma})^{87}\mathrm{Rb}$ cross section}

@@ -18,7 +18,7 @@
 %\usepackage{fancyhdr}  % creates headers
 %\pagestyle{fancy}
 \usepackage[style=alphabetic,maxalphanames=1,minalphanames=1,backend=bibtex,
-date=year,url=false,doi=false,isbn=false,eprint=false]{biblatex}
+date=year,url=false,doi=false,isbn=false,eprint=false,alldates=year]{biblatex}
 \usepackage{amssymb}
 
 %\UseRawInputEncoding
@@ -37,15 +37,27 @@ date=year,url=false,doi=false,isbn=false,eprint=false]{biblatex}
 \renewbibmacro{in:}{%
   \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
 
+% Getting rid of pages in bibliography
+\AtEveryBibitem{%
+  \clearfield{pages}%
+} 
+
 % Makes volume number bold and changes volume.number format to volume, number
 \renewbibmacro*{volume+number+eid}{
 \bfseries
 \printfield{volume}
 \mdseries
 \setunit{\addnbthinspace\addcomma\addnbthinspace}
+% This "hack" was a partial fix to the "issue" issue fully fixed below
+%\iffieldundef{number}
+%  {\printfield{issue}}%  <- if number does not exist
+%  {\printfield{number}}% <- if number exists
 \printfield{number}
 \setunit{\addcomma}
 \printfield{eid}}
+
+% Remove extra issue occurrence in the year parentheses:
+% Just change all occurrences of "issue" with "number". Unfortunately many downloaded citations use the issue label inappropriately
  
 % Making the & symbol normal when it is in italics
 % Not just a bibliography change, but it occurs often there 

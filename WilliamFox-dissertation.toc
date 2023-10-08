@@ -1,8 +1,8 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Tables}{vi}{section*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Figures}{vii}{section*.4}%
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\textbf {Introduction}}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -58,7 +58,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Data Acquisition System for the Focal-Plane Detector Package}{19}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Purpose of Document}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Introduction}{19}{section.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Background and Motivation}{20}{section.5.2}%
 \defcounter {refsection}{0}\relax 
