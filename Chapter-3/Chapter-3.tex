@@ -37,8 +37,48 @@
 
 % Explanation of the Spearman, Pearson, and mutual information statistics
 
+    \begin{figure}[t]
+        \centering
+        \begin{subfigure}[b]{0.495\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_86Rb_n_g_87Rb_300MK.png}  
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.495\textwidth}  
+            \centering 
+            \includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_86Rb_g_g_86Sr_300MK.png}
+        \end{subfigure}
+        %\vskip\baselineskip
+        \begin{subfigure}[b]{0.495\textwidth}   
+            \centering 
+            \includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_85Kr_n_g_86Kr_300MK.png}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.495\textwidth}   
+            \centering 
+            \includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_85Kr_g_g_85Rb_300MK.png}
+        \end{subfigure}
+        \caption{\label{}Here's my caption!} 
+    \end{figure}
+
 \section{Re}
 
 \subsection{Abundance Evolution}
 
 % Abundance evolution plots of 87Rb, 88Sr, Kr isotopes, 4He, 14N, 13C, etc.
+
+\begin{figure}[t]
+\begin{tikzpicture}[scale=1.0, every node/.style={transform shape}]
+\node at (0,0) {\includegraphics[width=6.5in]{Chapter-3/figs/abund_300MK.png}};
+\node at (-1.5,5.6) {$^{4}$He};
+\node at (1.8,2) {$^{13}$C};
+\node at (0.7,2) {$^{14}$N};
+\node at (3,4.75) {$^{16}$O};
+\node at (5,3.2) {$^{22}$Ne};
+\node at (4,1.0) {$^{87}$Rb};
+\node at (4,-0.8) {$^{86}$Sr};
+\node at (1.75,-3.5) {$n$};
+\node[draw] at (-3,-5) {$T = 300$ MK, $\rho = 10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$};
+\end{tikzpicture}
+\caption{\label{fig:abund_evol}The abundance evolution of key nuclei related to the s-process branching at $^{86}$Rb for a single network calculation simulating the conditions during a single AGB thermal pulse. The $T$, $\rho$, and $X_{\mathrm{last}}(^{4}\mathrm{He})$ parameters are 300 MK, $10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$, and 0.7, respectively, where the initial mass fraction of $^{4}$He was 0.75.}
+\end{figure}
