@@ -1,89 +1,89 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {5}Data Acquisition System for the Focal-Plane Detector Package}{21}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {5}Data Acquisition System for the Focal-Plane Detector Package}{26}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:DAQ}{{5}{21}{Data Acquisition System for the Focal-Plane Detector Package}{chapter.5}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction}{21}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.2}Background and Motivation}{22}{section.5.2}\protected@file@percent }
-\newlabel{motivation}{{5.2}{22}{Background and Motivation}{section.5.2}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The traditional method of converting detected radiation into numerical data using analog pulse-processing modules and an analog-to-digital converter (ADC).\relax }}{22}{figure.caption.14}\protected@file@percent }
-\newlabel{traditional_electronics}{{5.1}{22}{The traditional method of converting detected radiation into numerical data using analog pulse-processing modules and an analog-to-digital converter (ADC).\relax }{figure.caption.14}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The new method of converting detected radiation into numerical data with a digitizer, which replaces analog modules.\relax }}{23}{figure.caption.15}\protected@file@percent }
-\newlabel{new_electronics}{{5.2}{23}{The new method of converting detected radiation into numerical data with a digitizer, which replaces analog modules.\relax }{figure.caption.15}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The CAEN V1730 Digitizer (pictured on the right), along with its associated DPP firmware and custom frontend DAQ software, is replacing the need for the unportable analog pulse-processing modules (pictured on the left) associated with the Enge focal-plane detector package at TUNL.\relax }}{24}{figure.caption.16}\protected@file@percent }
-\newlabel{upgrade}{{5.3}{24}{The CAEN V1730 Digitizer (pictured on the right), along with its associated DPP firmware and custom frontend DAQ software, is replacing the need for the unportable analog pulse-processing modules (pictured on the left) associated with the Enge focal-plane detector package at TUNL.\relax }{figure.caption.16}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.3}Overview of the CAEN V1730 Digitizer}{25}{section.5.3}\protected@file@percent }
-\newlabel{digitizer}{{5.3}{25}{Overview of the CAEN V1730 Digitizer}{section.5.3}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Digital Pulse-Processing Parameters}{25}{subsection.5.3.1}\protected@file@percent }
-\newlabel{DPP}{{5.3.1}{25}{Digital Pulse-Processing Parameters}{subsection.5.3.1}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces A signal sampled by the V1730 digitizer, summarizing the parameters used by the DPP algorithms. When the signal crosses the threshold value, the trigger fires, which primes the system for data acquisition.\relax }}{25}{figure.caption.17}\protected@file@percent }
-\newlabel{trigger}{{5.4}{25}{A signal sampled by the V1730 digitizer, summarizing the parameters used by the DPP algorithms. When the signal crosses the threshold value, the trigger fires, which primes the system for data acquisition.\relax }{figure.caption.17}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The dynamic baseline calculation using the mean value of a user-defined number of samples in a moving time window. The baseline freezes during the energy integration of a signal that has been triggered.\relax }}{26}{figure.caption.18}\protected@file@percent }
-\newlabel{baseline_calc}{{5.5}{26}{The dynamic baseline calculation using the mean value of a user-defined number of samples in a moving time window. The baseline freezes during the energy integration of a signal that has been triggered.\relax }{figure.caption.18}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Time Stamp Determination}{27}{subsection.5.3.2}\protected@file@percent }
-\newlabel{time_stamp}{{5.3.2}{27}{Time Stamp Determination}{subsection.5.3.2}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{28}{subsection.5.3.3}\protected@file@percent }
-\newlabel{memory}{{5.3.3}{28}{Event Readout Format}{subsection.5.3.3}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Channel Aggregate Event Format}{29}{section*.19}\protected@file@percent }
-\newlabel{channel_agg}{{5.3.3}{29}{Channel Aggregate Event Format}{section*.19}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Board Aggregate Event Format}{30}{section*.21}\protected@file@percent }
-\newlabel{board_agg}{{5.3.3}{30}{Board Aggregate Event Format}{section*.21}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces The data format for the first two events in a channel aggregate. Each memory location is 32-bits and is accessed during readout. Individual samples are not saved by our digitizer, so every 32-bit line that contains a sample, i.e. S$_{1}$, S$_{2}$, etc., is omitted. Each event therefore contains up to three memory locations. The channel aggregate itself has a header consisting of the first two memory locations - SIZE and FORMAT.\relax }}{30}{figure.caption.20}\protected@file@percent }
-\newlabel{ChannelAgg}{{5.6}{30}{The data format for the first two events in a channel aggregate. Each memory location is 32-bits and is accessed during readout. Individual samples are not saved by our digitizer, so every 32-bit line that contains a sample, i.e. S$_{1}$, S$_{2}$, etc., is omitted. Each event therefore contains up to three memory locations. The channel aggregate itself has a header consisting of the first two memory locations - SIZE and FORMAT.\relax }{figure.caption.20}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.4}Frontend DAQ Software}{31}{section.5.4}\protected@file@percent }
-\newlabel{frontend}{{5.4}{31}{Frontend DAQ Software}{section.5.4}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}V1730 Registers}{31}{subsection.5.4.1}\protected@file@percent }
-\newlabel{registers}{{5.4.1}{31}{V1730 Registers}{subsection.5.4.1}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces The data format for a board aggregate, consisting of up to 8 channel aggregates and 4 memory locations making up the header. Each memory location is 32-bits and is accessed during readout.\relax }}{31}{figure.caption.22}\protected@file@percent }
-\newlabel{BoardAgg}{{5.7}{31}{The data format for a board aggregate, consisting of up to 8 channel aggregates and 4 memory locations making up the header. Each memory location is 32-bits and is accessed during readout.\relax }{figure.caption.22}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}User Settings}{32}{subsection.5.4.2}\protected@file@percent }
-\newlabel{settings}{{5.4.2}{32}{User Settings}{subsection.5.4.2}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Settings Determined from Oscilloscope Signals}{32}{section*.24}\protected@file@percent }
-\newlabel{oscilloscope}{{5.4.2}{32}{Settings Determined from Oscilloscope Signals}{section*.24}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{LED vs. CFD Mode}{32}{section*.25}\protected@file@percent }
-\newlabel{LED_CFD}{{5.4.2}{32}{LED vs. CFD Mode}{section*.25}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Gain}{32}{section*.26}\protected@file@percent }
-\newlabel{gain}{{5.4.2}{32}{Gain}{section*.26}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Mean Baseline Calculation}{32}{section*.27}\protected@file@percent }
-\newlabel{mean_baseline_calc}{{5.4.2}{32}{Mean Baseline Calculation}{section*.27}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Input Smoothing}{32}{section*.28}\protected@file@percent }
-\newlabel{smoothing}{{5.4.2}{32}{Input Smoothing}{section*.28}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Coincidences}{32}{section*.29}\protected@file@percent }
-\newlabel{coincidences}{{5.4.2}{32}{Coincidences}{section*.29}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Other Settings}{32}{section*.30}\protected@file@percent }
-\newlabel{other_settings}{{5.4.2}{32}{Other Settings}{section*.30}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Making Changes and Starting Runs}{32}{subsection.5.4.3}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The settings file, settings-DPP.dat, where the most common user-defined DPP parameters are adjusted. Other common V1730 register settings can be adjusted here as well.\relax }}{32}{figure.caption.23}\protected@file@percent }
-\newlabel{settings_file}{{5.8}{32}{The settings file, settings-DPP.dat, where the most common user-defined DPP parameters are adjusted. Other common V1730 register settings can be adjusted here as well.\relax }{figure.caption.23}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.5}EngeSpec GUI}{33}{section.5.5}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Overview of EngeSpec Operation}{33}{subsection.5.5.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Sort Routine: EngeSort}{33}{section*.31}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Online MIDAS Runs}{33}{section*.32}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Offline MIDAS Runs}{33}{section*.33}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}GUI Features}{33}{subsection.5.5.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Histogram Display}{33}{section*.34}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Curve Fitting}{33}{section*.35}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Coincidences}{33}{section*.36}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Gating}{33}{section*.37}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.6}Examples of DAQ/EngeSpec Operation}{34}{section.5.6}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}Resolution Tests with a NaI Detector}{34}{subsection.5.6.1}\protected@file@percent }
-\newlabel{resolution}{{5.6.1}{34}{Resolution Tests with a NaI Detector}{subsection.5.6.1}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Energy Resolution}{34}{section*.38}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Timing Resolution (Coincidence Mode)}{34}{section*.39}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.2}Coincidences with NaI Detectors}{34}{subsection.5.6.2}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{LED Mode}{34}{section*.40}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{Timing Spectrum}{34}{section*.41}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{2D Energy Spectrum}{34}{section*.42}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{2D Energy vs. Coincidence Time Spectrum}{34}{section*.43}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{Gating on Timing Spectrum}{34}{section*.44}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{CFD Mode}{34}{section*.45}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{Timing Spectrum}{34}{section*.46}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{2D Energy Spectrum}{34}{section*.47}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{2D Energy vs. Coincidence Time Spectrum}{34}{section*.48}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.3}Dead Time Tests with Fixed Energy Pulser}{34}{subsection.5.6.3}\protected@file@percent }
+\newlabel{ch:DAQ}{{5}{26}{Data Acquisition System for the Focal-Plane Detector Package}{chapter.5}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction}{26}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.2}Background and Motivation}{27}{section.5.2}\protected@file@percent }
+\newlabel{motivation}{{5.2}{27}{Background and Motivation}{section.5.2}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The traditional method of converting detected radiation into numerical data using analog pulse-processing modules and an analog-to-digital converter (ADC).\relax }}{27}{figure.caption.17}\protected@file@percent }
+\newlabel{traditional_electronics}{{5.1}{27}{The traditional method of converting detected radiation into numerical data using analog pulse-processing modules and an analog-to-digital converter (ADC).\relax }{figure.caption.17}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The new method of converting detected radiation into numerical data with a digitizer, which replaces analog modules.\relax }}{28}{figure.caption.18}\protected@file@percent }
+\newlabel{new_electronics}{{5.2}{28}{The new method of converting detected radiation into numerical data with a digitizer, which replaces analog modules.\relax }{figure.caption.18}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The CAEN V1730 Digitizer (pictured on the right), along with its associated DPP firmware and custom frontend DAQ software, is replacing the need for the unportable analog pulse-processing modules (pictured on the left) associated with the Enge focal-plane detector package at TUNL.\relax }}{29}{figure.caption.19}\protected@file@percent }
+\newlabel{upgrade}{{5.3}{29}{The CAEN V1730 Digitizer (pictured on the right), along with its associated DPP firmware and custom frontend DAQ software, is replacing the need for the unportable analog pulse-processing modules (pictured on the left) associated with the Enge focal-plane detector package at TUNL.\relax }{figure.caption.19}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.3}Overview of the CAEN V1730 Digitizer}{30}{section.5.3}\protected@file@percent }
+\newlabel{digitizer}{{5.3}{30}{Overview of the CAEN V1730 Digitizer}{section.5.3}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Digital Pulse-Processing Parameters}{30}{subsection.5.3.1}\protected@file@percent }
+\newlabel{DPP}{{5.3.1}{30}{Digital Pulse-Processing Parameters}{subsection.5.3.1}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces A signal sampled by the V1730 digitizer, summarizing the parameters used by the DPP algorithms. When the signal crosses the threshold value, the trigger fires, which primes the system for data acquisition.\relax }}{30}{figure.caption.20}\protected@file@percent }
+\newlabel{trigger}{{5.4}{30}{A signal sampled by the V1730 digitizer, summarizing the parameters used by the DPP algorithms. When the signal crosses the threshold value, the trigger fires, which primes the system for data acquisition.\relax }{figure.caption.20}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The dynamic baseline calculation using the mean value of a user-defined number of samples in a moving time window. The baseline freezes during the energy integration of a signal that has been triggered.\relax }}{31}{figure.caption.21}\protected@file@percent }
+\newlabel{baseline_calc}{{5.5}{31}{The dynamic baseline calculation using the mean value of a user-defined number of samples in a moving time window. The baseline freezes during the energy integration of a signal that has been triggered.\relax }{figure.caption.21}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Time Stamp Determination}{32}{subsection.5.3.2}\protected@file@percent }
+\newlabel{time_stamp}{{5.3.2}{32}{Time Stamp Determination}{subsection.5.3.2}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{33}{subsection.5.3.3}\protected@file@percent }
+\newlabel{memory}{{5.3.3}{33}{Event Readout Format}{subsection.5.3.3}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Channel Aggregate Event Format}{34}{section*.22}\protected@file@percent }
+\newlabel{channel_agg}{{5.3.3}{34}{Channel Aggregate Event Format}{section*.22}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Board Aggregate Event Format}{35}{section*.24}\protected@file@percent }
+\newlabel{board_agg}{{5.3.3}{35}{Board Aggregate Event Format}{section*.24}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces The data format for the first two events in a channel aggregate. Each memory location is 32-bits and is accessed during readout. Individual samples are not saved by our digitizer, so every 32-bit line that contains a sample, i.e. S$_{1}$, S$_{2}$, etc., is omitted. Each event therefore contains up to three memory locations. The channel aggregate itself has a header consisting of the first two memory locations - SIZE and FORMAT.\relax }}{35}{figure.caption.23}\protected@file@percent }
+\newlabel{ChannelAgg}{{5.6}{35}{The data format for the first two events in a channel aggregate. Each memory location is 32-bits and is accessed during readout. Individual samples are not saved by our digitizer, so every 32-bit line that contains a sample, i.e. S$_{1}$, S$_{2}$, etc., is omitted. Each event therefore contains up to three memory locations. The channel aggregate itself has a header consisting of the first two memory locations - SIZE and FORMAT.\relax }{figure.caption.23}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.4}Frontend DAQ Software}{36}{section.5.4}\protected@file@percent }
+\newlabel{frontend}{{5.4}{36}{Frontend DAQ Software}{section.5.4}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}V1730 Registers}{36}{subsection.5.4.1}\protected@file@percent }
+\newlabel{registers}{{5.4.1}{36}{V1730 Registers}{subsection.5.4.1}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces The data format for a board aggregate, consisting of up to 8 channel aggregates and 4 memory locations making up the header. Each memory location is 32-bits and is accessed during readout.\relax }}{36}{figure.caption.25}\protected@file@percent }
+\newlabel{BoardAgg}{{5.7}{36}{The data format for a board aggregate, consisting of up to 8 channel aggregates and 4 memory locations making up the header. Each memory location is 32-bits and is accessed during readout.\relax }{figure.caption.25}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}User Settings}{37}{subsection.5.4.2}\protected@file@percent }
+\newlabel{settings}{{5.4.2}{37}{User Settings}{subsection.5.4.2}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Settings Determined from Oscilloscope Signals}{37}{section*.27}\protected@file@percent }
+\newlabel{oscilloscope}{{5.4.2}{37}{Settings Determined from Oscilloscope Signals}{section*.27}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{LED vs. CFD Mode}{37}{section*.28}\protected@file@percent }
+\newlabel{LED_CFD}{{5.4.2}{37}{LED vs. CFD Mode}{section*.28}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Gain}{37}{section*.29}\protected@file@percent }
+\newlabel{gain}{{5.4.2}{37}{Gain}{section*.29}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Mean Baseline Calculation}{37}{section*.30}\protected@file@percent }
+\newlabel{mean_baseline_calc}{{5.4.2}{37}{Mean Baseline Calculation}{section*.30}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Input Smoothing}{37}{section*.31}\protected@file@percent }
+\newlabel{smoothing}{{5.4.2}{37}{Input Smoothing}{section*.31}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Coincidences}{37}{section*.32}\protected@file@percent }
+\newlabel{coincidences}{{5.4.2}{37}{Coincidences}{section*.32}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Other Settings}{37}{section*.33}\protected@file@percent }
+\newlabel{other_settings}{{5.4.2}{37}{Other Settings}{section*.33}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Making Changes and Starting Runs}{37}{subsection.5.4.3}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The settings file, settings-DPP.dat, where the most common user-defined DPP parameters are adjusted. Other common V1730 register settings can be adjusted here as well.\relax }}{37}{figure.caption.26}\protected@file@percent }
+\newlabel{settings_file}{{5.8}{37}{The settings file, settings-DPP.dat, where the most common user-defined DPP parameters are adjusted. Other common V1730 register settings can be adjusted here as well.\relax }{figure.caption.26}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.5}EngeSpec GUI}{38}{section.5.5}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Overview of EngeSpec Operation}{38}{subsection.5.5.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Sort Routine: EngeSort}{38}{section*.34}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Online MIDAS Runs}{38}{section*.35}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Offline MIDAS Runs}{38}{section*.36}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}GUI Features}{38}{subsection.5.5.2}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Histogram Display}{38}{section*.37}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Curve Fitting}{38}{section*.38}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Coincidences}{38}{section*.39}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Gating}{38}{section*.40}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.6}Examples of DAQ/EngeSpec Operation}{39}{section.5.6}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}Resolution Tests with a NaI Detector}{39}{subsection.5.6.1}\protected@file@percent }
+\newlabel{resolution}{{5.6.1}{39}{Resolution Tests with a NaI Detector}{subsection.5.6.1}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Energy Resolution}{39}{section*.41}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Timing Resolution (Coincidence Mode)}{39}{section*.42}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.2}Coincidences with NaI Detectors}{39}{subsection.5.6.2}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{LED Mode}{39}{section*.43}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{Timing Spectrum}{39}{section*.44}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{2D Energy Spectrum}{39}{section*.45}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{2D Energy vs. Coincidence Time Spectrum}{39}{section*.46}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{Gating on Timing Spectrum}{39}{section*.47}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{CFD Mode}{39}{section*.48}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{Timing Spectrum}{39}{section*.49}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{2D Energy Spectrum}{39}{section*.50}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{2D Energy vs. Coincidence Time Spectrum}{39}{section*.51}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.3}Dead Time Tests with Fixed Energy Pulser}{39}{subsection.5.6.3}\protected@file@percent }
 \@setckpt{Chapter-5/Chapter-5}{
-\setcounter{page}{35}
+\setcounter{page}{40}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -119,7 +119,7 @@
 \setcounter{citetotal}{0}
 \setcounter{multicitecount}{0}
 \setcounter{multicitetotal}{0}
-\setcounter{instcount}{56}
+\setcounter{instcount}{87}
 \setcounter{maxnames}{3}
 \setcounter{minnames}{1}
 \setcounter{maxitems}{3}

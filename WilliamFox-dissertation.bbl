@@ -1493,7 +1493,7 @@
   \entry{Harrouz2023}{thesis}{}
     \name{author}{1}{}{%
       {{hash=HDS}{%
-         family={HARROUZ},
+         family={Harrouz},
          familyi={H\bibinitperiod},
          given={Djamila\bibnamedelima Sarah},
          giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
@@ -1503,7 +1503,7 @@
     \strng{fullhash}{HDS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{HAR23}
+    \field{labelalpha}{Har23}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{title}{Experimental study of the
@@ -2105,6 +2105,44 @@
     \field{volume}{52}
     \field{journaltitle}{Eur. Phys. J. A}
     \field{year}{2016}
+  \endentry
+
+  \entry{Karakas2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KAI}{%
+         family={{Karakas}},
+         familyi={K\bibinitperiod},
+         given={Amanda\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=LJC}{%
+         family={{Lattanzio}},
+         familyi={L\bibinitperiod},
+         given={John\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{ISM: composition, nucleosynthesis, Population II stars, stars: AGB
+  and post-AGB, stars: mixing, chemical evolution, Astrophysics - Solar and
+  Stellar Astrophysics}
+    \strng{namehash}{KAILJC1}
+    \strng{fullhash}{KAILJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Kar}14}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1017/pasa.2014.21
+    \endverb
+    \field{eid}{e030}
+    \field{pages}{e030}
+    \field{title}{{The Dawes Review 2: Nucleosynthesis and Stellar Yields of
+  Low- and Intermediate-Mass Single Stars}}
+    \field{volume}{31}
+    \field{journaltitle}{PASA}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Kikstra1990}{article}{}

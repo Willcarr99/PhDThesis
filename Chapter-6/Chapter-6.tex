@@ -12,142 +12,7 @@
 %  - Abundance anticorrelations result from pollution/mixing from older stars in the globular cluster (polluter stars) ["The (anti-)correlation among light elements is simply a manifestation of the multiple stellar populations." (Gratton et al. 2019)]
 %  - Hydrogen burning in the polluter stars is the mechanism behind these anticorrelations (
 
-This chapter details the original research constraining hydrogen-burning conditions responsible for abundance anomalies in globular clusters. In particular, the observed potassium enrichment and magnesium depletion in red giants of the globular cluster NGC 2419 is reproduced with nuclear reaction network calculations using new nuclear physics information presented in this chapter. A new reaction rate of the key potassium-destroying reaction, $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, is calculated from the new proton partial-widths and resonance energies of astrophysically-important, proton-unbound $^{40}$Ca states measured in the proton-transfer reaction $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$. The reaction rate is significantly constrained for $T \lesssim 110$ MK. Monte Carlo network calculations will show new temperature-density constraints for hydrogen-burning, compared with that of the previously calculated reaction rate. Hot-bottom burning in Super-AGB stars is investigated as a polluter candidate driving the Mg--K anticorrelation in NGC 2419, as well as other abundance patterns involving potassium.
-
-\section{Globular Clusters}
-
-% From PRL (Before cutting material):
-\begin{comment}
-The abundance pattern of % (some)? b/c we understand the O-Na and Mg-Al ones pretty well 
-globular clusters is still poorly understood, despite evidence of multiple stellar populations within each cluster \cite{Bedin2004,Piotto2007} and abundance anticorrelations of light element pairs between low-mass cluster stars, such as C--N, O--Na, and Mg--Al (see Gratton \emph{et al.} \cite{Gratton2012} for a recent review). The origin of these anticorrelations likely involves the currently observed globular cluster stars forming from the matter of earlier cluster stars, or \emph{polluter stars}, because the low-mass stars in which these anticorrelations have been observed do not produce sufficiently high temperatures to account for changes in abundance of the above elements.
-%The origin of these anticorrelations likely involves matter mixing between stellar populations because the low-mass stars in which these anticorrelations have been observed do not produce sufficiently high temperatures to account for changes in abundance of the above elements. The currently observed globular cluster stars must therefore have been formed out of the polluted material from earlier globular cluster stars, or \emph{polluter stars}. 
-The O--Na and Mg--Al abundance anticorrelations have been shown to be reproduced by low-temperature hydrogen burning at about 75 MK in the polluter stars of globular cluster NGC 6752 \cite{Prantzos2007}. However, the list of candidate sources for the polluter stars in NGC 6752, and for many other globular clusters, is quite long. % Cite them? 8 according to Iliadis et al. 2016
-\end{comment}
-
-Globular clusters are compact conglomerates of stars associated with all types of galaxies. They are typically on the order of 1 pc to a few tens of pc in radius, and they are very old, in most cases having an age of about 10 Gyr. Peak globular cluster formation is thought to pre-date most stellar formation in galaxies, and they may have played a crucial role in early galaxy formation \cite{Gratton2019}. In the Milky Way galaxy, they often have low metallicity and are distributed throughout the halo, the thick disk, and the bulge. These properties, while interesting, are not what have made globular clusters garner considerable interest in the last few decades.
-
-A characteristic recently attributed to globular clusters, which distinguishes them from similar objects such as open clusters, is the presence of chemical inhomogeneities among their low-mass stars. Once labeled \emph{abundance anomalies}, these inhomogeneities take the form of anticorrelations among the abundances of light element pairs, such as O--Na and Mg--Al. A new definition of globular clusters that includes this characteristic was suggested by Ref. \cite{Carretta2010}, since almost every globular cluster in which abundances have been observed has exhibited an O--Na anticorrelation. 
-% ``In (almost) all studied GCs the Na-O anticorrelation has been found. One exception is Terzan 7, where no spread in O abundances has been found in the (only) seven stars observed by Sbordone et al. (2007), and may then be the most massive cluster observed so far without the Na-O anticorrelation. The other one is Pal 12, where Cohen (2004) finds very uniform O and Na abundances, but only for four stars." (Carretta et al. 2010).
-% Sbordone, L., Bonifacio, P., Buonanno, R., et al. 2007, A&A, 465, 815
-% Cohen, J. G. 2004, AJ, 127, 1545
-The only exceptions are Terzan 7 and Pal 12, where the simultaneous Na and O abundances of only 7 \cite{Sbordone2007} and 4 \cite{Cohen2004} stars were observed, respectively. Other anticorrelations and correlations are exhibited in some, but not all globular clusters, making each cluster distinguishable by the combination and extent of their abundance inhomogeneities. These cluster-to-cluster differences are primarily driven by differences in luminosity and metallicity. Meanwhile, no abundance anticorrelations have ever been observed in open clusters \cite{Gratton2019}.
-
-Fig. \ref{fig:O-Na} shows the ubiquitous O--Na anticorrelation in 1,200 red giants among all 19 globular clusters sampled by Ref. \cite{Carretta2010}. The red giants with an enhanced Na abundance are associated with a depletion in O abundance, and vice versa. The populations of red giants are split into 3 categories based on the extent of their Na enrichment, and associated O depletion. These populations are the primordial (P), extreme (E), and intermediate (I) components, as indicated in the first panel of Fig. \ref{fig:O-Na}. The primordial population is Na-poor/O-rich, the extreme population is Na-rich/O-poor, and the intermediate population is in-between. The primordial population is so-called because the same abundance pattern is typical of field stars with a similar metallicity. However, the Na and O abundances of the intermediate and extreme populations indicates that these red giants went through an unknown process. Low-mass stars like red giants and main sequence stars do not reach the high temperatures necessary for the nucleosynthesis chains that produce the observed Na and O abundances. This reasoning also applies to the other observed anticorrelations in globular clusters \cite{Prantzos2007}.
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=6.5in]{Chapter-6/figs/O-Na.png}
-\caption{\label{fig:O-Na}The O--Na anticorrelation of 1,200 red giants among all 19 globular clusters observed in the survey of Ref. \cite{Carretta2010}. Blue arrows indicate upper limits in O abundances, while lines separate different populations of red giants based on their relative O and Na richness. Primordial (P), extreme (E), and intermediate (I) populations are labeled in the first panel. See text for definitions of these populations. Adapted from \cite{Carretta2010}.}
-\end{figure}
-
-% PARAGRAPH 1: Cannot be in situ - must be mixing. Evidence for multiple stellar populations - pg 2 of Carretta2010 and Prantzos2007
-
-% ``The (anti-)correlation among light elements is simply a manifestation of the multiple stellar populations." (Gratton et al. 2019) pg 12
-
-% ``The variations are also found among unevolved stars currently on the main sequence (MS) of GCs (Gratton et al. 2001; Ramirez & Cohen 2002; Carretta et al. 2004; D’Orazi et al. 2010). This unequivocally implies that this composition has been imprinted in the gas by a previous generation of stars. The necessity of this conclusion stems from low-mass MS stars not being able to reach the high temperatures for the nucleosynthetic chains required to produce the observed inter-relations between the elements (in particular the Mg-Al anticorrelation). This calls for a class of now extinct stars, more massive than the low-mass ones presently evolving in GCs, as the site for the nucleosynthesis." (Carretta et al. 2010) pg 2
-
-The most likely scenario explaining these inhomogeneities is that the currently observed stars are part of a second generation which formed from the ashes of an older, first generation of stars. The material ejected from these more-massive first generation stars upon their death likely polluted the inter-cluster medium where the second generation stars began to form. Hence, these first generation stars are sometimes called \emph{polluter stars}, a class of massive, extinct stars that are the origin of the apparent abundance anomalies. Different generations of stars exhisting in a given globular cluster would provide evidence for \emph{multiple stellar populations}. This premise has been widely debated over the last few decades, with most research supporting it at present \cite{Gratton2004,Gratton2012,Gratton2019}.
-
-% PARAGRAPH 2: Mechanism of nucleosynthesis in second-generation globular cluster stars - H-burning. Type 1 vs type 2 globular clusters (different burning temperatures). - pg 12 of Gratton2019 - Cites Denisenkov and Denisenkova 1989; Langer et al. 1993
-% Denisenkov PA, Denisenkova SN (1989) Possible explanation of the correlation between nitrogen and sodium over abundances for red giants in globular clusters. Astron Tsirkulyar 1538:11
-% Langer GE, Hoffman R, Sneden C (1993) Sodium–oxygen abundance anticorrelations and deep-mixing scenarios for globular-cluster giants. Publ Astron Soc Pac 105:301–307. https://doi.org/10.1086/133147
-
-Polluter stars are likely the site of the nucleosynthesis that gives rise to the currently observed abundance patterns in globular clusters. Their exact nature is unknown, but the nucleosynthesis mechanism driving the inhomogeneities in the vast majority of globular clusters is well established as proton-capture reactions in high temperature hydrogen-burning environments \cite{Denisenkov1989,Langer1993}. The ubiquitous O--Na anticorrelation, for example, is exhibited in the hydrogen burning of the CNO and Ne--Na cyles at about 40 MK \cite{Gratton2019}. Fig. \ref{fig:CNO_NeNa} shows the nucleosynthesis chains that lead to an overall oxygen depletion and sodium production. The first stage of the CNO cycle involves a series of $(p, \gamma)$ and $(\beta^{+}\nu)$ reactions on stable and radioactive nuclei, respectively, starting from $^{12}$C. This stage occurs at fusion temperatures of about 10 MK. Once $^{15}$N is reached, $^{15}\mathrm{N}(p, \alpha)^{12}\mathrm{C}$ closes the cycle if the temperature is less than about 40 MK. Otherwise, the second stage of the CNO cycle will be activated from $^{15}\mathrm{N}(p, \gamma)^{16}\mathrm{O}$. This eventually leads to $^{17}$O, which closes the second stage of the cycle via $^{17}\mathrm{O}(p, \alpha)^{14}\mathrm{N}$. This second stage leads to an overall destruction of oxygen. Meanwhile, the Ne--Na cycle activates at about 40 MK as well, starting from $^{20}\mathrm{Ne}(p, \gamma)^{21}\mathrm{Na}$. Once $^{23}$Na is reached, it will close the cycle via $^{23}\mathrm{Na}(p, \alpha)^{20}\mathrm{Ne}$ if temperatures are less than about 70 MK, otherwise $^{23}\mathrm{Na}(p, \gamma)^{24}\mathrm{Mg}$ is activated. These destruction reactions on $^{23}$Na are slow enough such that sodium is produced overall.
-
-\def\BoxSpace{0.3} % Defining the variable BoxSpace to value in brackets
-\def\BoxSpacetwo{\BoxSpace * 2} % So I don't have to keep doing {2+(\BoxSpace * 2)}
-\def\BoxSpacethree{\BoxSpace * 3}
-\def\BoxSpacehalf{\BoxSpace * 0.5}
-\def\AOS{0.2} % Arrow Offset
-\def\AW{0.52} % Arrow Width (mm)
-
-\begin{figure}[t]
-\centering
-\noindent
-\begin{minipage}{.44\linewidth}
-\begin{tikzpicture}[scale=1.5, every node/.style={transform shape}]
-
-% (0,0) is at the bottom left corner of plot, where 12C is
-\filldraw[fill = light-gray] (0,0) rectangle (1,1); % 12C box
-\filldraw[fill = light-gray] (1+\BoxSpace,0) rectangle (2+\BoxSpace,1); % 13C box
-%\draw (2+\BoxSpacetwo,0) rectangle (3+\BoxSpacetwo,1); % 14C box
-\draw (0,1+\BoxSpace) rectangle (1,2+\BoxSpace); % 13N box
-\filldraw[fill = light-gray] (1+\BoxSpace,1+\BoxSpace) rectangle (2+\BoxSpace,2+\BoxSpace); % 14N box
-\filldraw[fill = light-gray] (2+\BoxSpacetwo,1+\BoxSpace) rectangle (3+\BoxSpacetwo,2+\BoxSpace); % 15N box
-%\draw (0,2+\BoxSpacetwo) rectangle (1,3+\BoxSpacetwo); % 14O box
-\draw (1+\BoxSpace,2+\BoxSpacetwo) rectangle (2+\BoxSpace,3+\BoxSpacetwo); % 15O box
-\filldraw[fill = light-gray] (2+\BoxSpacetwo,2+\BoxSpacetwo) rectangle (3+\BoxSpacetwo,3+\BoxSpacetwo); % 16O box
-\filldraw[fill = light-gray] (3+\BoxSpacethree,2+\BoxSpacetwo) rectangle (4+\BoxSpacethree,3+\BoxSpacetwo); % 17O box
-\draw (2+\BoxSpacetwo,3+\BoxSpacethree) rectangle (3+\BoxSpacetwo,4+\BoxSpacethree); % 17F box
-
-\node[text=blue] at (0.5,0.5) {$^{12}\mathrm{C}$};
-\node[text=red] at (1+\BoxSpace+0.5,0.5) {$^{13}\mathrm{C}$};
-\node at (0.5,1+\BoxSpace+0.5) {$^{13}\mathrm{N}$};
-\node[text=red] at (1+\BoxSpace+0.5,1+\BoxSpace+0.5) {$^{14}\mathrm{N}$};
-\node at (2+\BoxSpacetwo+0.5,1+\BoxSpace+0.5) {$^{15}\mathrm{N}$};
-\node at (1+\BoxSpace+0.5,2+\BoxSpacetwo+0.5) {$^{15}\mathrm{O}$};
-\node[text=blue] at (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+0.5) {$^{16}\mathrm{O}$};
-\node at (3+\BoxSpacethree+0.5,2+\BoxSpacetwo+0.5) {$^{17}\mathrm{O}$};
-\node at (2+\BoxSpacetwo+0.5,3+\BoxSpacethree+0.5) {$^{17}\mathrm{F}$};
-
-\draw[line width = \AW mm, -{Triangle[]}] (0.5,1-\AOS) -- (0.5,1+\BoxSpace+\AOS); % 12C(p,g)
-\draw[line width = \AW mm, -{Triangle[]}] (1-\AOS,1+\BoxSpace+\AOS) -- (1+\BoxSpace+\AOS, 1-\AOS); % 13N(B+)
-\draw[line width = \AW mm, -{Triangle[]}] (1+\BoxSpace+0.5,1-\AOS) -- (1+\BoxSpace+0.5,1+\BoxSpace+\AOS); % 13C(p,g)
-\draw[line width = \AW mm, -{Triangle[]}] (1+\BoxSpace+0.5,2+\BoxSpace-\AOS) -- (1+\BoxSpace+0.5,2+\BoxSpacetwo+\AOS); % 14N(p,g)
-\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpace-\AOS,2+\BoxSpacetwo+\AOS) -- (2+\BoxSpacetwo+\AOS,2+\BoxSpace-\AOS); % 15O(B+)
-\draw[line width = \AW mm, -{Triangle[]}, dashed] (2+\BoxSpacetwo+\AOS,1+\BoxSpace+\AOS) -- (1-\AOS,1-\AOS); % 15N(p,a)
-
-\draw[line width = \AW mm, -{Triangle[]}, dashed] (2+\BoxSpacetwo+0.5,2+\BoxSpace-\AOS) -- (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+\AOS); %15N(p,g)
-\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpacetwo+0.5,3+\BoxSpacetwo-\AOS) -- (2+\BoxSpacetwo+0.5,3+\BoxSpacethree+\AOS); %16O(p,g)
-\draw[line width = \AW mm, -{Triangle[]}] (3+\BoxSpacetwo-\AOS,3+\BoxSpacethree+\AOS) -- (3+\BoxSpacethree+\AOS,3+\BoxSpacetwo-\AOS); %17F(B+)
-\draw[line width = \AW mm, -{Triangle[]}] (3+\BoxSpacethree+\AOS,2+\BoxSpacetwo+\AOS) -- (2+\BoxSpace-\AOS,2+\BoxSpace-\AOS); %17O(p,a)
-\end{tikzpicture}
-\end{minipage}
-%
-\begin{minipage}{.44\linewidth} \hfill
-\centering
-\noindent
-\begin{tikzpicture}[scale=1.5, every node/.style={transform shape}]
-
-\filldraw[fill = light-gray] (0,0) rectangle (1,1); % 20Ne box
-\filldraw[fill = light-gray] (1+\BoxSpace,0) rectangle (2+\BoxSpace,1); % 21Ne box
-\filldraw[fill = light-gray] (2+\BoxSpacetwo,0) rectangle (3+\BoxSpacetwo,1); % 22Ne box
-\draw (0,1+\BoxSpace) rectangle (1,2+\BoxSpace); % 21Na Box
-\draw (1+\BoxSpace,1+\BoxSpace) rectangle (2+\BoxSpace,2+\BoxSpace); % 22Na Box
-\filldraw[fill = light-gray] (2+\BoxSpacetwo,1+\BoxSpace) rectangle (3+\BoxSpacetwo,2+\BoxSpace); % 23Na Box
-\filldraw[fill = light-gray] (2+\BoxSpacetwo,2+\BoxSpacetwo) rectangle (3+\BoxSpacetwo,3+\BoxSpacetwo); %24Mg Box
-
-\node[text=blue] at (0.5,0.5) {$^{20}\mathrm{Ne}$};
-\node at (1+\BoxSpace+0.5,0.5) {$^{21}\mathrm{Ne}$};
-\node at (2+\BoxSpacetwo+0.5,0.5) {$^{22}\mathrm{Ne}$};
-\node at (0.5,1+\BoxSpace+0.5) {$^{21}\mathrm{Na}$};
-\node at (1+\BoxSpace+0.5,1+\BoxSpace+0.5) {$^{22}\mathrm{Na}$};
-\node[text=red] at (2+\BoxSpacetwo+0.5,1+\BoxSpace+0.5) {$^{23}\mathrm{Na}$};
-\node at (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+0.5) {$^{24}\mathrm{Mg}$};
-
-\draw[line width = \AW mm, -{Triangle[]}] (0.5,1-\AOS) -- (0.5,1+\BoxSpace+\AOS); %20Ne(p,g)
-\draw[line width = \AW mm, -{Triangle[]}] (1-\AOS,1+\BoxSpace+\AOS) -- (1+\BoxSpace+\AOS,1-\AOS); % 21Na(B+)
-\draw[line width = \AW mm, -{Triangle[]}] (1+\BoxSpace+0.5,1-\AOS) -- (1+\BoxSpace+0.5,1+\BoxSpace+\AOS); %21Ne(p,g)
-\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpace-\AOS,1+\BoxSpace+\AOS) -- (2+\BoxSpacetwo+\AOS,1-\AOS); %22Na(B+)
-\draw[line width = \AW mm, -{Triangle[]}] (2+\BoxSpacetwo+0.5,1-\AOS) -- (2+\BoxSpacetwo+0.5,1+\BoxSpace+\AOS); %22Ne(p,g)
-\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpacetwo+0.5,2+\BoxSpace-\AOS) -- (2+\BoxSpacetwo+0.5,2+\BoxSpacetwo+\AOS); %23Na(p,g)
-\draw[line width = \AW mm, -{Triangle[]},dashed] (2+\BoxSpacetwo+\AOS,1+\BoxSpace+\AOS) -- (1-\AOS,1-\AOS); %23Na(p,a)20Ne
-
-\end{tikzpicture}
-\end{minipage}
-\vspace{0.75 cm}
-\caption{\label{fig:CNO_NeNa}The hydrogen burning mechanism driving the O--Na anticorrelation. Nuclei in blue are destroyed overall in the various cycles, while nuclei in red are produced. Shaded nuclei are stable. The first two stages of the CNO cycle (left), distinguished by the temperature-dependent branch at $^{15}$N, lead to an overall depletion of oxygen. The $^{15}\mathrm{N}(p, \gamma)^{16}\mathrm{O}$ reaction is activated at about 40 MK. The Ne--Na cycle (right), occurring simultaneously at about the same activation temperature, leads to an overall production of sodium. The $^{23}\mathrm{Na}(p,\gamma)^{24}\mathrm{Mg}$ reaction activates at about 70 MK.}
-\end{figure}
-
-% PARAGRAPH 3: Dilution model - mix of pristine and processed matter - pg 14 of Gratton2019
-
-Although nucleosynthesis via hydrogen burning is what drives the observed abundance patterns, it is not the only mechanism responsible for them. The majority of second generation stars must be composed of a mixture of nuclear-processed ejecta and matter with a pristine composition, in order for nuclear reaction network models to reproduce the observed globular cluster abundance patterns \cite{Prantzos2007}. The nuclear-processed ejecta is the matter resulting from nucleosynthesis via hydrogen burning in the first generation polluter stars, while pristine matter refers to the unprocessed gas left behind from the first burst of star formation. Many polluter star sites such as AGB stars, fast-rotating massive stars, and supermassive stars require dilution with unprocessed gas in order to convert their correlated O and Na abundances into the observed anticorrelation \cite{DErcole2010,DErcole2011,DErcole2012}. The observed, mixed abundances in a typical dilution model are obtained by diluting one part of processed matter with $f$ parts of pristine matter, as in
-\begin{equation}
-X_{\mathrm{mix}} = \frac{X_{\mathrm{proc}} + f X_{\mathrm{pris}}}{1 + f},
-\end{equation}
-where $X$ is the mass fraction of a given nuclide among its specific composition and $f$ is the dilution factor \cite{Prantzos2007,Carretta2009}. A very small dilution factor represents nearly pure processed matter, while a very large dilution factor results in mostly pristine matter. The dilution model works very well for most globular clusters, but often a single dilution model does not simultaneously reproduce the abundances of the extreme and intermediate populations. In these cases, more than one class of polluter stars is required to match the observations, suggesting that the multiple populations premise may be more complex than previously considered \cite{Gratton2019}.
-
-% PARAGRAPH 4?? (Skip this): Mass-budget problem - pg 15 of Gratton2019
+This chapter details the original research constraining hydrogen-burning conditions responsible for abundance anomalies in the globular cluster NGC 2419. In particular, the observed potassium enrichment and magnesium depletion of red giants of NGC 2419 is reproduced with nuclear reaction network calculations using new nuclear physics information presented in this chapter. A new reaction rate of the key potassium-destroying reaction, $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, is calculated from the new proton partial-widths and resonance energies of astrophysically-important, proton-unbound $^{40}$Ca states measured in the proton-transfer reaction $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$. The reaction rate is significantly constrained for $T \lesssim 110$ MK. Reaction network calculations will show new temperature-density constraints for hydrogen-burning, compared with that of the previously calculated reaction rate. Hot-bottom burning in Super-AGB stars is investigated as a polluter candidate driving the Mg--K anticorrelation in NGC 2419, as well as other abundance patterns involving potassium.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{NGC 2419 and the Mg--K Anticorrelation} \label{sec:NGC2419}
@@ -158,7 +23,7 @@ where $X$ is the mass fraction of a given nuclide among its specific composition
 
 % The globular cluster NGC 2419, imaged by the Hubble Space Telescope in Fig. \ref{fig:NGC2419}, was recently found to exhibit some puzzling abundance patterns.
 
-While the O--Na anticorrelation is ubiquitous in globular clusters, there are other abundance patterns that are unique to individual or a small subset of globular clusters. The globular cluster NGC 2419 was recently found to exhibit some puzzling abundance patterns. About 30$\%$ of the red giants observed show a strong K enrichment correlated with a considerable Mg depletion \cite{Mucciarelli2012,Cohen2012}. Fig. \ref{fig:MgK} shows the observed elemental potassium and magnesium abundances, with respect to iron, for the red giants in NGC 2419 sampled by Ref. \cite{Mucciarelli2012} in red and Ref. \cite{Cohen2012} in blue. This was the first discovery of a Mg--K anticorrelation in any globular cluster. Only one other cluster to date, NGC 2808, has exhibited such an anticorrelation in a small portion of its stars \cite{Mucciarelli2015,Mucciarelli2017}, but the extent of the K enrichment is about 7 times less than that of NGC 2419. Meanwhile, the extent of the Mg depletion is about 3 times less. The evolutionary history of NGC 2419 must therefore be rather unique for it to exhibit such abundance patterns not seen in other globular clusters.
+The O--Na anticorrelation is ubiquitous in globular clusters, as stated in Section \ref{subsec:GC_Candidate}. However, there are other abundance patterns that are unique to individual or a small subset of globular clusters. The globular cluster NGC 2419 was recently found to exhibit some puzzling abundance patterns. About 30$\%$ of the red giants observed show a strong K enrichment correlated with a considerable Mg depletion \cite{Mucciarelli2012,Cohen2012}. Fig. \ref{fig:MgK} shows the observed elemental potassium and magnesium abundances, with respect to iron, for the red giants in NGC 2419 sampled by Ref. \cite{Mucciarelli2012} in red and Ref. \cite{Cohen2012} in blue. This was the first discovery of a Mg--K anticorrelation in any globular cluster. Only one other cluster to date, NGC 2808, has exhibited such an anticorrelation in a small portion of its stars \cite{Mucciarelli2015,Mucciarelli2017}, but the extent of the K enrichment is about 7 times less than that of NGC 2419. Meanwhile, the extent of the Mg depletion is about 3 times less. The evolutionary history of NGC 2419 must therefore be rather unique for it to exhibit such abundance patterns not seen in other globular clusters.
 
 %\begin{figure}[t]
 %\centering
