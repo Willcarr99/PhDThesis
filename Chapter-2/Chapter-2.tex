@@ -1,17 +1,46 @@
 \chapter[Nuclear Reactions in Stars]{\textbf{Nuclear Reactions \\ in Stars}}
 \label{ch:reactions}
 
-%\section{Introduction}
+\section{Introduction}
 
 % I might not need an introduction section, but keep for now.
 
+This chapter introduces the formalism for quantifying stellar nucleosynthesis with reaction rates, which is an important foundation for the rest of this thesis. Section \ref{sec:nuc_reac_network} introduces the concept of a nuclear reaction network, involving the abundance evolution of each nucleus given all possible reactions in the network. Section \ref{sec:rates} describes the formalism for reaction rate calculations, with a focus on resonant reactions. Finally, Section \ref{sec:transfer_reactions} will describe the theory of transfer reactions, and their use in obtaining experimental information on the key nuclear structure inputs for reaction rates.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Nucleosynthesis}
+\section{Nuclear Reaction Networks} \label{sec:nuc_reac_network}
 
 % Equation from Christian's book that adds the production reactions and subtracts the destruction reactions, involving the reaction rates
 
+Nuclei in a high temperature stellar plasma are constantly undergoing nuclear processes, changing the overall composition of the stellar region. Each nucleus has several possible ways in which it can be destroyed and produced, depending on the environmental conditions and stellar composition at any given time. To quantify the change in abundance of a given nuclear species, we track its number density $N(t)$ over time, as introduced in Equation \ref{eqn:sProcess_AbundEvol}. Here, we will obtain a general expression for the abundance evolution of any nuclear species. To derive the expression, first consider the reaction between two nuclei 0 and 1. The rate at which this reaction proceeds is related to the mean lifetime $\tau$, or inversely, the decay constant $\lambda \equiv 1/\tau$ of the nuclear species in the stellar plasma. The rate of change of $N_{0}(t)$ over time from reactions with nucleus 1 is expressed as
+\begin{equation} \label{eqn:AbundEvol_01}
+\left( \frac{dN_{0}}{dt} \right)_{1} = -\lambda_{1}(0)N_{0} = - \frac{N_{0}}{\tau_{1}(0)} = N_{0}N_{1}\langle \sigma v \rangle_{01},
+\end{equation}
+where $\langle \sigma v \rangle_{01}$ is the reaction rate for a single pair of particles 0 and 1. The number density for species $i$ can also be written as $N_{i} = \rho X_{i} N_{A} / M_{i}$, where $\rho$ is the mass density of the stellar plasma, $X_{i}$ and $M_{i}$ are the mass fraction and mass of species $i$, respectively, and $N_{A}$ is Avogadro's number. Hence, the decay constant for nucleus 1 can also be expressed as
+\begin{equation} \label{eqn:decay_constant}
+\lambda_{1}(0) = \frac{1}{\tau_{1}(0)} = N_{1} \langle \sigma v \rangle_{01} = \rho \frac{X_{1}}{M_{1}} N_{A} \langle \sigma v \rangle_{01}.
+\end{equation}
+Eqn. \ref{eqn:decay_constant} is used frequently to determine the preferred reaction by which a nucleus is destroyed in a stellar plasma \cite{Iliadis2015}. In the s-process, for example, it can be used to determine which branch of an s-process branching will be preferred, or if the paths have roughly equal probability. In hydrogen-burning nucleosynthesis, it can be used to determine if a burning cycle will be closed or if it will be escaped. Note that the decay constant depends on both the stellar mass density and temperature, the latter of which through $\langle \sigma v \rangle$.
 
+Now consider every nuclear process that can occur on a given nuclear species $i$, including nuclear reactions, photoabsoptions, and $\beta$-decays. In the absence of mixing and expansion, its net abundance evolution is expressed by the differential equation\footnote{If nonidentical particles $j$ and $k$ produce two nuclei $i$, then the first term in Eqn. \ref{eqn:AbundEvol_General} must be replaced by $2N_{j}N_{k}\langle \sigma v \rangle_{jk \rightarrow i}$. If identical particles $(j = k)$ produce only one nucleus $i$, then that term must instead be replaced by $N_{j}^{2}\langle \sigma v \rangle_{jj \rightarrow i}/2$. Analogous arugments apply to the fourth term.}
+\begin{align}
+\frac{dN_{i}}{dt} = &\sum_{j,k} N_{j}N_{k} \langle \sigma v \rangle_{jk \rightarrow i} + \sum_{l} \lambda_{\beta, l \rightarrow i} N_{l} + \sum_{m} \lambda_{\gamma, m \rightarrow i} N_{m} \nonumber \\
+&- \sum_{n} N_{n}N_{i}\langle \sigma v \rangle_{ni} - \sum_{o} \lambda_{\beta, i \rightarrow o} N_{i} - \sum_{p} \lambda_{\gamma, i \rightarrow p} N_{i}. \label{eqn:AbundEvol_General}
+\end{align}
+The terms in the first and second lines represent all possible production and destruction processes, respectively, for the nuclear species $i$. The first term includes all reactions between nuclei $j$ and $k$ producing nucleus $i$; the second term includes all nuclei $l$ $\beta$-decaying to nucleus $i$; the third term includes all photoabsorption reactions on nuclei $m$ leading to nucleus $i$, and the remaining terms represent the analogous, reverse destruction processes.
+
+In order to properly describe nucleosynthesis in a stellar plasma, we must account for the abundance evolution of all relevant nuclei in the environment, each described by Eqn. \ref{eqn:AbundEvol_General}. This system of coupled, nonlinear ordinary differential equations is known as a \emph{nuclear reaction network}. In most realistic scenarios, this system of equations must be solved numerically. The number density $N_{i}(t)$ of each nucleus in the network is typically given in terms of the mass fraction $X_{i}(t)$, where $\sum_{i} X_{i}(t) = 1$, as it is much simpler to conceptualize relative mass fractions than number densities. Solutions to the nuclear reaction network at some final time $t_{f}$ are therefore reported as final mass fractions $X_{f}$ and are nominally referred to as final abundances. From $N_{i} = \rho X_{i} N_{A} / M_{i}$, the mass fraction normalization can be expressed as
+\begin{equation}
+\sum_{i} X_{i} = \sum_{i} \frac{N_{i}M_{i}}{\rho N_{A}} = 1.
+\end{equation}
+Hence, $\rho N_{A} = \sum_{i} N_{i}M_{i}$, and the mass fraction can therefore be written as
+\begin{equation} \label{eqn:mass_fraction}
+X_{i} = \frac{N_{i}M_{i}}{\sum_{i} N_{i}M_{i}} \approx \frac{N_{i}A_{i}}{\sum_{i} N_{i}A_{i}},
+\end{equation}
+where the nuclear masses $M_{i}$ can usually be approximated by the mass number $A_{i}$. Eqn. \ref{eqn:mass_fraction} is especially convenient when considering, for example, a network consisting of initially solar system abundances, such as that of Ref. \cite{Lodders2009}. These solar system number densities $N$ are normalized to $10^{6}$ Si atoms, and relative isotopic abundances are taken into account. When putting these $N$-values into Eqn. \ref{eqn:mass_fraction}, this normalization cancels. Often the network is selected from a subset of solar system nuclei, in which case it is a simple matter of adjusting the mass fractions so that their sum remains unity. Even in cases where some of the solar system abundances should be modified to represent a specific stellar environment, as will be the case in Section \ref{subsec:reaction_network_sProcess}, Eqn. \ref{eqn:mass_fraction} makes this scenario trivial.
+
+%In this thesis, nuclear reaction network calculations are performed at constant mass density $\rho$ and temperature $T$.
 
 \section{Reaction Rates} \label{sec:rates}
 
@@ -123,17 +152,15 @@ where $\bar{\omega}$ represents either electric or magnetic radiation; $E_{\gamm
 where $Q$ is the $Q$-value, or equivalently, the particle separation energy, and $E_{f}$ is the final excitation energy of the $\gamma$-decay.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Transfer Reactions}
+\section{Transfer Reactions} \label{sec:transfer_reactions}
 
 % This will be the last section of this chapter
 % Theory leading to C2S definition from overlap functions
-
-% Random Ch 6 note when I was going to discuss transfer reactions there:
-%Chapter \ref{chap:reactions} described the proton-capture reaction rate as a function of experimental quantities, such as the proton partial-width $\Gamma_{p}$ and the $\gamma$-ray partial width $\Gamma_{\gamma}$. This section will describe how the proton partial-width
-
-
+% And C2S from DWBA and experimental cross section
 
 \subsection{Optical Model} \label{subsec:Optical_Model}
+
+
 
 \subsection{Distorted Wave Born Approximation} \label{subsec:DWBA}
 

@@ -1064,6 +1064,71 @@
     \field{year}{1969}
   \endentry
 
+  \entry{Garcia2006}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GHDA}{%
+         family={Garc{\'i}a-Hern{\'a}ndez},
+         familyi={G\bibinithyphendelim H\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GLP}{%
+         family={Garc{\'i}a-Lario},
+         familyi={G\bibinithyphendelim L\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Plez},
+         familyi={P\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={D{\'}Antona},
+         familyi={D\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Manchado},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TRJM}{%
+         family={Trigo-Rodr{\'i}guez},
+         familyi={T\bibinithyphendelim R\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{GHDA+1}
+    \strng{fullhash}{GHDAGLPPBDFMATRJM1}
+    \field{label}{Gar}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Gar06}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{issn}{00368075, 10959203}
+    \field{number}{5806}
+    \field{pages}{1751\bibrangedash 1754}
+    \field{title}{Rubidium-Rich Asymptotic Giant Branch Stars}
+    \verb{url}
+    \verb http://www.jstor.org/stable/20035036
+    \endverb
+    \field{volume}{314}
+    \field{journaltitle}{Science}
+    \field{year}{2006}
+    \field{urlday}{13}
+    \field{urlmonth}{10}
+    \field{urlyear}{2023}
+  \endentry
+
   \entry{Gratton2004}{article}{}
     \name{author}{3}{}{%
       {{hash=GR}{%
@@ -2107,6 +2172,53 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Karakas2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KAI}{%
+         family={Karakas},
+         familyi={K\bibinitperiod},
+         given={Amanda\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=GHDA}{%
+         family={García-Hernández},
+         familyi={G\bibinithyphendelim H\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lugaro},
+         familyi={L\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{KAIGHDALM1}
+    \strng{fullhash}{KAIGHDALM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Kar12}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1088/0004-637X/751/1/8
+    \endverb
+    \field{number}{1}
+    \field{pages}{8}
+    \field{title}{HEAVY ELEMENT NUCLEOSYNTHESIS IN THE BRIGHTEST GALACTIC
+  ASYMPTOTIC GIANT BRANCH STARS}
+    \verb{url}
+    \verb https://dx.doi.org/10.1088/0004-637X/751/1/8
+    \endverb
+    \field{volume}{751}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Karakas2014}{article}{}
     \name{author}{2}{}{%
       {{hash=KAI}{%
@@ -2142,6 +2254,47 @@
     \field{volume}{31}
     \field{journaltitle}{PASA}
     \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Karakas2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KAI}{%
+         family={Karakas},
+         familyi={K\bibinitperiod},
+         given={Amanda\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lugaro},
+         familyi={L\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{KAILM1}
+    \strng{fullhash}{KAILM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Kar16}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.3847/0004-637X/825/1/26
+    \endverb
+    \field{number}{1}
+    \field{pages}{26}
+    \field{title}{STELLAR YIELDS FROM METAL-RICH ASYMPTOTIC GIANT BRANCH
+  MODELS}
+    \verb{url}
+    \verb https://dx.doi.org/10.3847/0004-637X/825/1/26
+    \endverb
+    \field{volume}{825}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2016}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -2382,6 +2535,57 @@
     \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
     \field{year}{2009}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Lodders2009}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=LK}{%
+         family={Lodders},
+         familyi={L\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Palme},
+         familyi={P\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GHP}{%
+         family={Gail},
+         familyi={G\bibinitperiod},
+         given={H.-P.},
+         giveni={H\bibinithyphendelim P\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=TJ}{%
+         family={Tr{\"u}mper},
+         familyi={T\bibinitperiod},
+         given={J.E.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag Berlin Heidelberg}%
+    }
+    \strng{namehash}{LKPHGHP1}
+    \strng{fullhash}{LKPHGHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Lod09}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{Group VI Astronomy and Astrophysics}
+    \verb{doi}
+    \verb 10.1007/978-3-540-88055-4_34
+    \endverb
+    \field{title}{Abundances of the elements in the Solar System}
+    \verb{url}
+    \verb https://materials.springer.com/lb/docs/sm_lbs_978-3-540-88055-4_34
+    \endverb
+    \field{volume}{4B}
+    \field{year}{2009}
   \endentry
 
   \entry{Longland2010a}{article}{}
@@ -2880,6 +3084,216 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Perez2017}{article}{}
+    \name{author}{7}{}{%
+      {{hash=PMV}{%
+         family={P{\'e}rez-Mesa},
+         familyi={P\bibinithyphendelim M\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ZO}{%
+         family={Zamora},
+         familyi={Z\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GHDA}{%
+         family={Garc{\'i}a-Hern{\'a}ndez},
+         familyi={G\bibinithyphendelim H\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Plez},
+         familyi={P\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Manchado},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KAI}{%
+         family={Karakas},
+         familyi={K\bibinitperiod},
+         given={A.\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lugaro},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PMV+1}
+    \strng{fullhash}{PMVZOGHDAPBMAKAILM1}
+    \field{label}{Per}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Per17}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1051/0004-6361/201731245
+    \endverb
+    \field{pages}{A20}
+    \field{title}{Rubidium and zirconium abundances in massive Galactic
+  asymptotic giant branch stars revisited}
+    \verb{url}
+    \verb https://doi.org/10.1051/0004-6361/201731245
+    \endverb
+    \field{volume}{606}
+    \field{journaltitle}{A\&A}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Pignatari2016}{article}{}
+    \name{author}{19}{}{%
+      {{hash=PM}{%
+         family={Pignatari},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Herwig},
+         familyi={H\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hirschi},
+         familyi={H\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bennett},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Rockefeller},
+         familyi={R\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Fryer},
+         familyi={F\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TFX}{%
+         family={Timmes},
+         familyi={T\bibinitperiod},
+         given={F.\bibnamedelima X.},
+         giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Ritter},
+         familyi={R\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Heger},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BU}{%
+         family={Battino},
+         familyi={B\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dotter},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Trappitsch},
+         familyi={T\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Diehl},
+         familyi={D\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FU}{%
+         family={Frischknecht},
+         familyi={F\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hungerford},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Magkotsios},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Travaglio},
+         familyi={T\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=YP}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{PM+1}
+    \strng{fullhash}{PMHFHRBMRGFCTFXRCHAJSBUDATRDSFUHAMGTCYP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Pig16}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.3847/0067-0049/225/2/24
+    \endverb
+    \field{number}{2}
+    \field{pages}{24}
+    \field{title}{NUGRID STELLAR DATA SET. I. STELLAR YIELDS FROM H TO BI FOR
+  STARS WITH METALLICITIES $Z = 0.02$ and $Z = 0.01$}
+    \verb{url}
+    \verb https://dx.doi.org/10.3847/0067-0049/225/2/24
+    \endverb
+    \field{volume}{225}
+    \field{journaltitle}{The Astrophysical Journal Supplement Series}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Porter1956}{article}{}
     \name{author}{2}{}{%
       {{hash=PCE}{%
@@ -2959,6 +3373,108 @@
     \field{volume}{470}
     \field{journaltitle}{Astronomy and Astrophysics}
     \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Raut2013}{article}{}
+    \name{author}{12}{}{%
+      {{hash=RR}{%
+         family={Raut},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TAP}{%
+         family={Tonchev},
+         familyi={T\bibinitperiod},
+         given={A.\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Rusev},
+         familyi={R\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Tornow},
+         familyi={T\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Iliadis},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lugaro},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Buntain},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Goriely},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KJH}{%
+         family={Kelley},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Schwengner},
+         familyi={S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Banu},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tsoneva},
+         familyi={T\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{RR+1}
+    \strng{fullhash}{RRTAPRGTWICLMBJGSKJHSRBATN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Rau13}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.111.112501
+    \endverb
+    \field{number}{11}
+    \field{pages}{112501}
+    \field{title}{Cross-Section Measurements of the
+  $^{86}\mathrm{Kr}(\ensuremath{\gamma},n)$ Reaction to Probe the $s$-Process
+  Branching at $^{85}\mathrm{Kr}$}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.111.112501
+    \endverb
+    \field{volume}{111}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2013}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -3541,6 +4057,50 @@
     \field{volume}{7}
     \field{journaltitle}{Computer Physics Reports}
     \field{year}{1988}
+  \endentry
+
+  \entry{van2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=v}{%
+         family={{van Raai, M. A.}},
+         familyi={v\bibinitperiod},
+      }}%
+      {{hash=L}{%
+         family={{Lugaro, M.}},
+         familyi={L\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={{Karakas, A. I.}},
+         familyi={K\bibinitperiod},
+      }}%
+      {{hash=G}{%
+         family={{Garc\'{\i}a-Hern\'andez, D. A.}},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=Y}{%
+         family={{Yong, D.}},
+         familyi={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{v+1}
+    \strng{fullhash}{vLKGY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{van}12}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \verb{doi}
+    \verb 10.1051/0004-6361/201117896
+    \endverb
+    \field{pages}{A44}
+    \field{title}{Rubidium, zirconium, and lithium production in
+  intermediate-mass asymptotic giant branch stars}
+    \verb{url}
+    \verb https://doi.org/10.1051/0004-6361/201117896
+    \endverb
+    \field{volume}{540}
+    \field{journaltitle}{A\&A}
+    \field{year}{2012}
   \endentry
 
   \entry{Ventura2012}{article}{}
