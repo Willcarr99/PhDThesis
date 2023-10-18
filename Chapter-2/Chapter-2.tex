@@ -111,12 +111,12 @@ where the last line results from the further approximation of narrow resonances,
 \omega \gamma \equiv \omega \frac{\Gamma_{a} \, \Gamma_{b}}{\Gamma}
 \end{equation}
 is defined as the \emph{resonance strength} because it is proportial to the maximum cross section multiplied by the total resonance width, $\omega \gamma \propto \sigma_{\mathrm{max}} \Gamma$. The reaction rate per particle pair for multiple isolated, narrow resonances forms an incoherent sum,
-\begin{equation}
+\begin{equation} \label{eqn:narrow_rate}
 \left\langle \sigma v \right\rangle_{01} = \left(\frac{2 \pi}{\mu_{01} k T}\right)^{3/2} \hbar^{2} \, \sum_{i} \, (\omega \gamma)_{i} \, e^{-E_{r, \, i}/kT}.
 \end{equation}
 The calculation of partial widths differs between particles and $\gamma$-rays. The following discussion will consider charged-particles and $\gamma$-rays only. For a discussion of neutron partial widths, see Ref. \cite{Iliadis2015}.
 
-\subsection{Particle Partial Widths}
+\subsection{Particle Partial Widths} \label{subsec:particle_partial_widths}
 
 The charged-particle partial width for channel $c$ is
 \begin{equation} \label{eqn:partial_width}
@@ -129,7 +129,7 @@ P_{c}(E) = \frac{\rho}{F^{2}(E) + G^{2}(E)},
 where $\rho = 0.21874 \, R \, \sqrt{\mu_{01} E}$ and $F$ and $G$ are the energy dependent Coulomb wave functions; $C^{2}S$ is the spectroscopic factor, sometimes simply referred to as $S$, where $C$ is the isospin Clebsch-Gordon coefficient, and $\theta_{\mathrm{sp}, \, c}$ is the dimensionless single-particle reduced width. The charged-particle partial width can be thought of as being proportional to the probability of the particle being emitted from the compound nucleus. Each of the latter three quantities in Eqn. \ref{eqn:partial_width} contribute to this probability. The penetration factor $P_{c}(E)$ represents the probability of overcoming or tunneling through the Coulomb barrier to reach the nuclear surface. The dimensionless single-particle reduced width $\theta_{\mathrm{sp}, \, c}$ represents the probability that the particle occupies the exact single-particle shell-model state of the resonance at the nuclear surface. Finally, the spectroscopic factor $C^{2}S$ is a measure of how much the populated state resembles that single-particle shell-model state. Although $C^{2}S$ is model-dependent, it is the only quantity in Eqn. \ref{eqn:partial_width} that is based on measurement, as will be clear in Section \ref{subsec:DWBA}.
 
 The dimensionless single-particle reduced width is given by
-\begin{equation}
+\begin{equation} \label{eqn:single_particle_red_width}
 \theta_{\mathrm{sp}, \, c} = \frac{R}{2} | u_{\mathrm{sp}, \, c}(R) |^{2},
 \end{equation}
 where $u_{\mathrm{sp}, \, c}(R)$ is the single-particle radial wavefunction evaluated at the channel radius, which is normalized to unity as in

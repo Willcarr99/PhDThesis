@@ -58,190 +58,198 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Correlations}{36}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}The [Rb/Zr] and [Rb/Fe] Ratios}{39}{subsection.3.4.2}%
+\contentsline {subsubsection}{The $^{86}\mathrm {Rb}$ and $^{85}$Kr Branchings}{36}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}The $^{86}\mathrm {\textbf {Rb}}(n,\gamma )^{87}\mathrm {\textbf {Rb}}$ Reaction Rate}{39}{section.3.5}%
+\contentsline {subsubsection}{Reactions Sensitive to $^{87}$Rb/$^{90}$Zr}{37}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Recent Constraint with Nuclear Resonance Fluorescence}{39}{subsection.3.5.1}%
+\contentsline {subsubsection}{The Neutron Sources}{40}{section*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Conclusions}{39}{section.3.6}%
+\contentsline {subsubsection}{The Neutron Poisons}{40}{section*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Experiments at the Triangle Universities Nuclear Laboratory}{45}{chapter.4}%
+\contentsline {subsection}{\numberline {3.4.2}The [Rb/Zr], [Rb/Sr], and [Rb/Fe] Ratios}{43}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{45}{section.4.1}%
+\contentsline {subsection}{\numberline {3.4.3}Discussion}{45}{subsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Target Preparation}{46}{section.4.2}%
+\contentsline {section}{\numberline {3.5}Conclusions}{45}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Carbon Backing}{46}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {4}Experiments at the Triangle Universities Nuclear Laboratory}{47}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Evaporation}{46}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.1}Introduction}{47}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}TUNL Tandem Accelerator and Beamline Components}{46}{section.4.3}%
+\contentsline {section}{\numberline {4.2}Target Preparation}{48}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Enge Split-Pole Spectrograph}{46}{section.4.4}%
+\contentsline {subsection}{\numberline {4.2.1}Carbon Backing}{48}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Focal Plane Detector}{46}{section.4.5}%
+\contentsline {subsection}{\numberline {4.2.2}Evaporation}{48}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Data Acquisition System for the Focal-Plane Detector Package}{47}{chapter.5}%
+\contentsline {section}{\numberline {4.3}TUNL Tandem Accelerator and Beamline Components}{48}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{47}{section.5.1}%
+\contentsline {section}{\numberline {4.4}Enge Split-Pole Spectrograph}{48}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Background and Motivation}{48}{section.5.2}%
+\contentsline {section}{\numberline {4.5}Focal Plane Detector}{48}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Overview of the CAEN V1730 Digitizer}{51}{section.5.3}%
+\contentsline {chapter}{\numberline {5}Data Acquisition System for the Focal-Plane Detector Package}{49}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Digital Pulse-Processing Parameters}{51}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.1}Introduction}{49}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Time Stamp Determination}{53}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.2}Background and Motivation}{50}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{54}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.3}Overview of the CAEN V1730 Digitizer}{53}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Channel Aggregate Event Format}{55}{section*.28}%
+\contentsline {subsection}{\numberline {5.3.1}Digital Pulse-Processing Parameters}{53}{subsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Board Aggregate Event Format}{56}{section*.30}%
+\contentsline {subsection}{\numberline {5.3.2}Time Stamp Determination}{55}{subsection.5.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Frontend DAQ Software}{57}{section.5.4}%
+\contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{56}{subsection.5.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}V1730 Registers}{57}{subsection.5.4.1}%
+\contentsline {subsubsection}{Channel Aggregate Event Format}{57}{section*.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}User Settings}{58}{subsection.5.4.2}%
+\contentsline {subsubsection}{Board Aggregate Event Format}{58}{section*.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Settings Determined from Oscilloscope Signals}{58}{section*.33}%
+\contentsline {section}{\numberline {5.4}Frontend DAQ Software}{59}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{LED vs. CFD Mode}{58}{section*.34}%
+\contentsline {subsection}{\numberline {5.4.1}V1730 Registers}{59}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gain}{58}{section*.35}%
+\contentsline {subsection}{\numberline {5.4.2}User Settings}{60}{subsection.5.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mean Baseline Calculation}{58}{section*.36}%
+\contentsline {subsubsection}{Settings Determined from Oscilloscope Signals}{60}{section*.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Input Smoothing}{58}{section*.37}%
+\contentsline {subsubsection}{LED vs. CFD Mode}{60}{section*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Coincidences}{58}{section*.38}%
+\contentsline {subsubsection}{Gain}{60}{section*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Other Settings}{58}{section*.39}%
+\contentsline {subsubsection}{Mean Baseline Calculation}{60}{section*.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Making Changes and Starting Runs}{58}{subsection.5.4.3}%
+\contentsline {subsubsection}{Input Smoothing}{60}{section*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}EngeSpec GUI}{59}{section.5.5}%
+\contentsline {subsubsection}{Coincidences}{60}{section*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Overview of EngeSpec Operation}{59}{subsection.5.5.1}%
+\contentsline {subsubsection}{Other Settings}{60}{section*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sort Routine: EngeSort}{59}{section*.40}%
+\contentsline {subsection}{\numberline {5.4.3}Making Changes and Starting Runs}{60}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Online MIDAS Runs}{59}{section*.41}%
+\contentsline {section}{\numberline {5.5}EngeSpec GUI}{61}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Offline MIDAS Runs}{59}{section*.42}%
+\contentsline {subsection}{\numberline {5.5.1}Overview of EngeSpec Operation}{61}{subsection.5.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}GUI Features}{59}{subsection.5.5.2}%
+\contentsline {subsubsection}{Sort Routine: EngeSort}{61}{section*.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Histogram Display}{59}{section*.43}%
+\contentsline {subsubsection}{Online MIDAS Runs}{61}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Curve Fitting}{59}{section*.44}%
+\contentsline {subsubsection}{Offline MIDAS Runs}{61}{section*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Coincidences}{59}{section*.45}%
+\contentsline {subsection}{\numberline {5.5.2}GUI Features}{61}{subsection.5.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gating}{59}{section*.46}%
+\contentsline {subsubsection}{Histogram Display}{61}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Examples of DAQ/EngeSpec Operation}{60}{section.5.6}%
+\contentsline {subsubsection}{Curve Fitting}{61}{section*.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.1}Resolution Tests with a NaI Detector}{60}{subsection.5.6.1}%
+\contentsline {subsubsection}{Coincidences}{61}{section*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Energy Resolution}{60}{section*.47}%
+\contentsline {subsubsection}{Gating}{61}{section*.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Timing Resolution (Coincidence Mode)}{60}{section*.48}%
+\contentsline {section}{\numberline {5.6}Examples of DAQ/EngeSpec Operation}{62}{section.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.2}Coincidences with NaI Detectors}{60}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.1}Resolution Tests with a NaI Detector}{62}{subsection.5.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{LED Mode}{60}{section*.49}%
+\contentsline {subsubsection}{Energy Resolution}{62}{section*.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Timing Spectrum}{60}{section*.50}%
+\contentsline {subsubsection}{Timing Resolution (Coincidence Mode)}{62}{section*.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{2D Energy Spectrum}{60}{section*.51}%
+\contentsline {subsection}{\numberline {5.6.2}Coincidences with NaI Detectors}{62}{subsection.5.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{2D Energy vs. Coincidence Time Spectrum}{60}{section*.52}%
+\contentsline {subsubsection}{LED Mode}{62}{section*.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Gating on Timing Spectrum}{60}{section*.53}%
+\contentsline {paragraph}{Timing Spectrum}{62}{section*.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{CFD Mode}{60}{section*.54}%
+\contentsline {paragraph}{2D Energy Spectrum}{62}{section*.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Timing Spectrum}{60}{section*.55}%
+\contentsline {paragraph}{2D Energy vs. Coincidence Time Spectrum}{62}{section*.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{2D Energy Spectrum}{60}{section*.56}%
+\contentsline {paragraph}{Gating on Timing Spectrum}{62}{section*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{2D Energy vs. Coincidence Time Spectrum}{60}{section*.57}%
+\contentsline {subsubsection}{CFD Mode}{62}{section*.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.3}Dead Time Tests with Fixed Energy Pulser}{60}{subsection.5.6.3}%
+\contentsline {paragraph}{Timing Spectrum}{62}{section*.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}Conclusions}{60}{section.5.7}%
+\contentsline {paragraph}{2D Energy Spectrum}{62}{section*.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}$^{39}\mathrm {\textbf {K}}(\MakeLowercase {p},\gamma )^{40}\mathrm {\textbf {C\MakeLowercase {a}}}$ Constraints for Globular Cluster NGC 2419}{61}{chapter.6}%
+\contentsline {paragraph}{2D Energy vs. Coincidence Time Spectrum}{62}{section*.62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Introduction}{61}{section.6.1}%
+\contentsline {subsection}{\numberline {5.6.3}Dead Time Tests with Fixed Energy Pulser}{62}{subsection.5.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}NGC 2419 and the Mg--K Anticorrelation}{61}{section.6.2}%
+\contentsline {section}{\numberline {5.7}Conclusions}{62}{section.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}The Previous $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{66}{section.6.3}%
+\contentsline {chapter}{\numberline {6}$^{39}\mathrm {\textbf {K}}(\MakeLowercase {p},\gamma )^{40}\mathrm {\textbf {C\MakeLowercase {a}}}$ Constraints for Globular Cluster NGC 2419}{63}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Longland \emph {et al.} (2018) Evaluation}{66}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.1}Introduction}{63}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Contributing Resonances}{67}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.2}NGC 2419 and the Mg--K Anticorrelation}{63}{section.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Previous Proton-Transfer Measurements}{70}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.3}The Previous $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{68}{section.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{70}{section.6.4}%
+\contentsline {subsection}{\numberline {6.3.1}Longland \emph {et al.} (2018) Evaluation}{68}{subsection.6.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Targets}{71}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.3.2}Contributing Resonances}{69}{subsection.6.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Focal-Plane Spectra}{71}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.3.3}Previous Proton-Transfer Measurements}{72}{subsection.6.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}Energy Shifts}{73}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.4}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{72}{section.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Silicon Detector Telescope}{76}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.1}Targets}{73}{subsection.6.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.5}Oxidized Spectra}{78}{subsection.6.4.5}%
+\contentsline {subsection}{\numberline {6.4.2}Focal-Plane Spectra}{73}{subsection.6.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Bayesian Peak Fitting and Target Oxidation}{79}{section.6.5}%
+\contentsline {subsection}{\numberline {6.4.3}Energy Shifts}{75}{subsection.6.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.1}Bayesian Peak Fitting}{80}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.4.4}Silicon Detector Telescope}{78}{subsection.6.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.2}Fitting Peaks with Target Oxidation}{83}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.4.5}Oxidized Spectra}{80}{subsection.6.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Cross Sections}{87}{section.6.6}%
+\contentsline {section}{\numberline {6.5}Bayesian Peak Fitting and Target Oxidation}{81}{section.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6.1}Yield to Cross Section Conversion}{90}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.5.1}Bayesian Peak Fitting}{82}{subsection.6.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6.2}Rutherford Scattering}{91}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.5.2}Fitting Peaks with Target Oxidation}{85}{subsection.6.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6.3}Cross Sections in the Center-of-Mass System}{91}{subsection.6.6.3}%
+\contentsline {section}{\numberline {6.6}Cross Sections}{89}{section.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6.4}Si Detector Normalization}{93}{subsection.6.6.4}%
+\contentsline {subsection}{\numberline {6.6.1}Yield to Cross Section Conversion}{92}{subsection.6.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6.5}Optical Model Normalization}{95}{subsection.6.6.5}%
+\contentsline {subsection}{\numberline {6.6.2}Rutherford Scattering}{93}{subsection.6.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{99}{section.6.7}%
+\contentsline {subsection}{\numberline {6.6.3}Cross Sections in the Center-of-Mass System}{93}{subsection.6.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.1}Energy Calibrations}{99}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.6.4}Si Detector Normalization}{95}{subsection.6.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.2}DWBA Calculations}{107}{subsection.6.7.2}%
+\contentsline {subsection}{\numberline {6.6.5}Optical Model Normalization}{97}{subsection.6.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.3}Angular Distribution Results}{112}{subsection.6.7.3}%
+\contentsline {section}{\numberline {6.7}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{101}{section.6.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.4}Spectroscopic Factors}{123}{subsection.6.7.4}%
+\contentsline {subsection}{\numberline {6.7.1}Energy Calibrations}{101}{subsection.6.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7.5}Proton Partial Widths and Resonance Energies}{125}{subsection.6.7.5}%
+\contentsline {subsection}{\numberline {6.7.2}DWBA Calculations}{109}{subsection.6.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{125}{section.6.8}%
+\contentsline {subsection}{\numberline {6.7.3}Angular Distribution Results}{114}{subsection.6.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.8.1}Resonance Contributions}{128}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.7.4}Spectroscopic Factors}{125}{subsection.6.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}Potassium Abundance in Reaction Network Calculations}{128}{section.6.9}%
+\contentsline {subsection}{\numberline {6.7.5}Proton Partial Widths and Resonance Energies}{128}{subsection.6.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}Conclusions}{128}{section.6.10}%
+\contentsline {section}{\numberline {6.8}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{130}{section.6.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Summary and Conclusions}{133}{chapter.7}%
+\contentsline {subsection}{\numberline {6.8.1}The Reaction Rate}{130}{subsection.6.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{141}{chapter*.103}%
+\contentsline {subsection}{\numberline {6.8.2}Resonance Contributions}{133}{subsection.6.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.9}New Constraints for the Mg--K Anticorrelation}{135}{section.6.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.10}Conclusions}{139}{section.6.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Summary and Conclusions}{140}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{APPENDIX}{148}{chapter*.110}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}s-Process Reaction Network Initial Abundances}{142}{appendix.A}%
+\contentsline {chapter}{\numberline {A}s-Process Reaction Network Initial Abundances}{149}{appendix.A}%

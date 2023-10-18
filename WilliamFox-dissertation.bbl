@@ -858,6 +858,67 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Doherty2015}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DCL}{%
+         family={{Doherty}},
+         familyi={D\bibinitperiod},
+         given={Carolyn\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={{Gil-Pons}},
+         familyi={G\bibinitperiod},
+         given={Pilar},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={{Siess}},
+         familyi={S\bibinitperiod},
+         given={Lionel},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LJC}{%
+         family={{Lattanzio}},
+         familyi={L\bibinitperiod},
+         given={John\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LHHB}{%
+         family={{Lau}},
+         familyi={L\bibinitperiod},
+         given={Herbert H.\bibnamedelima B.},
+         giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+      }}%
+    }
+    \keyw{stars: AGB and post-AGB, stars: evolution, supernovae: general, white
+  dwarfs, Astrophysics - Solar and Stellar Astrophysics}
+    \strng{namehash}{DCL+1}
+    \strng{fullhash}{DCLGPSLLJCLHHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Doh}15}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1093/mnras/stu2180
+    \endverb
+    \verb{eprint}
+    \verb 1410.5431
+    \endverb
+    \field{number}{3}
+    \field{pages}{2599\bibrangedash 2612}
+    \field{title}{{Super- and massive AGB stars - IV. Final fates -
+  initial-to-final mass relation}}
+    \field{volume}{446}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.SR}
+    \field{month}{01}
+    \field{year}{2015}
+  \endentry
+
   \entry{Endt1977}{article}{}
     \name{author}{1}{}{%
       {{hash=EPM}{%
@@ -2624,6 +2685,42 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Karakas2010}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KAI}{%
+         family={{Karakas}},
+         familyi={K\bibinitperiod},
+         given={A.\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \keyw{nuclear reactions, nucleosynthesis, abundances, stars: AGB and
+  post-AGB, stars: Population II, ISM: abundances, Astrophysics - Solar and
+  Stellar Astrophysics, Astrophysics - Astrophysics of Galaxies}
+    \strng{namehash}{KAI1}
+    \strng{fullhash}{KAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Kar}10}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1111/j.1365-2966.2009.16198.x
+    \endverb
+    \verb{eprint}
+    \verb 0912.2142
+    \endverb
+    \field{number}{3}
+    \field{pages}{1413\bibrangedash 1425}
+    \field{title}{{Updated stellar yields from asymptotic giant branch models}}
+    \field{volume}{403}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.SR}
+    \field{month}{04}
+    \field{year}{2010}
+  \endentry
+
   \entry{Karakas2012}{article}{}
     \name{author}{3}{}{%
       {{hash=KAI}{%
@@ -3855,7 +3952,7 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{Raa2012}{article}{}
+  \entry{Raai2012}{article}{}
     \name{author}{5}{}{%
       {{hash=v}{%
          family={{van Raai, M. A.}},

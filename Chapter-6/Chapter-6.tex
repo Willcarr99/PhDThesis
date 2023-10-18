@@ -164,7 +164,7 @@ While Ref. \cite{Iliadis2016} simultaneously sampled the reaction rate probabili
 
 The remainder of this chapter will focus specifically on the key potassium-destroying reaction $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, found by Ref. \cite{Dermigny2017} to be one of the few important reactions able to constrain the potassium abundance in NGC 2419 and therefore constrain the possible $T$--$\rho$ conditions of its polluter stars. 
 
-\subsection{Longland \emph{et al.} (2018) Evaluation}
+\subsection{Longland \emph{et al.} (2018) Evaluation} \label{subsec:longland_rate}
 
 The most recent $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate evaluation is that of Ref. \cite{Longland2018}, which Ref. \cite{Dermigny2017} used while it was in preparation. Its probability density was calculated using a Monte Carlo reaction rate formalism \cite{Longland2010a} with resonance strengths and resonance energies provided by the direct measurements of Refs. \cite{Kikstra1990,Cheng1981,Leenhouts1966}. The lowest directly measured resonance strength from these experiments is for the resonance at $E^{\mathrm{c.m.}}_{r} = 606$ keV. For resonances below this, indirect $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ \cite{Cage1971} and $^{39}\mathrm{K}(d,n)^{40}\mathrm{Ca}$ \cite{Fuchs1969} proton-transfer measurements provided proton partial-widths, when available. Additionally, the indirect $^{36}\mathrm{Ar}(^{6}\mathrm{Li},d)^{40}\mathrm{Ca}$ $\alpha$-transfer measurement of Ref. \cite{Yamaya1994} provided $\alpha$-particle partial widths for the $(p,\alpha)$ channel, when available. Otherwise, measured or theoretical upper limits were given to the single particle reduced widths of the remaining resonances. These upper limits are described by the Porter-Thomas distribution \cite{Porter1956,Weidenmuller2009}, truncated at the upper limit value in the case of measured upper limits. This provided a physically motivated probability density from which to sample unknown or upper-limit partial widths.
 
@@ -1339,7 +1339,7 @@ The statistical uncertainty of $C^{2}S$ for the present experiment is also given
 
 %In all but one case where a single $J^{\pi}$ value is given, it was used for the associated $C^{2}S$ calculation and the determination of the literature $C^{2}S$ values from $(2J+1)C^{2}S$. The one exception is the 8935+8938 keV doublet, where $J^{\pi}=2^{+}$ and $J^{\pi}=0^{+}$ according to ENSDF, respectively. This was observed as a $\ell=1$ transition in the present experiment, in agreement with $(d,n)$ \cite{Fuchs1969}, and $J^{\pi}=1^{-}$ was therefore used instead.
 
-\newpage
+%\newpage
 
 \begingroup % This and the following line are used to get table footnote marks to be alphabetic, but do this locally (not globally)
   \renewcommand*{\thefootnote}{\alph{footnote}}
@@ -1468,64 +1468,155 @@ $E_{x}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$\ell$\footnotemark[2]&$C^{2}S
 
 \subsection{Proton Partial Widths and Resonance Energies} \label{subsec:partial_widths}
 
-% Longland et al. 2018 --- Why only narrow resonances contribute here:
+The proton partial widths $\Gamma_{p}$ are small for the low proton energies $E_{r}$ considered in this work, $\Gamma_{p} << E_{r}$. Therefore, the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ cross-section is considered to be dominated by narrow resonances, and the reaction rate can be calculated with Eqn. \ref{eqn:narrow_rate}. The nonresonant contributions and intereference effects are expected to be negligible for this reaction \cite{Longland2018}. Proton partial widths are calculated using Eqn. \ref{eqn:partial_width}, given the spectroscopic factors $C^{2}S$ obtained in the previous section. The penetration factor $P(E)$ is easily computed once the center-of-mass resonance energies $E^{\mathrm{c.m.}}_{r}$ have been determined. These energies are calculated from the measured excitation energies $E_{x}$ in this work using the $^{40}$Ca proton separation energy $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}. 
 
-% The 39 K(p, γ )40Ca reaction proceeds through the compound nucleus 40Ca at a high excitation energy (Sp = 8328.437(21) keV [12]). The average level density of 40Ca at these excitation energies is about 60 MeV−1 , corresponding to an average level spacing of about 20 keV. Of these levels, fewer will exhibit an appreciable proton width and contribute significantly to the reaction rate, as will become apparent in Sec. IV. 
+The final factor to consider in the $\Gamma_{p}$ calculation is the dimensionless single particle reduced width $\theta_{\mathrm{sp}}$, calculated from Eqn. \ref{eqn:single_particle_red_width} as $\theta_{\mathrm{sp}} = R|u_{\mathrm{sp}}(R)|^{2}/2$. The channel number $R$ is defined as
+\begin{equation}
+R = r_{0} (A^{1/3}_{t} + A^{1/3}_{p}) \, \mathrm{fm},
+\end{equation}
+where the standard choice of $r_{0} = 1.25$ fm is made here, $A_{t}$ is the target $(^{39}\mathrm{K})$ mass, and $A_{p}$ is the proton mass. $u_{\mathrm{sp}}$ is the single-particle radial wavefunction. As mentioned in Section \ref{subsec:particle_partial_widths}, we use the weak binding approximation for this analysis, which assumes that unbound states are weakly bound by $\lesssim$ 50 keV. The channel radius $R$ is chosen such that the wavefunctions for the bound state and unbound state are equivalent \cite{Harrouz2023}. Therefore, $u_{\mathrm{sp}}(R)$ can be treated as the bound state radial wavefunction evaluated at $R$, which can be obtained from \texttt{Fresco}. Both the spectroscopic factor $C^{2}S$ and $\theta_{\mathrm{sp}}$ are obtained for unbound states using the weak binding approximation. It has been shown that $C^{2}S$ decreases with binding energy at roughly the same rate as $\theta_{\mathrm{sp}}$ increases \cite{Harrouz2023}, making their product largely independent of energy. Therefore, no extrapolation to specific resonance energies is required.
 
-%At the low proton energies relevant for astrophysics, the high Coulomb barrier renders the proton width in Eq. (4) to be small. Thus, the cross section can be considered to be dominated by narrow resonances and the reaction rate is calculated using Eq. (2). Interference effects are expected to average to a negligible contribution, and the nonresonant part of the cross section can be neglected.
+The systematic uncertainty of $\Gamma_{p}$ has been extensively studied in other works (e.g. Ref. \cite{Hale2004}). The largest contributor to this uncertainty comes from the choice of OMP parameters and is inherited from $C^{2}S$. The systematic uncertainty from the bound state parameters is expected to be low for $\Gamma_{p}$, since the two factors $C^{2}S$ and $\theta_{\mathrm{sp}}$ have opposing bound-state potential dependence. Hence, to a good approximation, the systematic uncertainty of $\Gamma_{p}$ can be treated as being derived entirely from $C^{2}S$. Therefore, the choice of a $30\%$ systematic uncertainty applies in this work to both $C^{2}S$ and $\Gamma_{p}$.
 
-The $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate is dominated by narrow resonances. As described in Section \ref{subsec:narrow_resonances}, narrow resonances contribute individually to thermonuclear reaction rates. The resonance strength $\omega\gamma$ and resonance energy $E_{r}$ of each resonance are the key experimental quantities that go into the reaction rate calculation of Eqn. \ref{eqn:narrow_rate}. Typically, proton-transfer experiments report proton partial widths from Eqn. \ref{eqn:partial_width}, rather than resonance strengths from Eqn. \ref{eqn:resonance_strength}. The only difference is the knowledge of the $\gamma$-ray partial width and any other partial widths contributing to the total width, which arise from other measurements. The spectroscopic factors of the proton-unbound $^{40}$Ca states from the previous section go directly into the proton partial width calculation, along with the penetration factor $P(E)$ and the dimensionless single-particle reduced width. The latter two quantities are calculated theoretically and are detailed in Section \ref{subsec:narrow_resonances}.
+\begingroup % This and the following line are used to get table footnote marks to be alphabetic, but do this locally (not globally)
+  \renewcommand*{\thefootnote}{\alph{footnote}}
+  \renewcommand*\footnoterule{} % Get rid of the footnote rule
 
-Center-of-mass resonance energies $E_{r}^{\mathrm{c.m.}}$ are simply calculated from the measured excitation energies in Section \ref{subsec:cal} by adding the proton separation energy $S_{p}$ of $^{40}$Ca, or equivalently, the $Q$-value of the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction. The present work uses $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}.
+\begin{table}[t]
+\centering
+\begin{minipage}{\textwidth}
+\centering
+\caption{\label{tab:partial_widths}Center-of-mass resonance energies $E_{r}$, angular momentum assignments, and proton partial-widths obtained for proton-unbound $^{40}\mathrm{Ca}$ states in this experiment. The total proton partial-width uncertainty is reported, including a $30\%$ systematic uncertainty. The last column shows proton partial-width upper limits calculated by Longland \emph{et al.} \cite{Longland2018}.}
+% ...using the $J^{\pi}$ assignments from ENSDF.} <--- Not true
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llllllc}
+\hline\midrule
+%$E_{x}$ (ENSDF)&$E_{x}$\footnotemark[1]&$E_{r}$\footnotemark[1]&$J^{\pi}$ (ENSDF)&$J^{\pi}$\footnotemark[1]&$l$\footnotemark[1]&$(2J+1)\Gamma_{p}$\footnotemark[1]&$(2J+1)\Gamma_{p, UL}$\\ \midrule
+$E_{x}$\footnotemark[1] [keV]&$E_{r}$\footnotemark[2] [keV]&$J^{\pi}$\footnotemark[1]&$J^{\pi}$\footnotemark[2]&$l$\footnotemark[2]&$(2J+1)\Gamma_{p}$\footnotemark[2] [eV]&$(2J+1)\Gamma_{p, UL}$ [eV]\\ \midrule
+8358.9(6)&29.1(25)&$(0,1,2)^{-}$&$(0,1,2,3)^{-}$&1&$2.62(80) \times 10^{-38}$&$5.88 \times 10^{-36}$\\
+8424.35(31)\footnotemark[3]\footnotemark[4]& \emph{96.17(31)}\footnotemark[3] &$2^{-}$&$(1,2,3)^{-}$&$1 + 3$&$5.4(18) \times 10^{-17} \phantom{a}(1)$&$1.47 \times 10^{-15}$\\
+ & & & & &$3.9(12) \times 10^{-19} \phantom{a}(3)$& \\
+8484.02(13)\footnotemark[4]&154.1(29)&$(1^{-},2^{-},3^{-})$&$(0,1,2,3)^{-}$&1&$8.1(25) \times 10^{-12}$&$1.16 \times 10^{-9}$\\
+8551.1(7)&221.3(25)&$5^{-}$&$(1-5)^{-}$&3&$1.33(40) \times 10^{-9}$&$6.60 \times 10^{-9}$\\
+8665.3(8)&334.7(26)&$1^{-}$&$(0,1,2,3)^{-}$&1&$1.56(48) \times 10^{-4}$&$1.10 \times 10^{-3}$\\
+8748.59(19)\footnotemark[3]&415.4(28)&$2^{+}$&$(0-4)^{+}$&$2$&$1.82(57) \times 10^{-5}$&$1.81 \times 10^{-1}$\\
+%8748.59(19)\footnotemark[3]&8743.6(28)&415.4(28)&$2^{+}$&\hspace{-3mm}\ldelim \{ {3}{3mm}$(1,2,3)^{-}$&$1 + 3$&$9.3(38) \times 10^{-5} \phantom{a}\phantom{a}(l=1)$&$1.81 \times 10^{-1}$\\
+% & & & & & &$7.1(28) \times 10^{-7} \phantom{a}\phantom{a}(l=3)$& \\
+% & & & &$(0-4)^{+}$&$2$&$2.27(77) \times 10^{-5}$& \\
+8764.18(6)&439.1(27)&$3^{-}$&$(0,1,2,3)^{-}$&1&$7.1(22) \times 10^{-4}$&$1.20 \times 10^{-1}$\\
+8850.6(9)&521.2(28)&$6^{-},7^{-},8^{-}$&$(1,2,3)^{-}$&$1 + 3$&$1.10(34) \times 10^{-2} \phantom{a}(1)$&$1.86 \times 10^{-4}$\\ %\footnotemark[5]
+ & & & & &$2.13(65) \times 10^{-5} \phantom{a}(3)$& \\
+\hspace{-3mm}\ldelim \{ {2}{3mm}8934.81(7)&608.1(27)&$2^{+}$&$(0,1,2,3)^{-}$&1&$2.31(77) \times 10^{-1}$&$2.07 \times 10^{1}$\\
+8938.4(9)& &$0^{+}$& & & &$1.28 \times 10^{-1}$\\
+8994.5(11)&664.0(25)&$(1^{-},2^{+})$&\hspace{-3mm}\ldelim \{ {3}{3mm}$(0,1,2,3)^{-}$&1&$2.30(77) \times 10^{-1}$& \\
+& & &$(1,2)^{+}$&$0 + 2$&$4.7(16) \times 10^{-1} \phantom{a}\phantom{a}(0)$& \\
+& & & & &$1.20(40) \times 10^{-2} \phantom{a}(2)$& \\
+9091.7(6)&764.0(36)&$3^{-}$&$(0,1,2,3)^{-}$&1&$8.2(28) \times 10^{-1}$& \\
+9135.66(5)\footnotemark[4]&809.6(34)&$(2,3)^{-}$&$(0,1,2,3)^{-}$&1&$2.33(78) \times 10^{1}$& \\
+\hspace{-3mm}\ldelim \{ {2}{3mm}9226.69(5)&899.6(34)&$(1^{-},2,3^{-})$&\hspace{-3mm}\ldelim \{ {3}{3mm}$(0,1,2,3)^{-}$&1&$3.7(12) \times 10^{1}$& \\
+9227.43(7)& &$(1,2^{+})$&$(1,2)^{+}$&$0 + 2$&$5.1(18) \times 10^{1} \phantom{a}\phantom{a}(0)$& \\
+ & & & & &$2.27(77) \times 10^{0} \phantom{a}(2)$& \\
+%%%\hspace{-3mm}\ldelim \{ {2}{3mm}9404.85(19)&9403.7(31)&1075.5(31)&$2^{-}$& & & & \\
+%%%9406.3(6)& & &$0^{+}$& & & & \\
+%%%\hspace{-3mm}\ldelim \{ {2}{3mm}9412.3(2)&9416.7(32)&1088.5(32)& & & & & \\
+%%%9418.8(2)& & &$3^{-}$& & & & \\
+%%%\hspace{-3mm}\ldelim \{ {2}{3mm}9429.11(5)&9431.7(32)&1103.5(32)&$(3,4)^{-}$& & & & \\
+%%%9432.46(18)& & &$1^{-}$& & & & \\
+%%%9453.95(5)\footnotemark[3]& & &$3^{-}$& & & & \\
+%%%9537.8(5)&9538.4(34)&1210.2(34)&$1^{-}$& & & & \\
+%%%\hspace{-3mm}\ldelim \{ {2}{3mm}9603.0(4)&9605.1(40)&1276.9(40)&$3^{-}$& & & & \\
+%%%9604.6(4)& & &$1^{-}$& & & & \\
+% NOTE: Not including the 9662+9669 keV doublet's energy, since it was only extracted for 2 angles
+%\hspace{-3mm}\ldelim \{ {2}{3mm}9662.2(2)&9673.4(31)&1345.2(31)&$3^{-}$\footnotemark[3]& & & \\
+%9668.71(8)& & &$3^{-}$\footnotemark[3]& & &$1.73 \times 10^{4}$ \\
+\hline\hline
+\end{tabular}
+}
+\footnotetext[1]{From ENSDF \cite{Chen2017}, unless otherwise indicated.}
+\footnotetext[2]{From the present experiment, unless otherwise indicated.}
+\footnotetext[3]{From Gribble \emph{et al.} \cite{Gribble2022}.}
+\footnotetext[4]{Level used as a calibration point for at least one angle in this work. See text.}
+%\footnotetext[4]{Differs from $(\gamma, \gamma')$ and/or $(p, \gamma)$ ENSDF \cite{Chen2017} literature. No $(^{3}\mathrm{He}, d)$ or $(d, n)$ assignment for this level.}
+%\footnotetext[5]{Proton partial width upper limits calculated by Longland \emph{et al.} \cite{Longland2018}.}
+%\footnotetext[5]{Longland \emph{et al.} \cite{Longland2018} uses the ENSDF \cite{Chen2017} assignment of $J^{\pi} = 6^{-},7^{-},8^{-}$ in this upper limit calculation.}
+\end{minipage}
+\end{table}
+\endgroup
 
-The results of the proton partial widths and the resonance energies are summarized in Table \ref{tab:partial_widths}.
+The proton partial widths in terms of $(2J+1)\Gamma_{p}$ and the center-of-mass resonance energies $E^{\mathrm{c.m.}}_{r}$ are summarized in Table \ref{tab:partial_widths}. The ENSDF \cite{Chen2017} excitation energies are given for reference, unless otherwise indicated. Doublets are indicated with brackets over the individual states. Brackets are also given to indicate ambiguous $\ell$ assignments. In mixed-$\ell$ cases, each component is given in parentheses next to the $(2J+1)\Gamma_{p}$ value. The full range of $J^{\pi}$ possibilities determined from the $l$-assignments of the present work is also provided. The $(2J+1)\Gamma_{p}$ upper limit calculations from Ref. \cite{Longland2018} are given in the last column.
 
-%\begin{table}
-%\caption{\label{tab:partial_widths}}}
-%\end{table}
+For the remainder of this chapter, unbound states will be referred to solely as resonances, and the corresponding center-of-mass resonance energy will be used to identify them.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{New $^{39}\mathrm{\textbf{K}}(p,\gamma)^{40}\mathrm{\textbf{Ca}}$ Reaction Rate} \label{sec:pg_reac_rate}
 
-The Monte Carlo reaction rate code, \texttt{RatesMC} \cite{Longland2010a,RatesMC}, was used to calculate a new $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate probability density from the resonance energies and proton partial-widths reported in Sections \ref{subsec:cal} and \ref{subsec:partial_widths}, respectively. Among the states observed in the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, only those that do not already have a directly measured $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ resonance strength from Refs. \cite{Kikstra1990,Cheng1981,Leenhouts1966} were modified from the most recent reaction rate evaluation of Ref. \cite{Longland2018}. That is, the only resonance strengths and resonance energies that were updated from those in Ref. \cite{Longland2018} are below the $E_{x} = 8935$ keV ($E^{\mathrm{c.m.}}_{r} = 606$ keV) resonance. Otherwise, the expectation values and variances of the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ experiments \cite{Kikstra1990,Cheng1981,Leenhouts1966} are adopted from Ref. \cite{Longland2018}.
+\subsection{The Reaction Rate}
 
-% Everything above this is up-to-date for this thesis (Except 6.7 and 6.8)
+The Monte Carlo reaction rate code, \texttt{RatesMC} \cite{Longland2010a,RatesMC}, was used to calculate a new $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate probability density from the resonance energies and proton partial-widths reported in the previous section. Among the resonances extracted in the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, only those that do not already have a directly measured $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ resonance strength $\omega \gamma$ from Refs. \cite{Kikstra1990,Cheng1981,Leenhouts1966} were modified from the most recent reaction rate evaluation of Ref. \cite{Longland2018}. That is, the only resonance strengths and resonance energies that were updated from those in Ref. \cite{Longland2018} are below the 608 keV (606 keV ENSDF energy) resonance. Otherwise, the $\omega \gamma$ expectation values and variances of the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ experiments \cite{Kikstra1990,Cheng1981,Leenhouts1966} are adopted from Ref. \cite{Longland2018}.
 
-The new reaction rate is compared with that of Ref. \cite{Longland2018} in Fig. \ref{fig:rateCompare}. The solid line and blue band represent the median, recommended rate and the $1\sigma$ confidence interval of this work, respectively. The dotted line and gray band represent that of Ref. \cite{Longland2018}, except with resonance energies calculated using $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021} for consistency, but with marginal effect. Both reaction rates are normalized to the median, recommended rate of Ref. \cite{Longland2018}. %,where the bands represent the 1$\sigma$ confidence interval of each Monte Carlo calculation. 
-
-As mentioned previously, the large uncertainty in Ref. \cite{Longland2018}, between about 50 MK and 200 MK, corresponds to most of the relevant temperatures that reproduce the Mg--K anticorrelation in the globular cluster NGC 2419 \cite{Iliadis2016}. 
-%Above 20 MK, the region with the largest uncertainty in Ref. \cite{Longland2018}, between about 50 MK and 200 MK, corresponds to most of the relevant temperatures that reproduce the Mg--K anticorrelation in the globular cluster NGC 2419 \cite{Iliadis2016}.
-Fig. \ref{fig:rateCompare} illustrates that the new reaction rate increases significantly in this range, particularly at 70 MK where the median rate is a factor of 13 larger than the rate of Ref. \cite{Longland2018}. The $1\sigma$ width is also significantly reduced in this region, from a factor of 84 at 80 MK to just a factor of 2, a reduction of a factor of 42.
-
-Our new determination of $(2J+1)\Gamma_{p}$ for the 154 keV resonance is primarily responsible for the increase in the rate and decrease in the uncertainty between about 55 MK and 110 MK. Similar effects occur between about 20 MK and 55 MK, primarily from our $l=1+3$ assignment of the 96 keV resonance, which has replaced the $l=3$ assignment by the other $(^{3}\mathrm{He}, d)$ measurements in this calculation. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} is in agreement with the $l=1+3$ assignment for this resonance. Note that using the previous $l=3$ assignment has a negligible effect on the results mentioned above at 70 and 80 MK. Our $(2J+1)\Gamma_{p}$ determination for the 29 keV resonance is responsible for the rate increase below 20 MK. The smaller effects above 110 MK are from a combination of the 335 keV, 415 keV, 439 keV, and 521 keV resonances, the latter three of which have replaced $(2J+1)\Gamma_{p}$ upper limits in Ref. \cite{Longland2018}.
-
-\begin{figure}[t]
+\begin{figure}[!p]
 \includegraphics[width=6.5in]{Chapter-6/figs/rateCompare.png} % 6.5 in is exact page width (8.5 in) minus the 1 in margins. Height scaled automatically to keep aspect ratio.
 \caption{\label{fig:rateCompare}Comparison between the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate using the proton partial-widths and resonance energies of the present experiment (solid line, blue band) and the most recent evaluation of Ref. \cite{Longland2018} (dotted line, gray band). The reaction rate ratio is taken with respect to the median, recommended rate of Ref. \cite{Longland2018} for both calculations. The $1\sigma$ uncertainty bands are shown.}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[!p]
 \includegraphics[width=6.5in]{Chapter-6/figs/uncCompare.png} % 6.5 in is exact page width (8.5 in) minus the 1 in margins. Height scaled automatically to keep aspect ratio.
 \caption{\label{fig:uncCompare}Comparison between the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate uncertainty using the proton partial-widths and resonance energies of the present experiment (solid band) and the most recent evaluation of Ref. \cite{Longland2018} (dotted band). Each reaction rate ratio is taken with respect to their own median, recommended rate. The $1\sigma$ uncertainty bands are shown.}
 \end{figure}
 
+The new reaction rate as a function of temperature is compared with that of Ref. \cite{Longland2018} in Fig. \ref{fig:rateCompare}. The solid line and blue band represent the median, recommended rate and the $1\sigma$ confidence interval of this work, respectively. The dotted line and gray band represent that of Ref. \cite{Longland2018}, except with resonance energies calculated using $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021} for consistency, but with marginal effect. Both reaction rates are normalized to the median, recommended rate of Ref. \cite{Longland2018}. As mentioned in Section \ref{subsec:longland_rate}, the large uncertainty in the reaction rate of Ref. \cite{Longland2018}, between about 50 MK and 200 MK, corresponds with most of the relevant temperatures that reproduce the Mg--K anticorrelation in the globular cluster NGC 2419. Ref. \cite{Iliadis2016} found this temperature range to be $T \approx 80-260$ MK. Therefore, the new median, recommended rate is significantly larger at the lower end of this temperature range, peaking at a factor of thirteen at about 70 MK. 
+
+Fig. \ref{fig:uncCompare} shows a direct comparison of the uncertainty between the new rate and that of Ref. \cite{Longland2018}. This plot is almost identical to that of Fig. \ref{fig:rateCompare}, except now each reaction rate is normalized to its own median, recommended rate. The total width of the $1\sigma$ uncertainty band is significantly reduced at the lower end of the astrophysically-important region, from a factor of 84 at 80 MK to just a factor of 2. This is a reduction of a factor of 42.
+
 \subsection{Resonance Contributions} \label{subsec:resonance_contributions}
 
-\begin{figure}[t]
+Resolving the 154 keV resonance is mostly responsible for the increase in the reaction rate and decrease in its uncertainty between about 55 MK and 110 MK. Likewise, the new $\ell=1+3$ assignment of the 96 keV resonance, which has replaced the $\ell=3$ assignment of the $(^{3}\mathrm{He},d)$ measurement of Ref. \cite{Cage1971} in this calculation, is mostly responsible for the increase in the rate and decrease in the uncertainty between about 20 MK and 55 MK. For this resonance, the $(d,n)$ measurement of Ref. \cite{Fuchs1969} is in agreement with the $\ell=1+3$ assignment. It is also important to note that using the previous $\ell=3$ assignment has a negligable impact on the significant results mentioned in the previous section at 70 MK and 80 MK. Therefore, the resolution of the 154 keV has made by far the largest impact of the reaction rate. 
+
+At less than 20 MK, the rate increase is a result of the replacement of the 29 keV proton partial width upper limit in Ref. \cite{Longland2018}. The smaller rate increase and uncertainty reduction at temperatures higher than 110 MK are caused by a combination of the 335 keV, 415 keV, 439 keV, and 521 keV resonances. The latter three of these resonances have replaced proton partial width upper limits in Ref. \cite{Longland2018}. The 221 keV resonance has not made a significant impact on the new rate because the previous $C^{2}S$ value from Ref. \cite{Cage1971} is almost identical to the one obtained here. It was also found that the resonance energies calculated in this work have a negligible effect on the reaction rate compared to the proton partial-widths.
+
+\begin{figure}[!p]
 \includegraphics[width=6.5in]{Chapter-6/figs/Contrib_Fox.png} % 6.5 in is exact page width (8.5 in) minus the 1 in margins. Height scaled automatically to keep aspect ratio.
 \caption{\label{fig:contrib}Individual resonance contributions to the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate, where a value of 1.0 implies that the given resonance contributes 100$\%$ to the reaction rate at that temperature. The labels correspond to center-of-mass resonance energies in keV. Resonances with shading or hatched lines have been measured and are shown with their $1\sigma$ uncertainty bands. Resonances with a single, dashed line are upper limit calculations and show their 84$\%$ $1\sigma$ value, for clarity. The resonances displayed are those that individually account for at least 10$\%$ of the total reaction rate at their corresponding temperatures. The remaining summed resonance contributions are represented by the dotted line.}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Potassium Abundance in Reaction Network Calculations}
+Fig. \ref{fig:contrib} illustrates the individual contributions from each resonance to the new $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate. A value of unity means that the given resonance contributes 100$\%$ to the reaction rate at that temperature. The labels at the top of the figure represent the center-of-mass resonance energies in keV and are located directly above each resonance. Resonances with a shaded, finite width are measured and show their $1\sigma$ uncertainty bands. Some measured resonances are represented with hatched lines instead for visible clarity. Upper limit resonances are shown with a single, dashed line at their 84th percentile value. The black, dotted line consists of all resonances that individually contribute less than 10$\%$ to the total reaction rate at their corresponding temperatures.
 
-\begin{figure}[t]
-\includegraphics[width=6.5in]{Chapter-6/figs/MaxKSeparation_T100_rho4d7_xlast20_HDA.png}
-\caption{\label{fig:MaxSeparation}The maximum change in potassium abundance from Starlib, occuring at $T = 100$ MK, $\rho = 4 \times 10^{7}$ $\mathrm{g}/\mathrm{cm}^{3}$, and $X_{^{3}\mathrm{He}, \, f} = 20\%$. This corresponds to a decrease in [K/Fe] by a factor of 1.7 from Starlib. This configuration is now an acceptable configuration reproducing the Mg--K anticorrelation in NGC 2419.}
+Compared with the previous contribution plot of Fig. \ref{fig:contrib_longland2018}, some key differences can be identified. Most importantly, the 154 keV resonance has been resolved, and its contribution dominates between about 55 MK and 110 MK. It has led to several additional constraints on the contribution of nearby resonances. For example, the 96 keV resonance contribution uncertainty is significantly constrained. The 221 keV resonance is also much smaller than it was previously. Finally, the 212 keV upper limit resonance has also been significantly reduced. The 335 keV resonance still dominates in the region between about 110 MK and 400 MK, and its lower 16th percentile value has increased slightly from the resolution of the 439 keV and 521 keV resonances. The 415 keV resonance is not shown, as it contributes less than 10$\%$ to the reaction rate.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{New Constraints for the Mg--K Anticorrelation}
+
+A nuclear reaction network is used to investigate the effect the new $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate has on potassium abundance in hydrogen-burning environments. New conditions are obtained for the hydrogen-burning temperatures $T$ and densities $\rho$ which reproduce the Mg-K anticorrelation observed in the globular cluster NGC 2419. $T$-$\rho$ conditions that no longer reproduce the anticorrelation with the new rate are also obtained. 
+
+The strategy to reproduce the Mg-K anticorrelation is similar to that of Ref. \cite{Iliadis2016}. A single network calculation is performed for a given $T$-$\rho$ condition, and the final $X(\mathrm{K})$ and $X(\mathrm{Mg})$ mass fractions are obtained. The mass fractions are subsequently mixed with varying amounts of pristine matter. This mixing is described by Eqn. \ref{eqn:mixing}, where one part of processed matter (final mass fractions) is diluted with $f$ parts of pristine matter (initial mass fractions). The values of $f$ are varied to produce a range of [K/Fe] and [Mg/Fe] abundances. If this range of abudances follows the observed anticorrelation of Fig. \ref{fig:MgK}, then the $T$-$\rho$ condition is considered a solution.
+
+The hydrogen-burning reaction network consists of 213 nuclei from $^{1}$H to $^{55}$Cr and 2127 total reactions. Initial mass fractions are chosen such that $X_{\mathrm{init}}(^{1}\mathrm{H}) = 0.754$, $X_{\mathrm{init}}(^{4}\mathrm{He}) = 0.245$, and the remaining 0.001 is distributed among the other nuclei according to their relative solar system abundances. A grid of network calculations is performed, each with constant temperature $T$ and density $\rho$, terminating at a specified final hydrogen mass fraction $X_{\mathrm{last}}(^{1}\mathrm{H})$. The grid spans $T=5-300$ MK (in steps of 5 MK), $\rho=10^{-4}-10^{11}$ $\mathrm{g}/\mathrm{cm}^{3}$ (in logarithmic steps, 10 per order of magnitude), and $X_{\mathrm{last}}(^{1}\mathrm{H}) = 0.2-0.7$ (in steps of 0.1). For each network calculation, the final $X(\mathrm{K})$ and $X(\mathrm{Mg})$ are mixed by $f = 1000, 100, 30, 10, 3, 1, 0.1, 0.05, 0.02$, and $0$, and the new diluted [K/Fe] and [Mg/Fe] abundances are obtained. Their path through the [Mg/Fe] vs. [K/Fe] plot of Fig. \ref{fig:MgK} is tracked to test for a match with the observed abundances. Specifically, a solution is obtained if the path enters the box defined by the points 1.3 dex < [K/Fe] < 2.0 dex and -1.5 dex < [Mg/Fe] < -0.8 dex.
+
+\begin{figure}[!p]
+\includegraphics[width=6.5in]{Chapter-6/figs/MgK_xlast20.png}
+\caption{\label{fig:MgK_Trho_Conditions}The $T$-$\rho$ conditions that match the observed Mg-K anticorrelation in the globular cluster NGC 2419, using both the new and old $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rates. Solutions for both rates are shown in gray as the overlap region, while solutions unique to one rate are indicated with red (new) or blue (old). An $X_{\mathrm{last}}(^{1}\mathrm{H})$ value of 0.2 is used here.}
 \end{figure}
+
+Fig. \ref{fig:MgK_Trho_Conditions} shows the results of the grid search with a specific $X_{\mathrm{last}}(^{1}\mathrm{H})$ value of 0.2. Only $T$-$\rho$ solutions to the Mg-K anticorrelation are shown in the plot. The gray points are solutions for both the old and the new $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate. Red points are solutions with the new rate only, and blue points are no longer solutions with the new rate. The magenta point represents the maximum temperature, $T=104$ MK, of hot-bottom burning (HBB) in a 6 $M_{\odot}$ AGB star with metallicity $Z = 10^{-4}$ and a typical density of 10 $\mathrm{g}/\mathrm{cm}^{3}$ \cite{Karakas2010}. Similarly, the green point represents the maximum temperature, $T=136$ MK, of HBB in an 8 $M_{\odot}$ SAGB star with metallicity $Z = 10^{-4}$ and $\rho=9$ $\mathrm{g}/\mathrm{cm}^{3}$ \cite{Doherty2015}. 
+
+Neither of these polluter star candidates reach a sufficient temperature of $\gtrsim$ 150 MK to be considered responsible for the Mg--K anticorrelation in NGC 2419. Because the new reaction rate does not introduce any new solutions on the left-hand side of the primary $T$-$\rho$ band, the likelyhood for AGB or SAGB stars to be polluter candidates for this globular cluster has not improved from the previous analysis of Ref. \cite{Iliadis2016}. The situation depicted by Fig. \ref{fig:Trho_Iliadis} remains the same. ONe and CO classical novae are the likely polluter candidates, as their $T$-$\rho$ evolution passes straight though the band. However, as mentioned in Section \ref{sec:NGC2419}, AGB stellar model parameters are presently very uncertain, and adjusting these could increase the HBB temperature enough to be considered a likely polluter candidate.
+
+The plot still has several interesting features. There are two separate regions that describe the Mg-K anticorrelation in NGC 2419. The smaller band runs from 190 MK to more than 300 MK and from $10^{8}$ $\mathrm{g}/\mathrm{cm}^{3}$ to less than $10^{4}$ $\mathrm{g}/\mathrm{cm}^{3}$. Meanwhile, the larger band spans 95 MK to at least 220 MK, where it diverges into two branches. This band spans most densities in the grid, from $10^{-4}$ $\mathrm{g}/\mathrm{cm}^{3}$ up to about $10^{9}$ $\mathrm{g}/\mathrm{cm}^{3}$. The distribution of red and blue points is also interesting. They are mostly associated with the outer edges of the bands, with no clear pattern for temperature or density. The sea of red points at 95 MK and 100 MK likely result from the 154 keV resonance acting to increase the rate at these temperatures. The reaction rate of Ref. \cite{Longland2018} likely produces too much potassium here, while the new increased destruction rate reduces its abundance enough the match the observations.
+
+\begin{figure}[!p]
+\includegraphics[width=5.5in]{Chapter-6/figs/MaxKSeparation_T100_rho4d7_xlast20_HDA.png}
+\caption{\label{fig:MaxSeparation}The maximum change in potassium abundance when using the new $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate compared to that of Ref. \cite{Longland2018}. All other reaction rates are provided by \texttt{Starlib} \cite{Sallaska2013}. A maximum decrease in [K/Fe] of 0.2 dex (a factor of 1.7 decrease) occurs at $T = 100$ MK, $\rho = 4 \times 10^{7}$ $\mathrm{g}/\mathrm{cm}^{3}$, and $X_{\mathrm{last}}(^{1}\mathrm{H}) = 0.2$. This configuration now reproduces the Mg--K anticorrelation in NGC 2419, whereas the rate of Ref. \cite{Longland2018} does not.}
+\end{figure}
+
+This hypothesis is confirmed when analyzing Fig. \ref{fig:MaxSeparation}. This plot shows the diluted [K/Fe] and [Mg/Fe] final abundances represented by crosses. Lines are drawn between each cross for clarity. The black crosses were obtained using the new $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate, while the gray crosses are from the old rate of Ref. \cite{Longland2018}, tabulated in \texttt{Starlib} \cite{Sallaska2013}. The dashed box represents the condition for acceptable values of $T$-$\rho$, as the Mg-K anticorrelation is reproduced when the path enters roughly this box. This plot in particular shows the specific scenario where the difference in the [K/Fe] abundances between the old and new rate is maximized at the $f=0.02$ value inside the box. This condition was found by ranking the [K/Fe] differences over the entire grid. The maximum reduction of -0.23 dex (a factor of 1.7 decrease in abundance) occurs at the solution $T = 100$ MK, $\rho=4 \times 10^{7}$ $\mathrm{g}/\mathrm{cm}^{3}$, and $X_{\mathrm{last}}(^{1}\mathrm{H}) = 0.2.$, which is exactly where the sea of red points was located in Fig. \ref{fig:MgK_Trho_Conditions}. Hence this maximum reduction in [K/Fe] is a direct result of the newly resolved 154 keV resonance.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
 
+New spectroscopic factors and proton partial widths have been extracted from the present $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ proton-transfer experiment. Among the states observed, 13 have been newly resolved for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$, 6 have been newly resolved for $^{39}\mathrm{K}$ proton-transfer (including $^{39}\mathrm{K}(d,n)^{40}\mathrm{Ca}$), and 4 have been newly resolved for $^{39}\mathrm{K}+p$ (including $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$). These latter 4 are the 154 keV, 415 keV, 439 keV, and 521 keV resonances, in terms of center-of-mass energy. Among these, the 154 keV resonance has by far the largest impact on the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate, increasing it by a factor of thirteen at about 70 MK from the most recent calculation of Ref. \cite{Longland2018}. The reduction in the total $1\sigma$ width of the reaction rate uncertainty from this resonance is an even more significant result. At 80 MK, this width is reduced from a factor of 84 to a factor of 2. Another major impact on the reaction rate comes from the present $\ell=1+3$ assignment of the 96 keV resonance, in agreement with $(d,n)$. This replaced the $\ell=3$ assignment in the reaction rate calculation by the other $(^{3}\mathrm{He},d)$ experiments \cite{Erskine1966,Seth1967,Cage1971}. The rate is increased by as much as a factor of six at about 25 MK from this $\ell=1+3$ assignment. However, its effect is negligible above 55 MK compared to that of the 154 keV resonance.
+
+The significant increase in the $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate below 110 MK has led to a decrease in [K/Fe] abundance from hydrogen-burning nuclear reaction networks by as much as 0.2 dex, or a factor of 1.7 at $T=100$ MK and $\rho = 4 \times 10^{7}$ $\mathrm{g}/\mathrm{cm}^{3}$. Several more $T$-$\rho$ conditions have been found to reproduce the Mg--K anticorrelation in NGC 2419 with the new reaction rate. Likewise, several $T$-$\rho$ conditions have been found to no longer reproduce the Mg--K anticorrelation. However, AGB and SAGB stars have not been found to be any more likely polluter candidates than with the previous reaction rate.
+
+The 335 keV resonance still contributes overwhelmingly to the reaction rate between about 110 MK and 400 MK, and several unknown resonances with only upper limit proton partial widths are distributed around it. These unknown resonances almost certainty contribute to the uncertainty in its resonance contribution, and continued focus should be placed on resolving them to further constrain the $T$-$\rho$ conditions for hydrogen burning in NGC 2419.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
