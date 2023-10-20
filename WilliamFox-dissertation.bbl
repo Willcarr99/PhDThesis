@@ -142,6 +142,142 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Bassel1966}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BRH}{%
+         family={Bassel},
+         familyi={B\bibinitperiod},
+         given={R.\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BRH1}
+    \strng{fullhash}{BRH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bas66}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1103/PhysRev.149.791
+    \endverb
+    \field{number}{3}
+    \field{pages}{791\bibrangedash 797}
+    \field{title}{Normalization of and Finite-Range Effects in
+  ($^{3}\mathrm{He}$, $d$) and ($t, d$) Reactions}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.149.791
+    \endverb
+    \field{volume}{149}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1966}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{IAEA2007}{report}{}
+    \name{author}{13}{}{%
+      {{hash=BMM}{%
+         family={B{\'e}},
+         familyi={B\bibinitperiod},
+         given={M.-M.},
+         giveni={M\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=CVP}{%
+         family={Chechev},
+         familyi={C\bibinitperiod},
+         given={V.\bibnamedelima P.},
+         giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dersch},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HOAM}{%
+         family={Helene},
+         familyi={H\bibinitperiod},
+         given={O.\bibnamedelima A.\bibnamedelima M.},
+         giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=HRG}{%
+         family={Helmer},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Herman},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=H}{%
+         family={Hlav{\'a}{\v c}},
+         familyi={H\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Marcinkowski},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MGL}{%
+         family={Moln{\'a}r},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima L.},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=NAL}{%
+         family={Nichols},
+         familyi={N\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sch{\"o}nfeld},
+         familyi={S\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VVR}{%
+         family={Vanin},
+         familyi={V\bibinitperiod},
+         given={V.\bibnamedelima R.},
+         giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WMJ}{%
+         family={Woods},
+         familyi={W\bibinitperiod},
+         given={M.\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BMM+1}
+    \strng{fullhash}{BMMCVPDRHOAMHRGHMHMAMGLNALSEVVRWMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{B{\'e}07}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Update of X Ray and Gamma Ray Decay Data Standards for
+  Detector Calibration and Other Applications}
+    \field{volume}{1}
+    \list{location}{1}{%
+      {Vienna, Austria}%
+    }
+    \list{institution}{1}{%
+      {International Atomic Energy Agency}%
+    }
+    \field{type}{techreport}
+    \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Breit1936}{article}{}
     \name{author}{2}{}{%
       {{hash=BG}{%
@@ -1964,6 +2100,51 @@
     \field{volume}{70}
     \field{journaltitle}{Phys. Rev. C}
     \field{year}{2004}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Hammache2021}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=HF}{%
+         family={Hammache},
+         familyi={H\bibinitperiod},
+         given={Faïrouz},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=dSN}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Séréville},
+         familyi={S\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \keyw{Business And Economics--Banking And Finance; Stellar evolution;
+  Astrophysics; Nuclear reactions; Charged particles; Nuclear astrophysics;
+  Cross-sections}
+    \strng{namehash}{HFSNd1}
+    \strng{fullhash}{HFSNd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ham21}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{note}{Copyright - © 2021. This work is published under
+  http://creativecommons.org/licenses/by-nc-nd/4.0/ (the “License”).
+  Notwithstanding the ProQuest Terms and Conditions, you may use this content
+  in accordance with the terms of the License; Last updated - 2023-03-20}
+    \field{title}{Transfer reactions as a Tool in Nuclear Astrophysics}
+    \verb{url}
+    \verb https://proxying.lib.ncsu.edu/index.php/login?url=https://www.proques
+    \verb t.com/working-papers/transfer-reactions-as-tool-nuclear-astrophysics/
+    \verb docview/2556168924/se-2
+    \endverb
+    \field{journaltitle}{arXiv.org}
+    \field{year}{2021}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -4220,7 +4401,7 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{Satchler1988}{book}{}
+  \entry{Satchler1983}{book}{}
     \name{author}{1}{}{%
       {{hash=SG}{%
          family={Satchler},
@@ -4236,11 +4417,11 @@
     \strng{fullhash}{SG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{Sat88}
+    \field{labelalpha}{Sat83}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{title}{Direct nuclear reactions}
-    \field{year}{1988}
+    \field{year}{1983}
   \endentry
 
   \entry{Sbordone2007}{article}{}

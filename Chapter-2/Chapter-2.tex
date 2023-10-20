@@ -123,7 +123,7 @@ The charged-particle partial width for channel $c$ is
 \Gamma_{c}(E) = \frac{2 \hbar^{2}}{\mu_{01} R^{2}} \, P_{c}(E) \, C^{2}S \, \theta_{\mathrm{sp}, \, c},
 \end{equation}
 where the channel radius $R$ is defined by $R = R_{0} \left( A_{0}^{1/3} + A_{1}^{1/3} \right)$; the penetration factor $P_{c}(E)$ can be calculated as
-\begin{equation}
+\begin{equation} \label{eqn:pen_factor}
 P_{c}(E) = \frac{\rho}{F^{2}(E) + G^{2}(E)},
 \end{equation}
 where $\rho = 0.21874 \, R \, \sqrt{\mu_{01} E}$ and $F$ and $G$ are the energy dependent Coulomb wave functions; $C^{2}S$ is the spectroscopic factor, sometimes simply referred to as $S$, where $C$ is the isospin Clebsch-Gordon coefficient, and $\theta_{\mathrm{sp}, \, c}$ is the dimensionless single-particle reduced width. The charged-particle partial width can be thought of as being proportional to the probability of the particle being emitted from the compound nucleus. Each of the latter three quantities in Eqn. \ref{eqn:partial_width} contribute to this probability. The penetration factor $P_{c}(E)$ represents the probability of overcoming or tunneling through the Coulomb barrier to reach the nuclear surface. The dimensionless single-particle reduced width $\theta_{\mathrm{sp}, \, c}$ represents the probability that the particle occupies the exact single-particle shell-model state of the resonance at the nuclear surface. Finally, the spectroscopic factor $C^{2}S$ is a measure of how much the populated state resembles that single-particle shell-model state. Although $C^{2}S$ is model-dependent, it is the only quantity in Eqn. \ref{eqn:partial_width} that is based on measurement, as will be clear in Section \ref{subsec:DWBA}.
@@ -158,19 +158,70 @@ where $Q$ is the $Q$-value, or equivalently, the particle separation energy, and
 % Theory leading to C2S definition from overlap functions
 % And C2S from DWBA and experimental cross section
 
+% Overview:
+% 1.) Transfer reactions are alternatives to direct reactions, and can be especially important for astrophysics where particle energies are too low to measure resonances directly.
+% 2.) Introduce the Optical Model
+
+It is clear from the previous sections that there is an intimate connection between astrophysics and nuclear structure. Astrophysical reaction rates depend on resonance strengths and resonance energies, both of which can be obtained through experimental investigation of nuclear reactions in the laboratory. Transfer reaction measurements can provide these key nuclear ingredients and are often better suited to investigate the low energy resonances important for astrophysical environments than the direct reactions themselves. %Proton-capture $(p,\gamma)$ reaction rates, for example, are often studied indirectly through proton-transfer reactions, such as $(^{3}\mathrm{He},d)$.  
+
+Transfer reactions occur when either a single nucleon or cluster of nucleons $x$ are transferred between the projectile system $a$ and the target system $A$. The reaction $A(a,b)B$ proceeds, where, assuming $x$ is transferred from $a = b + x$ to $A$, a new composite nucleus $B = A + x$ is formed. This is known as a stripping reaction. If $x$ were instead transferred from the target to the projectile, it would be considered a pickup reaction. Stripping reactions will be the focus of the current section, as this type of reaction is performed in this thesis. 
+
 \subsection{Optical Model} \label{subsec:Optical_Model}
 
+The scattering of $a+A$ or $b+B$ can be described in general by coupling every available reaction channel. In practice, however, this is far too complex because it would require specifying the $N$-body Hamiltonian. The optical model can be applied instead, where interactions are averaged over, and the scattering problem reduces to considering a single particle interacting with a complex potential $U(r) = V(r) + iW(r)$. The real part $V(r)$ describes the elastic scattering process, while the imaginary part $W(r)$ is responsible for absorption, or the loss of flux due to the other available reaction channels \cite{Krane1987}. 
 
+The optical model potential (OMP) $U(r)$ is typically described by a real volume term, imaginary volume and surface absorption terms, real and imaginary spin-orbit coupling terms, and a Coulomb potential term $V_{c}(r)$. The real ($r$) and imaginary ($v$) volume potentials have a Woods-Saxon form $f(r)$, and the surface ($s$) and spin-orbit ($so$) potentials have a Woods-Saxon derivative form $df(r)/dr$, where
+\begin{equation}
+f_{i}(r) = \biggl[1 + \frac{\text{exp}(r - R_{i})}{a_{i}}\biggr]^{-1} \;\; (i = r, v, s, so),
+\end{equation}
+with the radii calculated from $R_{i} = r_{i}A_{t}^{1/3}$ for $i = r, v, s, so, c$. The parameters $r_{i}$ and $a_{i}$ are referred to as the radius and diffusiveness parameters, respectively, and $A_{t}$ is the target mass. The full potential is written as \cite{Liang2009}
+\begin{align} \label{eqn:OMP}
+U(r) = \, &-V_{r}f_{r}(r) - i W_{v} f_{v}(r) + i 4 a_{s} W_{s} \frac{d \, f_{s}(r)}{d r} \nonumber \\
+&+ \, \lambdabar^{2}_{\pi} \frac{V_{so} + i W_{so}}{r} \frac{d \, f_{so}(r)}{d r} \, \vec{\sigma} \cdot \vec{\ell} + V_{c}(r),
+\end{align}
+where $\lambdabar^{2}_{\pi} = 2.0$ $\mathrm{fm}^{2}$ and the Thomas form for the spin-orbit coupling is chosen.
+
+In general, there are 14 parameters that make up the OMP of Eqn. \ref{eqn:OMP}, $V_{r}$, $r_{r}$, $a_{r}$, $W_{v}$, $r_{v}$, $a_{v}$, $W_{s}$, $r_{s}$, $a_{s}$, $V_{so}$, $r_{so}$, $a_{so}$, $W_{so}$, and $r_{c}$. For a given pair of nuclei, these parameters must be chosen carefully, as systematic uncertainties in quantities derived from the OMP are usually large. The parameters are often determined from local experimental elastic scattering data, which are relevant only for the specific target nucleus and beam energy used. They can also be extracted globally, from exhaustive studies of experimental elastic scattering data for several target nuclei over a wide range of energies \cite{An2006,Liang2009}. In the case of global OMPs, the potential parameters are usually expressed as functions of beam energy and target mass. These global OMPs are used for the transfer reaction experiment of Chapter \ref{ch:GC}.
 
 \subsection{Distorted Wave Born Approximation} \label{subsec:DWBA}
 
 % Theoretical model, similar to Caleb's Section in his Chapter 2
 
-% For a surface level explanation (good for defense questions! and for intro to section), see Krane pg. 421-424.
+The optical model is a useful way to simplify the $N$-body scattering problem for $a+A$ and $b+B$, but the information about the available reaction channels, such as a transferred particle $x$, is lost to the imaginary absorption term. Particle transfer can be treated as a perturbation to the elastic scattering of $a+A$ and $b+B$, each described by an OMP \cite{Satchler1983}. This perturbation is implemented by the Distorted Wave Born Approximation (DWBA). DWBA can be applied under the assumption that the transfer process is weak enough to be treated as a first order perturbation and that transfer occurs directly between $a+A$ and $b+B$, with no rearrangement of the core configuration \cite{Hammache2021}.
 
-% Include Zero-range approximation
+The transfer process is governed by the perturbing interaction potential $V_{\mathrm{tr}}$. The initial and final wavefunctions are represented by the distorted waves $\chi^{(+)}_{i}(\boldsymbol{k}_{i})$ and $\chi^{(-)*}_{f}(\boldsymbol{k}_{f})$, respectively, where $\boldsymbol{k}$ is the associated wave number. The transition amplitude for the transfer process can be written as
+\begin{equation}
+T^{\mathrm{DWBA}}_{i \rightarrow f} = \langle \, \chi^{(-)*}_{f}(\boldsymbol{k}_{f})\, | \, V_{\mathrm{tr}} \, | \, \chi^{(+)}_{i}(\boldsymbol{k}_{i}) \, \rangle.
+\end{equation}
+Coordinate transformation is performed on the $a+A$ and $b+B$ systems, leading to
+\begin{equation}
+T^{\mathrm{DWBA}}_{i \rightarrow f} = J \int d\boldsymbol{r}_{a} \int d\boldsymbol{r}_{b} \chi^{(-)*}_{b}(\boldsymbol{k}_{b},\boldsymbol{r}_{b})\langle B,b \, | \,  V_{\mathrm{tr}} \, | \, A,a \rangle \chi^{(+)}_{a}(\boldsymbol{k}_{a},\boldsymbol{r}_{a}),
+\end{equation}
+where $J$ is the Jacobian of the transformation. The term $\langle B,b \, | \, V_{\mathrm{tr}} \, | \, A,a \rangle$ is called the \emph{form factor}, which contains information about the nuclear structure and selection rules of the transition. 
 
-%\subsection{Spectroscopic Factors} \label{subsec:C2S}
-% Might not need this section (should be covered in both Narrow Resonance and DWBA sections)
-%\subsection{Proton Partial Widths} \label{subsec:PartialWidths}
-% Might not need this section (should be covered in Narrow Resonance section)
+The full transition amplitude involves evaluating a six-dimensional integral over the two relative coordinates $\boldsymbol{r}_{a}$ and $\boldsymbol{r}_{b}$. This full evaluation is known as a \emph{finite-range} (FR) calculation. With modern computers, this calculation can be performed quite easily. However, it is still possible to make an additional approximation to reduce the number of integrals evaluated. This can be useful if Monte Carlo methods are employed for transfer reaction calculations. An assumption can be made, called the \emph{zero-range} (ZR) \emph{approximation}, that the form factor has a small range. This effectively means that the ejectile is emitted at the same point as the projectile is absorbed. With this assumption, the transition amplitude reduces to a three-dimensional integral and only the $A+x$ interaction needs to be considered. In general, the integrand of the transition amplitude is proportional to the projectile internal wavefunction $\phi_{b+x}$ and the $b+x$ interaction potential $V_{b+x}$. That is, $D(\boldsymbol{r}_{b+x}) = \phi_{b+x} V_{b+x}$. Under the ZR approximation, this becomes
+\begin{equation}
+D(\boldsymbol{r}_{b+x}) \approx D_{0} \, \delta(\boldsymbol{r}_{b} - \boldsymbol{r}_{x}),
+\end{equation}
+where $D_{0}$ is the ZR coupling constant, which can be calculated theoretically for $(a,b)$ transfer reactions. For the $(^{3}\mathrm{He},d)$ reaction performed in Chapter \ref{ch:GC}, the ZR approximation is assumed, and the value $D_{0} = -172.8$ MeV $\mathrm{F}^{3/2}$ from Ref. \cite{Bassel1966} is used.
+
+In order to extract information from the form factor, a particular representation for $V_{\mathrm{tr}}$ must be chosen. The \emph{prior} or \emph{post} representations refer to whether the interaction is associated with the entrance or exit channel, respectively, and they are equivalent to first order \cite{Satchler1983}. In the post representation, for example, the reaction will depend on all interactions with the core in the exit channel, $b$, including the optical potentials. In other words,
+\begin{equation}
+V_{\mathrm{post}} = V_{x+b} + U_{A+b} - U_{B+b},
+\end{equation}
+where $V_{x+b}$ is a real, single-particle potential. The approximation $U_{A+b} - U_{B+b} \approx 0$ is often made, called the \emph{no-remnant approximation}. Applying this approximation, the form factor can be expressed in the post form as
+\begin{align}
+\langle B,b \, | \, V_{\mathrm{post}} \, | \, A,a \rangle &= \langle B,b \, | \, V_{x+b} \, | \, A,a \rangle \nonumber \\
+&= \langle B|A \rangle \langle \, b \, | \, V_{x+b}\, | \, a \rangle,
+\end{align}
+where the second line results from factorization, as $V_{x+b}$ only acts on the projectile. The term $\langle B|A \rangle$ is called the \emph{overlap function}, which describes a state in the composite nucleus $B \rightarrow A + x$. The radial part of the overlap function $I^{B}_{A+x}(r)$ can be approximated by a single-particle wave function, usually generated by a Woods-Saxon potential,
+\begin{equation}
+I^{B}_{A+x}(r) \approx S^{1/2}_{A+x} \, \phi_{A+x}(r),
+\end{equation}
+where $\phi_{A+x}(r)$ is the bound state radial wavefunction describing the relative $A+x$ motion. The squre of the coefficient $S_{A+x} = |S^{1/2}_{A+x}|^{2}$ is defined as the \emph{spectroscopic factor}. Usually though, it is paired with the isospin Clebsch-Gordan coefficient $C^{2}$, so that $C^{2}S_{A+x}$ is the typical definition of the spectroscopic factor. It can be thought of as the overlap probability between the $A+x$ wavefunction and the final single-particle configuration $B$. 
+
+This procedure is repeated for the overlap of $a \rightarrow b + x$ in the prior representation resulting in $C^{2}S_{b+x}$. At this point, a theoretical cross section proportional to the square of the transition amplitude can then be computed. Comparing to an experimental differential cross section, the proportionality is the combined spectroscopic factor
+\begin{equation}
+\frac{d \sigma}{d \Omega}_{\mathrm{Exp}} = C^{2}S_{A+x}C^{2}S_{b+x} \frac{d \sigma}{d \Omega}_{\mathrm{DWBA}}.
+\end{equation}
+Recall from Eqn. \ref{eqn:partial_width} that $C^{2}S$, referring to $C^{2}S_{A+x}$, goes directly into the particle partial width calculation. Hence, experimental differential cross sections can be used to obtain $C^{2}S_{A+x}$ and therefore particle partial widths, assuming $C^{2}S_{b+x}$ is known. For small projectile particles $b$ and $x$, these are usually available through ab-initio calculations, such as \cite{Brida2011}.
