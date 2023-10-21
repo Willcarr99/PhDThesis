@@ -6,9 +6,8 @@ A level-1 auxiliary file: front.aux
 A level-1 auxiliary file: Chapter-1/Chapter-1.aux
 A level-1 auxiliary file: Chapter-2/Chapter-2.aux
 A level-1 auxiliary file: Chapter-3/Chapter-3.aux
-A level-1 auxiliary file: Chapter-4/Chapter-4.aux
-A level-1 auxiliary file: Chapter-5/Chapter-5.aux
 A level-1 auxiliary file: Chapter-6/Chapter-6.aux
+A level-1 auxiliary file: Chapter-5/Chapter-5.aux
 A level-1 auxiliary file: Chapter-7/Chapter-7.aux
 A level-1 auxiliary file: Appendix-A/Appendix-A.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -26,16 +25,15 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 19734 items from 5000.
+Reallocated field_info (elt_size=4) to 19595 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
-Warning--I didn't find a database entry for "??"
 Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 105 entries,
             6365 wiz_defined-function locations,
-            2088 strings with 38302 characters,
+            2086 strings with 38277 characters,
 and the built_in function-call counts, 975990 in all, are:
 = -- 76093
 > -- 14860
@@ -74,4 +72,3 @@ warning$ -- 0
 while$ -- 15170
 width$ -- 0
 write$ -- 5181
-(There was 1 warning)

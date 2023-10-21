@@ -12,30 +12,28 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Information on each run of the $^{39}\mathrm {K}(^{3}\mathrm {He}, d)^{40}\mathrm {Ca}$ experiment, including the angle of the Enge, the target used, the magnetic field of the Enge, and the sort group (see text).\relax }}{65}{table.caption.38}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.2}{\ignorespaces Global optical model potential parameters for $^{39}\mathrm {K} + {}^{3}\mathrm {He}$ at $E_{\mathrm {lab}} = 21$ MeV from Ref. \cite {Liang2009}.\relax }}{86}{table.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces Information on each run of the $^{39}\mathrm {K}(^{3}\mathrm {He}, d)^{40}\mathrm {Ca}$ experiment, including the angle of the Enge, the target used, the magnetic field of the Enge, and the sort group (see text).\relax }}{84}{table.caption.52}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Excitation energies $E_{x}$ determined through a Markov Chain Monte Carlo (MCMC) energy calibration for the $^{40}$Ca states observed in the present experiment. For comparison, the ENSDF \cite {Chen2017} excitation energies and $J^{\pi }$ values are also given, unless otherwise indicated. Brackets represent states from ENSDF too close in energy to resolve via the energy calibration alone. Calibration states are shown in italics.\relax }}{96}{table.caption.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.2}{\ignorespaces Global optical model potential parameters for $^{39}\mathrm {K} + {}^{3}\mathrm {He}$ at $E_{\mathrm {lab}} = 21$ MeV from Ref. \cite {Liang2009}.\relax }}{104}{table.caption.62}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Global optical model potential parameters for $^{39}\mathrm {K} + \tmspace +\thinmuskip {.1667em}^{3}\mathrm {He}$ and $^{40}\mathrm {Ca} + d$ and the proton bound-state parameters.\relax }}{99}{table.caption.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Excitation energies $E_{x}$ determined through a Markov Chain Monte Carlo (MCMC) energy calibration for the $^{40}$Ca states observed in the present experiment. For comparison, the ENSDF \cite {Chen2017} excitation energies and $J^{\pi }$ values are also given, unless otherwise indicated. Brackets represent states from ENSDF too close in energy to resolve via the energy calibration alone. Calibration states are shown in italics.\relax }}{114}{table.caption.69}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces The states resolved in the present experiment for the first time in the indicated regimes. Parentheses denote ambiguous $\ell $ assignments.\relax }}{113}{table.caption.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.4}{\ignorespaces Global optical model potential parameters for $^{39}\mathrm {K} + \tmspace +\thinmuskip {.1667em}^{3}\mathrm {He}$ and $^{40}\mathrm {Ca} + d$ and the proton bound-state parameters.\relax }}{117}{table.caption.71}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Spectroscopic factors compared with Refs. \cite {Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}.\relax }}{115}{table.caption.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.5}{\ignorespaces The states resolved in the present experiment for the first time in the indicated regimes. Parentheses denote ambiguous $\ell $ assignments.\relax }}{131}{table.caption.80}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces (continued)\relax }}{116}{table.caption.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.6}{\ignorespaces Spectroscopic factors compared with Refs. \cite {Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}.\relax }}{133}{table.caption.81}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.6}{\ignorespaces (continued)\relax }}{134}{table.caption.82}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.7}{\ignorespaces Center-of-mass resonance energies $E_{r}$, angular momentum assignments, and proton partial-widths obtained for proton-unbound $^{40}\mathrm {Ca}$ states in this experiment. The total proton partial-width uncertainty is reported, including a $30\%$ systematic uncertainty. The last column shows proton partial-width upper limits calculated by Longland \emph {et al.} \cite {Longland2018}.\relax }}{135}{table.caption.83}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Center-of-mass resonance energies $E_{r}$, angular momentum assignments, and proton partial-widths obtained for proton-unbound $^{40}\mathrm {Ca}$ states in this experiment. The total proton partial-width uncertainty is reported, including a $30\%$ systematic uncertainty. The last column shows proton partial-width upper limits calculated by Longland \emph {et al.} \cite {Longland2018}.\relax }}{117}{table.caption.69}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces Initial abundances, in terms of mass fractions $X_{\mathrm {init}}$, in the s-process reaction network model of Chapter \ref {ch:Rb}. Relative solar system abundances from Ref. \cite {Lodders2009} are applied to the remaining nuclei after modifications to $^{1}$H, $^{4}$He, $^{12}$C, $^{13}$C, $^{14}$N, $^{16}$O, and $^{56}$Fe.\relax }}{157}{table.caption.91}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces (continued)\relax }}{158}{table.caption.92}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Initial abundances, in terms of mass fractions $X_{\mathrm {init}}$, in the s-process reaction network model of Chapter \ref {ch:Rb}. Relative solar system abundances from Ref. \cite {Lodders2009} are applied to the remaining nuclei after modifications to $^{1}$H, $^{4}$He, $^{12}$C, $^{13}$C, $^{14}$N, $^{16}$O, and $^{56}$Fe.\relax }}{158}{table.caption.92}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.1}{\ignorespaces (continued)\relax }}{159}{table.caption.93}%

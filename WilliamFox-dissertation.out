@@ -30,60 +30,52 @@
 \BOOKMARK [2][-]{subsection.3.4.2}{The [Rb/Zr], [Rb/Sr], and [Rb/Fe] Ratios}{section.3.4}% 30
 \BOOKMARK [2][-]{subsection.3.4.3}{Discussion}{section.3.4}% 31
 \BOOKMARK [1][-]{section.3.5}{Conclusions}{chapter.3}% 32
-\BOOKMARK [0][-]{chapter.4}{Experiments at the Triangle Universities Nuclear Laboratory}{}% 33
+\BOOKMARK [0][-]{chapter.4}{39K\(p,g\)40Ca Constraints for Globular Cluster NGC 2419}{}% 33
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.2}{Target Preparation}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.2.1}{Carbon Backing}{section.4.2}% 36
-\BOOKMARK [2][-]{subsection.4.2.2}{Evaporation}{section.4.2}% 37
-\BOOKMARK [1][-]{section.4.3}{TUNL Tandem Accelerator and Beamline Components}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.4}{Enge Split-Pole Spectrograph}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.5}{Focal Plane Detector}{chapter.4}% 40
-\BOOKMARK [0][-]{chapter.5}{Development of a New Digital Data Acquisition System}{}% 41
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.2}{Background and Motivation}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.3}{Overview of the CAEN V1730 Digitizer}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.3.1}{Digital Pulse-Processing Parameters}{section.5.3}% 45
-\BOOKMARK [2][-]{subsection.5.3.2}{Time Stamp Determination}{section.5.3}% 46
-\BOOKMARK [2][-]{subsection.5.3.3}{Event Readout Format}{section.5.3}% 47
-\BOOKMARK [1][-]{section.5.4}{Frontend DAQ Software}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.5}{Testing the Digital Data Acquisition System}{chapter.5}% 49
-\BOOKMARK [2][-]{subsection.5.5.1}{Energy Resolution Tests with 152Eu}{section.5.5}% 50
-\BOOKMARK [2][-]{subsection.5.5.2}{Timing Resolution Tests with 60Co}{section.5.5}% 51
-\BOOKMARK [2][-]{subsection.5.5.3}{Development of Coincidence Logic in EngeSpec}{section.5.5}% 52
-\BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 53
-\BOOKMARK [0][-]{chapter.6}{39K\(p,g\)40Ca Constraints for Globular Cluster NGC 2419}{}% 54
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.2}{NGC 2419 and the Mg\205K Anticorrelation}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.3}{The Previous 39K\(p,\)40Ca Reaction Rate}{chapter.6}% 57
-\BOOKMARK [2][-]{subsection.6.3.1}{Longland et al. \(2018\) Evaluation}{section.6.3}% 58
-\BOOKMARK [2][-]{subsection.6.3.2}{Contributing Resonances}{section.6.3}% 59
-\BOOKMARK [2][-]{subsection.6.3.3}{Previous Proton-Transfer Measurements}{section.6.3}% 60
-\BOOKMARK [1][-]{section.6.4}{The 39K\(3He,d\)40Ca Experiment}{chapter.6}% 61
-\BOOKMARK [2][-]{subsection.6.4.1}{Targets}{section.6.4}% 62
-\BOOKMARK [2][-]{subsection.6.4.2}{Focal-Plane Spectra}{section.6.4}% 63
-\BOOKMARK [2][-]{subsection.6.4.3}{Energy Shifts}{section.6.4}% 64
-\BOOKMARK [2][-]{subsection.6.4.4}{Silicon Detector Telescope}{section.6.4}% 65
-\BOOKMARK [2][-]{subsection.6.4.5}{Oxidized Spectra}{section.6.4}% 66
-\BOOKMARK [1][-]{section.6.5}{Bayesian Peak Fitting and Target Oxidation}{chapter.6}% 67
-\BOOKMARK [2][-]{subsection.6.5.1}{Bayesian Peak Fitting}{section.6.5}% 68
-\BOOKMARK [2][-]{subsection.6.5.2}{Fitting Peaks with Target Oxidation}{section.6.5}% 69
-\BOOKMARK [1][-]{section.6.6}{Cross Sections}{chapter.6}% 70
-\BOOKMARK [2][-]{subsection.6.6.1}{Yield to Cross Section Conversion}{section.6.6}% 71
-\BOOKMARK [2][-]{subsection.6.6.2}{Rutherford Scattering}{section.6.6}% 72
-\BOOKMARK [2][-]{subsection.6.6.3}{Cross Sections in the Center-of-Mass System}{section.6.6}% 73
-\BOOKMARK [2][-]{subsection.6.6.4}{Si Detector Normalization}{section.6.6}% 74
-\BOOKMARK [2][-]{subsection.6.6.5}{Optical Model Normalization}{section.6.6}% 75
-\BOOKMARK [1][-]{section.6.7}{39K\(3He,d\)40Ca Analysis}{chapter.6}% 76
-\BOOKMARK [2][-]{subsection.6.7.1}{Energy Calibrations}{section.6.7}% 77
-\BOOKMARK [2][-]{subsection.6.7.2}{DWBA Calculations}{section.6.7}% 78
-\BOOKMARK [2][-]{subsection.6.7.3}{Angular Distribution Results}{section.6.7}% 79
-\BOOKMARK [2][-]{subsection.6.7.4}{Spectroscopic Factors}{section.6.7}% 80
-\BOOKMARK [2][-]{subsection.6.7.5}{Proton Partial Widths and Resonance Energies}{section.6.7}% 81
-\BOOKMARK [1][-]{section.6.8}{New 39K\(p,\)40Ca Reaction Rate}{chapter.6}% 82
-\BOOKMARK [2][-]{subsection.6.8.1}{The Reaction Rate}{section.6.8}% 83
-\BOOKMARK [2][-]{subsection.6.8.2}{Resonance Contributions}{section.6.8}% 84
-\BOOKMARK [1][-]{section.6.9}{New Constraints for the Mg\205K Anticorrelation}{chapter.6}% 85
-\BOOKMARK [1][-]{section.6.10}{Conclusions}{chapter.6}% 86
-\BOOKMARK [0][-]{chapter.7}{Summary and Conclusions}{}% 87
-\BOOKMARK [0][-]{chapter*.90}{APPENDIX}{}% 88
-\BOOKMARK [0][-]{appendix.A}{s-Process Reaction Network Initial Abundances}{}% 89
+\BOOKMARK [1][-]{section.4.2}{NGC 2419 and the Mg\205K Anticorrelation}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.3}{The Previous 39K\(p,\)40Ca Reaction Rate}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.3.1}{Longland et al. \(2018\) Evaluation}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.2}{Contributing Resonances}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.3}{Previous Proton-Transfer Measurements}{section.4.3}% 39
+\BOOKMARK [1][-]{section.4.4}{The 39K\(3He,d\)40Ca Experiment}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.4.1}{Targets}{section.4.4}% 41
+\BOOKMARK [2][-]{subsection.4.4.2}{Focal-Plane Spectra}{section.4.4}% 42
+\BOOKMARK [2][-]{subsection.4.4.3}{Energy Shifts}{section.4.4}% 43
+\BOOKMARK [2][-]{subsection.4.4.4}{Silicon Detector Telescope}{section.4.4}% 44
+\BOOKMARK [2][-]{subsection.4.4.5}{Oxidized Spectra}{section.4.4}% 45
+\BOOKMARK [1][-]{section.4.5}{Bayesian Peak Fitting and Target Oxidation}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.5.1}{Bayesian Peak Fitting}{section.4.5}% 47
+\BOOKMARK [2][-]{subsection.4.5.2}{Fitting Peaks with Target Oxidation}{section.4.5}% 48
+\BOOKMARK [1][-]{section.4.6}{Cross Sections}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.6.1}{Yield to Cross Section Conversion}{section.4.6}% 50
+\BOOKMARK [2][-]{subsection.4.6.2}{Rutherford Scattering}{section.4.6}% 51
+\BOOKMARK [2][-]{subsection.4.6.3}{Cross Sections in the Center-of-Mass System}{section.4.6}% 52
+\BOOKMARK [2][-]{subsection.4.6.4}{Si Detector Normalization}{section.4.6}% 53
+\BOOKMARK [2][-]{subsection.4.6.5}{Optical Model Normalization}{section.4.6}% 54
+\BOOKMARK [1][-]{section.4.7}{39K\(3He,d\)40Ca Analysis}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.7.1}{Energy Calibrations}{section.4.7}% 56
+\BOOKMARK [2][-]{subsection.4.7.2}{DWBA Calculations}{section.4.7}% 57
+\BOOKMARK [2][-]{subsection.4.7.3}{Angular Distribution Results}{section.4.7}% 58
+\BOOKMARK [2][-]{subsection.4.7.4}{Spectroscopic Factors}{section.4.7}% 59
+\BOOKMARK [2][-]{subsection.4.7.5}{Proton Partial Widths and Resonance Energies}{section.4.7}% 60
+\BOOKMARK [1][-]{section.4.8}{New 39K\(p,\)40Ca Reaction Rate}{chapter.4}% 61
+\BOOKMARK [2][-]{subsection.4.8.1}{The Reaction Rate}{section.4.8}% 62
+\BOOKMARK [2][-]{subsection.4.8.2}{Resonance Contributions}{section.4.8}% 63
+\BOOKMARK [1][-]{section.4.9}{New Constraints for the Mg\205K Anticorrelation}{chapter.4}% 64
+\BOOKMARK [1][-]{section.4.10}{Conclusions}{chapter.4}% 65
+\BOOKMARK [0][-]{chapter.5}{Development of a New Digital Data Acquisition System}{}% 66
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.2}{Background and Motivation}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.3}{Overview of the CAEN V1730 Digitizer}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.3.1}{Digital Pulse-Processing Parameters}{section.5.3}% 70
+\BOOKMARK [2][-]{subsection.5.3.2}{Time Stamp Determination}{section.5.3}% 71
+\BOOKMARK [2][-]{subsection.5.3.3}{Event Readout Format}{section.5.3}% 72
+\BOOKMARK [1][-]{section.5.4}{Frontend DAQ Software}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.5}{Testing the Digital Data Acquisition System}{chapter.5}% 74
+\BOOKMARK [2][-]{subsection.5.5.1}{Energy Resolution Tests with 152Eu}{section.5.5}% 75
+\BOOKMARK [2][-]{subsection.5.5.2}{Timing Resolution Tests with 60Co}{section.5.5}% 76
+\BOOKMARK [2][-]{subsection.5.5.3}{Development of Coincidence Logic in EngeSpec}{section.5.5}% 77
+\BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 78
+\BOOKMARK [0][-]{chapter.6}{Summary and Conclusions}{}% 79
+\BOOKMARK [0][-]{chapter*.91}{APPENDIX}{}% 80
+\BOOKMARK [0][-]{appendix.A}{s-Process Reaction Network Initial Abundances}{}% 81

@@ -1,61 +1,61 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {5}Development of a New Digital Data Acquisition System}{52}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {5}Development of a New Digital Data Acquisition System}{128}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:DAQ}{{5}{52}{Development of a New Digital Data Acquisition System}{chapter.5}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction}{52}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.2}Background and Motivation}{52}{section.5.2}\protected@file@percent }
-\newlabel{sec:motivation}{{5.2}{52}{Background and Motivation}{section.5.2}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The traditional method of converting detected particles or $\gamma $-rays into numerical data using analog pulse-processing modules and an analog-to-digital converter (ADC).\relax }}{53}{figure.caption.28}\protected@file@percent }
-\newlabel{fig:traditional_electronics}{{5.1}{53}{The traditional method of converting detected particles or $\gamma $-rays into numerical data using analog pulse-processing modules and an analog-to-digital converter (ADC).\relax }{figure.caption.28}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The new method of converting detected particles and $\gamma $-rays into numerical data with a digitizer, replacing analog modules and the need for an ADC.\relax }}{54}{figure.caption.29}\protected@file@percent }
-\newlabel{fig:new_electronics}{{5.2}{54}{The new method of converting detected particles and $\gamma $-rays into numerical data with a digitizer, replacing analog modules and the need for an ADC.\relax }{figure.caption.29}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The CAEN V1730 Digitizer (pictured on the right), along with its associated DPP firmware and custom frontend DAQ software, is replacing the need for the unportable analog pulse-processing modules (pictured on the left) associated with the Enge focal-plane detector package at TUNL.\relax }}{55}{figure.caption.30}\protected@file@percent }
-\newlabel{fig:upgrade}{{5.3}{55}{The CAEN V1730 Digitizer (pictured on the right), along with its associated DPP firmware and custom frontend DAQ software, is replacing the need for the unportable analog pulse-processing modules (pictured on the left) associated with the Enge focal-plane detector package at TUNL.\relax }{figure.caption.30}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.3}Overview of the CAEN V1730 Digitizer}{55}{section.5.3}\protected@file@percent }
-\newlabel{sec:digitizer}{{5.3}{55}{Overview of the CAEN V1730 Digitizer}{section.5.3}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Digital Pulse-Processing Parameters}{55}{subsection.5.3.1}\protected@file@percent }
-\newlabel{subsec:DPP}{{5.3.1}{55}{Digital Pulse-Processing Parameters}{subsection.5.3.1}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces A signal sampled by the V1730 digitizer, summarizing the parameters used by the DPP algorithms. When the signal crosses the threshold value, the trigger fires, which primes the system for data acquisition.\relax }}{56}{figure.caption.31}\protected@file@percent }
-\newlabel{fig:trigger}{{5.4}{56}{A signal sampled by the V1730 digitizer, summarizing the parameters used by the DPP algorithms. When the signal crosses the threshold value, the trigger fires, which primes the system for data acquisition.\relax }{figure.caption.31}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The dynamic baseline calculation using the mean value of a user-defined number of samples in a moving time window. The baseline freezes during the energy integration of a signal that has been triggered.\relax }}{57}{figure.caption.32}\protected@file@percent }
-\newlabel{fig:baseline_calc}{{5.5}{57}{The dynamic baseline calculation using the mean value of a user-defined number of samples in a moving time window. The baseline freezes during the energy integration of a signal that has been triggered.\relax }{figure.caption.32}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Time Stamp Determination}{58}{subsection.5.3.2}\protected@file@percent }
-\newlabel{subsec:time_stamp}{{5.3.2}{58}{Time Stamp Determination}{subsection.5.3.2}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{59}{subsection.5.3.3}\protected@file@percent }
-\newlabel{subsec:memory}{{5.3.3}{59}{Event Readout Format}{subsection.5.3.3}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces The data format for the first two events in a channel aggregate. Each memory location is 32-bits and is accessed during readout. Individual samples are not saved by our digitizer, so every 32-bit line that contains a sample, S$_{1}$, S$_{2}$, etc., is omitted. Each event therefore contains up to three memory locations. The channel aggregate itself has a header consisting of the first two memory locations, SIZE and FORMAT.\relax }}{60}{figure.caption.34}\protected@file@percent }
-\newlabel{fig:ChannelAgg}{{5.6}{60}{The data format for the first two events in a channel aggregate. Each memory location is 32-bits and is accessed during readout. Individual samples are not saved by our digitizer, so every 32-bit line that contains a sample, S$_{1}$, S$_{2}$, etc., is omitted. Each event therefore contains up to three memory locations. The channel aggregate itself has a header consisting of the first two memory locations, SIZE and FORMAT.\relax }{figure.caption.34}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Channel Aggregate Event Format}{60}{section*.33}\protected@file@percent }
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces The data format for a board aggregate, consisting of up to 8 channel aggregates and 4 memory locations making up the header. Each memory location is 32-bits and is accessed during readout.\relax }}{61}{figure.caption.35}\protected@file@percent }
-\newlabel{fig:BoardAgg}{{5.7}{61}{The data format for a board aggregate, consisting of up to 8 channel aggregates and 4 memory locations making up the header. Each memory location is 32-bits and is accessed during readout.\relax }{figure.caption.35}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Board Aggregate Event Format}{61}{section*.36}\protected@file@percent }
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.4}Frontend DAQ Software}{62}{section.5.4}\protected@file@percent }
-\newlabel{sec:frontend}{{5.4}{62}{Frontend DAQ Software}{section.5.4}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The settings file, settings-DPP.dat, where the most common user-defined DPP parameters are adjusted. It is unlikely any other internal setting is needed, but implementing new V1730 register settings has been made simple.\relax }}{63}{figure.caption.37}\protected@file@percent }
-\newlabel{fig:settings_file}{{5.8}{63}{The settings file, settings-DPP.dat, where the most common user-defined DPP parameters are adjusted. It is unlikely any other internal setting is needed, but implementing new V1730 register settings has been made simple.\relax }{figure.caption.37}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.5}Testing the Digital Data Acquisition System}{63}{section.5.5}\protected@file@percent }
-\newlabel{sec:DAQ_Tests}{{5.5}{63}{Testing the Digital Data Acquisition System}{section.5.5}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Energy Resolution Tests with $^{152}\mathrm  {Eu}$}{63}{subsection.5.5.1}\protected@file@percent }
-\newlabel{subsec:energy_resolution}{{5.5.1}{63}{Energy Resolution Tests with $^{152}\mathrm {Eu}$}{subsection.5.5.1}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces The $^{152}$Eu $\gamma $-ray spectrum as a result of $\beta $-decay. The raw $Q_{long}$ value is given on the $x$-axis and the number of counts in each bin is given on the $y$-axis. The largest four $\gamma $-ray peaks are shown, where the right-most one is the 1408 keV peak used for the energy resolution analysis.\relax }}{64}{figure.caption.38}\protected@file@percent }
-\newlabel{fig:Eu152_spectrum}{{5.9}{64}{The $^{152}$Eu $\gamma $-ray spectrum as a result of $\beta $-decay. The raw $Q_{long}$ value is given on the $x$-axis and the number of counts in each bin is given on the $y$-axis. The largest four $\gamma $-ray peaks are shown, where the right-most one is the 1408 keV peak used for the energy resolution analysis.\relax }{figure.caption.38}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Resolution tests of the long gate (left) and gate offset (right) DPP parameters for the 1408 keV $^{152}$Eu calibration state.\relax }}{65}{figure.caption.39}\protected@file@percent }
-\newlabel{fig:resolution_plots}{{5.10}{65}{Resolution tests of the long gate (left) and gate offset (right) DPP parameters for the 1408 keV $^{152}$Eu calibration state.\relax }{figure.caption.39}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces The $^{60}$Co $\gamma $-ray spectrum shown with the \texttt  {EngeSpec} GUI.\relax }}{66}{figure.caption.40}\protected@file@percent }
-\newlabel{fig:Hist_60Co}{{5.11}{66}{The $^{60}$Co $\gamma $-ray spectrum shown with the \texttt {EngeSpec} GUI.\relax }{figure.caption.40}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}Timing Resolution Tests with $^{60}\mathrm  {Co}$}{66}{subsection.5.5.2}\protected@file@percent }
-\newlabel{subsec:timing_resolution}{{5.5.2}{66}{Timing Resolution Tests with $^{60}\mathrm {Co}$}{subsection.5.5.2}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces The coincidence histogram using the LED time stamp determination mode. The channels on the $x$-axis span from 0 to 8196, where the $\Delta t = 0$ condition has been shifted to the center, at channel 4096. The FHWM is found to be 10.7 ns for this case.\relax }}{67}{figure.caption.41}\protected@file@percent }
-\newlabel{fig:Co60_LED_Coin}{{5.12}{67}{The coincidence histogram using the LED time stamp determination mode. The channels on the $x$-axis span from 0 to 8196, where the $\Delta t = 0$ condition has been shifted to the center, at channel 4096. The FHWM is found to be 10.7 ns for this case.\relax }{figure.caption.41}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces The coincidence histogram using the CFD time stamp determination mode. The FWHM is 4.75 ns for this case.\relax }}{67}{figure.caption.42}\protected@file@percent }
-\newlabel{fig:Co60_CFD_Coin}{{5.13}{67}{The coincidence histogram using the CFD time stamp determination mode. The FWHM is 4.75 ns for this case.\relax }{figure.caption.42}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.3}Development of Coincidence Logic in \texttt  {EngeSpec}}{68}{subsection.5.5.3}\protected@file@percent }
-\newlabel{subsec:coincidences}{{5.5.3}{68}{Development of Coincidence Logic in \texttt {EngeSpec}}{subsection.5.5.3}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.6}Conclusions}{68}{section.5.6}\protected@file@percent }
+\newlabel{ch:DAQ}{{5}{128}{Development of a New Digital Data Acquisition System}{chapter.5}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction}{128}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.2}Background and Motivation}{128}{section.5.2}\protected@file@percent }
+\newlabel{sec:motivation}{{5.2}{128}{Background and Motivation}{section.5.2}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The traditional method of converting detected particles or $\gamma $-rays into numerical data using analog pulse-processing modules and an analog-to-digital converter (ADC).\relax }}{129}{figure.caption.75}\protected@file@percent }
+\newlabel{fig:traditional_electronics}{{5.1}{129}{The traditional method of converting detected particles or $\gamma $-rays into numerical data using analog pulse-processing modules and an analog-to-digital converter (ADC).\relax }{figure.caption.75}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The new method of converting detected particles and $\gamma $-rays into numerical data with a digitizer, replacing analog modules and the need for an ADC.\relax }}{130}{figure.caption.76}\protected@file@percent }
+\newlabel{fig:new_electronics}{{5.2}{130}{The new method of converting detected particles and $\gamma $-rays into numerical data with a digitizer, replacing analog modules and the need for an ADC.\relax }{figure.caption.76}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The CAEN V1730 Digitizer (pictured on the right), along with its associated DPP firmware and custom frontend DAQ software, is replacing the need for the unportable analog pulse-processing modules (pictured on the left) associated with the Enge focal-plane detector package at TUNL.\relax }}{131}{figure.caption.77}\protected@file@percent }
+\newlabel{fig:upgrade}{{5.3}{131}{The CAEN V1730 Digitizer (pictured on the right), along with its associated DPP firmware and custom frontend DAQ software, is replacing the need for the unportable analog pulse-processing modules (pictured on the left) associated with the Enge focal-plane detector package at TUNL.\relax }{figure.caption.77}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.3}Overview of the CAEN V1730 Digitizer}{131}{section.5.3}\protected@file@percent }
+\newlabel{sec:digitizer}{{5.3}{131}{Overview of the CAEN V1730 Digitizer}{section.5.3}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Digital Pulse-Processing Parameters}{131}{subsection.5.3.1}\protected@file@percent }
+\newlabel{subsec:DPP}{{5.3.1}{131}{Digital Pulse-Processing Parameters}{subsection.5.3.1}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces A signal sampled by the V1730 digitizer, summarizing the parameters used by the DPP algorithms. When the signal crosses the threshold value, the trigger fires, which primes the system for data acquisition.\relax }}{132}{figure.caption.78}\protected@file@percent }
+\newlabel{fig:trigger}{{5.4}{132}{A signal sampled by the V1730 digitizer, summarizing the parameters used by the DPP algorithms. When the signal crosses the threshold value, the trigger fires, which primes the system for data acquisition.\relax }{figure.caption.78}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces The dynamic baseline calculation using the mean value of a user-defined number of samples in a moving time window. The baseline freezes during the energy integration of a signal that has been triggered.\relax }}{133}{figure.caption.79}\protected@file@percent }
+\newlabel{fig:baseline_calc}{{5.5}{133}{The dynamic baseline calculation using the mean value of a user-defined number of samples in a moving time window. The baseline freezes during the energy integration of a signal that has been triggered.\relax }{figure.caption.79}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Time Stamp Determination}{134}{subsection.5.3.2}\protected@file@percent }
+\newlabel{subsec:time_stamp}{{5.3.2}{134}{Time Stamp Determination}{subsection.5.3.2}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{135}{subsection.5.3.3}\protected@file@percent }
+\newlabel{subsec:memory}{{5.3.3}{135}{Event Readout Format}{subsection.5.3.3}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces The data format for the first two events in a channel aggregate. Each memory location is 32-bits and is accessed during readout. Individual samples are not saved by our digitizer, so every 32-bit line that contains a sample, S$_{1}$, S$_{2}$, etc., is omitted. Each event therefore contains up to three memory locations. The channel aggregate itself has a header consisting of the first two memory locations, SIZE and FORMAT.\relax }}{136}{figure.caption.81}\protected@file@percent }
+\newlabel{fig:ChannelAgg}{{5.6}{136}{The data format for the first two events in a channel aggregate. Each memory location is 32-bits and is accessed during readout. Individual samples are not saved by our digitizer, so every 32-bit line that contains a sample, S$_{1}$, S$_{2}$, etc., is omitted. Each event therefore contains up to three memory locations. The channel aggregate itself has a header consisting of the first two memory locations, SIZE and FORMAT.\relax }{figure.caption.81}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Channel Aggregate Event Format}{136}{section*.80}\protected@file@percent }
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces The data format for a board aggregate, consisting of up to 8 channel aggregates and 4 memory locations making up the header. Each memory location is 32-bits and is accessed during readout.\relax }}{137}{figure.caption.82}\protected@file@percent }
+\newlabel{fig:BoardAgg}{{5.7}{137}{The data format for a board aggregate, consisting of up to 8 channel aggregates and 4 memory locations making up the header. Each memory location is 32-bits and is accessed during readout.\relax }{figure.caption.82}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{Board Aggregate Event Format}{137}{section*.83}\protected@file@percent }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.4}Frontend DAQ Software}{138}{section.5.4}\protected@file@percent }
+\newlabel{sec:frontend}{{5.4}{138}{Frontend DAQ Software}{section.5.4}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces The settings file, settings-DPP.dat, where the most common user-defined DPP parameters are adjusted. It is unlikely any other internal setting is needed, but implementing new V1730 register settings has been made simple.\relax }}{139}{figure.caption.84}\protected@file@percent }
+\newlabel{fig:settings_file}{{5.8}{139}{The settings file, settings-DPP.dat, where the most common user-defined DPP parameters are adjusted. It is unlikely any other internal setting is needed, but implementing new V1730 register settings has been made simple.\relax }{figure.caption.84}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.5}Testing the Digital Data Acquisition System}{139}{section.5.5}\protected@file@percent }
+\newlabel{sec:DAQ_Tests}{{5.5}{139}{Testing the Digital Data Acquisition System}{section.5.5}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Energy Resolution Tests with $^{152}\mathrm  {Eu}$}{139}{subsection.5.5.1}\protected@file@percent }
+\newlabel{subsec:energy_resolution}{{5.5.1}{139}{Energy Resolution Tests with $^{152}\mathrm {Eu}$}{subsection.5.5.1}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces The $^{152}$Eu $\gamma $-ray spectrum as a result of $\beta $-decay. The raw $Q_{long}$ value is given on the $x$-axis and the number of counts in each bin is given on the $y$-axis. The largest four $\gamma $-ray peaks are shown, where the right-most one is the 1408 keV peak used for the energy resolution analysis.\relax }}{140}{figure.caption.85}\protected@file@percent }
+\newlabel{fig:Eu152_spectrum}{{5.9}{140}{The $^{152}$Eu $\gamma $-ray spectrum as a result of $\beta $-decay. The raw $Q_{long}$ value is given on the $x$-axis and the number of counts in each bin is given on the $y$-axis. The largest four $\gamma $-ray peaks are shown, where the right-most one is the 1408 keV peak used for the energy resolution analysis.\relax }{figure.caption.85}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Resolution tests of the long gate (left) and gate offset (right) DPP parameters for the 1408 keV $^{152}$Eu calibration state.\relax }}{141}{figure.caption.86}\protected@file@percent }
+\newlabel{fig:resolution_plots}{{5.10}{141}{Resolution tests of the long gate (left) and gate offset (right) DPP parameters for the 1408 keV $^{152}$Eu calibration state.\relax }{figure.caption.86}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces The $^{60}$Co $\gamma $-ray spectrum shown with the \texttt  {EngeSpec} GUI.\relax }}{142}{figure.caption.87}\protected@file@percent }
+\newlabel{fig:Hist_60Co}{{5.11}{142}{The $^{60}$Co $\gamma $-ray spectrum shown with the \texttt {EngeSpec} GUI.\relax }{figure.caption.87}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}Timing Resolution Tests with $^{60}\mathrm  {Co}$}{142}{subsection.5.5.2}\protected@file@percent }
+\newlabel{subsec:timing_resolution}{{5.5.2}{142}{Timing Resolution Tests with $^{60}\mathrm {Co}$}{subsection.5.5.2}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces The coincidence histogram using the LED time stamp determination mode. The channels on the $x$-axis span from 0 to 8196, where the $\Delta t = 0$ condition has been shifted to the center, at channel 4096. The FHWM is found to be 10.7 ns for this case.\relax }}{143}{figure.caption.88}\protected@file@percent }
+\newlabel{fig:Co60_LED_Coin}{{5.12}{143}{The coincidence histogram using the LED time stamp determination mode. The channels on the $x$-axis span from 0 to 8196, where the $\Delta t = 0$ condition has been shifted to the center, at channel 4096. The FHWM is found to be 10.7 ns for this case.\relax }{figure.caption.88}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces The coincidence histogram using the CFD time stamp determination mode. The FWHM is 4.75 ns for this case.\relax }}{143}{figure.caption.89}\protected@file@percent }
+\newlabel{fig:Co60_CFD_Coin}{{5.13}{143}{The coincidence histogram using the CFD time stamp determination mode. The FWHM is 4.75 ns for this case.\relax }{figure.caption.89}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.3}Development of Coincidence Logic in \texttt  {EngeSpec}}{144}{subsection.5.5.3}\protected@file@percent }
+\newlabel{subsec:coincidences}{{5.5.3}{144}{Development of Coincidence Logic in \texttt {EngeSpec}}{subsection.5.5.3}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5.6}Conclusions}{144}{section.5.6}\protected@file@percent }
 \@setckpt{Chapter-5/Chapter-5}{
-\setcounter{page}{69}
+\setcounter{page}{146}
 \setcounter{equation}{1}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -91,7 +91,7 @@
 \setcounter{citetotal}{0}
 \setcounter{multicitecount}{0}
 \setcounter{multicitetotal}{0}
-\setcounter{instcount}{175}
+\setcounter{instcount}{574}
 \setcounter{maxnames}{3}
 \setcounter{minnames}{1}
 \setcounter{maxitems}{3}
@@ -196,8 +196,8 @@
 \setcounter{bbx:relatedcount}{0}
 \setcounter{bbx:relatedtotal}{0}
 \setcounter{Item}{0}
-\setcounter{Hfootnote}{3}
-\setcounter{bookmark@seq@number}{53}
+\setcounter{Hfootnote}{4}
+\setcounter{bookmark@seq@number}{78}
 \setcounter{float@type}{4}
 \setcounter{subfigure}{0}
 \setcounter{subtable}{0}
