@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Correlations between the most important reaction rates and the $X(^{87}\mathrm {Rb})/X(^{86}\mathrm {Sr})$ and $X(^{87}\mathrm {Rb})/X(^{90}\mathrm {Zr})$ mass fraction ratios, ranked according to mutual information (MI). The Spearman correlation coefficient $r_{s}$ is also provided, to indicate the polarity of the correlation.\relax }}{40}{table.caption.19}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Correlations between the most important reaction rates and the $X(^{87}\mathrm {Rb})/X(^{86}\mathrm {Sr})$ and $X(^{87}\mathrm {Rb})/X(^{90}\mathrm {Zr})$ mass fraction ratios, ranked according to mutual information (MI). Spearman's correlation coefficient $r_{s}$ is also provided, to indicate the polarity of the correlation.\relax }}{40}{table.caption.19}%
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.2}{\ignorespaces Percentiles from $-2\sigma $ to $+2\sigma $ of the [Rb/Sr], [Rb/Zr], and [Rb/Fe] probability densities from the present Monte Carlo reaction network calculation.\relax }}{48}{table.caption.27}%
 \defcounter {refsection}{0}\relax 
@@ -18,7 +18,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {4.3}{\ignorespaces Excitation energies $E_{x}$ determined through a Markov Chain Monte Carlo (MCMC) energy calibration for the $^{40}$Ca states observed in the present experiment. For comparison, the ENSDF \cite {Chen2017} excitation energies and $J^{\pi }$ values are also given, unless otherwise indicated. Brackets represent states from ENSDF too close in energy to resolve via the energy calibration alone. Calibration states are shown in italics.\relax }}{96}{table.caption.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Global optical model potential parameters for $^{39}\mathrm {K} + \tmspace +\thinmuskip {.1667em}^{3}\mathrm {He}$ and $^{40}\mathrm {Ca} + d$ and the proton bound-state parameters.\relax }}{99}{table.caption.57}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Global optical model potential parameters for $^{39}\mathrm {K} + \,^{3}\mathrm {He}$ and $^{40}\mathrm {Ca} + d$ and the proton bound-state parameters.\relax }}{99}{table.caption.57}%
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {4.5}{\ignorespaces The states resolved in the present experiment for the first time in the indicated regimes. Parentheses denote ambiguous $\ell $ assignments.\relax }}{113}{table.caption.66}%
 \defcounter {refsection}{0}\relax 
@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {4.6}{\ignorespaces (continued)\relax }}{116}{table.caption.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.7}{\ignorespaces Center-of-mass resonance energies $E_{r}$, angular momentum assignments, and proton partial-widths obtained for proton-unbound $^{40}\mathrm {Ca}$ states in this experiment. The total proton partial-width uncertainty is reported, including a $30\%$ systematic uncertainty. The last column shows proton partial-width upper limits calculated by Longland \emph {et al.} \cite {Longland2018}.\relax }}{117}{table.caption.69}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Center-of-mass resonance energies $E_{r}$, angular momentum assignments, and proton partial-widths obtained for proton-unbound $^{40}\mathrm {Ca}$ states in this experiment. The total proton partial-width uncertainty is reported, including a $30\%$ systematic uncertainty. The last column shows proton partial-width upper limits calculated by Ref. \cite {Longland2018}.\relax }}{117}{table.caption.69}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
