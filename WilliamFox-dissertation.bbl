@@ -515,6 +515,42 @@
     \field{year}{1971}
   \endentry
 
+  \entry{Cameron1957}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CAGW}{%
+         family={Cameron},
+         familyi={C\bibinitperiod},
+         given={A.\bibnamedelima G.\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Astronomical Society of the Pacific}%
+    }
+    \strng{namehash}{CAGW1}
+    \strng{fullhash}{CAGW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Cam57}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1086/127051
+    \endverb
+    \field{number}{408}
+    \field{pages}{201}
+    \field{title}{NUCLEAR REACTIONS IN STARS AND NUCLEOGENESIS}
+    \verb{url}
+    \verb https://dx.doi.org/10.1086/127051
+    \endverb
+    \field{volume}{69}
+    \field{journaltitle}{Publications of the Astronomical Society of the
+  Pacific}
+    \field{year}{1957}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Carroll2007}{book}{}
     \name{author}{2}{}{%
       {{hash=CB}{%

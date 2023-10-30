@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: WilliamFox-dissertation.aux
 The style file: biblatex.bst
@@ -25,50 +25,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 19700 items from 5000.
+Reallocated field_info (elt_size=4) to 19734 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
-Biblatex version: 3.16
+Biblatex version: 3.13
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 105 entries,
-            6393 wiz_defined-function locations,
-            2094 strings with 38347 characters,
-and the built_in function-call counts, 974839 in all, are:
-= -- 76093
-> -- 14860
-< -- 4858
-+ -- 25575
-- -- 5870
-* -- 73660
-:= -- 110025
+You've used 106 entries,
+            6365 wiz_defined-function locations,
+            2094 strings with 38411 characters,
+and the built_in function-call counts, 982921 in all, are:
+= -- 76621
+> -- 14985
+< -- 4925
++ -- 25677
+- -- 5900
+* -- 74139
+:= -- 110571
 add.period$ -- 0
-call.type$ -- 105
-change.case$ -- 3073
-chr.to.int$ -- 162
-cite$ -- 208
-duplicate$ -- 100696
-empty$ -- 85517
-format.name$ -- 9727
-if$ -- 196343
+call.type$ -- 106
+change.case$ -- 3127
+chr.to.int$ -- 163
+cite$ -- 210
+duplicate$ -- 101295
+empty$ -- 86198
+format.name$ -- 9779
+if$ -- 199067
 int.to.chr$ -- 0
-int.to.str$ -- 283
+int.to.str$ -- 286
 missing$ -- 0
-newline$ -- 5285
-num.names$ -- 6467
-pop$ -- 39777
+newline$ -- 5319
+num.names$ -- 6554
+pop$ -- 40100
 preamble$ -- 1
-purify$ -- 4044
+purify$ -- 4100
 quote$ -- 0
-skip$ -- 23801
+skip$ -- 24085
 stack$ -- 0
-substring$ -- 138830
-swap$ -- 22115
-text.length$ -- 3360
-text.prefix$ -- 201
+substring$ -- 139790
+swap$ -- 22311
+text.length$ -- 3385
+text.prefix$ -- 203
 top$ -- 1
-type$ -- 3551
+type$ -- 3585
 warning$ -- 0
-while$ -- 15170
+while$ -- 15224
 width$ -- 0
-write$ -- 5181
+write$ -- 5214
