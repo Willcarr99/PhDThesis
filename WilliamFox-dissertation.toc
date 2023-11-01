@@ -1,8 +1,8 @@
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{vi}{section*.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{vii}{section*.4}%
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{viii}{section*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{ix}{section*.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\textbf {Introduction}}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -58,13 +58,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.1}Correlations}{39}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The $^{86}\mathrm {Rb}$ and $^{85}$Kr Branchings}{39}{section*.17}%
+\contentsline {subsubsection}{The $^{86}\mathrm {Rb}$ and $^{85}$Kr Branchings}{39}{section*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Reactions Sensitive to $^{87}$Rb/$^{90}$Zr}{40}{section*.18}%
+\contentsline {subsubsection}{Reactions Sensitive to $^{87}$Rb/$^{90}$Zr}{40}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Neutron Sources}{43}{section*.22}%
+\contentsline {subsubsection}{The Neutron Sources}{43}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Neutron Poisons}{43}{section*.23}%
+\contentsline {subsubsection}{The Neutron Poisons}{43}{section*.25}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}The [Rb/Zr], [Rb/Sr], and [Rb/Fe] Ratios}{46}{subsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
@@ -152,9 +152,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{135}{subsection.5.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Channel Aggregate Event Format}{136}{section*.80}%
+\contentsline {subsubsection}{Channel Aggregate Event Format}{136}{section*.82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Board Aggregate Event Format}{137}{section*.83}%
+\contentsline {subsubsection}{Board Aggregate Event Format}{137}{section*.85}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}Frontend DAQ Software}{138}{section.5.4}%
 \defcounter {refsection}{0}\relax 
@@ -170,7 +170,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Summary and Conclusions}{146}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{156}{chapter*.91}%
+\contentsline {chapter}{APPENDIX}{156}{chapter*.93}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 

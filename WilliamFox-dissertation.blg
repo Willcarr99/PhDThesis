@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: WilliamFox-dissertation.aux
 The style file: biblatex.bst
@@ -25,16 +25,16 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 19734 items from 5000.
+Reallocated field_info (elt_size=4) to 19840 items from 5000.
 Database file #1: WilliamFox-dissertation-blx.bib
 Database file #2: WilliamFox-dissertation.bib
-Biblatex version: 3.13
+Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 106 entries,
-            6365 wiz_defined-function locations,
-            2094 strings with 38411 characters,
-and the built_in function-call counts, 982921 in all, are:
+            6393 wiz_defined-function locations,
+            2102 strings with 38481 characters,
+and the built_in function-call counts, 981759 in all, are:
 = -- 76621
 > -- 14985
 < -- 4925
@@ -50,7 +50,7 @@ cite$ -- 210
 duplicate$ -- 101295
 empty$ -- 86198
 format.name$ -- 9779
-if$ -- 199067
+if$ -- 197905
 int.to.chr$ -- 0
 int.to.str$ -- 286
 missing$ -- 0
