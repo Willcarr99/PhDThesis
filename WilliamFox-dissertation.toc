@@ -74,17 +74,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Introduction}{48}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}NGC 2419 and the Mg--K Anticorrelation}{48}{section.4.2}%
+\contentsline {section}{\numberline {4.2}NGC 2419 and the Mg--K Anticorrelation}{49}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}The Previous $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{53}{section.4.3}%
+\contentsline {section}{\numberline {4.3}The Previous $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{54}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Longland \emph {et al.} (2018) Evaluation}{53}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Longland \emph {et al.} (2018) Evaluation}{54}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Contributing Resonances}{55}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.3}Previous Proton-Transfer Measurements}{57}{subsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{57}{section.4.4}%
+\contentsline {section}{\numberline {4.4}The $^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Experiment}{58}{section.4.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Targets}{58}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
@@ -92,15 +92,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.3}Energy Shifts}{61}{subsection.4.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Silicon Detector Telescope}{64}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.4}Silicon Detector Telescope}{65}{subsection.4.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Oxidized Spectra}{67}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.5}Oxidized Spectra}{68}{subsection.4.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Bayesian Peak Fitting and Target Oxidation}{67}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Bayesian Peak Fitting and Target Oxidation}{68}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Bayesian Peak Fitting}{68}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Bayesian Peak Fitting}{69}{subsection.4.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Fitting Peaks with Target Oxidation}{71}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}Fitting Peaks with Target Oxidation}{72}{subsection.4.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.6}Cross Sections}{77}{section.4.6}%
 \defcounter {refsection}{0}\relax 
@@ -114,62 +114,62 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.5}Optical Model Normalization}{83}{subsection.4.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{87}{section.4.7}%
+\contentsline {section}{\numberline {4.7}$^{39}\mathrm {\textbf {K}}(^{3}\mathrm {\textbf {He}},d)^{40}\mathrm {\textbf {Ca}}$ Analysis}{86}{section.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.1}Energy Calibrations}{87}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.1}Energy Calibrations}{86}{subsection.4.7.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.7.2}DWBA Calculations}{95}{subsection.4.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.3}Angular Distribution Results}{100}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.3}Angular Distribution Results}{99}{subsection.4.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.4}Spectroscopic Factors}{111}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.4}Spectroscopic Factors}{110}{subsection.4.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.5}Proton Partial Widths and Resonance Energies}{114}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.5}Proton Partial Widths and Resonance Energies}{113}{subsection.4.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{116}{section.4.8}%
+\contentsline {section}{\numberline {4.8}New $^{39}\mathrm {\textbf {K}}(p,\gamma )^{40}\mathrm {\textbf {Ca}}$ Reaction Rate}{115}{section.4.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.1}The Reaction Rate}{116}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.1}The Reaction Rate}{115}{subsection.4.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.2}Resonance Contributions}{119}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.2}Resonance Contributions}{118}{subsection.4.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}New Constraints for the Mg--K Anticorrelation}{121}{section.4.9}%
+\contentsline {section}{\numberline {4.9}New Constraints for the Mg--K Anticorrelation}{120}{section.4.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}Conclusions}{125}{section.4.10}%
+\contentsline {section}{\numberline {4.10}Conclusions}{124}{section.4.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Development of a New Digital Data Acquisition System}{126}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Development of a New Digital Data Acquisition System}{125}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{126}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Introduction}{125}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Background and Motivation}{126}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Background and Motivation}{125}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Overview of the CAEN V1730 Digitizer}{129}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Overview of the CAEN V1730 Digitizer}{128}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Digital Pulse-Processing Parameters}{129}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.1}Digital Pulse-Processing Parameters}{128}{subsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Time Stamp Determination}{132}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.2}Time Stamp Determination}{131}{subsection.5.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{133}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.3}Event Readout Format}{132}{subsection.5.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Channel Aggregate Event Format}{134}{section*.80}%
+\contentsline {subsubsection}{Channel Aggregate Event Format}{133}{section*.80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Board Aggregate Event Format}{135}{section*.83}%
+\contentsline {subsubsection}{Board Aggregate Event Format}{134}{section*.83}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Frontend DAQ Software}{136}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Frontend DAQ Software}{135}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Testing the Digital Data Acquisition System}{137}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Testing the Digital Data Acquisition System}{136}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Energy Resolution Tests with $^{152}\mathrm {Eu}$}{137}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.1}Energy Resolution Tests with $^{152}\mathrm {Eu}$}{136}{subsection.5.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Timing Resolution Tests with $^{60}\mathrm {Co}$}{140}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.2}Timing Resolution Tests with $^{60}\mathrm {Co}$}{139}{subsection.5.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Development of Coincidence Logic in \texttt {EngeSpec}}{142}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.3}Development of Coincidence Logic in \texttt {EngeSpec}}{141}{subsection.5.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Conclusions}{142}{section.5.6}%
+\contentsline {section}{\numberline {5.6}Conclusions}{141}{section.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Summary and Conclusions}{144}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Summary and Conclusions}{143}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{APPENDIX}{154}{chapter*.91}%
+\contentsline {chapter}{APPENDIX}{153}{chapter*.91}%
 \defcounter {refsection}{0}\relax 
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}s-Process Reaction Network Initial Abundances}{155}{appendix.A}%
+\contentsline {chapter}{\numberline {A}s-Process Reaction Network Initial Abundances}{154}{appendix.A}%

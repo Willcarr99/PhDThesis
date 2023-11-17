@@ -1383,6 +1383,27 @@
     \field{year}{1970}
   \endentry
 
+  \entry{NSCLDAQ}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FR}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={Ron},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FR1}
+    \strng{fullhash}{FR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Fox23}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{note}{\url{https://github.com/FRIBDAQ/NSCLDAQ}}
+    \field{title}{\textnormal{``NSCLDAQ'', v12.0-007 }}
+    \field{year}{2023}
+  \endentry
+
   \entry{Fuchs1969}{article}{}
     \name{author}{3}{}{%
       {{hash=FH}{%
@@ -2511,6 +2532,27 @@
     \field{volume}{618}
     \field{journaltitle}{Nuclear Physics A}
     \field{year}{1997}
+  \endentry
+
+  \entry{MIDAS}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=IPS}{%
+         family={Institute},
+         familyi={I\bibinitperiod},
+         given={Paul\bibnamedelima Scherrer},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IPS1}
+    \strng{fullhash}{IPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ins23}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{note}{\url{https://bitbucket.org/tmidas/midas/src/develop/}}
+    \field{title}{\textnormal{``Maximum Integration Data Acquisition System''}}
+    \field{year}{2023}
   \endentry
 
   \entry{Kahl2019}{article}{}

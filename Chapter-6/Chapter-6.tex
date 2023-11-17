@@ -12,7 +12,9 @@
 %  - Abundance anticorrelations result from pollution/mixing from older stars in the globular cluster (polluter stars) ["The (anti-)correlation among light elements is simply a manifestation of the multiple stellar populations." (Gratton et al. 2019)]
 %  - Hydrogen burning in the polluter stars is the mechanism behind these anticorrelations (
 
-This chapter details the original research constraining hydrogen-burning conditions responsible for abundance anomalies in the globular cluster NGC 2419. In particular, the observed potassium enrichment and magnesium depletion of red giants of NGC 2419 is reproduced with nuclear reaction network calculations using new nuclear physics information presented in this chapter. A new reaction rate of the key potassium-destroying reaction, $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, is calculated from the new proton partial-widths and resonance energies of astrophysically-important, proton-unbound $^{40}$Ca states measured in the proton-transfer reaction $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$. The reaction rate is significantly constrained for $T \lesssim 110$ MK. Reaction network calculations will show new temperature-density constraints for hydrogen-burning, compared with that of the previously calculated reaction rate. Hot-bottom burning in Super-AGB stars is investigated as a polluter candidate driving the Mg--K anticorrelation in NGC 2419.
+This chapter details the original research constraining hydrogen-burning conditions responsible for abundance anomalies in the globular cluster NGC 2419. In particular, the observed potassium enrichment and magnesium depletion of red giants of NGC 2419 is reproduced with nuclear reaction network calculations using new nuclear physics information presented in this chapter. A new reaction rate of the key potassium-destroying reaction, $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$, is calculated from the new proton partial-widths and resonance energies of astrophysically-important, proton-unbound $^{40}$Ca states measured in the proton-transfer reaction $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$. Four of these states have been measured here for the first time in the $^{39}\mathrm{K}+p$ regime. The reaction rate is significantly constrained for $T \lesssim 110$ MK, particularly as a result of the new $E_{r}^{\mathrm{c.m.}} = 154$ keV proton partial-width measurement. Reaction network calculations will show new temperature-density constraints for hydrogen-burning, compared with those of the previously calculated reaction rate. Hot-bottom burning in Super-AGB stars is investigated as a polluter candidate driving the Mg--K anticorrelation in NGC 2419.
+
+Section \ref{sec:NGC2419} introduces the mechanism responsible for the Mg--K anticorrelation in NGC 2419 and the previous literature constraining its temperature-density conditions. Section \ref{sec:prev_39K_p_g_rate} details the previous $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate evaluation, including the previous proton-transfer measurements, where its uncertainty in the astrophysical region motivates further experimental constraint. Section \ref{sec:exp_3He_d} describes the present $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experimental setup and methodology. Section \ref{sec:peak_fitting} details the Bayesian peak fitting procedure developed for this experiment, including fitting peaks with tails from target oxidation. Section \ref{sec:cs_calc} describes cross section formalism, including an Optical Model normalization procedure. Section \ref{sec:analysis_3He_d} presents the results of the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ measurement, including energy calibrations, angular distributions, spectroscopic factors, and proton partial-widths. Section \ref{sec:pg_reac_rate} showcases the new $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate using the proton partial-widths of the states measured in the astrophysical region from the present analysis. Finally, Section \ref{sec:potassium_network} presents the new temperature-density constraints for the Mg--K anticorrelation in NGC 2419 using the new $^{39}\mathrm{K}(p, \gamma)^{40}\mathrm{Ca}$ reaction rate.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{NGC 2419 and the Mg--K Anticorrelation} \label{sec:NGC2419}
@@ -195,7 +197,7 @@ Low-lying resonances at astrophysically-important proton energies are difficult 
 The previous $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and $^{39}\mathrm{K}(d,n)^{40}\mathrm{Ca}$ \cite{Fuchs1969} proton-transfer measurements were not capable of achieving high resolution, particularly for unbound $^{40}$Ca states, i.e. at energies above the proton separation energy. The ($^{3}\mathrm{He},d$) measurements of Refs. \cite{Erskine1966,Seth1967,Cage1971} obtained spectroscopic factors ($C^{2}S$) for only 2 unbound $^{40}$Ca states, with ENSDF \cite{Chen2017} excitation energies of $E_{x} = 8425$ keV ($E^{\mathrm{c.m.}}_{r} = 96$ keV) and 8551 keV ($E^{\mathrm{c.m.}}_{r} = 223$ keV), which are both below the lowest directly measured resonance at $E_{x} = 8935$ ($E^{\mathrm{c.m.}}_{r} = 606$ keV). Meanwhile, Ref. \cite{Forster1970} did not observe unbound $^{40}$Ca states due to their focus on lower energy excited states. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} obtained $C^{2}S$ for 14 unbound $^{40}$Ca states, with only 4 of these states below the lowest directly measured resonance, including $8359$ keV ($E^{\mathrm{c.m.}}_{r} = 30$ keV), $8425$ keV ($E^{\mathrm{c.m.}}_{r} = 96$ keV), $8551$ keV ($E^{\mathrm{c.m.}}_{r} = 223$ keV), and $8665$ keV ($E^{\mathrm{c.m.}}_{r} = 337$ keV). Hence, there is an overlap between the $(^{3}\mathrm{He},d)$ and $(d,n)$ measurements of 2 unbound $^{40}$Ca states, 8425 keV ($E^{\mathrm{c.m.}}_{r} = 96$ keV) and 8551 keV ($E^{\mathrm{c.m.}}_{r} = 223$ keV). The $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate calculation of Ref. \cite{Longland2018} used the $C^{2}S$ measurements of Ref. \cite{Cage1971} for these 2 states, due to their more sophisticated coupled-channel DWBA calculations. They used the $C^{2}S$ measurement of Ref. \cite{Fuchs1969} for the 8665 keV ($E^{\mathrm{c.m.}}_{r} = 337$ keV) state. However, the reaction rate calculation did not include the 8359 keV ($E^{\mathrm{c.m.}}_{r} = 30$ keV) $C^{2}S$ measurement of Ref. \cite{Fuchs1969}, as this state has an energy discrepancy with ENSDF \cite{Chen2017} of 12 keV. This resonance was instead given an upper limit. Several unknown resonances remain below $E_{x} = 8935$ keV ($E^{\mathrm{c.m.}}_{r} = 606$ keV). Ref. \cite{Longland2018} uses upper limits for 18 resonances in this region. Hence, this was strong motivation to revisit the proton-transfer reaction at modern resolution to potentially resolve the currently unknown resonances.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The $^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Experiment}
+\section{The $^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Experiment} \label{sec:exp_3He_d}
 
 % PARAGRAPH 1: Basically like the methods section in my 39K(3He,d)40Ca PRL paper, but go into much more detail about the tandem, enge, and detector setup. Note: I will have already covered these in detail in Ch 4
 % PARAGRAPH 2: Show an example spectrum with peaks labeled
@@ -205,8 +207,6 @@ The $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment was perform
 
 \subsection{Targets}
 
-A total of 7 natural KI ($93.26\%$ $^{39}$K, $6.73\%$ $^{41}$K) targets were made throughout the course of the experiment, in 2 separate evaporation batches. The targets labeled KI $\#$1, KI $\#$2, and KI $\#$3 were made in the first batch, while those labeled KI $\#$4, KI $\#$5, KI $\#$6, and KI $\#$7 were made in the second batch, on the second day of the experiment. For each batch, the targets were simultaneously produced by evaporating approximately 75 $\mu\mathrm{g/cm}^{2}$ of natural KI onto aluminum target frames, each with a 21 $\mu\mathrm{g/cm}^{2}$ natural carbon ($98.84\%$ $^{12}$C, $0.96\%$ $^{13}$C) foil backing. The KI target thickness was measured by a thickness monitor inside the evaporation chamber, placed at roughly the same distance from the evaporation material as were the aluminum target frames with carbon backings. Fig. \ref{fig:KI_Evap} shows a photograph of the chamber just before the evaporation process, with 3 natural carbon targets in position. A separate 21 $\mu\mathrm{g/cm}^{2}$ natural carbon target was also used in the experiment for calibrations with the $^{12}\mathrm{C}(^{3}\mathrm{He},d)^{13}\mathrm{N}$, $^{13}\mathrm{C}(^{3}\mathrm{He},d)^{14}\mathrm{N}$, and $^{16}\mathrm{O}(^{3}\mathrm{He},d)^{17}\mathrm{F}$ reactions, among other contaminants.
-
 \begin{figure}[!p]
 \centering
 \begin{tikzpicture}[scale=1.0, every node/.style={transform shape}]
@@ -215,9 +215,13 @@ A total of 7 natural KI ($93.26\%$ $^{39}$K, $6.73\%$ $^{41}$K) targets were mad
 \caption{\label{fig:KI_Evap}The evaporation chamber before the production of KI targets. The 3 targets shown in position become the KI $\#$1, KI $\#$2, and KI $\#$3 targets after evaporation. The thickness monitor is also shown in position around a fourth opening in the 16-slot target holder.}
 \end{figure}
 
+A total of 7 natural KI ($93.26\%$ $^{39}$K, $6.73\%$ $^{41}$K) targets were made throughout the course of the experiment, in 2 separate evaporation batches. The targets labeled KI $\#$1, KI $\#$2, and KI $\#$3 were made in the first batch, while those labeled KI $\#$4, KI $\#$5, KI $\#$6, and KI $\#$7 were made in the second batch, on the second day of the experiment. For each batch, the targets were simultaneously produced by evaporating approximately 75 $\mu\mathrm{g/cm}^{2}$ of natural KI onto aluminum target frames, each with a 21 $\mu\mathrm{g/cm}^{2}$ natural carbon ($98.84\%$ $^{12}$C, $0.96\%$ $^{13}$C) foil backing. The KI target thickness was measured by a thickness monitor inside the evaporation chamber, placed at roughly the same distance from the evaporation material as were the aluminum target frames with carbon backings. Fig. \ref{fig:KI_Evap} shows a photograph of the chamber just before the evaporation process, with 3 natural carbon targets in position. A separate 21 $\mu\mathrm{g/cm}^{2}$ natural carbon target was also used in the experiment for calibrations with the $^{12}\mathrm{C}(^{3}\mathrm{He},d)^{13}\mathrm{N}$, $^{13}\mathrm{C}(^{3}\mathrm{He},d)^{14}\mathrm{N}$, and $^{16}\mathrm{O}(^{3}\mathrm{He},d)^{17}\mathrm{F}$ reactions, among other contaminants.
+
 Potassium iodide is hygroscopic, meaning it will eventually oxidize at atmospheric pressure. To prevent this, care was taken to transport the targets from the evaporation chamber to the target chamber in a vacuum-sealed box at rough vacuum ($\sim 10^{-2}$ torr), where they were then exposed to high vacuum ($\sim 10^{-6}$ torr) for the remainder of the experiment. However, as will be described later, the first batch of targets (KI $\#$1, KI $\#$2, and KI $\#$3) oxidized at some point during the first day of the experiment, for the $\theta_{\mathrm{lab}} = 5^{\circ}$ and $7^{\circ}$ ($^{3}\mathrm{He},d$) measurements. The focal-plane spectra for these runs, exclusively using the KI $\#$1 target, consisted of peaks with high-energy tails, expected of targets that undergo oxidation \cite{Landau1944}. These angles were measured again toward the end of the experiment with the non-oxidized KI $\#$6 target, but the oxidized KI $\#$1 data was not discarded nevertheless. Section \ref{subsec:oxidation} details a novel technique for fitting these spectra, an example of which is shown in Section \ref{subsec:oxidized_spectra}.
 
 \subsection{Focal-Plane Spectra}
+
+The focal-plane detector package (see Ref. \cite{Marshall2019}) consists of two position-sensitive avalanche counters, one located in the front of the detector (P1 section) and one located near the back (P2 section), a gas proportionality counter ($\Delta\mathrm{E}$ section), and a residual energy scintillator (E section). The data acquisition system (DAQ) triggers on the E section, located at the back of the detector, so that coincidences with all sections are established. The combination of the $\Delta$E and E sections enables particle discrimination based on mass and charge, allowing a given particle to be gated on and therefore filtering out undesired particles and detector noise in other spectra. In the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, the $\Delta\mathrm{E}/\mathrm{E}$ spectrum was used to gate on the deuteron group for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ and the $^{3}\mathrm{He}$ group for $^{39}\mathrm{K}(^{3}\mathrm{He},^{3}\mathrm{He})^{39}\mathrm{K}$. Figure \ref{fig:5deg_DEvsE} shows an example 2D histogram of $\Delta$E vs E in the offline \texttt{Jam} software package \cite{Swartz2001,Jam} for the KI $\#$6 target at $\theta_{\mathrm{lab}} = 5^{\circ}$ and an Enge magnetic field of $B = 1.14$ T. The $d$, $t$, and $^{3}$He particles appear in groups, with the $d$ group highlighted in red to represent a gate. The $p$ group is joined by noise in the $\Delta$E detector below the $\Delta$E threshold and are filtered out along with the other particle groups. Both the $\Delta$E and E signals are compressed from their original 4096 channels to 512 channels in the 2D spectrum. 
 
 \def\yTS{1.29} % y tick space
 \def\xTS{2.165} % x tick space
@@ -258,8 +262,6 @@ Potassium iodide is hygroscopic, meaning it will eventually oxidize at atmospher
 \end{tikzpicture}
 \caption{\label{fig:5deg_DEvsE}A 2D histogram of the focal-plane $\Delta$E vs E detector signals. Different groups correspond to different particles depending on their mass and charge. The deuteron group, highlighted in red, is being gated on in the figure.}
 \end{figure}
-
-The focal-plane detector package (see Ref. \cite{Marshall2019}) consists of two position-sensitive avalanche counters, one located in the front of the detector (P1 section) and one located near the back (P2 section), a gas proportionality counter ($\Delta\mathrm{E}$ section), and a residual energy scintillator (E section). The data acquisition system (DAQ) triggers on the E section, located at the back of the detector, so that coincidences with all sections are established. The combination of the $\Delta$E and E sections enables particle discrimination based on mass and charge, allowing a given particle to be gated on and therefore filtering out undesired particles and detector noise in other spectra. In the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, the $\Delta\mathrm{E}/\mathrm{E}$ spectrum was used to gate on the deuteron group for $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ and the $^{3}\mathrm{He}$ group for $^{39}\mathrm{K}(^{3}\mathrm{He},^{3}\mathrm{He})^{39}\mathrm{K}$. Figure \ref{fig:5deg_DEvsE} shows an example 2D histogram of $\Delta$E vs E in the offline \texttt{Jam} software package \cite{Swartz2001,Jam} for the KI $\#$6 target at $\theta_{\mathrm{lab}} = 5^{\circ}$ and an Enge magnetic field of $B = 1.14$ T. The $d$, $t$, and $^{3}$He particles appear in groups, with the $d$ group highlighted in red to represent a gate. The $p$ group is joined by noise in the $\Delta$E detector below the $\Delta$E threshold and are filtered out along with the other particle groups. Both the $\Delta$E and E signals are compressed from their original 4096 channels to 512 channels in the 2D spectrum. 
 
 The 1D histogram of the P1 section, gated on the deuteron group of Fig \ref{fig:5deg_DEvsE}, is shown in Fig. \ref{fig:5deg_fp} in red. The overlayed black spectrum is from a carbon target to show overlapping peaks, indicating contaminants in the KI target. The deuteron peaks shown only in red were ejected from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ reactions in the KI target, where different excited states of the $^{40}$Ca recoil nuclei were populated, resulting in different kinematics for each deuteron depending on the excited state. High-energy deuterons are associated with high-energy $^{40}$Ca excited states, and vice versa. The deuterons are momentum-separated by the Enge Split-Pole Spectrograph, focusing the higher energy ones on the left side of the position sections and the lower energy ones on the right side. Thus, the P1 channel number in Fig. \ref{fig:5deg_fp} is inversely related to the $^{40}$Ca excited state energies. The same is true of the excited states from the contaminants.
 
@@ -588,23 +590,34 @@ Bayesian sampling can be used to optimize these 3 parameters to match the focal-
 
 Prior means $\mu_{0}$ for $A$ and $\mu$ are particularly simple to obtain if the peak apex is visible. Even if it is not visible, as in the case of a multiplet, a guess can be made for each peak apex location, $(x,y)$, based on the curvature of their sum, where $x$ is the mean guess and $y$ is the intensity guess. Each guess is established by selecting a point using the \texttt{BayeSpec} GUI. The prior standard deviations $\sigma_{0}$ for $A$ and $\mu$ are given constant values conservative enough for sampling to be successful in even the most uncertain cases. These can be adjusted by the user, but are typically left as their defaults, listed below.
 
-The prior mean $\mu_{0}$ and standard deviation $\sigma_{0}$ for $\sigma$ are ideally given constant values for a given reaction representative of most peaks from that reaction in focal-plane spectra. This is because energy loss is nearly equivalent for peaks with similar excitation energies from the same reaction, but it is not equivalent for peaks from different reactions. Therefore, peaks from each reaction should ideally have a shared $\sigma$ prior and a shared $\sigma$ posterior in a single fit if multiple peaks are fit simultaneously. In practice, a single $\sigma$ prior can be used for different reactions if it is conservative enough for sampling to be successful, but the $\sigma$ posteriors should remain different for different reactions. 
-
-A background line must also be included in the model, where its intensity $y_{\mathrm{bg}}$ and slope $m_{\mathrm{bg}}$ have their own $\mathcal{N}(\mu_{0}, \sigma_{0}^{2})$ priors. Put together, the prior distributions for gaussian peaks on a background line in a typical focal-plane spectrum are
+The prior mean $\mu_{0}$ and standard deviation $\sigma_{0}$ for $\sigma$ are ideally given constant values for a given reaction representative of most peaks from that reaction in focal-plane spectra. This is because energy loss is nearly equivalent for peaks with similar excitation energies from the same reaction, but it is not equivalent for peaks from different reactions. Therefore, peaks from each reaction should ideally have a shared $\sigma$ prior and a shared $\sigma$ posterior in a single fit if multiple peaks are fit simultaneously. In practice, a single $\sigma$ prior can be used for different reactions if it is conservative enough for sampling to be successful, but the $\sigma$ posteriors should remain different for different reactions. The prior distributions for gaussian peaks in a typical focal-plane spectrum are
 \begin{align}
     A_{i} &\sim \mathcal{N}(y_{i}, 10.0^{2}) \nonumber \\
     \mu_{i} &\sim \mathcal{N}(x_{i}, 1.0^{2}) \nonumber \\
-    \sigma &\sim \mathcal{N}(5.0, 1.0^{2}) \nonumber \\
-    y_{\mathrm{bg}} &\sim \mathcal{N}(\mathrm{max}(1, \mathrm{min}(d)), 0.1^{2}) \nonumber \\
-    m_{\mathrm{bg}} &\sim \mathcal{N}(0, 0.01), \label{eqn:gaus_priors}
+    \sigma &\sim \mathcal{N}(5.0, 1.0^{2}), \label{eqn:gaus_priors}
 \end{align}
-where $\sigma$ is a constant prior for all reactions, but it can easily be adjusted by the user for different reactions if needed, and $d$ refers to the focal-plane data in the specified fit range. The prior for $m_{\mathrm{bg}}$ can also be adjusted if the background line is clearly not horizontal. The model function to be fit is
+where $\sigma$ is a constant prior for all reactions, but it can easily be adjusted by the user for different reactions if needed. A background line must also be included in the model, where its intensity $y_{\mathrm{bg}}$ and slope $m_{\mathrm{bg}}$ have their own $\mathcal{N}(\mu_{0}, \sigma_{0}^{2})$ priors. These are given the typical values of
+\begin{align}
+    y_{\mathrm{bg}} &\sim \mathcal{N}(\mathrm{max}(1, \mathrm{min}(d)), 0.1^{2}) \nonumber \\
+    m_{\mathrm{bg}} &\sim \mathcal{N}(0, 0.01), \label{eqn:bg_priors}
+\end{align}
+where $d$ refers to the focal-plane data in the specified fit range. The prior for $m_{\mathrm{bg}}$ can also be adjusted if the background line is clearly not horizontal. 
+%A background line must also be included in the model, where its intensity $y_{\mathrm{bg}}$ and slope $m_{\mathrm{bg}}$ have their own $\mathcal{N}(\mu_{0}, \sigma_{0}^{2})$ priors. Put together, the prior distributions for gaussian peaks on a background line in a typical focal-plane spectrum are
+%\begin{align}
+%    A_{i} &\sim \mathcal{N}(y_{i}, 10.0^{2}) \nonumber \\
+%    \mu_{i} &\sim \mathcal{N}(x_{i}, 1.0^{2}) \nonumber \\
+%    \sigma &\sim \mathcal{N}(5.0, 1.0^{2}) \nonumber \\
+%    y_{\mathrm{bg}} &\sim \mathcal{N}(\mathrm{max}(1, \mathrm{min}(d)), 0.1^{2}) \nonumber \\
+%    m_{\mathrm{bg}} &\sim \mathcal{N}(0, 0.01), \label{eqn:gaus_priors}
+%\end{align}
+%where $\sigma$ is a constant prior for all reactions, but it can easily be adjusted by the user for different reactions if needed, and $d$ refers to the focal-plane data in the specified fit range. The prior for $m_{\mathrm{bg}}$ can also be adjusted if the background line is clearly not horizontal. The model function to be fit is
+The model function to be fit is
 \begin{equation}
     f(x;A,\mu,\sigma,y_{\mathrm{bg}},m_{\mathrm{bg}}) = \sum_{i}^{N} A_{i} \, \exp \Big( -\frac{(x-\mu_{i})^{2}}{2\sigma_{\hspace{-0.08cm} j}^{2}} \Big) + \Big(y_{\mathrm{bg}} + m_{\mathrm{bg}} (x - \mathrm{min}(x))\Big), \label{eqn:nGausBkg}
 \end{equation}
 where $N$ is the total number of gaussian peaks to be fit and $\sigma_{\hspace{-0.08cm} j}$ refers to the shared standard deviation for peaks from reaction $j$.
 
-The posterior computation in the custom Bayesian sampling routine uses the \texttt{quap} function in \texttt{R}, part of the Bayesian \texttt{rethinking} package \cite{Rethinking}. This function finds a quadratic approximation to each full posterior distribution at its mode. It is less sophisticated than Markov Chain Monte Carlo, but its relative simplicity makes it a more efficient option to use with a GUI. The model composed of Eqns. \ref{eqn:gaus_priors} and \ref{eqn:nGausBkg} is provided to \texttt{quap}, which returns the posterior quadratic approximations with built-in uncertainties. Samples from these posteriors are then used to compute the area of each gaussian, given by $\sqrt{2\pi} \, \sigma_{\hspace{-0.08cm} j} A_{i}$, along with their uncertainties. A small number of posterior samples are also used to graphically display the gaussian fits, with different colors representing different reactions.
+The posterior computation in the custom Bayesian sampling routine uses the \texttt{quap} function in \texttt{R}, part of the Bayesian \texttt{rethinking} package \cite{Rethinking}. This function finds a quadratic approximation to each full posterior distribution at its mode. It is less sophisticated than Markov Chain Monte Carlo, but its relative simplicity makes it a more efficient option to use with a GUI. The model composed of Eqns. \ref{eqn:gaus_priors}, \ref{eqn:bg_priors}, and \ref{eqn:nGausBkg} is provided to \texttt{quap}, which returns the posterior quadratic approximations with built-in uncertainties. Samples from these posteriors are then used to compute the area of each gaussian, given by $\sqrt{2\pi} \, \sigma_{\hspace{-0.08cm} j} A_{i}$, along with their uncertainties. A small number of posterior samples are also used to graphically display the gaussian fits, with different colors representing different reactions.
 
 \begin{figure}[t]
 \centering
@@ -612,12 +625,14 @@ The posterior computation in the custom Bayesian sampling routine uses the \text
 \caption{\label{fig:Gaus_Bayesian}A Bayesian multi-gaussian fit with \texttt{BayeSpec} for the $^{40}$Ca excited states (in red) 6025 keV and 5903 keV from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ and the $^{14}$N excited states (in orange) 5106 keV and 4915 keV from $^{13}\mathrm{C}(^{3}\mathrm{He},d)^{14}\mathrm{N}$ at $\theta_{\mathrm{lab}} = 5^{\circ}$. In red and orange are 50 random samples of the gaussian distributions from the $\sigma$, $\mu$, and $A$ posteriors for each peak. The $^{40}$Ca peaks share an identical $\sigma$ posterior, while the $^{14}$N peaks share their own as well. In blue are the sums of the peaks plus the background line for each of those 50 samples.}
 \end{figure}
 
-Figure \ref{fig:Gaus_Bayesian} shows an example of this Bayesian fitting procedure for a $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ focal-plane spectrum at $\theta_{\mathrm{lab}} = 5^{\circ}$. Excited states of $^{40}\mathrm{Ca}$ are shown in red and $^{14}\mathrm{N}$ excited state contaminants are shown in orange. In blue is the sum of the gaussians and the background line, given by Eqn. \ref{eqn:nGausBkg}. Each gaussian, as well as the blue curve, consists of 50 individual curves that were sampled from the posteriors to represent the uncertainties. The reason it is useful to combine these 4 peaks into one fit in this example is to better resolve the 5903 keV $^{40}$Ca state in red from the 4915 keV $^{14}$N state in orange in the double gaussian on the right side of the spectrum. The addition of the 6025 keV $^{40}$Ca peak in red and the 5106 keV $^{14}$N peak in orange on the left constrains the $\sigma$ posteriors for the double gaussian. While this may seem like a minor correction, and it is minor in the present example, it is crucial in situations where the double gaussian or multiplet is otherwise impossible to resolve.
+Figure \ref{fig:Gaus_Bayesian} shows an example of this Bayesian fitting procedure for a $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ focal-plane spectrum at $\theta_{\mathrm{lab}} = 5^{\circ}$. Excited states of $^{40}\mathrm{Ca}$ are shown in red and $^{14}\mathrm{N}$ excited state contaminants are shown in orange. In blue is the sum of the gaussians and the background line, given by Eqn. \ref{eqn:nGausBkg}. Each gaussian, as well as the blue curve, consists of 50 individual curves that were sampled from the posteriors to represent the uncertainties. The reason it is useful to combine these 4 peaks into one fit in this example is to better resolve the 5903 keV $^{40}$Ca state in red from the 4915 keV $^{14}$N state in orange in the double gaussian on the right side of the spectrum. The addition of the 6025 keV $^{40}$Ca peak in red and the 5106 keV $^{14}$N peak in orange on the left constrains the $\sigma$ posteriors for the double gaussian. While this may seem like a minor correction, it is crucial in situations where the double gaussian or multiplet is otherwise impossible to resolve.
+
+%\newpage
 
 %%*****************************************************************************************%%
 \subsection{Fitting Peaks with Target Oxidation} \label{subsec:oxidation}
 
-Potassium iodine is hygroscopic, meaning it easily absorbs moisture from the environment. When exposed to atmospheric pressure, the salt slowly oxidizes, forming potassium carbonate and molecular iodine. This oxidation increases the thickness of thin-film targets. The probability of particles traversing the target with large final energies is decreased, introducing a high energy tail in the ejected particle spectrum. The Landau distribution describes this energy loss, but it is computationally challenging to implement. An approximation that has been found to fit oxidized-target spectra well is the exponentially-modified gaussian (EMG) distribution \cite{Babu2016}. The power of the EMG approximation is that its area calculation is the exact same as that of a gaussian distribution, $\sqrt{2\pi} \, \sigma A$, where $\sigma$ and $A$ are parameters of both gaussians and EMGs, but they have slightly different definitions as it will become clear below. This makes it very simple to determine the number of counts for EMG distributions, unlike Landau distributions, where the full area integral must be calculated.
+Potassium iodine is hygroscopic, meaning it easily absorbs moisture from the environment. When exposed to atmosphere, the salt slowly oxidizes, forming potassium carbonate and molecular iodine. This oxidation increases the thickness of thin-film targets. The probability of particles traversing the target with large final energies is decreased, introducing a high energy tail in the ejected particle spectrum. The Landau distribution describes this energy loss, but it is computationally challenging to implement. An approximation that has been found to fit oxidized-target spectra well is the exponentially-modified gaussian (EMG) distribution \cite{Babu2016}. The power of the EMG approximation is that its area calculation is the exact same as that of a gaussian distribution, $\sqrt{2\pi} \, \sigma A$, where $\sigma$ and $A$ are parameters of both gaussians and EMGs, but they have slightly different definitions as it will become clear below. This makes it very simple to determine the number of counts for EMG distributions, unlike Landau distributions, where the full area integral must be calculated.
 
 % What to do when the target is oxidized and therefore the peaks have high energy tails. This is called energy straggling and is physically described by the Landau distribution. An approximation to this is an exponentially-modified gaussian 
 % Cite: [Measurement of Energy Loss Straggling of Relativistic Electrons in Thin Aluminum Foils, S. Ramesh Babu and N.M. Badiger, ACTA Physica Polonica A. Vol. 129 (2016) DOI: 10.12693/AphysPolA.129.1118  | Page 1119 Section 2.2: Straggling theories of thin absorbers]
@@ -662,25 +677,23 @@ where these are also usually sufficient for other reactions. Priors for Eqns. \r
 \caption{\label{fig:mu_and_A}The constructed priors for $\mu - x_{m}$ (left) and $A/y_{m}$ (right) from 10,000 samples of the $\sigma$ and $\lambda$ priors of Eqns. \ref{eqn:sig_prior} and \ref{eqn:lambda_prior}. The gaussian (blue) approximations were derived from the mean and standard deviation of the samples. The lognormal (red) approximations were derived from the mean and standard deviation of the natural logarithm of those samples.}
 \end{figure}
 
-\begin{figure}[t]
+As in Section \ref{subsec:peak_fitting_gaus}, once the priors have been determined, the quadratic approximations to the posteriors are computed with \texttt{quap}, and the fit is constructed from samples of the EMG distribution with those posteriors. An example of this Bayesian EMG fitting method is shown in Figure \ref{fig:EMG_Mode}, where the 6285 keV $^{40}$Ca state from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ at $\theta_{\mathrm{lab}} = 5^{\circ}$ is fit with an EMG distribution because the potassium iodine target for this run (KI $\#$1) had undergone oxidation. %The $\mu$ and $A$ priors of Eqns. \ref{eqn:mu_before} and \ref{eqn:A_before} were obtained by taking 10,000 samples from the $\sigma$ and $\lambda$ priors of Eqns. \ref{eqn:sig_prior} and \ref{eqn:lambda_prior} and approximating this as a lognormal distribution. 
+The closely-packed blue lines are 50 representative samples of the EMG posteriors, plus that of the background line, while the green lines are the corresponding gaussian components of those EMG samples with mean $\mu$, standard deviation $\sigma$, and peak intensity $A$. The new mode and peak intensity from Eqn \ref{eqn:mode_peak_intensity}, obtained by sampling from the posteriors, are shown by the black lines, where the solid line represents its mean and the dashed lines represent its standard deviation. Note that the ($x_{m}$, $y_{m}$) coordinate lies along its gaussian component, a ubiquitous property of EMG distributions. The number of counts in the EMG distribution is simply equivalent to the area of its gaussian component, $\sqrt{2\pi} \, \sigma A$, constructed by sampling from the $\sigma$ and $A$ posteriors.
+
+Figure \ref{fig:EMG_Multiplet} shows how powerful this method can be for high resolution spectral analysis with an oxidized target. The same focal-plane spectrum as Figure \ref{fig:EMG_Mode} is shown here, but it is focused on a region with multiple peaks. The blue summed fit consists of 5 EMG distributions, shown individually by the red and orange lines, and a small, virtually horizontal background line. As before, each distribution shows 50 lines drawn from samples of the EMG posteriors. From a simple energy calibration, the red peaks were found to be $^{40}$Ca excited states with excitation energies 7694 keV, 7658 keV, 7623 keV, and 7532 keV, from left to right, and the orange peak corresponds to the $^{14}$N 6446 keV excited state. Because we expect energy loss to be nearly equivalent for peaks with similar energies from the same reaction, the $\sigma$ and $\lambda$ width and skewness parameter posteriors are fixed between the $^{40}$Ca peaks, while the $^{14}$N peak has its own $\sigma$ and $\lambda$ posteriors. The custom Bayesian sampling routines for both gaussian and EMG fits can be used for a simultaneous fit of any number of peaks from up to 3 different reactions at present, and this could easily be extended to any number of reactions. %when the need arises.
+
+\begin{figure}
 \centering
-\includegraphics[width=6.5in]{Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png}
+\includegraphics[width=5.8in]{Chapter-6/figs/ExpModGauss_Mode_and_Intensity.png}
 \caption{\label{fig:EMG_Mode}A Bayesian exponentially-modified gaussian fit with \texttt{BayeSpec} for the 6285 keV $^{40}\mathrm{Ca}$ state from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ at $\theta_{\mathrm{lab}} = 5^{\circ}$ with an oxidized potassium iodine target (KI $\#$1). In blue are 50 random samples of the exponentially-modified gaussian distribution from the $\sigma$, $\lambda$, $\mu$, and $A$ posteriors, plus the background line. In green are the gaussian components of the exponentially-modified gaussian samples. The new mode and peak intensity are represented by the black lines, where the solid line represents their mean and the dashed lines represent their standard deviation.}
 %The mode and peak intensity means of the 10,000 samples are shown by solid black lines, while their standard deviations are represented by dashed lines.
 \end{figure}
 
-As in Section \ref{subsec:peak_fitting_gaus}, once the priors have been determined, the quadratic approximations to the posteriors are computed with \texttt{quap}, and the fit is constructed from samples of the EMG distribution with those posteriors. An example of this Bayesian EMG fitting method is shown in Figure \ref{fig:EMG_Mode}, where the 6285 keV $^{40}$Ca state from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ at $\theta_{\mathrm{lab}} = 5^{\circ}$ is fit with an EMG distribution because the potassium iodine target for this run (KI $\#$1) had undergone oxidation. %The $\mu$ and $A$ priors of Eqns. \ref{eqn:mu_before} and \ref{eqn:A_before} were obtained by taking 10,000 samples from the $\sigma$ and $\lambda$ priors of Eqns. \ref{eqn:sig_prior} and \ref{eqn:lambda_prior} and approximating this as a lognormal distribution. 
-The closely-packed blue lines are 50 representative samples of the EMG posteriors, plus that of the background line, while the green lines are the corresponding gaussian components of those EMG samples with mean $\mu$, standard deviation $\sigma$, and peak intensity $A$. The new mode and peak intensity from Eqn \ref{eqn:mode_peak_intensity}, obtained by sampling from the posteriors, are shown by the black lines, where the solid line represents its mean and the dashed lines represent its standard deviation. Note that the ($x_{m}$, $y_{m}$) coordinate lies along its gaussian component, a ubiquitous property of EMG distributions. The number of counts in the EMG distribution is simply equivalent to the area of its gaussian component, $\sqrt{2\pi} \, \sigma A$, constructed by sampling from the $\sigma$ and $A$ posteriors.
-
-Figure \ref{fig:EMG_Multiplet} shows how powerful this method can be for high resolution spectral analysis with an oxidized target. The same focal-plane spectrum as Figure \ref{fig:EMG_Mode} is shown here, but it is focused on a region with multiple peaks. The blue summed fit consists of 5 EMG distributions, shown individually by the red and orange lines, and a small, virtually horizontal background line. As before, each distribution shows 50 lines drawn from samples of the EMG posteriors. From a simple energy calibration, the red peaks were found to be $^{40}$Ca excited states with excitation energies 7694 keV, 7658 keV, 7623 keV, and 7532 keV, from left to right, and the orange peak corresponds to the $^{14}$N 6446 keV excited state. Because we expect energy loss to be nearly equivalent for peaks with similar energies from the same reaction, the $\sigma$ and $\lambda$ width and skewness parameter posteriors are fixed between the $^{40}$Ca peaks, while the $^{14}$N peak has its own $\sigma$ and $\lambda$ posteriors. The custom Bayesian sampling routines for both gaussian and EMG fits can be used for a simultaneous fit of any number of peaks from up to 3 different reactions at present, and this could easily be extended to any number of reactions when the need arises.
-
 \begin{figure}
 \centering
-\includegraphics[width=6.5in]{Chapter-6/figs/EMG_Multiplet.png}
-\caption{\label{fig:EMG_Multiplet}A Bayesian exponentially-modified gaussian fit with \texttt{BayeSpec} for the $^{40}$Ca excited states (left to right, in red) 7694 keV, 7658 keV, 7623 keV, and 7532 keV from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ and the $^{14}$N excited state (in orange) 6446 keV from $^{13}\mathrm{C}(^{3}\mathrm{He},d)^{14}\mathrm{N}$ at $\theta_{\mathrm{lab}} = 5^{\circ}$ with an oxidized potassium iodine target (KI $\#$1). In red and orange are 50 random samples of the exponentially-modified gaussian distributions from the $\sigma$, $\lambda$, $\mu$, and $A$ posteriors for each peak. The $^{40}$Ca peaks share identical $\sigma$ and $\lambda$ posteriors, whereas the $^{14}$N peak has its own. In blue are the sums of the peaks plus the background line for each of those 50 samples.}
+\includegraphics[width=6in]{Chapter-6/figs/EMG_Multiplet.png}
+\caption{\label{fig:EMG_Multiplet}A Bayesian exponentially-modified gaussian fit with \texttt{BayeSpec} for the $^{40}$Ca excited states (left to right, in red) 7694 keV, 7658 keV, 7623 keV, and 7532 keV from $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ and the $^{14}$N excited state (in orange) 6446 keV from $^{13}\mathrm{C}(^{3}\mathrm{He},d)^{14}\mathrm{N}$ at $\theta_{\mathrm{lab}} = 5^{\circ}$ with an oxidized potassium iodine target (KI $\#$1). In red and orange are 50 random samples of the exponentially-modified gaussian distributions from the $\sigma$, $\lambda$, $\mu$, and $A$ posteriors for each peak. The $^{40}$Ca peaks share identical $\sigma$ and $\lambda$ posteriors, whereas the $^{14}$N peak has its own. In blue are the sums of the peaks plus the background line for each sample.}
 \end{figure}
-
-\newpage
 
 %Since $x_{m}$ and $y_{m}$ are constant, they can be added and multiplied, respectively, to the resulting normal distributions from the following properties. Consider a normally distributed random variable $X$ with mean $a$ and variance $b^2$. Then the properties
 %\begin{align}
@@ -722,7 +735,7 @@ The total number of incident particles $N_{\mathrm{b}}$ is
 \begin{equation}
 N_{\mathrm{b}} = \frac{q}{Z_{p} \, e},
 \end{equation}
-where $q$ is the total charge deposited by the incident particles, $Z_{p}$ is the unit charge of the incident particles, and $e$ is the electronic charge (1.6 $\times$ $10^{-19}$ C). The total charge $q$ is derived from the beam-integrated current (BCI) scalar value collected for each pulse during a given run. The BCI has an associated $\mathrm{BCI}_{\mathrm{scale}}$ setting that determines the scale of the deposited charge, which can be adjusted on the beam current readout module. For the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, the $\mathrm{BCI}_{\mathrm{scale}}$ setting was $10^{-10}$ C/pulse. The number of incident particles $N_{\mathrm{b}}$ is therefore
+where $q$ is the total charge deposited by the incident particles on the target, $Z_{p}$ is the unit charge of the incident particles, and $e$ is the electronic charge (1.6 $\times$ $10^{-19}$ C). The total charge $q$ is derived from the beam-integrated current (BCI) scalar value collected during a given run. The BCI has an associated $\mathrm{BCI}_{\mathrm{scale}}$ setting that determines the scale of the deposited charge, which can be adjusted on the beam current readout module. For the $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ experiment, the $\mathrm{BCI}_{\mathrm{scale}}$ setting was $10^{-10}$ C/pulse. The number of incident particles $N_{\mathrm{b}}$ is therefore
 \begin{equation}
 N_{\mathrm{b}} = \frac{\mathrm{BCI} \times \mathrm{BCI_{\mathrm{scale}}}}{Z_{p} \, e}.
 \end{equation}
@@ -894,16 +907,16 @@ N_{\mathrm{ES}} = \frac{1}{N} \sum_{i=1}^{N} \frac{R_{\mathrm{ES}, i}}{\left( d\
 \end{equation}
 where $R_{\mathrm{ES}, i}$ is defined by Eqn. \ref{eqn:cross_ratio} for the simultaneous $^{39}\mathrm{K}(^{3}\mathrm{He}, {}^{3}\mathrm{He})^{39}\mathrm{K}$ measurements of the focal-plane and Si detectors, $\left( d\sigma/d\Omega_{\mathrm{ES, global}} \right)_{i}$ is the global OMP differential cross section evaluated at the experimental angle $\theta_{\mathrm{c.m., i}}$, and $N$ is the number of experimental points. Since the global OMP differential cross section is not continuous, its value at each experimental center-of-mass angle must be interpolated. This is performed by cubic spline interpolation, where each pair of neighboring $d\sigma/d\Omega_{\mathrm{ES, global}}$ points defines a polynomial that ensures its first and second derivatives at each point are equal to that of neighboring polynomials. After interpolating the $N$ points, the scale factor becomes $N_{\mathrm{ES}} = 0.0277(11) \approx 1/36$. Fig. \ref{fig:ES_Norm} shows the global model scaled by $N_{\mathrm{ES}}$ to match the data. No $\chi^{2}$-minimization or Bayesian Monte Carlo algorithm has been performed on the OMP potential parameters. The global $^{3}$He OMP parameters themselves sufficiently reproduce the angular distribution of the experimental points. However, the OMP parameters give rise to large systematic uncertainties in the spectroscopic factor calculations for the transfer reaction, as demonstrated in Section \ref{subsec:DWBA_Spec}.
 
+The same $N_{\mathrm{ES}}$ normalization is applied to the transfer differential cross sections in Section \ref{subsec:DWBA_Cross}, since they were also measured relative to the elastic scattering of the Si detector. %The ratio between this corrected $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the spectroscopic factor $C^{2}S$ (see Sections \ref{subsec:narrow_resonances} and \ref{subsec:DWBA}). This ratio is performed in the exact same way as the global OMP normalization. %The transfer differential cross sections will be presented in Section \ref{subsec:DWBA_Cross}.
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/global_Norm.png}
 \caption{\label{fig:ES_Norm}The same as Fig. \ref{fig:ES_NoNorm}, except the differential cross-section of the global $^{3}$He optical model potential has been scaled by $N_{\mathrm{ES}}$ to match the experimental measurements, as described in the text.}
 \end{figure}
 
-The same $N_{\mathrm{ES}}$ normalization is applied to the transfer differential cross sections, since they were also measured relative to the elastic scattering of the Si detector. The ratio between this corrected $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ differential cross section and that of an appropriate distorted-wave Born approximation (DWBA) model is the spectroscopic factor $C^{2}S$ (see Sections \ref{subsec:narrow_resonances} and \ref{subsec:DWBA}). This ratio is performed in the exact same way as the global OMP normalization, including the cubic spline interpolation. The transfer differential cross sections will be presented in Section \ref{subsec:DWBA_Cross}.
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{$^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Analysis}
+\section{$^{39}\mathrm{\textbf{K}}(^{3}\mathrm{\textbf{He}},d)^{40}\mathrm{\textbf{Ca}}$ Analysis} \label{sec:analysis_3He_d}
 
 \subsection{Energy Calibrations} \label{subsec:cal}
 
@@ -931,11 +944,11 @@ The calibration uses $x_{\mathrm{ch}}$ and $B\rho$ from the known calibration st
 
 Markov chain Monte Carlo (MCMC) fits were performed with Eqn \ref{eqn:energy_cal} using the Hamiltonian Monte Carlo and Metropolis algorithms built into \texttt{rstan} \cite{Stan,Rstan}. This allowed for Bayesian statistical inference of the fit parameters from MCMC samples. The parameters, including an extra scatter parameter $\sigma$ added in quadrature to each $B\rho$ calibration state uncertainty, were given the prior distributions
 \begin{align}
-a \sim& \, \mathcal{N}(0,1^{2}), \nonumber \\
-b_{1} \sim& \, \mathcal{N}(0,1^{2}), \nonumber \\
-b_{2} \sim& \, \mathcal{N}(0,1^{2}), \nonumber \\
+a, b_{1}, b_{2} \sim& \, \mathcal{N}(0,1^{2}), \nonumber \\
 \sigma \sim& \, \mathrm{Cauchy}(0,1^{2}).
 \end{align}
+%b_{1} \sim& \, \mathcal{N}(0,1^{2}), \nonumber \\
+%b_{2} \sim& \, \mathcal{N}(0,1^{2}), \nonumber \\
 A total of $5 \times 10^{4}$ iterations were performed for each of the four chains that are used by \texttt{rstan}. Samples were extracted from the last $2.5 \times 10^{4}$ iterations, and the first half were used as warmup. Using the new posteriors, $B\rho$ was sampled over the 4096 channels and converted to $^{40}$Ca excitation energy. Energy residuals from the median calibration line were also sampled over the 4096 channels.
 
 % 2.) MCMC Residual figure for 5 deg:
@@ -975,10 +988,20 @@ To illustrate these different averaging methods, the resulting distribution of c
 % 4.) Final Residuals from ENSDF for all states
 The final residuals between the energy-calibrated states using Eqn. \ref{eqn:simple_avg} and their corresponding ENSDF state are shown in Fig. \ref{fig:residuals}. It is clear that the typical energy uncertainty is in the range of $2-3$ keV. The states highlighted in red are the ones that contribute to the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate and are therefore of astrophysical interest. These range from 8359 keV to 8995 keV. The excited state labels are provided in the figure caption. There is decent agreement with ENSDF for most states at relatively high excitation energy, but there is considerable scatter at lower energies. In particular, the state that most disagrees with ENSDF is the 8188 keV state, which has a calibrated energy of 8199.3(27) keV, or a residual of 11.8(28) keV. This may correspond to the 8196 keV state in ENSDF instead, but there is a considerable lack of experimental evidence for this state. This hypothesis will be discussed further in Section \ref{subsec:DWBA_Cross}.
 
-% 5.) The Final Energy table
-The final energies from the MCMC calibration are reported in Table \ref{tab:energies}. Calibration states are shown in italics, except for the alternative calibration states 8484 keV and 9136 keV that were still able to have their energies determined. Cases where the observed state corresponds to an unresolvable doublet according to ENSDF are represented with a bracket around the doublet. The assigned $J^{\pi}$ values from ENSDF are also given. Fig. \ref{fig:AstroRegion} shows an energy calibrated focal plane spectrum of the proton-unbound $^{40}$Ca states labeled with their ENSDF \cite{Chen2017} energies, where the proton separation energy $S_{p} = 8328.18(2)$ keV \cite{Wang2021} is indicated by the red line.
+% Energy-calibrated spectrum in the astrophysical region of interest
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+\node at (0,0) {\includegraphics[width=6.4in]{Chapter-6/figs/AstroRegion_Calibrated.png}};
+\draw[line width = 0.5mm, color=red] (-6.36,-3.5) -- (-6.36,-2.5);
+\end{tikzpicture}
+\caption{\label{fig:AstroRegion}The energy-calibrated focal plane position spectrum, focused on the $^{40}$Ca states above the proton separation energy at $\theta_{\mathrm{lab}} = 5^{\circ}$ (sort group $\#$3). The average width of the energy bins is approximately 1.6 keV in this region. The $^{40}$Ca states are labeled with their ENSDF \cite{Chen2017} energies in keV, and contaminants at this angle are indicated. The red vertical line indicates the proton separation energy, $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}.}
+\end{figure}
 
-\newpage
+% 5.) The Final Energy table
+Fig. \ref{fig:AstroRegion} shows an energy calibrated focal plane spectrum of the proton-unbound $^{40}$Ca states labeled with their ENSDF \cite{Chen2017} energies, where the proton separation energy $S_{p} = 8328.18(2)$ keV \cite{Wang2021} is indicated by the red line. The final energies from the MCMC calibration are reported in Table \ref{tab:energies}. Calibration states are shown in italics, except for the alternative calibration states 8484 keV and 9136 keV, where energies were still determined. Cases where the observed state corresponds to an unresolvable doublet according to ENSDF are represented with a bracket around the doublet.
+
+%\newpage
 
 \begingroup % This and the following line are used to get table footnote marks to be alphabetic, but do this locally (not globally)
   \renewcommand*{\thefootnote}{\alph{footnote}}
@@ -1070,17 +1093,7 @@ $E_{x}$\footnotemark[1] [keV]&$E_{x}$\footnotemark[2] [keV]&$J^{\pi}$\footnotema
 
 \newpage
 
-% Energy-calibrated spectrum in the astrophysical region of interest
-\begin{figure}
-\centering
-\begin{tikzpicture}
-\node at (0,0) {\includegraphics[width=6.5in]{Chapter-6/figs/AstroRegion_Calibrated.png}};
-\draw[line width = 0.5mm, color=red] (-6.36,-3.5) -- (-6.36,-2.5);
-\end{tikzpicture}
-\caption{\label{fig:AstroRegion}The energy-calibrated focal plane position spectrum, focused on the $^{40}$Ca states above the proton separation energy at $\theta_{\mathrm{lab}} = 5^{\circ}$ (sort group $\#$3). The average width of the energy bins is approximately 1.6 keV in this region. The $^{40}$Ca states are labeled with their ENSDF \cite{Chen2017} energies in keV, and contaminants at this angle are indicated. The red vertical line indicates the proton separation energy, $S_{p} = 8328.18(2)$ keV from Ref. \cite{Wang2021}.}
-\end{figure}
-
-\newpage
+%\newpage
 
 \subsection{DWBA Calculations} \label{subsec:DWBA_Cross}
 
@@ -1124,8 +1137,6 @@ where $S_{p}$ is the proton-separation energy of the compound nucleus $^{A}X$, a
 % Overlaps and the different nlj combinations
 Another factor that must be considered in DWBA calculations is the transferred-particle overlaps, in this case for $^{39}\mathrm{K}+p$ and $d+p$. Each overlap is specified by a single-particle state $n \ell_{j}$ from the shell model with the quantum numbers $n$, $\ell$, and $j$ corresponding to the node, transferred orbital angular momentum, and total angular momentum ($j = \ell \pm 1/2$), respectively (see Ref. \cite{Krane1987}). Only a select few single-particle states can be populated from a given transition, based on quantum-mechanical selection rules for angular momentum and parity (see Ref. \cite{Iliadis2015}). For example, if the spin-parity $J^{\pi}$ of the final $^{40}$Ca state is known, the possible $n$, $\ell$, and $j$ single-particle quantum numbers can be extracted from the selection rules. This can also be done for final states where $J^{\pi}$ is narrowed down to a few possibilities. This extraction was performed for each excited state of $^{40}$Ca populated in the present experiment, given their known spin-parities, or spin-parity candidates, from the ENSDF evaluation of Ref. \cite{Chen2017}. The $d+p$ overlap was treated as constant for each DWBA calculation, since it was assumed that it occupied only the $^{3}$He ground state.
 
-The nuclear reaction code \texttt{Fresco} \cite{Thompson1988,Fresco} was used to calculate $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ DWBA differential cross sections using the zero-range (ZR) approximation introduced in Section \ref{subsec:DWBA}. Calculations were performed for the allowed $n\ell_{j}$ combinations of each excited state, based on their known $J^{\pi}$ values from ENSDF. In cases where none of the angular distributions agreed with the experimental cross section, the $n\ell_{j}$ combinations were expanded to account for different final $J^{\pi}$ values. An example of the normalization procedure and the different $n\ell_{j}$ combinations for the 7532 keV state is shown in Fig. \ref{fig:7532keV_NoNorm}. This state has a spin-parity of $2^{-}$ from ENSDF, and therefore allows $\ell=1$ or $\ell=3$ orbital angular momenta from selection rules. The most likely single-particle states corresponding to these $\ell$-values are $2\mathrm{p}_{3/2}$ or $2\mathrm{p}_{1/2}$ for $\ell=1$ and $1\mathrm{f}_{7/2}$ or $1\mathrm{f}_{5/2}$ for $\ell=3$, as they are the lowest energy transitions from the $^{39}$K ground state at $1d_{3/2}$. The higher $n$-values for a given $\ell$ transition have a much greater transition energy and are therefore less likely. For that reason they are typically omitted in the literature. However, they were included in the analysis for completion and to test their effects. From Fig. \ref{fig:7532keV_NoNorm}, it is clear that the DWBA differential cross sections increase with increasing $n$. It can also be seen that the $n$-$\ell$ pairs produce very similar differential cross sections at low angles. This is especially true at angles below the first minimum, where the DWBA differential cross sections are most reliable. It is common during normalization to omit angles greater than the first DWBA minimum because that is roughly where the distorted-wave Born approximation loses validity. However, the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not obtain data beyond the first minimum, so normalization was performed with all experimental points.
-
 \begin{figure}[t]
 \centering
 \begin{tikzpicture}
@@ -1138,13 +1149,15 @@ The nuclear reaction code \texttt{Fresco} \cite{Thompson1988,Fresco} was used to
 \caption{\label{fig:7532keV_NoNorm}Normalization between the relative transfer differential cross section of the 7532 keV state and that of all possible DWBA models based on the current ENSDF $J^{\pi} = 2^{-}$ assignment. The normalization $N_{\mathrm{ES}}$ between elastic scattering and the global $^{3}$He OMP is shown to scale, as is the $C^{2}S$ normalization.}
 \end{figure}
 
-Fig. \ref{fig:7532keV_Norm} shows the same differential cross sections as in Fig. \ref{fig:7532keV_NoNorm}, but the DWBA models have been scaled down to the experimental points to show all normalizations simultaneously. It is clear that the $\ell=1$ models match the angular distribution of the points. However, it is not possible to tell which of the $\ell=1$ models is the best match. As is done in the literature \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}, the present analysis chooses the $n$-$j$ pair associated with the lowest energy single-particle state, unless it is forbidden by selection rules. That is, unless they are forbidden, all $\ell=0$, $\ell=1$, $\ell=2$, and $\ell=3$ distributions will be associated with $3\mathrm{s}_{1/2}$, $2\mathrm{p}_{3/2}$, $2\mathrm{d}_{5/2}$, and $1\mathrm{f}_{7/2}$ single-particle states, respectively.
+The nuclear reaction code \texttt{Fresco} \cite{Thompson1988,Fresco} was used to calculate $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$ DWBA differential cross sections using the zero-range (ZR) approximation introduced in Section \ref{subsec:DWBA}. Calculations were performed for the allowed $n\ell_{j}$ combinations of each excited state, based on their known $J^{\pi}$ values from ENSDF. In cases where none of the angular distributions agreed with the experimental cross section, the $n\ell_{j}$ combinations were expanded to account for different final $J^{\pi}$ values. An example of the normalization procedure and the different $n\ell_{j}$ combinations for the 7532 keV state is shown in Fig. \ref{fig:7532keV_NoNorm}. This state has a spin-parity of $2^{-}$ from ENSDF, and therefore allows $\ell=1$ or $\ell=3$ orbital angular momenta from selection rules. The most likely single-particle states corresponding to these $\ell$-values are $2\mathrm{p}_{3/2}$ or $2\mathrm{p}_{1/2}$ for $\ell=1$ and $1\mathrm{f}_{7/2}$ or $1\mathrm{f}_{5/2}$ for $\ell=3$, as they are the lowest energy transitions from the $^{39}$K ground state at $1d_{3/2}$. The higher $n$-values for a given $\ell$ transition have a much greater transition energy and are therefore less likely. For that reason they are typically omitted in the literature. However, they were included in the analysis for completion and to test their effects. From Fig. \ref{fig:7532keV_NoNorm}, it is clear that the DWBA differential cross sections increase with increasing $n$. It can also be seen that the $n$-$\ell$ pairs produce very similar differential cross sections at low angles. This is especially true at angles below the first minimum, where the DWBA differential cross sections are most reliable. It is common during normalization to omit angles greater than the first DWBA minimum because that is roughly where the distorted-wave Born approximation loses validity. However, the present $^{39}\mathrm{K}(^{3}\mathrm{He}, d)^{40}\mathrm{Ca}$ experiment did not obtain data beyond the first minimum, so normalization was performed with all experimental points.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/7532keV_Norm.png}
 \caption{\label{fig:7532keV_Norm}The DWBA models of Fig. \ref{fig:7532keV_NoNorm} scaled down to the 7532 keV data to compare angular distributions. The $l=1$ models are a clear match for this state.}
 \end{figure}
+
+Fig. \ref{fig:7532keV_Norm} shows the same differential cross sections as in Fig. \ref{fig:7532keV_NoNorm}, but the DWBA models have been scaled down to the experimental points to show all normalizations simultaneously. It is clear that the $\ell=1$ models match the angular distribution of the points. However, it is not possible to tell which of the $\ell=1$ models is the best match. As is done in the literature \cite{Erskine1966,Seth1967,Forster1970,Cage1971,Fuchs1969}, the present analysis chooses the $n$-$j$ pair associated with the lowest energy single-particle state, unless it is forbidden by selection rules. That is, unless they are forbidden, all $\ell=0$, $\ell=1$, $\ell=2$, and $\ell=3$ distributions will be associated with $3\mathrm{s}_{1/2}$, $2\mathrm{p}_{3/2}$, $2\mathrm{d}_{5/2}$, and $1\mathrm{f}_{7/2}$ single-particle states, respectively.
 
 Finally, another transfer consideration comes from the fact that $^{39}$K has a non-zero ground state ($J^{\pi} = 3/2^{+}$). It is possible in this case that more than one single-particle state contributes to the differential cross section, resulting in a mixed-$\ell$ angular distribution. Theoretically, all allowed $\ell$ transitions can contribute, but it is usually impossible to distinguish between more than the two lowest $\ell$ transitions. The differential cross section decreases with increasing $\ell$, making each larger $\ell$ contribution more negligible \cite{Hodgson1971}. The mixed-$\ell$ angular distributions should then resemble a sum of two DWBA differential cross sections,
 \begin{equation} \label{eqn:mixed_l}
@@ -1163,51 +1176,6 @@ Figs. \ref{fig:diffcross_6panel_1}--\ref{fig:unbound_l} show the angular distrib
 
 The angular distribution of each state is described in detail in the following discussion, where each excited state energy is labeled by its ENSDF \cite{Chen2017} energy for clarity. For proton-unbound states, the resonance energy $E_{r}^{\mathrm{c.m.}}$ is also provided based on the energy calibration of the present analysis. Spectroscopic factors are compared to literature in Section \ref{subsec:DWBA_Spec}, and the proton partial-widths of the states of astrophysical interest are discussed in Section \ref{subsec:partial_widths}.
 
-\newpage
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_1.png}
-\caption{\label{fig:diffcross_6panel_1}Differential cross sections for 4491 keV through 6582 keV. See text for details.}
-\end{figure}
-
-\newpage
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_2.png}
-\caption{\label{fig:diffcross_6panel_2}Differential cross sections for 6750 keV through 7658 keV. See text for details.}
-\end{figure}
-
-\newpage
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_3.png}
-\caption{\label{fig:diffcross_6panel_3}Differential cross sections for 7694 keV through 8271 keV. See text for details.}
-\end{figure}
-
-\newpage
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_4.png}
-\caption{\label{fig:diffcross_6panel_4}Differential cross sections for 8935 keV through 9227 keV. See text for details.}
-\end{figure}
-
-\newpage
-
-\begin{figure}[t]
-\centering
-%\begin{tikzpicture}
-%%\hspace{0.3cm}
-%\node at (-4,0) {\includegraphics[width=8.6cm]{Chapter-4/figs/unbound_l1.png}};
-%\node at (4,0) {\includegraphics[width=8.6cm]{Chapter-4/figs/unbound_others.png}};
-%\end{tikzpicture}
-\includegraphics[width=6.5in]{Chapter-6/figs/unbound.png}
-\caption{\label{fig:unbound_l}Differential cross-sections of proton-unbound $^{40}\mathrm{Ca}$ states observed in the present experiment below the lowest directly measured $(p,\gamma)$ resonance at 8935 keV. The left panel shows the $l=1$ distributions, while the right panel shows all other distributions.}
-\end{figure}
-
 \emph{$\mathbf{E_{x} = 4491}$} \textbf{keV:} \, 
 The spin-parity of this state is assigned $J^{\pi} = 5^{-}$ by ENSDF \cite{Chen2017}, and its angular distribution is assigned $\ell=3$ from the present analysis. This is in agreement with all of the $(^{3}\mathrm{He}, d)$ measurements from Refs. \cite{Erskine1966,Seth1967,Forster1970,Cage1971} and the only $(d, n)$ measurement of Ref. \cite{Fuchs1969} in the literature.
 
@@ -1216,6 +1184,12 @@ The spin-parity of this state is assigned $J^{\pi} = 4^{-}$ by ENSDF. Its angula
 
 \emph{$\mathbf{E_{x} = 5903}$} \textbf{keV:} \, 
 The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF. Its angular distribution is assigned $\ell=1$ from the present analysis, despite it being obscured by the 4915 keV $^{14}$N contaminant at $\theta_{\mathrm{lab}} = 7^{\circ}$ and $9^{\circ}$. This is in agreement with Refs. \cite{Erskine1966,Seth1967,Cage1971} but in disagreement with $(d,n)$ \cite{Fuchs1969}, where $\ell = 1+3$ is assigned. It was not resolved by Ref. \cite{Forster1970}.
+
+\begin{figure}[!p]
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_1.png}
+\caption{\label{fig:diffcross_6panel_1}Differential cross sections for 4491 keV through 6582 keV. See text for details.}
+\end{figure}
 
 \emph{$\mathbf{E_{x} = 6025}$} \textbf{keV:} \, 
 The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1+3$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Seth1967} and $(d,n)$ \cite{Fuchs1969}, but in disagreement with Ref. \cite{Cage1971}, where $\ell=3$ is assigned. It was not resolved by Ref. \cite{Forster1970}.
@@ -1235,6 +1209,12 @@ The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF, and its an
 \emph{$\mathbf{E_{x} = 7113}$} \textbf{keV:} \, 
 In ENSDF, the 7113.1(10) keV and 7113.73(5) keV states have spin-parities of $J^{\pi} = 1^{-}$ and $J^{\pi} = 4^{-}$, respectively. The present energy calibration yielded a state at 7109.4(29) keV, within the uncertainty of the $1^{-}$ state, but not the $4^{-}$ state. An angular distribution of $\ell=1+3$ is assigned in the present analysis, with the main contribution from $\ell=1$. This is impossible for a $4^{-}$ state, where only $\ell=3$ and/or $\ell=5$ can be observed. Both of these measurements indicate that this corresponds with the 7113.1(10) keV $1^{-}$ state, with possibly a small contribution from the 7113.73(5) keV $4^{-}$ state at $\ell=3$. This assignment is in agreement with $(d,n)$ \cite{Fuchs1969}, but in disagreement with $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Forster1970,Cage1971}, where purely $\ell=1$ is assigned. This was the highest energy state measured by Ref. \cite{Forster1970}, so this reference is omitted from the remaining discussion.
 
+\begin{figure}[!p]
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_2.png}
+\caption{\label{fig:diffcross_6panel_2}Differential cross sections for 6750 keV through 7658 keV. See text for details.}
+\end{figure}
+
 \emph{$\mathbf{E_{x} = 7532}$} \textbf{keV:} \, 
 The spin-parity of this state is assigned $J^{\pi} = 2^{-}$ by ENSDF, and its angular distribution is assigned $\ell=1$ from the present analysis. This is in agreement with Refs. \cite{Erskine1966,Cage1971}, but in disagreement with Ref. \cite{Seth1967} and $(d,n)$ \cite{Fuchs1969} where $\ell=1+3$ is assigned.
 
@@ -1252,6 +1232,12 @@ The spin-parity of this state is assigned $J^{\pi} =$ (LE $3)^{-}$ by ENSDF base
 
 \emph{$\mathbf{E_{x} = 8113}$} \textbf{keV:} \, 
 The spin-parity of this state is assigned $J^{\pi} = 1^{-}$ by ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in disagreement with $(d,n)$ \cite{Fuchs1969}, where $\ell=1+3$ is assigned. However, Ref. \cite{Fuchs1969} observes a doublet at 8113 keV and 8135 keV, which is not observed in the present experiment. The presence of the 6859 keV $^{15}$O contaminant complicates matters because it overlaps with where the 8135 keV state is expected, making this state impossible to resolve. The 7029 keV $^{14}$N and 6793 keV $^{15}$O contaminants obscure the $\theta_{\mathrm{lab}} = 11^{\circ}$ measurement.
+
+\begin{figure}[!p]
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_3.png}
+\caption{\label{fig:diffcross_6panel_3}Differential cross sections for 7694 keV through 8271 keV. See text for details.}
+\end{figure}
 
 \emph{$\mathbf{E_{x} = 8188}$} \textbf{keV} (\emph{$\mathbf{E_{x} = 8196}$} \textbf{keV})\textbf{:} \, 
 The spin-parity of the 8188 keV state is assigned $J^{\pi} = (3,4,5^{-})$ in ENSDF, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. No spectroscopic factor was reported from $(d,n)$ \cite{Fuchs1969} for a state observed at 8186 keV, but it was assigned a $\ell=0$ transition nonetheless. This would imply $J^{\pi} = 1^{+},2^{+}$, which conflicts with ENSDF. The present energy calibration found a state at 8199.3(27) keV, or a residual from the 8188 keV state of 11.8(28) keV. There is in fact a state at 8196 keV reported in ENSDF, but it has only been observed in $(p,t)$ \cite{Seth1974,Seth1977} and $(p,p')$ \cite{Nolen1975}, and no official $J^{\pi}$ assignment has been made. However, the $(p,t)$ measurement of Ref. \cite{Seth1977} makes a weak assignment of $\ell=(2)$ for this state, which for $(p,t)$ implies $J^{\pi} = (0,1)^{+}$. In the present experiment, there is ambiguity in the angular momentum between $\ell=0+2$ and $\ell=1$, with the $\ell=0+2$ transition being slightly more favorable. The spin-parities would be $J^{\pi} = 0^{+},1^{+}$ for the former transition and $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$ for the latter. It is possible that the $(d,n)$ \cite{Fuchs1969} assignment of $\ell=0$ applies to the 8196 keV state, a 10 keV residual, which would be more in alignment with the present measurement and Refs. \cite{Seth1974,Seth1977,Nolen1975}. This may even be likely, considering that Ref. \cite{Fuchs1969} also determined the energy of a nearby state to be 8371 keV, which is interpreted by ENSDF as coinciding with the 8359 keV state, a 12 keV residual. Observation of this state in the present experiment was obscured at $\theta_{\mathrm{lab}} = 11^{\circ}$ by the 6859 keV $^{15}$O state and at $15^{\circ}$ by the 7029 keV $^{14}$N and 6793 keV $^{15}$O states.
@@ -1283,6 +1269,23 @@ This state is part of a doublet with 8748 keV and was not resolved in $(^{3}\mat
 \emph{$\mathbf{E_{x} = 8851}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 521}$} \textbf{keV:} \, 
 The spin-parity of this state is assigned $J^{\pi} = 6^{-}, 7^{-}, 8^{-}$ in ENSDF based on $(p, p')$ \cite{Gruhn1972}. It was observed in $(d, n)$ \cite{Fuchs1969} with no $\ell$ assignment determined, and it was not resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971} or $(p,\gamma)$ \cite{Kikstra1990,Cheng1981,Leenhouts1966}. The present experiment assigns $\ell=1+3$, making its resolution a first for $^{39}\mathrm{K}+p$. The $\ell$ assignment suggests $J^{\pi} = (1, 2, 3)^{-}$, in stark disagreement with ENSDF. The upper limit from Ref. \cite{Longland2018} for this state uses the ENSDF $J^{\pi}$ assignment in the reaction rate calculation. For this reason, the $(2J+1)\Gamma_{p}$ value from this work is about 2 orders of magnitude larger than the upper limit, as shown in Table \ref{tab:partial_widths}.
 
+\begin{figure}[t]
+\centering
+%\begin{tikzpicture}
+%%\hspace{0.3cm}
+%\node at (-4,0) {\includegraphics[width=8.6cm]{Chapter-4/figs/unbound_l1.png}};
+%\node at (4,0) {\includegraphics[width=8.6cm]{Chapter-4/figs/unbound_others.png}};
+%\end{tikzpicture}
+\includegraphics[width=6.5in]{Chapter-6/figs/unbound.png}
+\caption{\label{fig:unbound_l}Differential cross-sections of proton-unbound $^{40}\mathrm{Ca}$ states observed in the present experiment below the lowest directly measured $(p,\gamma)$ resonance at 8935 keV. This includes the states 8359 keV through 8851 keV. The left panel shows the $l=1$ distributions, while the right panel shows all other distributions.}
+\end{figure}
+
+\begin{figure}[!p]
+\centering
+\includegraphics[width=6.5in]{Chapter-6/figs/diffcross_6panel_4.png}
+\caption{\label{fig:diffcross_6panel_4}Differential cross sections for 8935 keV through 9227 keV. See text for details.}
+\end{figure}
+
 \emph{$\mathbf{E_{x} = 8935}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 608}$} \textbf{keV:} \, 
 In ENSDF, the 8934.81(7) keV and 8938.4(9) keV states have spin-parities of $J^{\pi} = 2^{+}$ and $J^{\pi} = 0^{+}$, respectively. The 8934.81(7) keV state is the lowest energy proton-unbound state measured by the direct $(p,\gamma)$ \cite{Kikstra1990} experiment, and they do not observe the 8938.4(9) keV state. The present energy calibration yielded a state at 8936.3(27) keV, within the uncertainty of both states. Neither state is resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The present analysis assigns $\ell=1$, in agreement with the 8931 keV assignment from $(d,n)$ \cite{Fuchs1969}, and this joins Ref. \cite{Fuchs1969} in disagreement with ENSDF. These measurements imply $J^{\pi} = 0^{-},1^{-},2^{-},3^{-}$. It is worth noting that a $\ell=0+2$ assignment was considered in the present analysis, which would imply $J^{\pi} = 1^{+},2^{+}$, in agreement with $(p,\gamma)$ \cite{Kikstra1990}. However, the $\ell=1$ transition is significantly more likely.
 
@@ -1298,14 +1301,14 @@ The spin-parity of this state is assigned $J^{\pi} = 2^{-},3^{-}$ in ENSDF, and 
 \emph{$\mathbf{E_{x} = 9227}$} \textbf{keV}; \emph{$\mathbf{E^{\boldsymbol{\mathrm{c.m.}}}_{r} = 900}$} \textbf{keV:} \, 
 In ENSDF, the 9226.69(5) keV and 9227.43(7) keV states have spin-parities of $J^{\pi} = (1^{-},2,3^{-})$ and $J^{\pi} = (1,2^{+})$, respectively. The present energy calibration yielded a state at 9227.8(34) keV, within the uncertainty of both states. Neither state is resolved by $(^{3}\mathrm{He},d)$ \cite{Erskine1966,Seth1967,Cage1971}. The angular momentum assignment in the present analysis is ambiguous between $\ell=0+2$ and $\ell=1$, which does not narrow down the $J^{\pi}$ assignment in either case. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} unambiguously assigns $\ell=1$. The state was obscured at $\theta_{\mathrm{lab}} = 13^{\circ}$ and $15^{\circ}$ by the $^{13}$N first excited state.
 
+\emph{$\mathbf{E_{x} = 9405-9432}$} \textbf{keV Multiplet:} \, 
+This multiplet consists of the states 9405 keV ($J^{\pi} = 2^{-}$), 9406 keV ($J^{\pi} = 0^{+}$), 9412 keV (no $J^{\pi}$ assignment), 9419 keV ($J^{\pi} = 3^{-}$), 9429 keV ($J^{\pi} = (3,4)^{-}$), and 9432 keV ($J^{\pi} = 1^{-}$) in ENSDF. Even though these individual states are unresolvable at the energy resolution attainable with the focal plane detector, it was possible to consistently fit 3 peaks in this region with the Bayesian Monte Carlo procedure of Section \ref{sec:peak_fitting}, as shown in Fig. \ref{fig:5deg_9400keVGroup}. From the present energy calibration, the peaks result in energies of 9403.7(31) keV, 9416.7(32) keV, and 9431.7(32) keV. These can likely be assigned as 3 separate doublets from the 6 ENSDF states, 9405+9406 keV, 9412+9419 keV, and 9429+9432 keV. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} obtained fits for only 2 peaks in this region, at 9408 keV and 9431 keV. Attempting fits with 2 peaks in this region resulted in much worse agreement with the present data. Angular distributions were not obtained for these states in the present analysis, or for any higher energy states, since the focal plane detector efficiency at the high energy fringe resulted in dramatic yield loss over increasing angle.
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=6.5in]{Chapter-6/figs/5deg_9400keVGroup.png}
 \caption{\label{fig:5deg_9400keVGroup}A Bayesian Monte Carlo fit for the 9405--9432 keV multiplet at $\theta_{\mathrm{lab}} = 5^{\circ}$, including the clearly distinguishable 9454 keV state. The multiplet is fit with 3 peaks in this experiment, with calibrated energies of 9403.7(31) keV, 9416.7(32) keV, and 9431.7(32) keV. This is better resolution than $(d,n)$ \cite{Fuchs1969} was able to achieve, where only 2 peaks in the multiplet were fit at energies of 9408 keV and 9431 keV.}
 \end{figure}
-
-\emph{$\mathbf{E_{x} = 9405-9432}$} \textbf{keV Multiplet:} \, 
-This multiplet consists of the states 9405 keV ($J^{\pi} = 2^{-}$), 9406 keV ($J^{\pi} = 0^{+}$), 9412 keV (no $J^{\pi}$ assignment), 9419 keV ($J^{\pi} = 3^{-}$), 9429 keV ($J^{\pi} = (3,4)^{-}$), and 9432 keV ($J^{\pi} = 1^{-}$) in ENSDF. Even though these individual states are unresolvable at the energy resolution attainable with the focal plane detector, it was possible to consistently fit 3 peaks in this region with the Bayesian Monte Carlo procedure of Section \ref{sec:peak_fitting}, as shown in Fig. \ref{fig:5deg_9400keVGroup}. From the present energy calibration, the peaks result in energies of 9403.7(31) keV, 9416.7(32) keV, and 9431.7(32) keV. These can likely be assigned as 3 separate doublets from the 6 ENSDF states, 9405+9406 keV, 9412+9419 keV, and 9429+9432 keV. The $(d,n)$ measurement of Ref. \cite{Fuchs1969} obtained fits for only 2 peaks in this region, at 9408 keV and 9431 keV. Attempting fits with 2 peaks in this region resulted in much worse agreement with the present data. Angular distributions were not obtained for these states in the present analysis, or for any higher energy states, since the focal plane detector efficiency at the high energy fringe resulted in dramatic yield loss over increasing angle.
 
 To summarize the results of this section, the present experiment has unambiguously resolved 13 new states in $^{39}\mathrm{K}(^{3}\mathrm{He},d)^{40}\mathrm{Ca}$, 6 new states in $^{39}$K proton-transfer, and 4 new states in $^{39}\mathrm{K}+p$ altogether. Table \ref{tab:new_states} lists the states that are newly resolved in these regimes. States in parentheses were given an ambiguous $\ell$ assignment in the present experiment.
 
@@ -1587,12 +1590,12 @@ At less than 20 MK, the rate increase is a result of the replacement of the 29 k
 \caption{\label{fig:contrib}Individual resonance contributions to the $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate, where a value of 1.0 implies that the given resonance contributes 100$\%$ to the reaction rate at that temperature. The labels correspond to center-of-mass resonance energies in keV. Resonances with shading or hatched lines have been measured and are shown with their $1\sigma$ uncertainty bands. Resonances with a single, dashed line are upper limit calculations and show their 84$\%$ $1\sigma$ value, for clarity. The resonances displayed are those that individually account for at least 10$\%$ of the total reaction rate at their corresponding temperatures. The remaining summed resonance contributions are represented by the dotted line.}
 \end{figure}
 
-Fig. \ref{fig:contrib} illustrates the individual contributions from each resonance to the new $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate. A value of unity means that the given resonance contributes 100$\%$ to the reaction rate at that temperature. The labels at the top of the figure represent the center-of-mass resonance energies in keV and are located directly above each resonance. Resonances with a shaded, finite width are measured and show their $1\sigma$ uncertainty bands. Some measured resonances are represented with hatched lines instead for visible clarity. Upper limit resonances are shown with a single, dashed line at their 84th percentile value. The black, dotted line consists of all resonances that individually contribute less than 10$\%$ to the total reaction rate at their corresponding temperatures.
+Fig. \ref{fig:contrib} illustrates the individual resonance contributions to the new $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate. A value of unity means that the given resonance contributes 100$\%$ to the reaction rate at that temperature. The labels at the top of the figure represent the center-of-mass resonance energies in keV and are located directly above each resonance. Resonances with a shaded, finite width are measured and show their $1\sigma$ uncertainty bands. Some measured resonances are represented with hatched lines instead for visible clarity. Upper limit resonances are shown with a single, dashed line at their 84th percentile value. The black, dotted line consists of all resonances that individually contribute less than 10$\%$ to the total reaction rate at their corresponding temperatures.
 
 Compared with the previous contribution plot of Fig. \ref{fig:contrib_longland2018}, some key differences can be identified. Most importantly, the 154 keV resonance has been resolved, and its contribution dominates between about 55 MK and 110 MK. It has led to several additional constraints on the contribution of nearby resonances. For example, the 96 keV resonance contribution uncertainty is significantly constrained. The 221 keV resonance is also much smaller than it was previously. Finally, the 212 keV upper limit resonance has also been significantly reduced. The 335 keV resonance still dominates in the region between about 110 MK and 400 MK, and its lower 16th percentile value has increased slightly compared to the previous rate from the resolution of the 415 keV, 439 keV, and 521 keV resonances. The 415 keV resonance is not shown, as it contributes less than 10$\%$ to the reaction rate.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{New Constraints for the Mg--K Anticorrelation}
+\section{New Constraints for the Mg--K Anticorrelation} \label{sec:potassium_network}
 
 A nuclear reaction network was used to investigate the effect the new $^{39}\mathrm{K}(p,\gamma)^{40}\mathrm{Ca}$ reaction rate has on potassium abundance in hydrogen-burning environments. New conditions are obtained for the hydrogen-burning temperatures $T$ and densities $\rho$ which reproduce the Mg-K anticorrelation observed in the globular cluster NGC 2419. $T$-$\rho$ conditions that no longer reproduce the anticorrelation with the new rate are also obtained. 
 
