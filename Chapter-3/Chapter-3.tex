@@ -10,7 +10,7 @@
 % Chapter \ref{ch:Rb} will address the ``rubidium problem'' in massive AGB stars, a descrepancy between observed and theoretical rubidium abundances from s-process nucleosynthesis. The s-process branching at $^{86}$Rb is investigated through a Monte Carlo reaction network approach, identifying the most important reactions to rubidium abundance.
 %The measurements of the $^{86}\mathrm{Kr}(^{3}\mathrm{He},d)^{87}\mathrm{Rb}$ transfer reaction and the $^{87}\mathrm{Rb}(\gamma,\gamma')^{87}\mathrm{Rb}$ and $^{87}\mathrm{Rb}(\gamma,n)^{86}\mathrm{Rb}$ photoabsorption reactions are proposed to enhance our understanding of the closed-N shell nucleus $^{87}$Rb and its involvement in the rubidium overabundance. 
 
-This chapter details the investigation of the s-process branching at $^{86}$Rb to identify the key reaction rates constraining rubidium production in massive AGB stars. Section \ref{sec:Rb_Abundance} will introduce the ``rubidium problem'', a discrepancy between the observed and theoretical [Rb/Zr] abundance ratios of massive AGB stars. Section \ref{sec:network_method} will describe the reaction network methodology used in the present work for investigating the s-process branching at $^{86}$Rb. The results of a single network calculation are presented, and the extension to a Monte Carlo reaction network procedure is described. Finally, Section \ref{sec:rate_sensitivities} showcases the results of the Monte Carlo reaction network calculation, where the effects of reaction rate uncertainties on rubidium abundance are demonstrated. The reactions with the strongest correlation to the $^{87}\mathrm{Rb}/^{86}\mathrm{Sr}$ and $^{87}\mathrm{Rb}/^{90}\mathrm{Zr}$ abundance ratios are reported, while [Rb/Zr] and [Rb/Fe] probability densities are extracted to address the potential connection between reaction rate uncertainties and the rubidium problem. %Finally, Section \ref{sec:86Rb_n_g_rate} details the most recent reaction rate constraint of $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$, found to be one of the most important reactions for rudibium production in this work.
+This chapter details my investigation of the key reaction rates constraining rubidium production in massive AGB stars. Section \ref{sec:Rb_Abundance} introduces the ``rubidium problem'', a discrepancy between observed and theoretical [Rb/Zr] abundance ratios of massive AGB stars, which is the motivation of the present investigation. Section \ref{sec:network_method} describes the reaction network methodology used in the present work for investigating the $^{86}$Rb s-process branching. The results of a single network calculation are presented, and the extension to a Monte Carlo reaction network procedure is described. Finally, Section \ref{sec:rate_sensitivities} showcases the results of the Monte Carlo reaction network calculation, where the effects of reaction rate uncertainties on rubidium production are demonstrated. The reaction rates with the strongest correlation to the $^{87}\mathrm{Rb}/^{86}\mathrm{Sr}$ and $^{87}\mathrm{Rb}/^{90}\mathrm{Zr}$ abundance ratios are reported, where these ratios are indicators of the $^{86}$Rb s-process branching efficiency. The [Rb/Zr] probability density is then extracted to address the connection between reaction rate uncertainties and the rubidium problem. %Finally, Section \ref{sec:86Rb_n_g_rate} details the most recent reaction rate constraint of $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$, found to be one of the most important reactions for rudibium production in this work.
 
 \section{Rubidium Abundance} \label{sec:Rb_Abundance}
 
@@ -24,13 +24,15 @@ This chapter details the investigation of the s-process branching at $^{86}$Rb t
 
 % P1: Introduction and recap of AGB neutron sources
 
-Asymptotic giant branch (AGB) stars of sufficient mass ($M \gtrsim 4$ $M_{\odot}$) initiate hot-bottom burning (HBB; see Section \ref{sec:hot-bottom-burning}) as a result of the increased temperatures at the bottom of the convective hydrogen envelope. Between thermal pulses, $^{12}$C is destroyed by proton-capture reactions during the sequence $^{12}\mathrm{C}(p,\gamma)^{13}\mathrm{N}(\beta^{+}\nu)^{13}\mathrm{C}(p,\gamma)^{14}\mathrm{N}$. This effect is observed in massive AGB stars due to the decreased C/O ratio, and the most massive stars become O-rich, despite the dredge-up of C during third dredge-up (3DUP) events \cite{Garcia2006}. The sequence also forms both a $^{13}$C pocket and a $^{14}$N pocket at the top of the He-rich intershell region, even in the absence of HBB through proton mixing. During thermal pulses, $^{14}$N captures $\alpha$-particles via the sequence $^{14}\mathrm{N}(\alpha,\gamma)^{18}\mathrm{F}(\beta^{+}\nu)^{18}\mathrm{O}(\alpha,\gamma)^{22}\mathrm{Ne}$, producing $^{22}$Ne. The two reactions $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ are the predominant sources of free neutrons in the intershell region, occurring during the interpulse period and during thermal pulses, respectively. The $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ reaction is the main neutron source for low and intermediate-mass AGB stars ($\lesssim 4$ $M_{\odot}$), where neutron densities are $N_{n} \approx 10^{7}$ $\mathrm{g}/\mathrm{cm}^{3}$. Meanwhile, the $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ reaction is expected to dominate for massive AGB stars, where neutron densities reach $N_{n} \approx 10^{10}$ $\mathrm{g}/\mathrm{cm}^{3}$. The free neutrons lead to nucleosynthesis of heavy elements such as Rb, Sr, Y, and Zr via the s-process (see Section \ref{sec:s-process}). These elements are brought to the surface during subsequent 3DUP events and are ejected into the interstellar medium. 
+Many processes occur during the interpulse period in asymptotic giant branch (AGB) stars. Protons from the hydrogen-burning shell are mixed into the intershell region just after thermal pulses, where $^{12}$C is then destroyed by proton-capture reactions during the sequence $^{12}\mathrm{C}(p,\gamma)^{13}\mathrm{N}(\beta^{+}\nu)^{13}\mathrm{C}(p,\gamma)^{14}\mathrm{N}$. The result is the formation of $^{13}$C and $^{14}$N pockets at the top of the intershell region. The $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ reaction from the $^{13}$C pocket is activated at temperatures of 100 MK $\lesssim T \lesssim$ 300 MK, producing neutron densities of $N_{n} \approx 10^{7}$ $\mathrm{g}/\mathrm{cm}^{3}$. This reaction is the main source of free neutrons during the interpulse period.
+
+%Meanwhile, some carbon is also dredged up to the surface, resulting in observations of increased C/O ratios. For AGB stars of sufficient mass ($M \gtrsim 4$ $M_{\odot}$), however, hot-bottom burning (see Section \ref{sec:hot-bottom-burning}) enchances carbon destruction. This effect leads to decreased C/O ratios in massive AGB stars, and the most massive stars become O-rich, despite the dredge-up of carbon \cite{Garcia2006}.
+
+During thermal pulses, $^{14}$N from the $^{14}$N pocket captures $\alpha$-particles via the sequence $^{14}\mathrm{N}(\alpha,\gamma)^{18}\mathrm{F}(\beta^{+}\nu)^{18}\mathrm{O}(\alpha,\gamma)^{22}\mathrm{Ne}$, producing $^{22}$Ne. The $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ reaction is then activated during thermal pulses at temperatures of $T \gtrsim$ 300 MK, producing large neutron densities of $N_{n} \approx 10^{10}$ $\mathrm{g}/\mathrm{cm}^{3}$. This reaction is the main source of free neutrons during thermal pulses. For massive AGB stars ($M \gtrsim 4$ $M_{\odot}$), the $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source dominates over $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ in terms of the total neutron production. The free neutrons from both reactions lead to nucleosynthesis of heavy elements such as Rb, Sr, Y, and Zr via the s-process (see Section \ref{sec:s-process}). These elements are brought to the surface from subsequent thermal pulses and are ejected into the interstellar medium.
+
+%Asymptotic giant branch (AGB) stars of sufficient mass ($M \gtrsim 4$ $M_{\odot}$) initiate hot-bottom burning (HBB; see Section \ref{sec:hot-bottom-burning}) as a result of the increased temperatures at the bottom of the convective hydrogen envelope. Between thermal pulses, $^{12}$C is destroyed by proton-capture reactions during the sequence $^{12}\mathrm{C}(p,\gamma)^{13}\mathrm{N}(\beta^{+}\nu)^{13}\mathrm{C}(p,\gamma)^{14}\mathrm{N}$. This effect is observed in massive AGB stars due to the decreased C/O ratio, and the most massive stars become O-rich, despite the dredge-up of C during third dredge-up (3DUP) events \cite{Garcia2006}. The sequence also forms both a $^{13}$C pocket and a $^{14}$N pocket at the top of the He-rich intershell region, even in the absence of HBB through proton mixing. During thermal pulses, $^{14}$N captures $\alpha$-particles via the sequence $^{14}\mathrm{N}(\alpha,\gamma)^{18}\mathrm{F}(\beta^{+}\nu)^{18}\mathrm{O}(\alpha,\gamma)^{22}\mathrm{Ne}$, producing $^{22}$Ne. The two reactions $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ are the predominant sources of free neutrons in the intershell region, occurring during the interpulse period and during thermal pulses, respectively. The $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ reaction is the main neutron source for low and intermediate-mass AGB stars ($\lesssim 4$ $M_{\odot}$), where neutron densities are $N_{n} \approx 10^{7}$ $\mathrm{g}/\mathrm{cm}^{3}$. Meanwhile, the $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ reaction is expected to dominate for massive AGB stars, where neutron densities reach $N_{n} \approx 10^{10}$ $\mathrm{g}/\mathrm{cm}^{3}$. The free neutrons lead to nucleosynthesis of heavy elements such as Rb, Sr, Y, and Zr via the s-process (see Section \ref{sec:s-process}). These elements are brought to the surface during subsequent 3DUP events and are ejected into the interstellar medium. 
 
 \subsection{The s-Process Branching at $^{86}$Rb} \label{subsec:86Rb_Branch}
-
-The $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source enhances the efficiency of s-process branchings, altering the relative abundance of nearby nuclei. Hence, the abundance ratio of nuclei before and after an s-process branching is an indicator of both the neutron density and the predominant neutron source \cite{Garcia2006}. The branchings at $^{85}$Kr and $^{86}$Rb, for example, determine whether the production of the closed-neutron shell ($N=50$) nucleus $^{87}$Rb is favored. This situation is depicted in Figure \ref{fig:Rb86Branch}, where stable nuclei are shaded, and unstable nuclei are unshaded. The $^{85}$Kr and $^{86}$Rb s-process branchings are highlighted in red, and their corresponding neutron captures or $\beta^{-}$-decays are illustrated with dashed arrows. A complication arises with $^{85}$Kr, since the $^{84}\mathrm{Kr}(n,\gamma)^{85}\mathrm{Kr}$ reaction can populate the $^{85}\mathrm{Kr}^{m}$ isomeric state at roughly equal probability to that of the $^{85}\mathrm{Kr}^{g}$ ground state \cite{Raut2013}. The $^{85}\mathrm{Kr}^{m}$ state $\beta^{-}$-decays to $^{85}$Rb with about an $80\%$ probability. Otherwise, it $\gamma$-decays to the ground state with about a $20\%$ probability. Only the ground state can undergo neutron capture. In the absence of large neutron densities, $^{85}$Kr and $^{86}$Rb will preferentially $\beta^{-}$-decay, bypassing $^{87}$Rb altogether. If, on the other hand, there is a sufficiently large neutron density from the $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source, $^{87}$Rb will be accumulated. Since $^{87}$Rb is a closed-shell nucleus, it also has an exceptionally low neutron-capture cross section, increasing its abundance even more. In this latter scenario, we should expect $^{87}$Rb to be much more abundant than, say, $^{86}$Sr or $^{90}$Zr.
-
-\newpage
 
 \def\BoxSpace{0.3} % Defining the variable BoxSpace to value in brackets
 \def\BoxSpacetwo{\BoxSpace * 2} % So I don't have to keep doing {2+(\BoxSpace * 2)}
@@ -40,7 +42,7 @@ The $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source enhances the eff
 \def\AOS{0.1} % Arrow Offset
 \def\AW{0.52} % Arrow Width (mm)
 
-\begin{figure}[!h]
+\begin{figure}[!pt]
 \centering
 \begin{tikzpicture}[scale=2.0, every node/.style={transform shape}]
 
@@ -113,6 +115,8 @@ The $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source enhances the eff
 \caption{\label{fig:Rb86Branch}The $^{85}$Kr and $^{86}$Rb s-process branchings, highlighted in red, along the s-process path from Kr to Zr. The dashed arrows extending from these branchings indicate the path dependence on the neutron density. The $N=50$ closed-shell nuclei are represented by the vertical dashed line, which have low neutron-capture cross sections. The relative abundance of $^{87}$Rb to nearby nuclei such as $^{86}$Sr and $^{90}$Zr is expected to be an indicator of neutron density.}
 \end{figure}
 
+The $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source enhances the efficiency of s-process branchings, altering the relative abundance of nearby nuclei. Hence, the abundance ratio of nuclei on either side of an s-process branching is an indicator of both the neutron density and the predominant neutron source \cite{Garcia2006}. The branchings at $^{85}$Kr and $^{86}$Rb, for example, determine whether the production of the closed-neutron shell ($N=50$) nucleus $^{87}$Rb is favored. This situation is depicted in Figure \ref{fig:Rb86Branch}, where stable nuclei are shaded, and unstable nuclei are unshaded. The $^{85}$Kr and $^{86}$Rb s-process branchings are highlighted in red, and their corresponding neutron captures or $\beta^{-}$-decays are illustrated with dashed arrows. A complication arises with $^{85}$Kr, since the $^{84}\mathrm{Kr}(n,\gamma)^{85}\mathrm{Kr}$ reaction can populate the $^{85}\mathrm{Kr}^{m}$ isomeric state at roughly equal probability to that of the $^{85}\mathrm{Kr}^{g}$ ground state \cite{Raut2013}. The $^{85}\mathrm{Kr}^{m}$ state $\beta^{-}$-decays to $^{85}$Rb with about an $80\%$ probability. Otherwise, it $\gamma$-decays to the ground state with about a $20\%$ probability. Only the ground state can undergo neutron capture. In the absence of large neutron densities, $^{85}$Kr and $^{86}$Rb will preferentially $\beta^{-}$-decay, bypassing $^{87}$Rb altogether and producing $^{86}$Sr. If, on the other hand, there is a sufficiently large neutron density from the $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source, $^{87}$Rb will be accumulated. Since $^{87}$Rb is a closed-shell nucleus, it also has an exceptionally low neutron-capture cross section, enhancing its abundance even more. In the large neutron density scenario, we should expect $^{87}$Rb to be favored over $^{86}$Sr or even $^{90}$Zr.
+
 \subsection{The Rubidium Problem} \label{subsec:Rb_Problem}
 
 % P2: Garcia-Hernandez et al. 2006 --> Strong Rb overabundances observed in galatic O-rich massive AGB stars, coupled with a lack of strong Zr enhancements in the same stars. Not predicted by the theoretical models at the time.
@@ -179,13 +183,13 @@ The flux plot of Fig. \ref{fig:Flux} tells a slightly more nuanced story. In the
 \caption{\label{fig:abund_evol}The abundance evolution of key nuclei related to the s-process branching at $^{86}$Rb for a single network calculation simulating the conditions during a single AGB thermal pulse. The $T$, $\rho$, and $X_{\mathrm{last}}(^{4}\mathrm{He})$ parameters are 300 MK, $10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$, and 0.7, respectively, with $X_{\mathrm{init}}(^{4}\mathrm{He}) = 0.75$.}
 \end{figure}
 
-A test of the initial abundances was performed where the enhanced value of $X_{\mathrm{init}}(^{13}\mathrm{C}) = 0.01$ was swapped with the solar system value of $X_{\mathrm{init}}(^{22}\mathrm{Ne}) = 6.34 \times 10^{-5}$, in order to see if the $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source could be maximized and the $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ neutron source could be minimized. Indeed, the net flux of $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ increases, but not as significantly as one might expect, since the two neutron sources have roughly equivalent flux in this scenario. In addition, the final $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ ratio decreases with these initial abundances, presumably from the drop in neutron density as a result of the weaker $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ flux. Increased temperatures were also tested, but the abundance evolution is considerably more complicated, yet the fluxes remained more or less consistent, with only slight enhancements in the $^{14}\mathrm{N}(\alpha,\gamma)^{18}\mathrm{F}(\beta^{+}\nu)^{18}\mathrm{O}(\alpha,\gamma)^{22}\mathrm{Ne}$ sequence. The topic of $X_{\mathrm{init}}$, $T$, and $\rho$ variations merits further investigation, but the simple s-process model described in Figs. \ref{fig:abund_evol} and \ref{fig:Flux} is sufficient for the present purpose of investigating reactions important to rubidium production, as the $^{85}$Kr and $^{86}$Rb s-process branchings are clearly activated.
-
 \begin{figure}[t]
 \centering
 \includegraphics[width=6.5in]{Chapter-3/figs/Flux.png}
 \caption{\label{fig:Flux}The network flux plot for a single network calculation simulating the conditions during a single AGB thermal pulse. The $T$, $\rho$, and $X_{\mathrm{last}}(^{4}\mathrm{He})$ parameters are 300 MK, $10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$, and 0.7, respectively, with $X_{\mathrm{init}}(^{4}\mathrm{He}) = 0.75$. The arrow thickness corresponds to the magnitude of the integrated flux from one nucleus to another, with three levels of relative magnitude shown. The reactions with the largest net flux are the triple-$\alpha$ reaction, the $^{13}$C neutron source sequence $^{12}\mathrm{C}(p,\gamma)^{13}\mathrm{N}(\beta^{+}\nu)^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$, and the neutron poison $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$.}
 \end{figure}
+
+A test of the initial abundances was performed where the enhanced value of $X_{\mathrm{init}}(^{13}\mathrm{C}) = 0.01$ was swapped with the solar system value of $X_{\mathrm{init}}(^{22}\mathrm{Ne}) = 6.34 \times 10^{-5}$, in order to see if the $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ neutron source could be maximized and the $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ neutron source could be minimized. Indeed, the net flux of $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ increases, but not as significantly as one might expect, since the two neutron sources have roughly equivalent flux in this scenario. In addition, the final $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ ratio decreases with these initial abundances, presumably from the drop in neutron density as a result of the weaker $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ flux. Increased temperatures were also tested, but the abundance evolution is considerably more complicated, yet the fluxes remained more or less consistent, with only slight enhancements in the $^{14}\mathrm{N}(\alpha,\gamma)^{18}\mathrm{F}(\beta^{+}\nu)^{18}\mathrm{O}(\alpha,\gamma)^{22}\mathrm{Ne}$ sequence. The topic of $X_{\mathrm{init}}$, $T$, and $\rho$ variations merits further investigation, but the simple s-process model described in Figs. \ref{fig:abund_evol} and \ref{fig:Flux} is sufficient for the present purpose of investigating reactions important to rubidium production, as the $^{85}$Kr and $^{86}$Rb s-process branchings are clearly activated.
 
 \subsection{Monte Carlo Procedure}
 
@@ -193,7 +197,7 @@ A test of the initial abundances was performed where the enhanced value of $X_{\
 
 % Longland2012 (reaction rate sampling), Iliadis2015b (Pearson's and Spearman's correlations), and Iliadis2020  (mutual information)
 
-The reaction rate probability densities of \texttt{Starlib} \cite{Sallaska2013}, calculated with the \texttt{RatesMC,RatesMC} code \cite{Longland2010a}, are sampled in the remaining analysis of this chapter. The reaction rates in the network are varied simultaneously based on these samples, and a single network calculation is performed with the new rates leading to a new array of final abundances. This procedure is performed for several thousand samples, and the final abundances therefore form probability densities of their own. These reaction rates are calculated given nuclear physics inputs, which can contain large uncertainties. To properly sample these uncertainties, a Monte Carlo sampling procedure is the most efficient. This procedure is described by Ref. \cite{Longland2012}, and a summary is presented here. 
+The reaction rate probability densities from the \texttt{Starlib} library \cite{Sallaska2013}, calculated with the \texttt{RatesMC} code \cite{Longland2010a,RatesMC}, are sampled in the remaining analysis of this chapter. The reaction rates in the s-process network are simultaneously sampled within their own uncertainties, and a single network calculation is performed with the sampled rates to obtain final abundances of the nuclei in the network. This procedure is performed for several thousand reaction rate samples, and the final abundances therefore form probability densities of their own. These reaction rates are calculated given nuclear physics inputs, which can contain large uncertainties. To properly sample these uncertainties, a Monte Carlo sampling procedure is the most efficient. This procedure is described by Ref. \cite{Longland2012}, and a summary is presented here.
 
 The rate probability densities in \texttt{Starlib} are described by the lognormal shape parameters $\mu$ and $\sigma$ (not to be confused with the gaussian mean and standard deviation),
 \begin{align} \label{eqn:lognorm_param}
@@ -205,12 +209,12 @@ where $x_{\mathrm{med}}$, $x_{\mathrm{high}}$, and $x_{\mathrm{low}}$ are the me
 x(T)_{ij} &= e^{\mu(T)_{j}} \, e^{p(T)_{ij} \sigma(T)_{j}} \nonumber \\
 &= x(T)_{\mathrm{med},j}\left[ f.u.(T) \right]^{p(T)_{ij}}_{j},
 \end{align}
-where $p(T)$ is a gaussian-distributed random variable with a mean of zero and a standard deviation of unity, known as the \emph{rate variation factor}, and the factor $f.u.(T) \equiv e^{\sigma(T)}$ is known as the \emph{factor uncertainty}. The parametrization of $p(T)$ can be treated as independent of temperature to an excellent approximation \cite{Longland2012}, known as a flat parametrization, $p(T) = p$. In this scenario, $p$ is sampled from a normal distribution, but $f.u.(T)$ remains a temperature-dependent quantity due to the lognormal $\sigma(T)$ parameter. If $f.u.$ were independent of temperature, then the entire reaction rate would be varied regardless of the uncertainty temperature dependence. This is a bad approximation for experimentally-constrained reaction rates, where the uncertainty is very temperature-dependent. Since the present reaction network model uses a constant $T = 300$ MK though, only the rate uncertainty at this temperature needs to be sampled. Additionally, forward and reverse reaction rates are not sampled independently, as the same value of $p$ is applied to both rates.
+where $p(T)$ is a gaussian-distributed random variable with a mean of zero and a standard deviation of unity, known as the \emph{rate variation factor}, and the factor $f.u.(T) \equiv e^{\sigma(T)}$ is known as the \emph{factor uncertainty}. The parametrization of $p(T)$ can be treated as independent of temperature to an excellent approximation \cite{Longland2012}, known as a flat parametrization, $p(T) = p$. In this scenario, $p$ is sampled from a normal distribution, while $f.u.(T)$ remains a temperature-dependent quantity due to the lognormal $\sigma(T)$ parameter. Since the present reaction network uses a constant $T = 300$ MK, only the rate uncertainty at this temperature needs to be sampled. Additionally, forward and reverse reaction rates are not sampled independently, as the same value of $p$ is applied to both rates.
 
 \subsection{Measuring Correlations with Mutual Information}
 
 % Explanation of the Spearman, Pearson, and mutual information statistics
-One of the primary goals in performing Monte Carlo reaction network calculations is to determine which reaction rates would benefit from experimental constraint for the given nucleosynthesis model. If the abundances of key nuclei are significantly altered when varying a reaction rate within its probability density, that rate is likely significant to the present nucleosynthesis.
+One of the primary goals in performing Monte Carlo reaction network calculations is to determine which reaction rates would benefit from experimental constraint for the given nucleosynthesis model. If the abundances of key nuclei are significantly altered when varying a reaction rate within its uncertainty, that rate is likely significant to the present nucleosynthesis.
 %, or it has a large uncertainty in the given temperature range, or both. This point is stressed here because some important reaction rates may not affect the abundances of key nuclei when they are varied within their uncertainties because the uncertainties are sufficiently small. If a constant temperature $T$ is used in the Monte Carlo network calculation, it can also highlight which reaction rates are not very well constrained at $T$.
 The reaction rate sensitivity of a given reaction $j$ on the abundance of a given nucleus can be determined by analyzing the scatter plot between the rate variation factor $p_{j}$ and the final mass fraction $X$ over all network samples \cite{Iliadis2015b}. This can also be performed for an abundance ratio of nuclei $1$ and $2$ with the mass fraction ratio $X_{1}/X_{2}$. The random variables $p_{j}$ and $X$ are recorded after each network sample, and correlations are determined during post-processing using one of a variety of statistical metrics. For a given key mass fraction $X$ or mass fraction ratio $X_{1}/X_{2}$, the correlations are then ranked according to this metric to determine the most important reaction rates governing the nucleosynthesis.
 
@@ -218,29 +222,35 @@ Pearson's correlation coefficient $r$ has been used by Ref. \cite{Coc2014} to de
 \begin{equation} \label{eqn:mutual_info}
 \mathrm{MI} = \sum_{x} \sum_{y} P(x,y) \log \left[ \frac{P(x,y)}{P(x)P(y)} \right],
 \end{equation}
-where $P(x)$ and $P(y)$ are the marginal probability distributions of $x$ and $y$, respectively, and $P(x,y)$ is their joint probability distribution. Mutual information between $x$ and $y$ is zero if, and only if, they are independent of each other. This metric has no finite upper limit, meaning the effective use of MI is to compare between relative magnitudes. That is all that is required for the purpose of ranking reaction rate correlations, and we therefore adopt MI as the correlation metric in the present analysis.
+where $P(x)$ and $P(y)$ are the marginal probability distributions of $x$ and $y$, respectively, and $P(x,y)$ is their joint probability distribution. Mutual information between $x$ and $y$ is zero if, and only if, they are independent of each other. This metric has no finite upper limit, meaning the effective use of MI is to compare between relative magnitudes. That is all that is required for the purpose of ranking reaction rate correlations, and I therefore adopt MI as the correlation metric in the present analysis.
 
 \section{Reaction Rate Sensitivities} \label{sec:rate_sensitivities}
 
 \subsection{Correlations} \label{subsec:Corr}
 
-The Monte Carlo reaction network calculation was performed for $5 \times 10^{4}$ samples. Correlations between every reaction in the network and the mass fraction ratios $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ were computed using the mutual information (MI) metric. The correlations were ranked according to their relative MI values, and the top 8 most correlated reactions rates with each ratio are listed in Table \ref{tab:mutual_info}. Spearman's correlation coefficient $r_{s}$ is provided to indicate the signature (positive or negative) of the correlation, assuming it is at least linear or monotonic. In many cases, the MI and $|r_{s}|$ values are not consistent among the ranks, which is indicative of nonlinear, non-monotonic correlations. The top 3 most correlated reaction rates for both ratios, ranked by MI, are $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$, $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$, and $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$. The discussion for the latter two reactions will be left for the end of this section, as they require more attention.
+The Monte Carlo reaction network calculation was performed for $5 \times 10^{4}$ samples. Correlations between every reaction in the network and the mass fraction ratios $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ were computed using the mutual information (MI) metric. The correlations were ranked according to their relative MI values, and the top 8 most correlated reactions rates with each ratio are listed in Table \ref{tab:mutual_info}. Spearman's correlation coefficient $r_{s}$ is provided to indicate the signature (positive or negative) of the correlation, assuming it is at least linear or monotonic. In many cases, the MI and $|r_{s}|$ values are not consistent among the ranks, which is indicative of nonlinear, non-monotonic correlations. The top 3 most correlated reaction rates for both ratios, ranked by MI, are $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$, $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$, and $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$.%The discussion for the latter two reactions will be left for the end of this section, as they require more attention.
 
 Beyond roughly the 8th largest MI values, the correlations slowly approach a minimum, as the reaction rates become increasingly uncorrelated with the mass fraction ratios. For both ratios, the least correlated reaction rate is that of $^{49}\mathrm{V}(\alpha,p)^{52}\mathrm{Cr}$, which has $\mathrm{MI} = 0.0468$ and 0.0311 for $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$, respectively. Hence, the decrease between the top 8 MI values is much sharper than any subsequent decrease, and those reaction rates in Table \ref{tab:mutual_info} are the only ones that have a significant impact when sampling their uncertainties.
 
-\subsubsection{The $^{86}\mathrm{Rb}$ and $^{85}$Kr Branchings}
+The correlation plots for the top 8 reaction rates are shown in Fig. \ref{fig:Corr_Dens_87Rb86Sr} for $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and in Fig. \ref{fig:Corr_Dens_87Rb90Zr} for $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$. Each reaction is labeled with its MI rank, and its MI value is given in the top-right corner of each panel. The gaussian-distributed rate variation factor $p$ is given on the $x$-axis, while the indicated mass fraction ratio (logarithm) is given on the $y$-axis. Each point is a sample corresponding to a single reaction network calculation, and the density of samples is indicated by the color gradient, with yellow corresponding to the most dense region. It is clear that the vertical scatter in each panel of Fig. \ref{fig:Corr_Dens_87Rb86Sr} is quite large, indicative of the fact that all rates are sampled simultaneously to obtain a given mass fraction ratio sample. Despite the scatter, clear correlations are shown. These correlation plots will be analyzed in detail in the following discussion.
 
-The $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$ rate produces $^{87}$Rb directly from the $^{86}$Rb s-process branching, which also prevents $^{86}$Sr from accumulating, explaining its rank as the strongest correlation with the $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ ratio. Even for the $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ ratio, it has the third strongest correlation. This is likely due to the low neutron-capture cross section of $^{87}$Rb, such that it accumulates when the $^{86}$Rb s-process branching is activated, leading also to a reduced path to Zr.
+\subsubsection{Neutron Capture and $\beta^{-}$-Decay}
 
-A large portion of the reaction rates in Table \ref{tab:mutual_info} are associated with the $^{86}$Rb and $^{85}$Kr s-process branchings. The correlation plots for these reaction rates with respect to the $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ ratio are shown in Fig. \ref{fig:Correlations_87Rb86Sr_ng}. The reaction is labeled above each panel, where values of $g$ and (later) $a$ represent $\gamma$ and $\alpha$, respectively. The gaussian-distributed rate variation factor $p$ is given on the $x$-axis, while the indicated mass fraction ratio is given on the $y$-axis. The faint dotted lines show the origin, centered on $p=0$ and the mass fraction ratio of unity. Each red dot is a sample corresponding to a single reaction network calculation. The solid line represents a fit with Spearman's correlation coefficient $r_{s}$, which already fails to capture some of the interesting features, as is the case for the $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$ rate in the upper left panel. It is clear that the vertical scatter is quite large, indicative of the fact that all rates are sampled simultaneously to obtain a given mass fraction ratio sample. Despite the scatter, clear correlations are shown. The neutron-capture reactions are associated with a positive correlation, and the $\beta^{-}$ decays, labeled ($\gamma,\gamma$), are associated with a negative correlation. This is the expected behavior, as these reactions are directly responsible for $^{87}$Rb and $^{86}$Sr abundance.
+The $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$ reaction produces $^{87}$Rb directly from the $^{86}$Rb s-process branching, which also prevents $^{86}$Sr from accumulating, explaining its rank as the strongest correlation with the $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ ratio. Even for the $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ ratio, it has the third strongest correlation. This is likely due to the low neutron-capture cross section of $^{87}$Rb, such that it accumulates when the $^{86}$Rb s-process branching is activated, leading also to a reduced path to Zr.
 
-\subsubsection{Reactions Sensitive to $^{87}$Rb/$^{90}$Zr}
+A large portion of the reaction rates in the correlation plots and in Table \ref{tab:mutual_info} are neutron-captures and $\beta$-decays coming directly from the $^{86}$Rb and $^{85}$Kr s-process branchings. These neutron-capture reactions, $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$ and $^{85}\mathrm{Kr}(n,\gamma)^{86}\mathrm{Kr}$, are associated with a positive correlation, and the corresponding $\beta^{-}$-decays are associated with a negative correlation. This is the expected behavior, as these reactions are directly responsible for $^{87}$Rb production. Despite the proper Spearman correlation coefficient $r_{s}$ signature in Table \ref{tab:mutual_info} for these reactions, it can already be seen to fail to capture some of the interesting nonlinear features of the correlation plots. This is the case for the $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$ rate in the upper left panel of Fig. \ref{fig:Corr_Dens_87Rb86Sr}, where positive $p$-values are much more positively correlated than negative $p$-values. Hence, mutual information is a necessary metric for this analysis.
 
-Returning to Table \ref{tab:mutual_info}, the $^{90}\mathrm{Y}(n,\gamma)^{91}\mathrm{Y}$ and $^{90}\mathrm{Y}(\beta^{-}\nu)^{90}\mathrm{Zr}$ reaction rates are important only for the $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ ratio. These rates directly affect $^{90}$Zr abundance in opposing ways. The former reaction acts to bypass $^{90}$Zr along the s-process path, while the latter produces it directly. The $r_{s}$ signatures of these rates are indicative of this effect. The $^{87}\mathrm{Kr}(n,\gamma)^{88}\mathrm{Kr}$ reaction rate is also important for the $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ ratio, as it acts to bypass $^{87}$Rb, eventually producing $^{90}$Zr. The neutron-capture reaction rates for $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$, $^{85}\mathrm{Kr}(n,\gamma)^{86}\mathrm{Kr}$, $^{90}\mathrm{Y}(n,\gamma)^{91}\mathrm{Y}$, and $^{87}\mathrm{Kr}(n,\gamma)^{88}\mathrm{Kr}$ are shown correlated with $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ in Fig. \ref{fig:Correlations_87Rb90Zr_ng}. Here, the vertical scatter is reduced, likely because $^{90}$Zr is much easier to accumulate than $^{86}$Sr, closing the gap between $^{87}$Rb abundance. It is also a closed-shell ($N=50$) nucleus, similar to $^{87}$Rb, with a low neutron-capture cross section.
+The $^{90}\mathrm{Y}(n,\gamma)^{91}\mathrm{Y}$ and $^{90}\mathrm{Y}(\beta^{-}\nu)^{90}\mathrm{Zr}$ rates are sensitive only to the $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ ratio. These rates directly affect $^{90}$Zr abundance in opposing ways. The former reaction acts to bypass $^{90}$Zr along the s-process path, while the latter produces it directly. The $r_{s}$ signatures of these rates in Table \ref{tab:mutual_info} are indicative of this effect. The $^{87}\mathrm{Kr}(n,\gamma)^{88}\mathrm{Kr}$ reaction rate is also only sensitive to the $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ ratio, as it acts to bypass $^{87}$Rb, eventually producing $^{90}$Zr. It is clear that the vertical scatter is reduced in Fig. \ref{fig:Corr_Dens_87Rb90Zr} for $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$, likely because $^{90}$Zr is much easier to accumulate than $^{86}$Sr, closing the gap between $^{87}$Rb abundance. It is also a closed-shell ($N=50$) nucleus, similar to $^{87}$Rb, with a low neutron-capture cross section.
+
+% Returning to Table \ref{tab:mutual_info}, the $^{90}\mathrm{Y}(n,\gamma)^{91}\mathrm{Y}$ and $^{90}\mathrm{Y}(\beta^{-}\nu)^{90}\mathrm{Zr}$ reaction rates are important only for the $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ ratio. These rates directly affect $^{90}$Zr abundance in opposing ways. The former reaction acts to bypass $^{90}$Zr along the s-process path, while the latter produces it directly. The $r_{s}$ signatures of these rates are indicative of this effect. The $^{87}\mathrm{Kr}(n,\gamma)^{88}\mathrm{Kr}$ reaction rate is also important for the $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ ratio, as it acts to bypass $^{87}$Rb, eventually producing $^{90}$Zr. The neutron-capture reaction rates for $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$, $^{85}\mathrm{Kr}(n,\gamma)^{86}\mathrm{Kr}$, $^{90}\mathrm{Y}(n,\gamma)^{91}\mathrm{Y}$, and $^{87}\mathrm{Kr}(n,\gamma)^{88}\mathrm{Kr}$ are shown correlated with $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ in Fig. \ref{fig:Correlations_87Rb90Zr_ng}. Here, the vertical scatter is reduced, likely because $^{90}$Zr is much easier to accumulate than $^{86}$Sr, closing the gap between $^{87}$Rb abundance. It is also a closed-shell ($N=50$) nucleus, similar to $^{87}$Rb, with a low neutron-capture cross section.
+
+% Spearman's correlation coefficient $r_{s}$ can already be seen to fail to capture some of the interesting features of these correlations, as is the case for the $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$ rate in the upper left panel of Fig. \ref{fig:Corr_Dens_87Rb86Sr}. Hence, mutual information was a necessary metric for this analysis.
+
+%A large portion of the reaction rates in the correlation plots and in Table \ref{tab:mutual_info} are associated with the $^{86}$Rb and $^{85}$Kr s-process branchings. The correlation plots for these reaction rates with respect to the $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ ratio are shown in Fig. \ref{fig:Correlations_87Rb86Sr_ng}. The reaction is labeled above each panel, where values of $g$ and (later) $a$ represent $\gamma$ and $\alpha$, respectively. The gaussian-distributed rate variation factor $p$ is given on the $x$-axis, while the indicated mass fraction ratio is given on the $y$-axis. The faint dotted lines show the origin, centered on $p=0$ and the mass fraction ratio of unity. Each red dot is a sample corresponding to a single reaction network calculation. The solid line represents a fit with Spearman's correlation coefficient $r_{s}$, which already fails to capture some of the interesting features, as is the case for the $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$ rate in the upper left panel. It is clear that the vertical scatter is quite large, indicative of the fact that all rates are sampled simultaneously to obtain a given mass fraction ratio sample. Despite the scatter, clear correlations are shown. The neutron-capture reactions are associated with a positive correlation, and the $\beta^{-}$ decays, labeled ($\gamma,\gamma$), are associated with a negative correlation. This is the expected behavior, as these reactions are directly responsible for $^{87}$Rb and $^{86}$Sr abundance.
 
 \begin{table}[t]
 \centering
-\caption{\label{tab:mutual_info}Correlations between the most important reaction rates and the $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ mass fraction ratios, ranked according to mutual information (MI). Spearman's correlation coefficient $r_{s}$ is also provided, to indicate the polarity of the correlation.}
+\caption{\label{tab:mutual_info}The top eight most correlated reaction rates with the $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ mass fraction ratios, ranked according to mutual information (MI). Spearman's correlation coefficient $r_{s}$ is also provided, to indicate the polarity of the correlation.}
 \begin{tabular}{cccc|cccc}
 \hline\midrule
 \multicolumn{4}{c}{$X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$}&
@@ -267,117 +277,139 @@ Rank&Reaction&MI&$r_{s}$&Rank&Reaction&MI&$r_{s}$\\ \midrule
 \end{tabular}
 \end{table}
 
+%\subsubsection{Reactions Sensitive to $^{87}$Rb/$^{90}$Zr}
+
+%\begin{figure}[!p]
+%\centering
+%\begin{subfigure}[b]{0.495\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_86Rb_n_g_87Rb_300MK.png}  
+%\end{subfigure}
+%\hfill
+%\begin{subfigure}[b]{0.495\textwidth}  
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_86Rb_g_g_86Sr_300MK.png}
+%\end{subfigure}
+%%\vskip\baselineskip
+%\begin{subfigure}[b]{0.495\textwidth}   
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_85Kr_n_g_86Kr_300MK.png}
+%\end{subfigure}
+%\hfill
+%\begin{subfigure}[b]{0.495\textwidth}   
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_85Kr_g_g_85Rb_300MK.png}
+%\end{subfigure}
+%\caption{\label{fig:Correlations_87Rb86Sr_ng}Correlations between the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and the important reaction rates of the $^{86}$Rb and $^{85}$Kr s-process branchings, ranked in the top 6 among all reactions by MI. The $x$-axis is given in terms of the gaussian rate variation factor $p$ (see text). The $T$, $\rho$, and $X_{\mathrm{last}}(^{4}\mathrm{He})$ parameters are 300 MK, $10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$, and 0.7, respectively, with $X_{\mathrm{init}}(^{4}\mathrm{He}) = 0.75$. The Monte Carlo reaction network calculation was performed for $5 \times 10^{4}$ samples. In the title of each plot, the symbols $g$ and (below) $a$ refer to $\gamma$ and $\alpha$, respectively.}
+%\end{figure}
+
+%\begin{figure}[!p]
+%\centering
+%\begin{subfigure}[b]{0.495\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_86Rb_n_g_87Rb_300MK.png}  
+%\end{subfigure}
+%\hfill
+%\begin{subfigure}[b]{0.495\textwidth}  
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_90Y_n_g_91Y_300MK.png}
+%\end{subfigure}
+%%\vskip\baselineskip
+%\begin{subfigure}[b]{0.495\textwidth}   
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_85Kr_n_g_86Kr_300MK.png}
+%\end{subfigure}
+%\hfill
+%\begin{subfigure}[b]{0.495\textwidth}   
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_87Kr_n_g_88Kr_300MK.png}
+%\end{subfigure}
+%\caption{\label{fig:Correlations_87Rb90Zr_ng}Correlations between the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ and the four most important $(n,\gamma)$ reaction rates, ranked in the top 6 among all reactions by MI. See Fig. \ref{fig:Correlations_87Rb86Sr_ng} caption for details.}
+%\end{figure}
+
 %\newpage
 
-\begin{figure}[!p]
+%\newpage
+
+\begin{figure}[t]
 \centering
-\begin{subfigure}[b]{0.495\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_86Rb_n_g_87Rb_300MK.png}  
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.495\textwidth}  
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_86Rb_g_g_86Sr_300MK.png}
-\end{subfigure}
-%\vskip\baselineskip
-\begin{subfigure}[b]{0.495\textwidth}   
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_85Kr_n_g_86Kr_300MK.png}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.495\textwidth}   
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_85Kr_g_g_85Rb_300MK.png}
-\end{subfigure}
-\caption{\label{fig:Correlations_87Rb86Sr_ng}Correlations between the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and the important reaction rates of the $^{86}$Rb and $^{85}$Kr s-process branchings, ranked in the top 6 among all reactions by MI. The $x$-axis is given in terms of the gaussian rate variation factor $p$ (see text). The $T$, $\rho$, and $X_{\mathrm{last}}(^{4}\mathrm{He})$ parameters are 300 MK, $10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$, and 0.7, respectively, with $X_{\mathrm{init}}(^{4}\mathrm{He}) = 0.75$. The Monte Carlo reaction network calculation was performed for $5 \times 10^{4}$ samples. In the title of each plot, the symbols $g$ and (below) $a$ refer to $\gamma$ and $\alpha$, respectively.}
+\includegraphics[width=6.4in]{Chapter-3/figs/corr_density_87Rb86Sr.png}
+\caption{\label{fig:Corr_Dens_87Rb86Sr}The largest reaction rate correlations with the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$, ranked by mutual information, given in the top-right corner of each plot. On the $x$-axis is the gaussian rate variation factor $p$ (see text). The $T$, $\rho$, and $X_{\mathrm{last}}(^{4}\mathrm{He})$ parameters for each sample are 300 MK, $10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$, and 0.7, respectively, with $X_{\mathrm{init}}(^{4}\mathrm{He}) = 0.75$. The Monte Carlo reaction network calculation was performed for $5 \times 10^{4}$ samples, and the density of these samples is represented by color, with yellow being the most dense region.}
 \end{figure}
 
-\begin{figure}[!p]
+%\newpage
+
+\begin{figure}[!h]
 \centering
-\begin{subfigure}[b]{0.495\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_86Rb_n_g_87Rb_300MK.png}  
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.495\textwidth}  
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_90Y_n_g_91Y_300MK.png}
-\end{subfigure}
-%\vskip\baselineskip
-\begin{subfigure}[b]{0.495\textwidth}   
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_85Kr_n_g_86Kr_300MK.png}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.495\textwidth}   
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_87Kr_n_g_88Kr_300MK.png}
-\end{subfigure}
-\caption{\label{fig:Correlations_87Rb90Zr_ng}Correlations between the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ and the four most important $(n,\gamma)$ reaction rates, ranked in the top 6 among all reactions by MI. See Fig. \ref{fig:Correlations_87Rb86Sr_ng} caption for details.}
+\includegraphics[width=6.4in]{Chapter-3/figs/corr_density_87Rb90Zr.png}
+\caption{\label{fig:Corr_Dens_87Rb90Zr}The largest reaction rate correlations with the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$, ranked by mutual information. See Fig. \ref{fig:Corr_Dens_87Rb86Sr} caption for details.}
 \end{figure}
+
+\newpage
 
 \subsubsection{The Neutron Sources}
 
-Interestingly, the main neutron sources $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{N}(\alpha,n)^{25}\mathrm{Mg}$ do not make an appearance in Table \ref{tab:mutual_info}. In fact, they are mostly uncorrelated with either mass fraction ratio, as shown in the top two panels of Figs. \ref{fig:Correlations_87Rb86Sr_n} and \ref{fig:Correlations_87Rb90Zr_n} for $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$, respectively. A possible explanation of this could be that these rates are already well-constrained, and sampling over a small uncertainty may not affect the nucleosynthesis. The $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ \texttt{Starlib} reaction rates at 300 MK have factor uncertainties of $f.u. = 1.183$ and $f.u. = 1.229$, respectively. In other words, using Eqn. \ref{eqn:lognorm_param}, $(f.u.)^{2} = x_{\mathrm{high}}/x_{\mathrm{low}} =$ 1.400 and 1.510, respectively. These are the ratios between the 84th and 16th percentiles of each reaction rate uncertainty. Compared to many rate uncertainties, this is quite small and could offer an explanation, even if these reactions do contribute to $^{87}$Rb abundance. Although the main neutron sources are not correlated, the $^{18}\mathrm{O}(\alpha,n)^{21}\mathrm{Ne}$ rate is mildly correlated with both ratios, according to Table \ref{tab:mutual_info}. This may act as an alternative neutron source.
+Interestingly, the main neutron sources $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{N}(\alpha,n)^{25}\mathrm{Mg}$ do not make an appearance in Table \ref{tab:mutual_info}. In fact, they are mostly uncorrelated with either mass fraction ratio. A possible explanation of this could be that these rates are already well-constrained, and sampling over a small uncertainty may not affect the nucleosynthesis. The $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ \texttt{Starlib} reaction rates at 300 MK have factor uncertainties of $f.u. = 18\%$ and $f.u. = 23\%$, respectively. Compared to many rate uncertainties, this is quite small and could offer an explanation for the lack of correlation, even if these reactions do inevitably contribute to $^{87}$Rb abundance. Although the main neutron sources are not correlated, the $^{18}\mathrm{O}(\alpha,n)^{21}\mathrm{Ne}$ rate is mildly correlated with both ratios, according to Table \ref{tab:mutual_info}. This may act as an alternative neutron source.
 
 \subsubsection{The Neutron Poisons}
 
-We will now revisit the discussion of the $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ and $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ reactions. The known neutron poison $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ makes an appearance in the top three correlations of Table \ref{tab:mutual_info}. However, it is counterintuitively associated with a positive correlation for both ratios from the $r_{s}$ signature. One should expect that the $^{86}$Rb and $^{85}$Kr s-process branchings are deactivated with decreasing neutron density. This troublesome situation is resolved when analyzing its scatter plot in the bottom left panel of Fig. \ref{fig:Correlations_87Rb86Sr_n} for nonlinear, non-monotonic correlations. This is a prime example of $r_{s}$ being potentially misleading. The correlation does not seem to be positive, and it may even be negative for negative $p$-values.
+I will now revisit the discussion of the $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ and $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ reactions. The known neutron poison $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ \cite{Habing2004} makes an appearance in the top three correlations of Table \ref{tab:mutual_info}. However, it is counterintuitively associated with a positive correlation for both ratios from the $r_{s}$ signature. One should expect that the $^{86}$Rb and $^{85}$Kr s-process branchings are deactivated with decreasing neutron density. This troublesome situation is resolved when analyzing the $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ correlation density in Figs. \ref{fig:Corr_Dens_87Rb86Sr} and \ref{fig:Corr_Dens_87Rb90Zr}. A nonlinear, non-monotonic correlation is clearly depicted, with a strong negative correlation for negative $p$-values and a slightly positive correlation for positive $p$-values. This is a prime example of $r_{s}$ being potentially misleading. When $p$ is negative, the reaction rate is reduced such that less neturons are being consumed by this reaction, leading to more neutrons available for $^{87}$Rb production. Conversely, when $p$ is positive, the reaction rate is increased such that more neutrons are consumed, but more protons are consequently produced. These protons are consumed by the $^{12}$C sequence leading to $^{13}$C, where neutrons can be produced anyway from $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$.
 
-\begin{figure}[!p]
-\centering
-\begin{subfigure}[b]{0.495\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_13C_a_n_16O_300MK.png}  
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.495\textwidth}  
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_22Ne_a_n_25Mg_300MK.png}
-\end{subfigure}
-%\vskip\baselineskip
-\begin{subfigure}[b]{0.495\textwidth}   
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_14C_p_n_14N_300MK.png}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.495\textwidth}   
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_13C_p_n_13N_300MK.png}
-\end{subfigure}
-\caption{\label{fig:Correlations_87Rb86Sr_n}Correlations between the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and the reaction rates of the s-process neutron sources and neutron poisons. The neutron poisons $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ and $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ are labeled as their reverse reactions, which have equivalent correlations. See Fig. \ref{fig:Correlations_87Rb86Sr_ng} caption for details.}
-\end{figure}
+%\begin{figure}[!p]
+%\centering
+%\begin{subfigure}[b]{0.495\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_13C_a_n_16O_300MK.png}  
+%\end{subfigure}
+%\hfill
+%\begin{subfigure}[b]{0.495\textwidth}  
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_22Ne_a_n_25Mg_300MK.png}
+%\end{subfigure}
+%%\vskip\baselineskip
+%\begin{subfigure}[b]{0.495\textwidth}   
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_14C_p_n_14N_300MK.png}
+%\end{subfigure}
+%\hfill
+%\begin{subfigure}[b]{0.495\textwidth}   
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87SR86_13C_p_n_13N_300MK.png}
+%\end{subfigure}
+%\caption{\label{fig:Correlations_87Rb86Sr_n}Correlations between the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and the reaction rates of the s-process neutron sources and neutron poisons. The neutron poisons $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ and $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ are labeled as their reverse reactions, which have equivalent correlations. See Fig. \ref{fig:Correlations_87Rb86Sr_ng} caption for details.}
+%\end{figure}
 
-\begin{figure}[!p]
-\centering
-\begin{subfigure}[b]{0.495\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_13C_a_n_16O_300MK.png}  
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.495\textwidth}  
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_22Ne_a_n_25Mg_300MK.png}
-\end{subfigure}
-%\vskip\baselineskip
-\begin{subfigure}[b]{0.495\textwidth}   
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_14C_p_n_14N_300MK.png}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.495\textwidth}   
-\centering 
-\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_13C_p_n_13N_300MK.png}
-\end{subfigure}
-\caption{\label{fig:Correlations_87Rb90Zr_n}Same as Fig. \ref{fig:Correlations_87Rb86Sr_n}, except with the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$. See Fig. \ref{fig:Correlations_87Rb86Sr_ng} caption for details.}
-\end{figure}
+%\begin{figure}[!p]
+%\centering
+%\begin{subfigure}[b]{0.495\textwidth}
+%\centering
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_13C_a_n_16O_300MK.png}  
+%\end{subfigure}
+%\hfill
+%\begin{subfigure}[b]{0.495\textwidth}  
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_22Ne_a_n_25Mg_300MK.png}
+%\end{subfigure}
+%%\vskip\baselineskip
+%\begin{subfigure}[b]{0.495\textwidth}   
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_14C_p_n_14N_300MK.png}
+%\end{subfigure}
+%\hfill
+%\begin{subfigure}[b]{0.495\textwidth}   
+%\centering 
+%\includegraphics[width=\textwidth]{Chapter-3/figs/CorrRB87ZR90_13C_p_n_13N_300MK.png}
+%\end{subfigure}
+%\caption{\label{fig:Correlations_87Rb90Zr_n}Same as Fig. \ref{fig:Correlations_87Rb86Sr_n}, except with the final mass fraction ratio $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$. See Fig. \ref{fig:Correlations_87Rb86Sr_ng} caption for details.}
+%\end{figure}
 
-Finally, the strength of the $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ neutron poison correlation is somewhat surprising, as $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ is the more well-documented neutron poison in the literature \cite{Habing2004}. It does have a strong negative $r_{s}$ correlation for both mass fraction ratios, which is not misleading in this case, as is clear in the scatter plots of Figs. \ref{fig:Correlations_87Rb86Sr_n} and \ref{fig:Correlations_87Rb90Zr_n} for $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$, respectively. This reaction competes with the $^{13}\mathrm{N}(\beta^{+}\nu)^{13}\mathrm{C}$ reaction, leading to the same production of the $^{13}$C neutron source, but consuming neutrons in the process. In fact, Eqn. \ref{eqn:decay_constant} can be used to determine the conditions for which the $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ rate is favored over $\beta^{+}$-decay. For $(n,p)$ to be favored, the neutron mass fraction $X_{n}$ would have to exceed
+The strength of the $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ neutron poison correlation is somewhat surprising, as $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ is the more well-documented neutron poison in the literature \cite{Habing2004}. It has a strong negative $r_{s}$ correlation for both mass fraction ratios, which is not misleading in this case, as is clear in the correlation plots of Figs. \ref{fig:Corr_Dens_87Rb86Sr} and \ref{fig:Corr_Dens_87Rb90Zr}. Although one may think this reaction should have the same effect as $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$, its correlation plot is clearly different. The reason is that $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ happens to compete with $^{13}\mathrm{N}(\beta^{+}\nu)^{13}\mathrm{C}$, leading to equivalent production of the $^{13}$C neutron source, but the former reaction consumes neutrons in the process. Hence, $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ is always a net neutron-destroyer, since the protons that are produced cycle back to this reaction via $^{12}\mathrm{C}(p, \gamma)^{13}\mathrm{N}$.
+
+Eqn. \ref{eqn:decay_constant} can be used to determine the conditions for which the $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ rate is favored over that of $^{13}\mathrm{N}(\beta^{+}\nu)^{13}\mathrm{C}$. For $(n,p)$ to be favored, the neutron mass fraction $X_{n}$ would have to exceed
 \begin{equation} \label{eqn:n_mass_frac_condition}
 X_{n} > \frac{M_{n}}{\tau_{\beta^{+}}(^{13}\mathrm{N}) \rho N_{A} \langle \sigma v \rangle(T)} \approx 2.5 \times 10^{-15},
 \end{equation}
-where the mass density is $\rho = 10^{3}$ $\mathrm{g}/\mathrm{cm}^{-3}$; $M_{n}$ is the neutron mass; $\tau_{\beta^{+}}(^{13}\mathrm{N}) \approx 863$ s \cite{Audi2003} is the mean lifetime for $\beta^{+}$-decay, and the recommended $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ reaction rate from \texttt{Starlib} at 300 MK is $N_{A} \langle \sigma v \rangle = 4.586 \times 10^{8}$ $\mathrm{cm}^{3}$ $\mathrm{s}^{-1}$ $\mathrm{mol}^{-1}$. Referring back to the abundance evolution for the single nucleosynthesis calculation shown in Fig. \ref{fig:abund_evol}, $X_{n}$ exceeds this amount initially with a value of $\approx 5 \times 10^{-14}$. At this $X_{n}$, the mean lifetime $\tau_{n}$ for $(n,p)$ is about $\tau_{n} \approx$ 43 s $<< 863$ s, confirming that $(n,p)$ is greatly favored. At its peak, $X_{n}$ is $8 \times 10^{-13}$, corresponding with $\tau_{n} \approx 3$ s, an even shorter mean lifetime. Eventually, $X_{n}$ drops to about $5 \times 10^{-18}$ in Figure \ref{fig:abund_evol}, which implies $\tau_{n} \approx 4.3 \times 10^{5}$ s $>> 863$ s. Therefore, the $\beta^{+}$-decay is finally favored at this point. This exercise shows that $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ is surprisingly important for s-process nucleosynthesis and should be investigated further.
+where the mass density is $\rho = 10^{3}$ $\mathrm{g}/\mathrm{cm}^{-3}$; $M_{n}$ is the neutron mass; $\tau_{\beta^{+}}(^{13}\mathrm{N}) \approx 863$ s \cite{Audi2003} is the mean lifetime for $\beta^{+}$-decay, and the recommended $(n,p)$ reaction rate from \texttt{Starlib} at 300 MK is $N_{A} \langle \sigma v \rangle = 4.586 \times 10^{8}$ $\mathrm{cm}^{3}$ $\mathrm{s}^{-1}$ $\mathrm{mol}^{-1}$. Referring back to the abundance evolution for the single nucleosynthesis calculation shown in Fig. \ref{fig:abund_evol}, $X_{n}$ exceeds this amount initially with a value of $\approx 5 \times 10^{-14}$. At this $X_{n}$, the mean lifetime $\tau_{n}$ for $(n,p)$ is about $\tau_{n} \approx$ 43 s $<< 863$ s, confirming that $(n,p)$ is greatly favored. At its peak, $X_{n}$ is $8 \times 10^{-13}$, corresponding with $\tau_{n} \approx 3$ s, an even shorter mean lifetime. Eventually, $X_{n}$ drops to about $5 \times 10^{-18}$ in Figure \ref{fig:abund_evol}, which implies $\tau_{n} \approx 4.3 \times 10^{5}$ s $>> 863$ s. Therefore, the $\beta^{+}$-decay is finally favored at this point. This exercise shows that $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ is surprisingly important for s-process nucleosynthesis and should be investigated further.
 
 %\begin{figure}[t]
 %\centering
@@ -395,22 +427,26 @@ where the mass density is $\rho = 10^{3}$ $\mathrm{g}/\mathrm{cm}^{-3}$; $M_{n}$
 
 \subsection{The [Rb/Zr], [Rb/Sr], and [Rb/Fe] Ratios}
 
-Not only can the isotopic ratios $X(^{87}\mathrm{Rb})/X(^{86}\mathrm{Sr})$ and $X(^{87}\mathrm{Rb})/X(^{90}\mathrm{Zr})$ be investigated; the elemental ratios $X(\mathrm{Rb})/X(\mathrm{Sr})$ and $X(\mathrm{Rb})/X(\mathrm{Zr})$ can be probed as well. Analysis of these ratios leads to similar conclusions drawn in Section \ref{subsec:Corr}, and the correlation plots for the elemental ratios are omitted for this reason. The main differences are for specific reactions such as $^{90}\mathrm{Y}(n,\gamma)^{91}\mathrm{Y}$ and $^{90}\mathrm{Y}(\beta^{-}\nu)^{90}\mathrm{Zr}$, which are no longer as sensitive. Both of these reactions inevitably lead to Zr. Even though the $(n,\gamma)$ reaction bypasses $^{90}$Zr, it produces $^{91}$Zr, and Zr has several stable isotopes up to $^{96}$Zr. Overall, however, most reaction rates sensitive to the isotopic ratios are also sensitive to the elemental ratios. This is especially true for the $(n,\gamma)$ reactions and $\beta^{-}$-decays of the $^{86}$Rb and $^{85}$Kr s-process branchings, as well as the $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ and $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ neutron poisons.
+The elemental ratios $X(\mathrm{Rb})/X(\mathrm{Sr})$ and $X(\mathrm{Rb})/X(\mathrm{Zr})$ can be investigated as well. Analysis of these ratios leads to similar conclusions drawn in Section \ref{subsec:Corr}, and the correlation plots for the elemental ratios are omitted for this reason. The main differences are for specific reactions such as $^{90}\mathrm{Y}(n,\gamma)^{91}\mathrm{Y}$ and $^{90}\mathrm{Y}(\beta^{-}\nu)^{90}\mathrm{Zr}$, which are no longer as sensitive. Both of these reactions inevitably lead to Zr. Even though the $(n,\gamma)$ reaction bypasses $^{90}$Zr, it produces $^{91}$Zr, and Zr has several stable isotopes up to $^{96}$Zr. Overall, however, most reaction rates sensitive to the isotopic ratios are also sensitive to the elemental ratios. This is especially true for the $(n,\gamma)$ reactions and $\beta^{-}$-decays of the $^{86}$Rb and $^{85}$Kr s-process branchings, as well as the $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$ and $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ neutron poisons.
 
 An illuminating result comes from the probability densities of the final elemental abundances in the form of Eqn. \ref{eqn:abundance}, calculated relative to solar system abundances. This equation is used for each reaction network sample to determine the range of possible [Rb/Sr] and [Rb/Zr] ratios, as well as Rb abundances ([Rb/Fe]) resulting from simultaneously sampling every reaction rate uncertainty. Figure \ref{fig:RbZr_Hist} showcases these results, where the $x$-axis is in terms of dex. By definition, 0 dex implies that the ratio consists of relative solar system abundances. The initial Rb, Sr, and Zr isotopic mass fractions were all given relative solar system abundances. The initial [Rb/Sr] and [Rb/Zr] ratios were therefore roughly 0 dex, and the figure shows that there was little overall change in these relative abundances after the Monte Carlo network calculation.
-
-However, the initial $^{56}$Fe mass fraction was enhanced from its solar system value (see Table \ref{tab:init_abunds}). The initial [Rb/Fe] abundance before the calculation was -0.918 dex. Assuming this variation from initial solar system abundances did not play a significant role in the nucleosynthesis, the [Rb/Fe] probability density can be corrected to account for its initial -0.918 dex value. This assumption was tested in an additional Monte Carlo network calculation for $10^{3}$ samples with an initial solar system $^{56}$Fe mass fraction. No significant differences were found in both the elemental and isotopic mass fraction ratio probability densities. Hence, the [Rb/Fe] probability density has been translated by +0.918 dex in Fig. \ref{fig:RbZr_Hist}. This corrected [Rb/Fe] result shows that the Rb abundance has increased slightly ($\sim +7\%$).
-%, and the mean of the final [Rb/Fe] probability density is -0.89 dex, an increase of +0.03 dex ($\sim +7\%$).
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=4.55in]{Chapter-3/figs/Hist_Ele_Dex_Ratio_ModFe.png}
-\caption{\label{fig:RbZr_Hist}Probability densities of the [Rb/Sr] (green), [Rb/Zr] (blue) and [Rb/Fe] (red, faded) abundance ratios resulting from the Monte Carlo reaction network calculation for $5 \times 10^{4}$ samples at $T = 300$ MK, $\rho = 10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$, and $X_{\mathrm{last}}(^{4}\mathrm{He}) = 0.7$, with $X_{\mathrm{init}}(^{4}\mathrm{He}) = 0.75$. The solid red probability density was obtained by correcting [Rb/Fe] for its enhanced $^{56}$Fe initial mass fraction relative to solar system abundance. $[\mathrm{Rb}/\mathrm{Fe}]_{\mathrm{init}}$ refers to the initial value of [Rb/Fe] before the network calculation (see text).}
+\caption{\label{fig:RbZr_Hist}Probability densities of the [Rb/Sr] (green), [Rb/Zr] (blue) and [Rb/Fe] (red, dashed) abundance ratios resulting from the Monte Carlo reaction network calculation for $5 \times 10^{4}$ samples at $T = 300$ MK, $\rho = 10^{3}$ $\mathrm{g}/\mathrm{cm}^{3}$, and $X_{\mathrm{last}}(^{4}\mathrm{He}) = 0.7$, with $X_{\mathrm{init}}(^{4}\mathrm{He}) = 0.75$. The solid red probability density was obtained by correcting [Rb/Fe] for its enhanced $^{56}$Fe initial mass fraction relative to solar system abundance. In the legend, ``init'' refers to the initial value of [Rb/Fe] before the network calculation (see text).}
 \end{figure}
+
+However, the initial $^{56}$Fe mass fraction was enhanced from its solar system value (see Table \ref{tab:init_abunds}). The initial [Rb/Fe] abundance before the calculation was -0.918 dex. Assuming this variation from initial solar system abundances did not play a significant role in the nucleosynthesis, the [Rb/Fe] probability density can be corrected to account for its initial -0.918 dex value. This assumption was tested in an additional Monte Carlo network calculation for $10^{3}$ samples with an initial solar system $^{56}$Fe mass fraction. No significant differences were found in both the elemental and isotopic mass fraction ratio probability densities. Hence, the [Rb/Fe] probability density has been translated by +0.918 dex in Fig. \ref{fig:RbZr_Hist}. This corrected [Rb/Fe] result shows that the Rb abundance has increased slightly ($\sim +7\%$).
+%, and the mean of the final [Rb/Fe] probability density is -0.89 dex, an increase of +0.03 dex ($\sim +7\%$).
+
+The median, $\pm 1\sigma$ percentiles (84$\%$ and 16$\%$), and $\pm 2\sigma$ percentiles (97.5$\%$ and 2.5$\%$) of the [Rb/Sr], [Rb/Zr], and [Rb/Fe] probability densities are listed in Table \ref{tab:Prob_Dens}. Comparing to the s-process nucleosynthesis models of Refs. \cite{Karakas2012,Raai2012,Karakas2016,Pignatari2016} in Fig. \ref{fig:RbProblem}, the [Rb/Fe] and [Rb/Zr] probability densities of the present analysis span most of these models, within $\pm 2\sigma$. This is illustrated in Fig. \ref{fig:RbProblem_Bands}, where the median probability densities of the present analysis are represented by the dotted lines, and the $1\sigma$ and $2\sigma$ ranges are depicted by the dark and light bands, respectively. For the [Rb/Zr] ratio, the only models with significant tension compared to the present probability density are those that use an artificially delayed superwind (green and red) to enhance the Rb production. These models are also well outside of the bands for the [Rb/Fe] abundance, as are some of the models with very large rubidium production.
+
+The main purpose of Fig. \ref{fig:RbProblem_Bands}, however, is not to show how well the present Monte Carlo nuclear reaction network calculation reproduces the other models. Rather, the purpose is to show the approximate uncertainty that is inherent in each model, resulting from reaction rate uncertainties alone. These models were each calculated from a single network calculation using median reaction rates. If the reaction rates were sampled within their uncertainties, as in the present analysis, the resulting [Rb/Fe] and [Rb/Zr] ratios would span a similar range. Assuming the present uncertainties can be applied equally to each model, it becomes difficult to compare between specific models. On top of this, additional uncertainties result from the AGB model parameters as well.
 
 \begin{table}[t]
 \centering
-\caption{\label{tab:Prob_Dens}Percentiles from $-2\sigma$ to $+2\sigma$ of the [Rb/Sr], [Rb/Zr], and [Rb/Fe] probability densities from the present Monte Carlo reaction network calculation.}
+\caption{\label{tab:Prob_Dens}Percentiles from $-2\sigma$ (2.5$\%$) to $+2\sigma$ (97.5$\%$) of the [Rb/Sr], [Rb/Zr], and [Rb/Fe] probability densities from the present Monte Carlo reaction network calculation.}
 \begin{tabular}{cccccc}
 \hline\midrule
 {}&2.5$\%$&16$\%$&50$\%$&84$\%$&97.5$\%$\\ \midrule
@@ -421,13 +457,19 @@ $[\mathrm{Rb}/\mathrm{Fe}]$&-0.442&-0.206&-0.016&0.288&0.622\\
 \end{tabular}
 \end{table}
 
-The median, $\pm 1\sigma$ percentiles, and $\pm 2\sigma$ percentiles of the [Rb/Sr], [Rb/Zr], and [Rb/Fe] probability densities are listed in Table \ref{tab:Prob_Dens}. Comparing to the s-process nucleosynthesis models of Refs. \cite{Karakas2012,Raai2012,Karakas2016,Pignatari2016} in Fig. \ref{fig:RbProblem}, the [Rb/Fe] and [Rb/Zr] probability densities of the present analysis span almost all of these models, within $\pm 2\sigma$. The only exceptions are the models that use an artificially delayed superwind (green and red) to enhance the Rb abundance. The probability densities also simultaneously agree with most of the range of observations, shown by the blue shading in Fig. \ref{fig:RbProblem}. However, like the other models, this reaction rate sensitivity study does not explain the largest observed [Rb/Zr] ratios. It also does not reproduce the largest observed [Rb/Fe] abundances.
+\begin{figure}
+\centering
+\includegraphics[width=6.5in]{Chapter-3/figs/RbAbund_Bands.png}
+\caption{\label{fig:RbProblem_Bands}The [Rb/Fe] and [Rb/Zr] probability densities from the present Monte Carlo nuclear reaction network calculation plotted with the AGB model data of Refs. \cite{Karakas2012,Raai2012,Karakas2016,Pignatari2016} and the (blue) observation scatter of Ref. \cite{Perez2017}. The median probability densities are shown by the dotted lines, while the $1\sigma$ and $2\sigma$ bands are represented by the dark and light bands, respectively. The $+1\sigma$ and $+2\sigma$ [Rb/Zr] probability density values are shown added to the model with the largest [Rb/Zr] value. This depicts the likelyhood of reaction rate uncertainties alone being responsible for reproducing the largest observed [Rb/Zr] ratios.}
+\end{figure}
+
+Like the other models, this reaction rate sensitivity study does not reproduce the largest observed [Rb/Zr] ratios, even at the 97.5$\%$ ($+2\sigma$) value. However, assuming the uncertainty from the present analysis can be applied to the model with the largest [Rb/Zr] ratio, the red model at $M = 5 M_{\odot}$, the $+2\sigma$ uncertainty does reproduce the largest observed [Rb/Zr] ratio at 1.05 dex. This situation is represented by the red uncertainty bars added to this model in Fig. \ref{fig:RbProblem_Bands}. Hence, the rubidium problem could be resolved if the most sensitive reaction rates found from this analysis in Table \ref{tab:mutual_info} were significantly altered within their uncertainty. Although this is unlikely to be the case, the addition of model parameter uncertainties could make this situation more feasible.
 
 \subsection{Discussion}
 
-As mentioned in Refs. \cite{Raai2012,Perez2017}, a potential scenario that may offer an explanation for the remaining discrepancies is that Zr could be condensed into dust in the stellar atmosphere. Observations sample the gas around a star, not the dust. Therefore, if Zr is depleted by condensing into dust, and Rb is not, this could be the mechanism behind these high observed [Rb/Zr] ratios. In fact, Zr has a condensation temperature over twice as large as Rb \cite{Raai2012}, making it easier to condense. Models of dust formation could offer a solution.
+As mentioned in Refs. \cite{Raai2012,Perez2017}, a potential scenario that may offer an explanation for the remaining [Rb/Zr] discrepancies is that Zr could be condensed into dust in the stellar atmosphere. Observations sample the gas around a star, not the dust. Therefore, if Zr is depleted by condensing into dust, and Rb is not, this could be the mechanism behind these high observed [Rb/Zr] ratios. In fact, Zr has a condensation temperature over twice as large as Rb \cite{Raai2012}, making it easier to condense. Models of dust formation could offer a solution.
 
-One area that the present analysis did not cover is the sensitivity of systematic reaction rate variations. Sampling the reaction rates within their uncertainties assumes those uncertainties are properly described. If some of the key rates, e.g. the neutron sources $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ were systematically altered beyond their established uncertainties, the discrepancy might be explained. Unknown systematic uncertainties are often associated with experimentally constrained reaction rates, so this should be a topic of investigation.
+One area that the present analysis did not cover is the sensitivity of systematic reaction rate variations. Sampling the reaction rates within their uncertainties assumes those uncertainties are properly described. If some of the key rates, e.g. the neutron sources $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ were systematically altered beyond their established uncertainties, the discrepancy might be explained. Unknown systematic uncertainties are often associated with experimentally constrained reaction rates, so this should be a topic of investigation in the future.
 
 %\section{The $^{86}\mathrm{\textbf{Rb}}(n,\gamma)^{87}\mathrm{\textbf{Rb}}$ Reaction Rate} \label{sec:86Rb_n_g_rate}
 
@@ -441,6 +483,10 @@ One area that the present analysis did not cover is the sensitivity of systemati
 
 \section{Conclusions}
 
-The ``rubidium problem'' was investigated with the results of a Monte Carlo reaction network calculation, where every reaction rate uncertainty in the network was sampled simultaneously. Final abundance probability densities were extracted for the key nuclei affected by the $^{86}$Rb and $^{85}$Kr s-process branchings. Ratios of $^{87}$Rb/$^{86}$Sr and $^{87}$Rb/$^{90}$Zr were found to be correlated with several key reaction rates. Namely, $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$, $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$, and $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ were the 3 reaction rates most correlated with these ratios, indicating that these rates are significant to s-process nucleosynthesis and Rb abundance in particular. The other $(n,\gamma)$ reactions and $\beta^{-}$-decays associated with the $^{86}$Rb and $^{85}$Kr s-process branchings were also found to be significant. However, the neutron sources $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ were found to not be correlated with Rb abundance. This does not mean that neither of these sources were activated, but it does suggest that their rate uncertainties are not significant in altering s-process nucleosynthesis at $T = 300$ MK, the transition temperature determining the dominant neutron source.
+The ``rubidium problem'' was investigated with the results of a Monte Carlo reaction network calculation, where every reaction rate in the network was sampled simultaneously within its own uncertainty. Final abundance probability densities were extracted for the key nuclei affected by the $^{86}$Rb and $^{85}$Kr s-process branchings. Ratios of $^{87}$Rb/$^{86}$Sr and $^{87}$Rb/$^{90}$Zr, sensitive to the efficiency of the branchings, were found to be correlated with several key reaction rates. Namely, $^{86}\mathrm{Rb}(n,\gamma)^{87}\mathrm{Rb}$, $^{13}\mathrm{N}(n,p)^{13}\mathrm{C}$, and $^{14}\mathrm{N}(n,p)^{14}\mathrm{C}$ were the 3 reaction rates found to be most correlated with these ratios, indicating that these rates are significant to s-process nucleosynthesis and Rb abundance in particular. The other $(n,\gamma)$ reactions and $\beta^{-}$-decays associated with the $^{86}$Rb and $^{85}$Kr s-process branchings were also found to be significant. However, the neutron sources $^{13}\mathrm{C}(\alpha,n)^{16}\mathrm{O}$ and $^{22}\mathrm{Ne}(\alpha,n)^{25}\mathrm{Mg}$ were found to not be correlated with Rb abundance. This does not mean that neither of these sources were activated, but it does suggest that their rate uncertainties are not significant in altering s-process nucleosynthesis at $T = 300$ MK, the transition temperature determining the dominant neutron source.
 
-The [Rb/Zr] and [Rb/Fe] probability densities from the present Monte Carlo reaction network were mostly found to be in agreement with the models of Refs. \cite{Karakas2012,Raai2012,Karakas2016,Pignatari2016}, except for the cases where Rb abundance was artificially enhanced. Much of the [Rb/Zr] and [Rb/Fe] observations of Ref. \cite{Perez2017} were also reproduced, except for large ratios of $\gtrsim$ 0.4 dex and $\gtrsim$ 0.6 dex, respectively. The model-observation discrepancy is therefore still present for [Rb/Zr] ratios between 0.6-1.05 dex, and reaction rate uncertainties are likely not the solution.
+The [Rb/Zr] probability density from the present Monte Carlo reaction network was mostly found to be in agreement with that of the models from Refs. \cite{Karakas2012,Raai2012,Karakas2016,Pignatari2016}, except for the cases where Rb abundance was artificially enhanced. The large width of the [Rb/Zr] probability density shows that comparison between models is difficult, because each model should have a similar uncertainty resulting from reaction rate uncertainties alone. This problem is exacerbated when considering the additional stellar model parameter uncertainties. Assuming the uncertainty from the present analysis can be applied to the model with the largest [Rb/Zr] ratio, its $+2\sigma$ value would reproduce the largest observed [Rb/Zr] ratio at 1.05 dex. Hence, if the most sensitive reaction rates found from this analysis were signficantly altered within their uncertainty, the rubidium problem could be resolved, especially considering model parameter uncertainties and potential condensation of Zr into dust.
+
+%However, assuming the uncertainty from the present analysis can be applied to the model with the largest [Rb/Zr] ratio, the red model at $M = 5 M_{\odot}$, the $+2\sigma$ uncertainty does reproduce the largest observed [Rb/Zr] ratio at 1.05 dex. This situation is represented by the red uncertainty bars added to this model in Fig. \ref{fig:RbProblem_Bands}. Hence, the rubidium problem could be resolved if the most sensitive reaction rates found from this analysis in Table \ref{tab:mutual_info} were significantly altered within their uncertainty. Although this is unlikely to be the case, the addition of model parameter uncertainties could make this situation more feasible.
+
+%Much of the [Rb/Zr] and [Rb/Fe] observations of Ref. \cite{Perez2017} were also reproduced, except for large ratios of $\gtrsim$ 0.4 dex and $\gtrsim$ 0.6 dex, respectively. The model-observation discrepancy is therefore still present for [Rb/Zr] ratios between 0.6-1.05 dex, and reaction rate uncertainties are likely not the solution.
